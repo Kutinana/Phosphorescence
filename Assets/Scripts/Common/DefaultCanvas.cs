@@ -5,7 +5,7 @@ using QFramework;
 
 namespace Common
 {
-    public class TransitionCanvasManager : MonoSingleton<TransitionCanvasManager>
+    public class DefaultCanvas : MonoBehaviour
     {
         void Awake()
         {

@@ -252,13 +252,13 @@ namespace Common.SceneControl
 
             if (targetAlpha == 1)
             {
-                BlackLayerCG.TargetCanvasGroup.alpha = 1;
-                LoadingPanelCG.TargetCanvasGroup.alpha = 0;
+                BlackLayerCG.Progress = 1;
+                LoadingPanelCG.Progress = 0;
 
                 TypeEventSystem.Global.Send<OnSceneControlActivatedEvent>();
 
                 yield return CanvasGroup.LinearTransition(0.2f);
-                LoadingPanelCG.TargetCanvasGroup.alpha = 1;
+                LoadingPanelCG.Progress = 1;
                 yield return BlackLayerCG.InverseLinearTransition(0.2f);
 
                 yield return new WaitForSeconds(0.5f);
@@ -268,7 +268,7 @@ namespace Common.SceneControl
                 TypeEventSystem.Global.Send<OnSceneControlDeactivatedEvent>();
 
                 yield return BlackLayerCG.LinearTransition(0.2f);
-                LoadingPanelCG.TargetCanvasGroup.alpha = 0;
+                LoadingPanelCG.Progress = 0;
                 yield return CanvasGroup.InverseLinearTransition(0.2f);
             }
         }
