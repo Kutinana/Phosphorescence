@@ -11,33 +11,37 @@ using UnityEngine.UI;
 
 namespace Phosphorescence.Narration
 {
-    public class NarrationComponent : MonoBehaviour
+    public class FullScreenTextComponent : NarrationComponent , ICanProcessLine
     {
         [Header("References")]
-        public CanvasGroupAlphaProgressable CanvasGroup;
-        public Image Avatar;
         public Image Background;
         public TMP_Text Text;
 
         private Coroutine m_CurrentTypeTextCoroutine;
 
-        public void SetNarration(string avatar, string content)
+        public void Process(OnLineReadEvent e)
+        {
+            SetNarration(
+                e.content,
+                background: e.tags.TryGetValue("background_pic", out var backgroundPic) ? backgroundPic : ""
+            );
+        }
+
+        private void SetNarration(string content, string background = "")
         {
             try
             {
-                if (GameDesignData.GetTachiEData(avatar, out var config))
+                if (Background != null && GameDesignData.GetBackgroundPicData(background, out var backgroundConfig))
                 {
-                    Avatar.sprite = config.sprite ?? null;
+                    Background.sprite = backgroundConfig.sprite ?? null;
 
-                    Avatar.transform.localPosition = config.positionOffset;
-                    Avatar.transform.localScale = config.scaleOffset;
-                    Avatar.transform.localEulerAngles = config.rotationOffset;
+                    Background.transform.localPosition = backgroundConfig.positionOffset;
+                    Background.transform.localScale = backgroundConfig.scaleOffset;
+                    Background.transform.localEulerAngles = backgroundConfig.rotationOffset;
 
-                    Avatar.color = Color.white;
+                    Background.color = Color.white;
                 }
-                else Avatar.color = new Color(0, 0, 0, 0);
-
-                Background.color = new Color(0, 0, 0, 0f);
+                else if (Background != null) Background.color = new Color(0, 0, 0, 0);
 
                 Text.SetText("");
                 if (m_CurrentTypeTextCoroutine != null) StopCoroutine(m_CurrentTypeTextCoroutine);

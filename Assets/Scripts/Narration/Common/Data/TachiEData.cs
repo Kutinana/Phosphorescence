@@ -7,13 +7,14 @@ using UnityEngine;
 namespace Phosphorescence.Narration.Common
 {
     [Serializable]
-    [CreateAssetMenu(fileName = "TachiEData", menuName = "Scriptable Objects/BackgroundData", order = 0)]
-    public class BackgroundData : ScriptableObject, IHaveId
+    [CreateAssetMenu(fileName = "Tachi E Data", menuName = "Scriptable Objects/Tachi E Data", order = 1)]
+    public class TachiEData : ScriptableObject, IHaveId
     {
-        public string Id { get; set; }
+        public string Id => id;
+        public string id;
         public Sprite sprite;
         public Vector3 positionOffset;
         public Vector3 rotationOffset;
-        public Vector3 scaleOffset;
+        public Vector3 scaleOffset = Vector3.one;
     }
 }

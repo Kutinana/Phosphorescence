@@ -7,8 +7,13 @@ using System;
 using Kuchinashi;
 using TMPro;
 using UnityEngine.Events;
-using UnityEditor;
 using Kuchinashi.Utils.Progressable;
+
+# if UNITY_EDITOR
+
+using UnityEditor;
+
+# endif
 
 namespace Common.SceneControl
 {
@@ -298,6 +303,6 @@ namespace Common.SceneControl
         }
     }
 
-    #endif
+#endif
 
 }

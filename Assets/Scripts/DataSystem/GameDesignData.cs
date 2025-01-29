@@ -29,14 +29,30 @@ namespace Phosphorescence.DataSystem
             }
         }
         private static Dictionary<string, TachiEData> _tachiEConfigs;
+
+        protected static Dictionary<string, BackgroundPicData> BackgroundPicConfigs
+        {
+            get
+            {
+                if (_backgroundPicConfigs == null)
+                {
+                    _backgroundPicConfigs = new Dictionary<string, BackgroundPicData>();
+                    var narrationData = Resources.LoadAll<BackgroundPicData>("ScriptableObjects/BackgroundPicData");
+                    foreach (var narration in narrationData)
+                    {
+                        _backgroundPicConfigs.Add(narration.Id, narration);
+                    }
+                }
+
+                return _backgroundPicConfigs;
+            }
+        }
+        private static Dictionary<string, BackgroundPicData> _backgroundPicConfigs;
     }
 
     public partial class GameDesignData
     {
-        public static bool GetTachiEData(string id, out TachiEData data)
-        {
-            data = null;
-            return TachiEConfigs.TryGetValue(id, out data);
-        }
+        public static bool GetTachiEData(string id, out TachiEData data) => TachiEConfigs.TryGetValue(id, out data);
+        public static bool GetBackgroundPicData(string id, out BackgroundPicData data) => BackgroundPicConfigs.TryGetValue(id, out data);
     }
 }

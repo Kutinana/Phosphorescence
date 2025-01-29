@@ -3,86 +3,115 @@
 
 === prologue ===
 
-“……请求救援。完毕。”  # Speaker: hakumei_shadow
-“Pan Pan。 任何单位，任何单位，任何单位。这里是 X05HKM 科研船‘薄明’，位于北纬 66 度 31 分 25 秒, 西经 18 度 6 分 12 秒。我船失去动力，正在飘行。请求救援。完毕。”  # Speaker: hakumei_shadow
-“Pan Pan。 任何单位……”  # Speaker: hakumei_shadow
+“……请求救援。完毕。”  # type: LeftAvatarText  # avatar: left_hakumei
+“Pan Pan。 任何单位，任何单位，任何单位。这里是 X05HKM 科研船‘薄明’，位于北纬 66 度 31 分 25 秒, 西经 18 度 6 分 12 秒。我船失去动力，正在飘行。请求救援。完毕。” # type: LeftAvatarText
+“Pan Pan。 任何单位……”  # type: LeftAvatarText
 
 -
-  * “……嗯？”  # Speaker: phos_sleeping
+# type: LeftAvatarOptions
+  * “……嗯？” # avatar: right_phos_idle  # type: RightAvatarText
 -
 
-“啊啊……我睡着了？”  # Speaker: phos_wake_up
-“这是……有人在求援？”  # Speaker: phos_questioning
-“得快点打开发报机……”  # Speaker: phos_idle
+“啊啊……我睡着了？”  # type: RightAvatarText
+“这是……有人在求援？”  # type: RightAvatarText
+“得快点打开发报机……”  # type: RightAvatarText
+
+-> DONE
+
+= prologue_after_switch_on
+
+（咔嗒） # type: LeftAvatarText
+-
+# type: LeftAvatarOptions
+  * “X05HKM，这里是 TF0900[……”] 灯塔‘磷光’。请切换至 VHF 频道 17 继续通讯。完毕。”  # avatar: phos_idle  # type: LeftAvatarText
+-
+
+“……我船失去动力，正在飘……”  # avatar: hakumei_shadow  # type: LeftAvatarText
 
 -
-  * [（打开发报机）] （咔嗒）
-    ** “X05HKM，这里是 TF0900[……”] 灯塔‘磷光’。请切换至 VHF 频道 17 继续通讯。完毕。”  # Speaker: phos_idle
-    
-“……我船失去动力，正在飘……”  # Speaker: hakumei_shadow
+# type: LeftAvatarOptions
+  * “原来是在自动发报……？”  # avatar: phos_idle  # type: LeftAvatarText
+-
 
 -
-  * “原来是在自动发报……？”  # Speaker: phos_idle
-
--
+# type: LeftAvatarOptions
   * [（切换至频道 17）]
-  （无线电静默）
+  （无线电静默） # type: LeftAvatarText
+  
+  # type: LeftAvatarOptions
     ** [（保持等待）]
-    （无线电静默）
-    “啊！对不起！我忘记把频道换过来了！”  # Speaker: hakumei_shadow
-      *** “没关系[。”]，很高兴与你建立联系，‘薄明’。”  # Speaker: phos_idle
+    （无线电静默） # type: LeftAvatarText
+    “啊！对不起！我忘记把频道换过来了！”  # avatar: hakumei_shadow  # type: LeftAvatarText
+    
+    # type: LeftAvatarOptions
+      *** “没关系[。”]，很高兴与你建立联系，‘薄明’。”  # avatar: phos_idle  # type: LeftAvatarText
         -> prologue_after_connection
     
     ** [（切换回频道 16）]
       -> prologue_in_channel_16
     
   * [（保持频道 16）]
-  （突然静默）
+  （突然静默）  # type: LeftAvatarText
     ->prologue_in_channel_16
 
 = prologue_in_channel_16
-“TF0900！这里是 ‘薄明’！太好了……终于有人……”  # Speaker: hakumei_shadow
-“啊，我是不是应该换到频道 17？对不起，我太激动了……”  # Speaker: hakumei_shadow
+“TF0900！这里是 ‘薄明’！太好了……终于有人……”  # avatar: hakumei_shadow  # type: LeftAvatarText
+“啊，我是不是应该换到频道 17？对不起，我太激动了……”  # avatar: hakumei_shadow  # type: LeftAvatarText
 
 -
-  * “没关系，就保持这样吧。”  # Speaker: phos_smile
+# type: LeftAvatarOptions
+  * “没关系，就保持这样吧。”  # avatar: phos_smile  # type: LeftAvatarText
     -> prologue_after_connection
-  * “是的，我们在频道 17 继续通话吧。”  # Speaker: phos_idle
+  * “是的，我们在频道 17 继续通话吧。”  # avatar: phos_idle  # type: LeftAvatarText
+  
+  # type: LeftAvatarOptions
     ** [（切换到频道 17）]
       -> prologue_after_connection
   
 = prologue_after_connection
-“谢谢！很高兴认识你，‘磷光’！”  # Speaker: hakumei_shadow
+“谢谢！很高兴认识你，‘磷光’！”  # avatar: hakumei_shadow  # type: LeftAvatarText
 
 -
-  * “能介绍一下你船情况吗？”  # Speaker: phos_idle
+# type: LeftAvatarOptions
+  * “能介绍一下你船情况吗？”  # avatar: phos_idle  # type: LeftAvatarText
 -
 
-“啊，好的！”
-“这里是远洋科研考察船 ‘薄明’，于 25 天前完成了在挪威斯瓦尔巴特群岛北极科考站的考察活动并起锚。”  # Speaker: hakumei_shadow
-“我们原计划停泊在扬马延获取补给，并在那之后前往柯克沃尔。但在约七天前遭遇暴风。”
-“大部分物资都因此而遗失。”  # Speaker: hakumei_shadow
+“啊，好的！”  # type: LeftAvatarText
+“这里是远洋科研考察船 ‘薄明’，于 25 天前完成了在挪威斯瓦尔巴特群岛北极科考站的考察活动并起锚。”  # avatar: hakumei_shadow  # type: LeftAvatarText
+“我们原计划停泊在扬马延获取补给，并在那之后前往柯克沃尔。但在约七天前遭遇暴风。”  # type: LeftAvatarText
+“大部分物资都因此而遗失。”  # avatar: hakumei_shadow  # type: LeftAvatarText
 
 -
-  * “那还真不容易……”
+# type: LeftAvatarOptions
+  * “那还真不容易……” # type: LeftAvatarText
 -
 
-“更糟糕的是，我们在 155 个小时前触礁，大部船舱进水。
-“勉强维持了失去动力开始飘行。”  # Speaker: hakumei_shadow
-“……你是第一个回应我们的求救信号的人。”  # Speaker: hakumei_shadow
+“更糟糕的是，我们在 155 个小时前触礁，大部船舱进水。 # type: LeftAvatarText
+“船体最终勉强维持了稳定……但完全失去动力，开始飘行。”  # avatar: hakumei_shadow  # type: LeftAvatarText
+“自此开始向外广播求救信号……”  # type: LeftAvatarText
 
 -
-  * “辛苦了，一定很不容易吧。[”]居然连续 155 个小时都没有收到回复吗？”  # Speaker: phos_surprised
+# type: LeftAvatarOptions
+  * “自 155 个小时前？”  # type: LeftAvatarText
 -
 
-“是的。不过在这个时代也算常见吧。”  # Speaker: hakumei_shadow
+“是的。自 155 个小时前……”  # type: LeftAvatarText
+“……你是第一个回应我的人。”  # avatar: hakumei_shadow  # type: LeftAvatarText
 
 -
-  * “这个时代……？”  # Speaker: phos_questioning
+# type: LeftAvatarOptions
+  * “居然连续 155 个小时都没有收到回复……”  # avatar: phos_surprised # type: LeftAvatarText
 -
 
-“毕竟‘大涨潮’之后……欸？”  # Speaker: hakumei_shadow
-“不好意思，容我确认一下。你方呼号是 TF0900？”  # Speaker: hakumei_shadow
+“是的。不过在这个时代也算常见吧。”  # avatar: hakumei_shadow  # type: LeftAvatarText
+
+-
+# type: LeftAvatarOptions
+  * “这个时代……？”  # avatar: phos_questioning  # type: LeftAvatarText
+-
+
+“毕竟‘大涨潮’之后……欸？”  # avatar: hakumei_shadow  # type: LeftAvatarText
+“不好意思，容我确认一下。你方呼号是 TF0900？”  # avatar: hakumei_shadow
  
 -
   * “是的[。”]，有什么问题吗？”  # Speaker: phos_idle

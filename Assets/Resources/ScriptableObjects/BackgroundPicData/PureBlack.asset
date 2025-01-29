@@ -9,11 +9,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2432a1f751327a1479c235c1d5a4c360, type: 3}
-  m_Name: SampleTachiE
+  m_Script: {fileID: 11500000, guid: 7153a9909952d9f4b8bfc0ec8b084369, type: 3}
+  m_Name: PureBlack
   m_EditorClassIdentifier: 
-  id: sample_tachi_e
-  sprite: {fileID: 0}
+  id: bg_pic_pureblack
+  sprite: {fileID: 21300000, guid: d59ab60602986d14dbcc18c8b71e98a7, type: 3}
   positionOffset: {x: 0, y: 0, z: 0}
   rotationOffset: {x: 0, y: 0, z: 0}
   scaleOffset: {x: 1, y: 1, z: 1}
