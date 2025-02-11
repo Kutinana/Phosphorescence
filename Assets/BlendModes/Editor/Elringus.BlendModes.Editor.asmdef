@@ -1,0 +1,26 @@
+{
+    "name": "Elringus.BlendModes.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:1a9e74e42ceb2fb47af7cd53f553c423",
+        "GUID:c579267770062bf448e75eb160330b7f",
+        "GUID:15fc0a57446b3144c949da3e2b9737a9"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.render-pipelines.universal",
+            "expression": "",
+            "define": "BLENDMODES_URP"
+        }
+    ],
+    "noEngineReferences": false
+}

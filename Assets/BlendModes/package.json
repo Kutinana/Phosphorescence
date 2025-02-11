@@ -1,0 +1,9 @@
+{
+    "name": "com.elringus.blendmodes",
+    "version": "4.0.0",
+    "displayName": "Blend Modes",
+    "description": "Layer blending system.",
+    "unity": "6000.0",
+    "author": { "name": "Elringus", "url": "https://elringus.me" },
+    "documentationUrl": "https://docs.google.com/document/d/1Og0XcEszPsRni0qSYnnV3uiHvVJJPA7DjjkWfztJmWs/edit?usp=sharing"
+}
