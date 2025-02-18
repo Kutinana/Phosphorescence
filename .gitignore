@@ -107,3 +107,6 @@ crashlytics-build.properties
 .qframework/
 /[Aa]ssets/QFramework/ToolKits/*/*.unitypackage*
 /[Aa]ssets/QFramework/ToolKits/*/*.unitypackage.meta*
+
+# macOS System Files
+.DS_Store
