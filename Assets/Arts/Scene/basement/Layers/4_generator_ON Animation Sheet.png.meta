@@ -409,7 +409,19 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      4_generator_ON Animation Sheet_0: -9088297335591947391
+      4_generator_ON Animation Sheet_1: 8151928507436301064
+      4_generator_ON Animation Sheet_10: 3335272276140055288
+      4_generator_ON Animation Sheet_11: -7112001958572078196
+      4_generator_ON Animation Sheet_2: 7933414553065673603
+      4_generator_ON Animation Sheet_3: -1642234226659775275
+      4_generator_ON Animation Sheet_4: 8438771199217160720
+      4_generator_ON Animation Sheet_5: -6724860109780154504
+      4_generator_ON Animation Sheet_6: -3773584907548502328
+      4_generator_ON Animation Sheet_7: 587048546869777395
+      4_generator_ON Animation Sheet_8: -2322176859036341105
+      4_generator_ON Animation Sheet_9: -7211173310667412936
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -409,7 +409,19 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      5_door_ON Animation Sheet_0: 7243992823347511434
+      5_door_ON Animation Sheet_1: 3080050854973289042
+      5_door_ON Animation Sheet_10: -6656690090829860792
+      5_door_ON Animation Sheet_11: -8469747228504147725
+      5_door_ON Animation Sheet_2: 7633992452788749725
+      5_door_ON Animation Sheet_3: -2345358198619271785
+      5_door_ON Animation Sheet_4: -3353640834410143575
+      5_door_ON Animation Sheet_5: -5657572428098873533
+      5_door_ON Animation Sheet_6: -8350391023025746805
+      5_door_ON Animation Sheet_7: 1876665494220026291
+      5_door_ON Animation Sheet_8: 6071380002129847935
+      5_door_ON Animation Sheet_9: 8971838403354733605
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

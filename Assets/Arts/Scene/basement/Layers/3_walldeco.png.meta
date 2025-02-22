@@ -534,7 +534,24 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      3_walldeco_0: -5475466856579052197
+      3_walldeco_1: 5484641873818738145
+      3_walldeco_10: 6694039919002704213
+      3_walldeco_11: 9182631899750846636
+      3_walldeco_12: 2805080766317710518
+      3_walldeco_13: 786983943411566146
+      3_walldeco_14: -2393139561942887506
+      3_walldeco_15: 6577759404462777500
+      3_walldeco_16: -6611854014118099820
+      3_walldeco_2: -8268467326259326866
+      3_walldeco_3: -1716082455562533941
+      3_walldeco_4: -6133181094390926700
+      3_walldeco_5: 4200408064359399304
+      3_walldeco_6: -2141482038563261857
+      3_walldeco_7: -9011567821058908861
+      3_walldeco_8: 7297002364507839596
+      3_walldeco_9: -39980307962753220
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

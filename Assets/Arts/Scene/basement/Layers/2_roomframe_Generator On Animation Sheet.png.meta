@@ -409,7 +409,19 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      2_roomframe_Generator On Animation Sheet_0: -8840637090410279900
+      2_roomframe_Generator On Animation Sheet_1: 3329941684921738789
+      2_roomframe_Generator On Animation Sheet_10: 7721222096436850180
+      2_roomframe_Generator On Animation Sheet_11: 8228993296860386938
+      2_roomframe_Generator On Animation Sheet_2: -6672276882721754406
+      2_roomframe_Generator On Animation Sheet_3: 4643691088160458610
+      2_roomframe_Generator On Animation Sheet_4: -4541613078160485874
+      2_roomframe_Generator On Animation Sheet_5: 4683517169566111145
+      2_roomframe_Generator On Animation Sheet_6: -3288077692833810721
+      2_roomframe_Generator On Animation Sheet_7: -7865306639440966994
+      2_roomframe_Generator On Animation Sheet_8: -4054567886627311329
+      2_roomframe_Generator On Animation Sheet_9: 8589985998419602156
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
