@@ -259,7 +259,13 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Default-Sheet-RimLight_0: 6486225587479757558
+      Default-Sheet-RimLight_1: 1085227632407185019
+      Default-Sheet-RimLight_2: 6972103921737356245
+      Default-Sheet-RimLight_3: 6193279743882641928
+      Default-Sheet-RimLight_4: 6528131708817541937
+      Default-Sheet-RimLight_5: -2388185972308072705
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
