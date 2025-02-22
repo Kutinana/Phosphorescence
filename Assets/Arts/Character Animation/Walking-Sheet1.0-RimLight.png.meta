@@ -1,12 +1,42 @@
 fileFormatVersion: 2
-guid: cda9906e1962885408ce3c5ae95c8d70
+guid: aff45080ee4234443934581e87701052
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -3757099251007351890
+    second: Walking-Sheet1.0-RimLight_0
+  - first:
+      213: 4586223689445432298
+    second: Walking-Sheet1.0-RimLight_1
+  - first:
+      213: 1165313023179668162
+    second: Walking-Sheet1.0-RimLight_2
+  - first:
+      213: 3888667467523938043
+    second: Walking-Sheet1.0-RimLight_3
+  - first:
+      213: 2272727812507038550
+    second: Walking-Sheet1.0-RimLight_4
+  - first:
+      213: 5003446020506192096
+    second: Walking-Sheet1.0-RimLight_5
+  - first:
+      213: 6347718250778574822
+    second: Walking-Sheet1.0-RimLight_6
+  - first:
+      213: 8094429163614921344
+    second: Walking-Sheet1.0-RimLight_7
+  - first:
+      213: 3820666959253487194
+    second: Walking-Sheet1.0-RimLight_8
+  - first:
+      213: 4275552559314650697
+    second: Walking-Sheet1.0-RimLight_9
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 0
+    enableMipMap: 1
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -52,9 +82,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 1
+  alphaIsTransparency: 0
   spriteTessellationDetail: -1
-  textureType: 8
+  textureType: 0
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -94,7 +124,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: Server
+    buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -132,238 +162,225 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Walking-Sheet1.0_0
+      name: Walking-Sheet1.0-RimLight_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 384
-        width: 256
-        height: 384
+        x: 83
+        y: 383
+        width: 94
+        height: 322
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 354407519e045a149abaf1f38b12d14e
-      internalID: 816190363
+      spriteID: ea312dd132a1cdbc0800000000000000
+      internalID: -3757099251007351890
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Walking-Sheet1.0_1
+      name: Walking-Sheet1.0-RimLight_1
       rect:
         serializedVersion: 2
-        x: 256
-        y: 384
-        width: 256
-        height: 384
+        x: 339
+        y: 383
+        width: 94
+        height: 326
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: bfdb1df64830a3b42a00268ef835c599
-      internalID: 1819423158
+      spriteID: aeb50ed852a85af30800000000000000
+      internalID: 4586223689445432298
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Walking-Sheet1.0_2
+      name: Walking-Sheet1.0-RimLight_2
       rect:
         serializedVersion: 2
-        x: 512
-        y: 384
-        width: 256
-        height: 384
+        x: 595
+        y: 383
+        width: 94
+        height: 326
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 3df03fd2862111b4ca55a491ea803156
-      internalID: 435886557
+      spriteID: 2cab2ce35060c2010800000000000000
+      internalID: 1165313023179668162
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Walking-Sheet1.0_3
+      name: Walking-Sheet1.0-RimLight_3
       rect:
         serializedVersion: 2
-        x: 768
-        y: 384
-        width: 256
-        height: 384
+        x: 851
+        y: 383
+        width: 102
+        height: 326
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: fa207c5ede2752645866aa24821e8577
-      internalID: -1566740545
+      spriteID: bf6d16b657257f530800000000000000
+      internalID: 3888667467523938043
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Walking-Sheet1.0_4
+      name: Walking-Sheet1.0-RimLight_4
       rect:
         serializedVersion: 2
-        x: 1024
-        y: 384
-        width: 256
-        height: 384
+        x: 1103
+        y: 383
+        width: 102
+        height: 322
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 96011f71d82e28147ba158a031f700d8
-      internalID: 966550544
+      spriteID: 653f1af67e95a8f10800000000000000
+      internalID: 2272727812507038550
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Walking-Sheet1.0_5
+      name: Walking-Sheet1.0-RimLight_5
       rect:
         serializedVersion: 2
-        x: 0
+        x: 83
         y: 0
-        width: 256
-        height: 384
+        width: 94
+        height: 321
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 6bf4a02ea91d1d541aec8160d134b37b
-      internalID: -1023853332
+      spriteID: 0e80d1175afcf6540800000000000000
+      internalID: 5003446020506192096
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Walking-Sheet1.0_6
+      name: Walking-Sheet1.0-RimLight_6
       rect:
         serializedVersion: 2
-        x: 256
+        x: 339
         y: 0
-        width: 256
-        height: 384
+        width: 94
+        height: 325
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: d9ee789da6d98e645830339e4ff3138f
-      internalID: -463696194
+      spriteID: 6efbbef0e10a71850800000000000000
+      internalID: 6347718250778574822
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Walking-Sheet1.0_7
+      name: Walking-Sheet1.0-RimLight_7
       rect:
         serializedVersion: 2
-        x: 512
+        x: 595
         y: 0
-        width: 256
-        height: 384
+        width: 94
+        height: 325
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: df8e0648c94585c49bdf2834e1573a9f
-      internalID: -314999866
+      spriteID: 08264dc2070355070800000000000000
+      internalID: 8094429163614921344
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Walking-Sheet1.0_8
+      name: Walking-Sheet1.0-RimLight_8
       rect:
         serializedVersion: 2
-        x: 768
+        x: 851
         y: 0
-        width: 256
-        height: 384
+        width: 102
+        height: 325
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: e6f5e7fd9c3650741960947d49f44bf0
-      internalID: 627830862
+      spriteID: a5e306f4b5cb50530800000000000000
+      internalID: 3820666959253487194
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Walking-Sheet1.0_9
+      name: Walking-Sheet1.0-RimLight_9
       rect:
         serializedVersion: 2
-        x: 1024
+        x: 1103
         y: 0
-        width: 256
-        height: 384
+        width: 102
+        height: 321
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: e063ff4b95fead442aad35b1c24e832b
-      internalID: 1232843169
+      spriteID: 946467c5660d55b30800000000000000
+      internalID: 4275552559314650697
       vertices: []
       indices: 
       edges: []
@@ -372,30 +389,16 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
-    secondaryTextures:
-    - texture: {fileID: 2800000, guid: 517208b7b10d88647b59bb52fc6cec25, type: 3}
-      name: _NormalMap
-    - texture: {fileID: 2800000, guid: aff45080ee4234443934581e87701052, type: 3}
-      name: _MaskTex
+    secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Walking-Sheet1.0_0: 816190363
-      Walking-Sheet1.0_1: 1819423158
-      Walking-Sheet1.0_2: 435886557
-      Walking-Sheet1.0_3: -1566740545
-      Walking-Sheet1.0_4: 966550544
-      Walking-Sheet1.0_5: -1023853332
-      Walking-Sheet1.0_6: -463696194
-      Walking-Sheet1.0_7: -314999866
-      Walking-Sheet1.0_8: 627830862
-      Walking-Sheet1.0_9: 1232843169
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

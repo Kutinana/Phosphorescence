@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 namespace Phosphorescence.Game
 {
@@ -8,6 +9,9 @@ namespace Phosphorescence.Game
         private Collider2D col;
         private Animator animator;
 
+        InputAction moveAction;
+        InputAction interactAction;
+
         [Header("Parameters")]
         public float speed = 5f;
 
@@ -16,6 +20,12 @@ namespace Phosphorescence.Game
             rb = GetComponent<Rigidbody2D>();
             col = GetComponent<Collider2D>();
             animator = GetComponent<Animator>();
+        }
+
+        void Start()
+        {
+            moveAction = InputSystem.actions.FindAction("Move");
+            interactAction = InputSystem.actions.FindAction("Interact");
         }
 
         // Update is called once per frame
@@ -31,7 +41,7 @@ namespace Phosphorescence.Game
 
         void Move()
         {
-            var direction = Input.GetAxisRaw("Horizontal");
+            var direction = moveAction.ReadValue<Vector2>().x;
             rb.linearVelocity = new Vector2(direction * speed, rb.linearVelocityY);
 
             if (direction != 0)
