@@ -8,6 +8,7 @@ namespace Phosphorescence.Game
         private Rigidbody2D rb;
         private Collider2D col;
         private Animator animator;
+        private SpriteRenderer spriteRenderer;
 
         InputAction moveAction;
         InputAction interactAction;
@@ -20,6 +21,7 @@ namespace Phosphorescence.Game
             rb = GetComponent<Rigidbody2D>();
             col = GetComponent<Collider2D>();
             animator = GetComponent<Animator>();
+            spriteRenderer = GetComponent<SpriteRenderer>();
         }
 
         void Start()
@@ -47,6 +49,8 @@ namespace Phosphorescence.Game
             if (direction != 0)
             {
                 transform.localScale = new Vector3(direction, 1, 1);
+                spriteRenderer.material.SetFloat("_FlipGreen", direction);
+
                 animator.SetBool("isMoving", true);
             }
             else
