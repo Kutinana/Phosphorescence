@@ -960,6 +960,7 @@ GameObject:
   - component: {fileID: 538564991}
   - component: {fileID: 538564992}
   - component: {fileID: 538564993}
+  - component: {fileID: 538564994}
   m_Layer: 5
   m_Name: Avatar
   m_TagString: Untagged
@@ -984,7 +985,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 40, y: -640}
-  m_SizeDelta: {x: 576, y: 1216}
+  m_SizeDelta: {x: 576, y: 1280}
   m_Pivot: {x: 0, y: 0}
 --- !u!222 &538564992
 CanvasRenderer:
@@ -1014,7 +1015,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: c0d57bac7858b964a82ec6d237f020ae, type: 3}
+  m_Sprite: {fileID: 6389887912487049916, guid: a0165dc8ab35ca144a1fc018e56bdf62, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1024,6 +1025,28 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!95 &538564994
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 538564990}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &603779930
 GameObject:
   m_ObjectHideFlags: 0
@@ -1232,6 +1255,7 @@ MonoBehaviour:
   Avatar: {fileID: 1229698212}
   Background: {fileID: 137902444}
   Text: {fileID: 1602019790}
+  AvatarAnimator: {fileID: 1229698214}
 --- !u!114 &821218083
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1844,6 +1868,7 @@ GameObject:
   - component: {fileID: 1229698211}
   - component: {fileID: 1229698213}
   - component: {fileID: 1229698212}
+  - component: {fileID: 1229698214}
   m_Layer: 5
   m_Name: Avatar
   m_TagString: Untagged
@@ -1908,6 +1933,28 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1229698210}
   m_CullTransparentMesh: 1
+--- !u!95 &1229698214
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1229698210}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1415140295
 GameObject:
   m_ObjectHideFlags: 0
@@ -3508,6 +3555,7 @@ MonoBehaviour:
   Avatar: {fileID: 538564993}
   Background: {fileID: 380246971}
   Text: {fileID: 1722719176}
+  AvatarAnimator: {fileID: 538564994}
 --- !u!1 &2088546137
 GameObject:
   m_ObjectHideFlags: 0

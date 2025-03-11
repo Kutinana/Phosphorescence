@@ -12,9 +12,20 @@ namespace Phosphorescence.Narration.Common
     {
         public string Id => id;
         public string id;
+
+        public TachiEType type;
+
         public Sprite sprite;
+        public AnimationClip animationClip;
+        
         public Vector3 positionOffset;
         public Vector3 rotationOffset;
         public Vector3 scaleOffset = Vector3.one;
+    }
+
+    public enum TachiEType
+    {
+        Static,
+        Animation
     }
 }

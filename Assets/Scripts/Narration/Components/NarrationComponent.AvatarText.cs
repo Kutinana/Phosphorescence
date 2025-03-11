@@ -7,6 +7,8 @@ using Phosphorescence.DataSystem;
 using Phosphorescence.Narration.Common;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Animations;
+using UnityEngine.Playables;
 using UnityEngine.UI;
 
 namespace Phosphorescence.Narration
@@ -17,8 +19,23 @@ namespace Phosphorescence.Narration
         public Image Avatar;
         public Image Background;
         public TMP_Text Text;
+        public Animator AvatarAnimator;
+
+        private PlayableGraph _graph;
+        private AnimationPlayableOutput animationOutputPlayable;
 
         private Coroutine m_CurrentTypeTextCoroutine;
+
+        private void OnEnable()
+        {
+            _graph = PlayableGraph.Create();
+            animationOutputPlayable = AnimationPlayableOutput.Create(_graph, "AvatarAnimation", AvatarAnimator);
+        }
+
+        private void OnDisable()
+        {
+            _graph.Destroy();
+        }
 
         public void Process(OnLineReadEvent e)
         {
@@ -35,14 +52,38 @@ namespace Phosphorescence.Narration
             {
                 if (Avatar != null && GameDesignData.GetTachiEData(avatar, out var avatarConfig))
                 {
-                    Avatar.sprite = avatarConfig.sprite ?? null;
-                    Avatar.SetNativeSize();
+                    switch (avatarConfig.type)
+                    {
+                        case TachiEType.Static:
+                        {
+                            Avatar.sprite = avatarConfig.sprite ?? null;
+                            Avatar.SetNativeSize();
 
-                    Avatar.rectTransform.anchoredPosition = avatarConfig.positionOffset;
-                    Avatar.transform.localScale = avatarConfig.scaleOffset;
-                    Avatar.transform.localEulerAngles = avatarConfig.rotationOffset;
+                            Avatar.rectTransform.anchoredPosition = avatarConfig.positionOffset;
+                            Avatar.transform.localScale = avatarConfig.scaleOffset;
+                            Avatar.transform.localEulerAngles = avatarConfig.rotationOffset;
 
-                    Avatar.color = Color.white;
+                            Avatar.color = Color.white;
+
+                            break;
+                        }
+                        case TachiEType.Animation:
+                        {
+                            var _animClipPlayable = AnimationClipPlayable.Create(_graph, avatarConfig.animationClip);
+                            animationOutputPlayable.SetSourcePlayable(_animClipPlayable);
+                            _graph.Play();
+
+                            Avatar.SetNativeSize();
+
+                            Avatar.rectTransform.anchoredPosition = avatarConfig.positionOffset;
+                            Avatar.transform.localScale = avatarConfig.scaleOffset;
+                            Avatar.transform.localEulerAngles = avatarConfig.rotationOffset;
+
+                            Avatar.color = Color.white;
+
+                            break;
+                        }
+                    }
                 }
                 else if (Avatar != null) Avatar.color = new Color(0, 0, 0, 0);
 
