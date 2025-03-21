@@ -3,17 +3,16 @@
 
 === prologue ===
 
-“……请求救援。完毕。”  # type: LeftAvatarText  # avatar: left_hakumei
-“Pan Pan。 任何单位，任何单位，任何单位。这里是 X05HKM 科研船‘薄明’，位于北纬 66 度 31 分 25 秒, 西经 18 度 6 分 12 秒。我船失去动力，正在飘行。请求救援。完毕。” # type: LeftAvatarText
-“Pan Pan。 任何单位……”  # type: LeftAvatarText
+“……请求救援。完毕。”  # type: LeftAvatarText
+“MAYDAY, MAYDAY, MAYDAY。 任何单位，任何单位，任何单位。“ # type: LeftAvatarText
+”这里是科研船「薄明」，呼号 X92HKM。位于北纬 66°35'26"、西经17°56'16"。” # type: LeftAvatarText
+“引擎失去动力，正以三节向西南方向飘行。无伤亡报告。UTC时间1905。请求救援。完毕。” # type: LeftAvatarText
+“MAYDAY, MAYDAY, MAYDAY。 任何单位……”  # type: LeftAvatarText
 
--
-# type: LeftAvatarOptions
-  * “……嗯？” # avatar: right_phos_idle  # type: RightAvatarText
--
-
+“……” # type: LeftAvatarText
+“……欸？”  # type: RightAvatarText
 “啊啊……我睡着了？”  # type: RightAvatarText
 “这是……有人在求援？”  # type: RightAvatarText
-“得快点打开发报机……”  # type: RightAvatarText
+“得快点打开发报机回复……”  # type: RightAvatarText
 
 -> DONE
