@@ -3,12 +3,14 @@ using UnityEngine.InputSystem;
 
 namespace Phosphorescence.Game
 {
-    public class PlayerController : MonoBehaviour
+    public class PlayerController : MonoBehaviour , IInteractor
     {
         private Rigidbody2D rb;
         private Collider2D col;
         private Animator animator;
         private SpriteRenderer spriteRenderer;
+
+        public bool CanInteract => true;
 
         InputAction moveAction;
         InputAction interactAction;
@@ -39,6 +41,11 @@ namespace Phosphorescence.Game
         private void FixedUpdate()
         {
             Move();
+        }
+
+        public void Interact(IInteractable target)
+        {
+
         }
 
         void Move()
