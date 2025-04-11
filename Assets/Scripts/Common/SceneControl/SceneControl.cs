@@ -40,7 +40,7 @@ namespace Common.SceneControl
 
         public string ToSwitchSceneName { get; set; }
 
-# if UNITY_EDITOR || UNITY_STANDALONE_WIN
+# if UNITY_EDITOR_WIN || UNITY_STANDALONE_WIN
 
         [DllImport("user32.dll")]
         public static extern bool ShowWindow(IntPtr hwnd, int nCmdShow);
@@ -58,11 +58,12 @@ namespace Common.SceneControl
         {
             StartCoroutine(InitializeSceneControl());
 
-# if UNITY_EDITOR || UNITY_STANDALONE_WIN
+# if UNITY_EDITOR_WIN || UNITY_STANDALONE_WIN
 
             currentWindow = GetForegroundWindow();
 
 # endif
+
         }
 
         private IEnumerator InitializeSceneControl()

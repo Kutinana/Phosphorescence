@@ -1,16 +1,18 @@
+using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 namespace Phosphorescence.Game
 {
     public interface IInteractable
     {
-        public bool IsInteractable { get; }
-        public void OnInteract(IInteractor interactor);
+        public virtual void OnInteract(IInteractor interactor) {}
     }
 
     public interface IInteractor
     {
         public bool CanInteract { get; }
-        public void Interact(IInteractable interactable);
+        // public void Interact(IInteractable interactable);
+        // public virtual void Interact(IInteractable interactable, InputAction.CallbackContext context) {}
     }
 }

@@ -1,9 +1,10 @@
+using QFramework;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
 namespace Phosphorescence.Game
 {
-    public class PlayerController : MonoBehaviour , IInteractor
+    public partial class PlayerController : MonoSingleton<PlayerController> , IInteractor
     {
         private Rigidbody2D rb;
         private Collider2D col;
@@ -12,11 +13,9 @@ namespace Phosphorescence.Game
 
         public bool CanInteract => true;
 
-        InputAction moveAction;
-        InputAction interactAction;
-
         [Header("Parameters")]
         public float speed = 5f;
+        public int ImAtFloor = -1;
 
         private void Awake()
         {
@@ -26,16 +25,13 @@ namespace Phosphorescence.Game
             spriteRenderer = GetComponent<SpriteRenderer>();
         }
 
-        void Start()
-        {
-            moveAction = InputSystem.actions.FindAction("Move");
-            interactAction = InputSystem.actions.FindAction("Interact");
-        }
-
         // Update is called once per frame
         void Update()
         {
-            
+            if (CanInteract)
+            {
+                SelectInteractable();
+            }
         }
 
         private void FixedUpdate()
@@ -43,14 +39,11 @@ namespace Phosphorescence.Game
             Move();
         }
 
-        public void Interact(IInteractable target)
-        {
-
-        }
-
         void Move()
         {
-            var direction = moveAction.ReadValue<Vector2>().x;
+            if (GameManager.Instance.moveAction == null) return;
+
+            var direction = GameManager.Instance.moveAction.ReadValue<Vector2>().x;
             rb.linearVelocity = new Vector2(direction * speed, rb.linearVelocityY);
 
             if (direction != 0)
@@ -64,6 +57,16 @@ namespace Phosphorescence.Game
             {
                 animator.SetBool("isMoving", false);
             }
+        }
+
+        public void TransportTo(Transform target)
+        {
+            transform.position = target.position;
+        }
+
+        public void TransportTo(Vector3 target)
+        {
+            transform.position = target;
         }
     }
 
