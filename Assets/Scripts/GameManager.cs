@@ -10,6 +10,8 @@ namespace Phosphorescence.Game
         public InputAction interactAction;
         public InputAction climbAction;
 
+        public InputAction nextLineAction;
+
         private void Awake()
         {
             DontDestroyOnLoad(this);
@@ -20,6 +22,8 @@ namespace Phosphorescence.Game
             moveAction = InputSystem.actions.FindAction("Move");
             interactAction = InputSystem.actions.FindAction("Interact");
             climbAction = InputSystem.actions.FindAction("Climb");
+
+            nextLineAction = InputSystem.actions.FindAction("NextLine");
         }
 
         private void Update()

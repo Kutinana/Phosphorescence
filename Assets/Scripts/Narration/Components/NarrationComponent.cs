@@ -14,5 +14,7 @@ namespace Phosphorescence.Narration
     public abstract class NarrationComponent : MonoBehaviour
     {
         public CanvasGroupAlphaProgressable CanvasGroup;
+        public bool IsComplete { get; protected set; }
+        public Action SkipAction;
     }
 }

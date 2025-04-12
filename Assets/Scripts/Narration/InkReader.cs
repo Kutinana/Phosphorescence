@@ -30,14 +30,6 @@ namespace Phosphorescence.Narration
             }).UnRegisterWhenGameObjectDestroyed(gameObject);
         }
 
-        private void Update()
-        {
-            if (Input.GetKeyUp(KeyCode.F) || Input.GetKeyUp(KeyCode.Space) || Input.GetKeyUp(KeyCode.Return))
-            {
-                Continue();
-            }
-        }
-
         public InkReader Initialize(TextAsset rawStory)
         {
             if (rawStory == null) return this;

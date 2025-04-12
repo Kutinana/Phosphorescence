@@ -16,6 +16,6 @@ MonoBehaviour:
   type: 1
   sprite: {fileID: 0}
   animationClip: {fileID: 7400000, guid: 261c1b17c145a07469aa4bdc82ff89f8, type: 2}
-  positionOffset: {x: 40, y: -640, z: 0}
+  positionOffset: {x: 0, y: -640, z: 0}
   rotationOffset: {x: 0, y: 0, z: 0}
   scaleOffset: {x: 1, y: 1, z: 1}

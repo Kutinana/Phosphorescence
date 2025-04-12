@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Kuchinashi;
 using Kuchinashi.Utils.Progressable;
+using Phosphorescence.Game;
 using QFramework;
 using TMPro;
 using UnityEngine;
@@ -24,6 +25,10 @@ namespace Phosphorescence.Narration
     {
         public FSM<NarrationType> StateMachine => Instance._stateMachine ??= new();
         private FSM<NarrationType> _stateMachine;
+
+        public Progressable BlackEdgeProgressable;
+        private NarrationComponent m_CurrentComponent;
+        private bool m_CanReceiveInput = true;
 
         public CanvasGroupAlphaProgressable CanvasGroup;
 
@@ -54,10 +59,34 @@ namespace Phosphorescence.Narration
             }).UnRegisterWhenGameObjectDestroyed(gameObject);
         }
 
+        private void Update()
+        {
+            if (!m_CanReceiveInput) return;
+
+            if (GameManager.Instance.nextLineAction.WasReleasedThisFrame())
+            {
+                if (m_CurrentComponent != null && !m_CurrentComponent.IsComplete)
+                {
+                    m_CurrentComponent.SkipAction?.Invoke();
+                    return;
+                }
+                TypeEventSystem.Global.Send<RequestNewLineEvent>();
+            }
+        }
+
         private void OnLineReceived(OnLineReadEvent e)
         {
-            if (string.IsNullOrEmpty(e.content))  // Situation for tag-only line
+            if (e.content == "$EMPTY")  // Situation for tag-only line
             {
+                StateMachine.ChangeState(NarrationType.None);
+                if (e.tags.TryGetValue("sleep", out var sleepTime))
+                {
+                    m_CanReceiveInput = false;
+                    // StartCoroutine(ContinueAfterSleep(float.Parse(sleepTime)));
+                    return;
+                }
+
+                // Notify the system to request a new line
                 TypeEventSystem.Global.Send<RequestNewLineEvent>();
                 return;
             }
@@ -110,11 +139,15 @@ namespace Phosphorescence.Narration
             protected override bool OnCondition() => mFSM.CurrentStateId is not NarrationType.None;
             protected override void OnEnter()
             {
-                mTarget.CanvasGroup.InverseLinearTransition(0.2f);
+                mTarget.CanvasGroup.InverseLinearTransition(0.2f, 0.5f);
+                mTarget.BlackEdgeProgressable.InverseLinearTransition(0.5f);
+
+                mTarget.m_CurrentComponent = null;
             }
             protected override void OnExit()
             {
                 mTarget.CanvasGroup.LinearTransition(0.2f);
+                mTarget.BlackEdgeProgressable.LinearTransition(0.5f, 0.5f);
             }
         }
 
@@ -125,6 +158,7 @@ namespace Phosphorescence.Narration
             protected override void OnEnter()
             {
                 mTarget.Components[NarrationType.LeftAvatarText].CanvasGroup.LinearTransition(0.2f);
+                mTarget.m_CurrentComponent = mTarget.Components[NarrationType.LeftAvatarText];
             }
             protected override void OnExit()
             {
@@ -139,6 +173,7 @@ namespace Phosphorescence.Narration
             protected override void OnEnter()
             {
                 mTarget.Components[NarrationType.RightAvatarText].CanvasGroup.LinearTransition(0.2f);
+                mTarget.m_CurrentComponent = mTarget.Components[NarrationType.RightAvatarText];
             }
             protected override void OnExit()
             {
@@ -153,6 +188,7 @@ namespace Phosphorescence.Narration
             protected override void OnEnter()
             {
                 mTarget.Components[NarrationType.FullScreenText].CanvasGroup.LinearTransition(0.2f);
+                mTarget.m_CurrentComponent = mTarget.Components[NarrationType.FullScreenText];
             }
             protected override void OnExit()
             {
@@ -167,6 +203,7 @@ namespace Phosphorescence.Narration
             protected override void OnEnter()
             {
                 mTarget.Components[NarrationType.LeftAvatarOptions].CanvasGroup.LinearTransition(0.2f);
+                mTarget.m_CurrentComponent = mTarget.Components[NarrationType.LeftAvatarOptions];
             }
             protected override void OnExit()
             {
