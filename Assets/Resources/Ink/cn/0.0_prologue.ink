@@ -9,7 +9,7 @@
 “引擎失去动力，正以三节向西南方向飘行。无伤亡报告。UTC 时间 1905。请求救援。完毕。” # type:LeftAvatarText #speaker:未知信号 #background_pic:bg_pic_pureblack
 “MAYDAY, MAYDAY, MAYDAY。 任何单位……”  # type:LeftAvatarText #speaker:未知信号 #background_pic:bg_pic_pureblack
 
-$EMPTY #sleep:3000
+$SLEEP:3
 
 “……” # type: RightAvatarText #speaker:磷光
 “……咦？”  # type: RightAvatarText #speaker:磷光

@@ -2,7 +2,8 @@ namespace Phosphorescence.Narration
 {
     public interface ICanProcessLine
     {
-        public void Process(OnLineReadEvent line);
+        public void Initialize(OnLineReadEvent line);
+        public void Process();
     }
 
     public interface ICanProcessLines

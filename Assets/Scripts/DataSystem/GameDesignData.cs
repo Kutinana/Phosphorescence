@@ -11,48 +11,38 @@ namespace Phosphorescence.DataSystem
     {
         public void OnSingletonInit() {}
         
-        protected static Dictionary<string, TachiEData> TachiEConfigs
-        {
-            get
-            {
-                if (_tachiEConfigs == null)
-                {
-                    _tachiEConfigs = new Dictionary<string, TachiEData>();
-                    var tachiEData = Resources.LoadAll<TachiEData>("ScriptableObjects/TachiEData");
-                    foreach (var tachiE in tachiEData)
-                    {
-                        _tachiEConfigs.Add(tachiE.Id, tachiE);
-                    }
-                }
-
-                return _tachiEConfigs;
-            }
-        }
+        protected static Dictionary<string, TachiEData> TachiEConfigs => _tachiEConfigs ??= GenerateConfig<TachiEData>("TachiEData");
         private static Dictionary<string, TachiEData> _tachiEConfigs;
 
-        protected static Dictionary<string, BackgroundPicData> BackgroundPicConfigs
-        {
-            get
-            {
-                if (_backgroundPicConfigs == null)
-                {
-                    _backgroundPicConfigs = new Dictionary<string, BackgroundPicData>();
-                    var narrationData = Resources.LoadAll<BackgroundPicData>("ScriptableObjects/BackgroundPicData");
-                    foreach (var narration in narrationData)
-                    {
-                        _backgroundPicConfigs.Add(narration.Id, narration);
-                    }
-                }
-
-                return _backgroundPicConfigs;
-            }
-        }
+        protected static Dictionary<string, BackgroundPicData> BackgroundPicConfigs => _backgroundPicConfigs ??= GenerateConfig<BackgroundPicData>("BackgroundPicData");
         private static Dictionary<string, BackgroundPicData> _backgroundPicConfigs;
+
+        protected static Dictionary<string, AudioData> AudioConfigs => _audioConfigs ??= GenerateConfig<AudioData>("AudioData");
+        private static Dictionary<string, AudioData> _audioConfigs;
+
+        private static Dictionary<string, T> GenerateConfig<T>(string pathName) where T : ScriptableObject, IHaveId
+        {
+            var configs = new Dictionary<string, T>();
+            var data = Resources.LoadAll<T>($"ScriptableObjects/{pathName}");
+            foreach (var item in data)
+            {
+                configs.Add(item.Id, item);
+            }
+
+            return configs;
+        }
     }
 
     public partial class GameDesignData
     {
+        public static bool GetData<T>(string id, out T data) where T : ScriptableObject , IHaveId
+        {
+            data = Resources.Load<T>($"ScriptableObjects/{typeof(T).Name}/{id}");
+            return data != null;
+        }
+
         public static bool GetTachiEData(string id, out TachiEData data) => TachiEConfigs.TryGetValue(id, out data);
         public static bool GetBackgroundPicData(string id, out BackgroundPicData data) => BackgroundPicConfigs.TryGetValue(id, out data);
+        public static bool GetAudioData(string id, out AudioData data) => AudioConfigs.TryGetValue(id, out data);
     }
 }

@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using Phosphorescence.DataSystem;
 using Phosphorescence.Narration.Common;
+using QFramework;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Animations;
@@ -22,6 +23,8 @@ namespace Phosphorescence.Narration
         private PlayableGraph _graph;
         private AnimationPlayableOutput animationOutputPlayable;
 
+        private float m_SleepTime = 0f;
+
         private OnLineReadEvent m_CurrentLineEvent;
         private Coroutine m_CurrentTypeTextCoroutine;
 
@@ -36,18 +39,35 @@ namespace Phosphorescence.Narration
             _graph.Destroy();
         }
 
-        public void Process(OnLineReadEvent e)
+        public void Initialize(OnLineReadEvent e)
         {
             m_CurrentLineEvent = e;
+
             IsComplete = false;
+            IsSkipped = false;
+            SkipAction = null;
+            m_SleepTime = 0f;
 
             this.SetAvatar(e.tags.TryGetValue("avatar", out var avatar) ? avatar : "")
                 .SetSpeaker(e.tags.TryGetValue("speaker", out var speaker) ? speaker : "")
                 .SetBackground(e.tags.TryGetValue("background_pic", out var backgroundPic) ? backgroundPic : "")
-                .SetSkippable(!e.tags.TryGetValue("skippable", out var skippable) || skippable == "true");
+                .SetSkippable(!e.tags.TryGetValue("skippable", out var skippable) || skippable == "true")
+                .SetSleepTime(e.tags.TryGetValue("sleep", out var sleep) ? float.Parse(sleep) : 0f)
+                .Process();
+        }
 
+        public void Process() => StartCoroutine(ProcessCoroutine());
+        private IEnumerator ProcessCoroutine()
+        {
             if (m_CurrentTypeTextCoroutine != null) StopCoroutine(m_CurrentTypeTextCoroutine);
-            m_CurrentTypeTextCoroutine = StartCoroutine(TypeTextCoroutine(Text, e.content));
+            m_CurrentTypeTextCoroutine = StartCoroutine(TypeTextCoroutine(Text, m_CurrentLineEvent.content));
+
+            yield return new WaitUntil(() => IsSkipped || m_CurrentTypeTextCoroutine == null);
+
+            yield return new WaitForSeconds(m_SleepTime);
+
+            IsComplete = true;
+            if (IsAuto) TypeEventSystem.Global.Send<RequestNewLineEvent>();
         }
 
         private IEnumerator TypeTextCoroutine(TMP_Text textfield, string text, float speed = 1 / 24f)
@@ -66,7 +86,6 @@ namespace Phosphorescence.Narration
             textfield.SetText(text);
 
             m_CurrentTypeTextCoroutine = null;
-            IsComplete = true;
         }
 
         private AvatarTextComponent SetContent(string content)
@@ -159,10 +178,16 @@ namespace Phosphorescence.Narration
                 if (m_CurrentTypeTextCoroutine != null) StopCoroutine(m_CurrentTypeTextCoroutine);
                 SetContent(m_CurrentLineEvent.content);
                 
-                IsComplete = true;
+                IsSkipped = true;
                 SkipAction = null;
             };
 
+            return this;
+        }
+
+        private AvatarTextComponent SetSleepTime(float sleepTime = 0f)
+        {
+            m_SleepTime = sleepTime;
             return this;
         }
     }

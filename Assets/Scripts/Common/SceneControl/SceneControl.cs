@@ -284,9 +284,9 @@ namespace Common.SceneControl
 
                 TypeEventSystem.Global.Send<OnSceneControlActivatedEvent>();
 
-                yield return CanvasGroup.LinearTransition(0.2f);
+                yield return CanvasGroup.LinearTransition(0.2f, 0f);
                 LoadingPanelCG.Progress = 1;
-                yield return BlackLayerCG.InverseLinearTransition(0.2f);
+                yield return BlackLayerCG.InverseLinearTransition(0.2f, 0f);
 
                 yield return new WaitForSeconds(0.5f);
             }
@@ -294,9 +294,9 @@ namespace Common.SceneControl
             {
                 TypeEventSystem.Global.Send<OnSceneControlDeactivatedEvent>();
 
-                yield return BlackLayerCG.LinearTransition(0.2f);
+                yield return BlackLayerCG.LinearTransition(0.2f, 0f);
                 LoadingPanelCG.Progress = 0;
-                yield return CanvasGroup.InverseLinearTransition(0.2f);
+                yield return CanvasGroup.InverseLinearTransition(0.2f, 0f);
             }
         }
     }

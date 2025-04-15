@@ -1,11 +1,5 @@
 using System;
-using System.Collections;
-using System.Collections.Generic;
-using Kuchinashi;
 using Kuchinashi.Utils.Progressable;
-using Phosphorescence.DataSystem;
-using Phosphorescence.Narration.Common;
-using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -15,6 +9,8 @@ namespace Phosphorescence.Narration
     {
         public CanvasGroupAlphaProgressable CanvasGroup;
         public bool IsComplete { get; protected set; }
+        public bool IsSkipped { get; protected set; }
+        public bool IsAuto { get; protected set; }
         public Action SkipAction;
     }
 }

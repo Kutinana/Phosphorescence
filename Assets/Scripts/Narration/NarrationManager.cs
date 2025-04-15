@@ -18,7 +18,9 @@ namespace Phosphorescence.Narration
         RightAvatarText,
         FullScreenText,
         LeftAvatarOptions,
-        RightAvatarOptions
+        RightAvatarOptions,
+        SubtitleText,
+        Special
     }
 
     public partial class NarrationManager : MonoSingleton<NarrationManager>
@@ -44,6 +46,8 @@ namespace Phosphorescence.Narration
             StateMachine.AddState(NarrationType.RightAvatarText, new RightAvatarTextState(StateMachine, this));
             StateMachine.AddState(NarrationType.FullScreenText, new FullScreenTextState(StateMachine, this));
             StateMachine.AddState(NarrationType.LeftAvatarOptions, new LeftAvatarOptionsState(StateMachine, this));
+            StateMachine.AddState(NarrationType.SubtitleText, new SubtitleTextState(StateMachine, this));
+            StateMachine.AddState(NarrationType.Special, new SpecialState(StateMachine, this));
             StateMachine.StartState(NarrationType.None);
 
             TypeEventSystem.Global.Register<OnLineReadEvent>(e => {
@@ -76,18 +80,11 @@ namespace Phosphorescence.Narration
 
         private void OnLineReceived(OnLineReadEvent e)
         {
-            if (e.content == "$EMPTY")  // Situation for tag-only line
+            if (e.content.StartsWith("$"))  // Situation for special line
             {
-                StateMachine.ChangeState(NarrationType.None);
-                if (e.tags.TryGetValue("sleep", out var sleepTime))
-                {
-                    m_CanReceiveInput = false;
-                    // StartCoroutine(ContinueAfterSleep(float.Parse(sleepTime)));
-                    return;
-                }
+                StateMachine.ChangeState(NarrationType.Special);
+                Components[NarrationType.Special].GetComponent<SpecialLineComponent>().Initialize(e);
 
-                // Notify the system to request a new line
-                TypeEventSystem.Global.Send<RequestNewLineEvent>();
                 return;
             }
 
@@ -101,7 +98,7 @@ namespace Phosphorescence.Narration
             StateMachine.ChangeState(type);
             if (Components.TryGetValue(type, out var controller) && controller.TryGetComponent<ICanProcessLine>(out var component))
             {
-                component.Process(e);
+                component.Initialize(e);
             }
         }
 
@@ -209,6 +206,29 @@ namespace Phosphorescence.Narration
             {
                 mTarget.Components[NarrationType.LeftAvatarOptions].CanvasGroup.InverseLinearTransition(0.2f);
             }
+        }
+
+        public class SubtitleTextState : AbstractState<NarrationType, NarrationManager>
+        {
+            public SubtitleTextState(FSM<NarrationType> fsm, NarrationManager target) : base(fsm, target) { }
+            protected override bool OnCondition() => mFSM.CurrentStateId is not NarrationType.SubtitleText;
+            protected override void OnEnter()
+            {
+                mTarget.Components[NarrationType.SubtitleText].CanvasGroup.LinearTransition(0.2f);
+                mTarget.m_CurrentComponent = mTarget.Components[NarrationType.SubtitleText];
+            }
+            protected override void OnExit()
+            {
+                mTarget.Components[NarrationType.SubtitleText].CanvasGroup.InverseLinearTransition(0.2f);
+            }
+        }
+
+        public class SpecialState : AbstractState<NarrationType, NarrationManager>
+        {
+            public SpecialState(FSM<NarrationType> fsm, NarrationManager target) : base(fsm, target) { }
+            protected override bool OnCondition() => mFSM.CurrentStateId is not NarrationType.Special;
+            protected override void OnEnter() { }
+            protected override void OnExit() { }
         }
     }
 }

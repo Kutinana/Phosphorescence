@@ -12,14 +12,13 @@ using UnityEngine.UI;
 
 namespace Phosphorescence.Narration
 {
-    public class FullScreenTextComponent : NarrationComponent , ICanProcessLine
+    public class SubtitleTextComponent : NarrationComponent , ICanProcessLine
     {
         [Header("References")]
-        public Image Background;
-        public Image BackgroundOverlay;
         public TMP_Text Text;
 
         private float m_SleepTime = 0f;
+        private float m_Duration = 3f;
 
         private OnLineReadEvent m_CurrentLineEvent;
         private Coroutine m_CurrentTypeTextCoroutine;
@@ -32,11 +31,11 @@ namespace Phosphorescence.Narration
             IsSkipped = false;
             IsAuto = e.tags.TryGetValue("auto", out var auto) && auto == "true";
             SkipAction = null;
-            m_SleepTime = e.tags.TryGetValue("sleep", out var sleep) ? float.Parse(sleep) : 0f;
 
-            this.SetBackground(e.tags.TryGetValue("background_pic", out var backgroundPic) ? backgroundPic : "")
-                .SetOpacity(e.tags.TryGetValue("opacity", out var opacity) ? float.Parse(opacity) : 0f)
-                .SetSkippable(!e.tags.TryGetValue("skippable", out var skippable) || skippable == "true")
+            m_SleepTime = e.tags.TryGetValue("sleep", out var sleep) ? float.Parse(sleep) : 0f;
+            m_Duration = e.tags.TryGetValue("duration", out var duration) ? float.Parse(duration) : 3f;
+
+            this.SetSkippable(!e.tags.TryGetValue("skippable", out var skippable) || skippable == "true")
                 .Process();
         }
 
@@ -44,7 +43,7 @@ namespace Phosphorescence.Narration
         private IEnumerator ProcessCoroutine()
         {
             if (m_CurrentTypeTextCoroutine != null) StopCoroutine(m_CurrentTypeTextCoroutine);
-            m_CurrentTypeTextCoroutine = StartCoroutine(TypeTextCoroutine(Text, m_CurrentLineEvent.content));
+            m_CurrentTypeTextCoroutine = StartCoroutine(FadeTextCoroutine(Text, m_CurrentLineEvent.content, m_Duration));
 
             yield return new WaitUntil(() => IsSkipped || m_CurrentTypeTextCoroutine == null);
 
@@ -54,36 +53,35 @@ namespace Phosphorescence.Narration
             if (IsAuto) TypeEventSystem.Global.Send<RequestNewLineEvent>();
         }
 
-        private FullScreenTextComponent SetBackground(string background = "")
-        {
-            if (Background == null) return this;
-
-            if (GameDesignData.GetBackgroundPicData(background, out var backgroundConfig))
-            {
-                Background.sprite = backgroundConfig.sprite ?? null;
-                Background.SetNativeSize();
-
-                Background.rectTransform.localPosition = backgroundConfig.positionOffset;
-                Background.transform.localScale = backgroundConfig.scaleOffset;
-                Background.transform.localEulerAngles = backgroundConfig.rotationOffset;
-
-                Background.color = Color.white;
-            }
-            else Background.color = new Color(0, 0, 0, 0);
-
-            return this;
-        }
-
-        private FullScreenTextComponent SetContent(string content)
+        private SubtitleTextComponent SetContent(string content)
         {
             Text.SetText(content);
             return this;
         }
 
-        private FullScreenTextComponent SetOpacity(float opacity = 0f)
+        private IEnumerator FadeTextCoroutine(TMP_Text textfield, string content, float duration = 3f)
         {
-            if (BackgroundOverlay != null) BackgroundOverlay.color = new Color(0, 0, 0, opacity);
-            return this;
+            textfield.alpha = 0f;
+            textfield.SetText(content);
+
+            while (!Mathf.Approximately(textfield.alpha, 1f))
+            {
+                textfield.alpha = Mathf.MoveTowards(textfield.alpha, 1f, 0.05f);
+                yield return null;
+            }
+            textfield.alpha = 1f;
+
+            var actualDuration = duration != 3f ? duration : content.Length * 0.15f > 3f ? content.Length * 0.15f : 3f;
+            yield return new WaitForSeconds(actualDuration);
+
+            while (!Mathf.Approximately(textfield.alpha, 0f))
+            {
+                textfield.alpha = Mathf.MoveTowards(textfield.alpha, 0f, 0.05f);
+                yield return null;
+            }
+            textfield.alpha = 0f;
+
+            m_CurrentTypeTextCoroutine = null;
         }
 
         private IEnumerator TypeTextCoroutine(TMP_Text textfield, string text, float speed = 1 / 24f)
@@ -101,7 +99,7 @@ namespace Phosphorescence.Narration
             m_CurrentTypeTextCoroutine = null;
         }
 
-        private FullScreenTextComponent SetSkippable(bool skippable = true)
+        private SubtitleTextComponent SetSkippable(bool skippable = true)
         {
             if (!skippable)
             {
