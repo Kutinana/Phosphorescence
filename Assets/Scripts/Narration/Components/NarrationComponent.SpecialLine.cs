@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using Phosphorescence.DataSystem;
+using Phosphorescence.Game;
 using Phosphorescence.Narration.Common;
 using QFramework;
 using TMPro;
@@ -43,10 +44,14 @@ namespace Phosphorescence.Narration
             switch(command)
             {
                 case "enable_interaction":
-                    InputSystem.actions.Enable();
+                    GameManager.Instance.moveAction.Enable();
+                    GameManager.Instance.climbAction.Enable();
+                    GameManager.Instance.interactAction.Enable();
                     break;
                 case "disable_interaction":
-                    InputSystem.actions.Disable();
+                    GameManager.Instance.moveAction.Disable();
+                    GameManager.Instance.climbAction.Disable();
+                    GameManager.Instance.interactAction.Disable();
                     break;
                 case "sleep" when args.Length == 1:
                     yield return new WaitForSeconds(float.Parse(args[0]));
@@ -57,6 +62,9 @@ namespace Phosphorescence.Narration
                     {
                         AudioKit.PlayMusic(audioConfig.clip, loop: audioConfig.isLoop);
                     }
+                    break;
+                case "event" when args.Length == 1:
+                    TypeEventSystem.Global.Send(new OnStoryEventTriggerEvent { eventName = args[0] });
                     break;
             }
 

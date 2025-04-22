@@ -1,32 +1,29 @@
-using System;
 using System.Collections;
 using Phosphorescence.DataSystem;
 using Phosphorescence.Narration.Common;
 using QFramework;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.Animations;
 using UnityEngine.Playables;
-using UnityEngine.UI;
 
 namespace Phosphorescence.Narration
 {
-    public class AvatarTextComponent : NarrationComponent , ICanProcessLine
+    public class AvatarOptionsComponent : NarrationComponent , ICanProcessLines
     {
         [Header("References")]
         public Image Avatar;
-        public Image Background;
-        public TMP_Text Text;
-        public TMP_Text Speaker;
         public Animator AvatarAnimator;
+        public Image Background;
+        public Transform OptionParent;
+        public GameObject OptionTemplate;
 
         private PlayableGraph _graph;
         private AnimationPlayableOutput animationOutputPlayable;
 
         private float m_SleepTime = 0f;
-
-        private OnLineReadEvent m_CurrentLineEvent;
-        private Coroutine m_CurrentTypeTextCoroutine;
+        private OnLinesReadEvent m_CurrentLineEvent;
 
         private void OnEnable()
         {
@@ -39,71 +36,38 @@ namespace Phosphorescence.Narration
             _graph.Destroy();
         }
 
-        public void Initialize(OnLineReadEvent e)
+        public void Initialize(OnLinesReadEvent e)
         {
             m_CurrentLineEvent = e;
 
             IsComplete = false;
             IsSkipped = false;
-            IsAuto = e.tags.TryGetValue("auto", out var auto) && auto == "true";
-            SkipAction = null;
-            m_SleepTime = 0f;
+            m_SleepTime = e.tags.TryGetValue("sleep", out var sleepTag) ? float.Parse(sleepTag) : 0f;
 
-            this.SetAvatar(e.tags.TryGetValue("avatar", out var avatar) ? avatar : "")
-                .SetSpeaker(e.tags.TryGetValue("speaker", out var speaker) ? speaker : "")
-                .SetBackground(e.tags.TryGetValue("background_pic", out var backgroundPic) ? backgroundPic : "")
-                .SetSkippable(!e.tags.TryGetValue("skippable", out var skippable) || skippable == "true")
-                .SetSleepTime(e.tags.TryGetValue("sleep", out var sleep) ? float.Parse(sleep) : 0f)
+            Clear();
+            int index = 0;
+            foreach (var line in e.lines)
+            {
+                SetOption(line, index++);
+            }
+
+            this.SetAvatar(e.tags.TryGetValue("avatar", out var avatarTag) ? avatarTag : "")
+                .SetBackground(e.tags.TryGetValue("background_pic", out var backgroundPicTag) ? backgroundPicTag : "")
                 .Process();
+            
         }
 
         public void Process() => StartCoroutine(ProcessCoroutine());
         private IEnumerator ProcessCoroutine()
         {
-            if (m_CurrentTypeTextCoroutine != null) StopCoroutine(m_CurrentTypeTextCoroutine);
-            m_CurrentTypeTextCoroutine = StartCoroutine(TypeTextCoroutine(Text, m_CurrentLineEvent.content));
-
-            yield return new WaitUntil(() => IsSkipped || m_CurrentTypeTextCoroutine == null);
+            yield return new WaitUntil(() => IsComplete);
 
             yield return new WaitForSeconds(m_SleepTime);
 
             IsComplete = true;
-            if (IsAuto) TypeEventSystem.Global.Send<RequestNewLineEvent>();
         }
 
-        private IEnumerator TypeTextCoroutine(TMP_Text textfield, string text, float speed = 1 / 24f)
-        {
-            textfield.SetText("");
-            textfield.ForceMeshUpdate();
-
-            var len = text.Length;
-
-            for (var i = 0; i < len; i++)
-            {
-                textfield.text += text[i];
-                // if (text[i] is not ' ' or '\r' or '\n') AudioKit.PlaySound("InteractClick");
-                yield return new WaitForSeconds(speed);
-            }
-            textfield.SetText(text);
-
-            m_CurrentTypeTextCoroutine = null;
-        }
-
-        private AvatarTextComponent SetContent(string content)
-        {
-            Text.SetText(content);
-            return this;
-        }
-
-        private AvatarTextComponent SetSpeaker(string speaker = "")
-        {
-            if (Speaker == null) return this;
-
-            Speaker.SetText(speaker);
-            return this;
-        }
-
-        private AvatarTextComponent SetAvatar(string avatar = "")
+        private AvatarOptionsComponent SetAvatar(string avatar = "")
         {
             if (Avatar == null) return this;
 
@@ -147,7 +111,7 @@ namespace Phosphorescence.Narration
             return this;
         }
 
-        private AvatarTextComponent SetBackground(string background = "")
+        private AvatarOptionsComponent SetBackground(string background = "")
         {
             if (Background == null) return this;
 
@@ -167,29 +131,26 @@ namespace Phosphorescence.Narration
             return this;
         }
 
-        private AvatarTextComponent SetSkippable(bool skippable = true)
+        private void SetOption(OnLineReadEvent line, int index)
         {
-            if (!skippable)
-            {
-                SkipAction = null;
-                return this;
-            }
+            var option = Instantiate(OptionTemplate, OptionParent);
 
-            SkipAction = () => {
-                if (m_CurrentTypeTextCoroutine != null) StopCoroutine(m_CurrentTypeTextCoroutine);
-                SetContent(m_CurrentLineEvent.content);
-                
-                IsSkipped = true;
-                SkipAction = null;
-            };
+            option.GetComponent<TMP_Text>().SetText(line.content);
+            option.GetComponent<Button>().onClick.AddListener(() => {
+                TypeEventSystem.Global.Send(new SelectOptionEvent() { index = index });
+                IsComplete = true;
+            });
 
-            return this;
+            option.SetActive(true);
         }
 
-        private AvatarTextComponent SetSleepTime(float sleepTime = 0f)
+        private void Clear()
         {
-            m_SleepTime = sleepTime;
-            return this;
+            foreach (Transform child in OptionParent)
+            {
+                if (child == OptionTemplate.transform) continue;
+                Destroy(child.gameObject);
+            }
         }
     }
 }

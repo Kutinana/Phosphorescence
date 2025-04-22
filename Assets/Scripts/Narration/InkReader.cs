@@ -42,36 +42,44 @@ namespace Phosphorescence.Narration
         {
             if (_currentStory == null) return;
 
+            Debug.Log($"Continue: {_currentStory.canContinue}\n{_currentStory.currentText}\n{string.Join(", ", _currentStory.currentTags)}");
+
             if (_currentStory.canContinue)
             {
                 _currentStory.Continue();
 
-                var content = _currentStory.currentText;
-                var tags = ParseTags(_currentStory.currentTags);
-
-                TypeEventSystem.Global.Send(new OnLineReadEvent
+                if (_currentStory.currentChoices.Count > 0)
                 {
-                    content = content,
-                    tags = tags
-                });
-            }
-            else if (_currentStory.currentChoices.Count > 0)
-            {
-                var linesEvent = new OnLinesReadEvent();
-                linesEvent.lines = new();
-                linesEvent.tags = ParseTags(_currentStory.currentTags);
-
-                foreach (var choice in _currentStory.currentChoices)
-                {
-                    linesEvent.lines.Add(new OnLineReadEvent
+                    var linesEvent = new OnLinesReadEvent
                     {
-                        content = choice.text,
-                        tags = ParseTags(choice.tags)
+                        lines = new(),
+                        tags = ParseTags(_currentStory.currentTags)
+                    };
+
+                    foreach (var choice in _currentStory.currentChoices)
+                    {
+                        linesEvent.lines.Add(new OnLineReadEvent
+                        {
+                            content = choice.text,
+                            tags = ParseTags(choice.tags)
+                        });
+                    }
+
+                    TypeEventSystem.Global.Send(linesEvent);
+                }
+                else
+                {
+                    var content = _currentStory.currentText;
+                    var tags = ParseTags(_currentStory.currentTags);
+
+                    TypeEventSystem.Global.Send(new OnLineReadEvent
+                    {
+                        content = content,
+                        tags = tags
                     });
                 }
-
-                TypeEventSystem.Global.Send(linesEvent);
             }
+            else if (_currentStory.currentChoices.Count > 0) return;
             else  // Story End
             {
                 TypeEventSystem.Global.Send(new OnStoryEndEvent());
@@ -114,6 +122,10 @@ namespace Phosphorescence.Narration
     }
 
     public struct OnStoryEndEvent {}
+
+    public struct OnStoryEventTriggerEvent {
+        public string eventName;
+    }
 
     public struct RequestNewLineEvent {}
 

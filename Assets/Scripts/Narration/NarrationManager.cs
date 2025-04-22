@@ -19,6 +19,7 @@ namespace Phosphorescence.Narration
         FullScreenText,
         LeftAvatarOptions,
         RightAvatarOptions,
+        FullScreenOptions,
         SubtitleText,
         Special
     }
@@ -46,6 +47,7 @@ namespace Phosphorescence.Narration
             StateMachine.AddState(NarrationType.RightAvatarText, new RightAvatarTextState(StateMachine, this));
             StateMachine.AddState(NarrationType.FullScreenText, new FullScreenTextState(StateMachine, this));
             StateMachine.AddState(NarrationType.LeftAvatarOptions, new LeftAvatarOptionsState(StateMachine, this));
+            StateMachine.AddState(NarrationType.FullScreenOptions, new FullScreenOptionsState(StateMachine, this));
             StateMachine.AddState(NarrationType.SubtitleText, new SubtitleTextState(StateMachine, this));
             StateMachine.AddState(NarrationType.Special, new SpecialState(StateMachine, this));
             StateMachine.StartState(NarrationType.None);
@@ -111,10 +113,11 @@ namespace Phosphorescence.Narration
             }
             var type = Enum.Parse<NarrationType>(rawType);
 
-            StateMachine.ChangeState(type);
             if (Components.TryGetValue(type, out var controller) && controller.TryGetComponent<ICanProcessLines>(out var component))
             {
-                component.Process(e);
+                Debug.Log(type);
+                component.Initialize(e);
+                StateMachine.ChangeState(type);
             }
             else
             {
@@ -208,6 +211,21 @@ namespace Phosphorescence.Narration
             }
         }
 
+        public class FullScreenOptionsState : AbstractState<NarrationType, NarrationManager>
+        {
+            public FullScreenOptionsState(FSM<NarrationType> fsm, NarrationManager target) : base(fsm, target) { }
+            protected override bool OnCondition() => mFSM.CurrentStateId is not NarrationType.FullScreenOptions;
+            protected override void OnEnter()
+            {
+                mTarget.Components[NarrationType.FullScreenOptions].CanvasGroup.LinearTransition(0.2f);
+                mTarget.m_CurrentComponent = mTarget.Components[NarrationType.FullScreenOptions];
+            }
+            protected override void OnExit()
+            {
+                mTarget.Components[NarrationType.FullScreenOptions].CanvasGroup.InverseLinearTransition(0.2f);
+            }
+        }
+
         public class SubtitleTextState : AbstractState<NarrationType, NarrationManager>
         {
             public SubtitleTextState(FSM<NarrationType> fsm, NarrationManager target) : base(fsm, target) { }
@@ -227,7 +245,10 @@ namespace Phosphorescence.Narration
         {
             public SpecialState(FSM<NarrationType> fsm, NarrationManager target) : base(fsm, target) { }
             protected override bool OnCondition() => mFSM.CurrentStateId is not NarrationType.Special;
-            protected override void OnEnter() { }
+            protected override void OnEnter()
+            {
+                mTarget.m_CurrentComponent = mTarget.Components[NarrationType.Special];
+            }
             protected override void OnExit() { }
         }
     }

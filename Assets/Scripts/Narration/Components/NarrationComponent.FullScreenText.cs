@@ -34,6 +34,8 @@ namespace Phosphorescence.Narration
             SkipAction = null;
             m_SleepTime = e.tags.TryGetValue("sleep", out var sleep) ? float.Parse(sleep) : 0f;
 
+            Text.SetText("");
+
             this.SetBackground(e.tags.TryGetValue("background_pic", out var backgroundPic) ? backgroundPic : "")
                 .SetOpacity(e.tags.TryGetValue("opacity", out var opacity) ? float.Parse(opacity) : 0f)
                 .SetSkippable(!e.tags.TryGetValue("skippable", out var skippable) || skippable == "true")
