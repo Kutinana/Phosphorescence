@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using Ink.Runtime;
 using UnityEngine;
 using QFramework;
+using Phosphorescence.DataSystem;
+
 
 
 #if UNITY_EDITOR
@@ -15,12 +17,19 @@ namespace Phosphorescence.Narration
 {
     public class InkReader : MonoBehaviour
     {
+        private PlotData _currentPlot;
         private Story _currentStory;
         public TextAsset ToInitializeStory { get; set; }
 
         private void Awake()
         {
-            TypeEventSystem.Global.Register<RequestNewLineEvent>(e => Continue()).UnRegisterWhenGameObjectDestroyed(gameObject);
+            TypeEventSystem.Global.Register<InitializeStoryEvent>(e => {
+                _currentPlot = e.plot;
+                Initialize(e.plot.Script).Continue();
+            }).UnRegisterWhenGameObjectDestroyed(gameObject);
+
+            TypeEventSystem.Global.Register<RequestNewLineEvent>(e => Continue())
+                .UnRegisterWhenGameObjectDestroyed(gameObject);
 
             TypeEventSystem.Global.Register<SelectOptionEvent>(e => {
                 if (_currentStory == null) return;
@@ -82,7 +91,7 @@ namespace Phosphorescence.Narration
             else if (_currentStory.currentChoices.Count > 0) return;
             else  // Story End
             {
-                TypeEventSystem.Global.Send(new OnStoryEndEvent());
+                TypeEventSystem.Global.Send(new OnStoryEndEvent() { plot = _currentPlot });
                 _currentStory = null;
             }
         }
@@ -111,6 +120,10 @@ namespace Phosphorescence.Narration
         }
     }
 
+    public struct InitializeStoryEvent {
+        public PlotData plot;
+    }
+
     public struct OnLineReadEvent {
         public string content;
         public Dictionary<string, string> tags;
@@ -121,7 +134,9 @@ namespace Phosphorescence.Narration
         public List<OnLineReadEvent> lines;
     }
 
-    public struct OnStoryEndEvent {}
+    public struct OnStoryEndEvent {
+        public PlotData plot;
+    }
 
     public struct OnStoryEventTriggerEvent {
         public string eventName;

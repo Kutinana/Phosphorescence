@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Kuchinashi;
 using Kuchinashi.Utils.Progressable;
+using Phosphorescence.DataSystem;
 using Phosphorescence.Game;
 using QFramework;
 using TMPro;
@@ -28,6 +29,9 @@ namespace Phosphorescence.Narration
     {
         public FSM<NarrationType> StateMachine => Instance._stateMachine ??= new();
         private FSM<NarrationType> _stateMachine;
+
+        private PlotData m_currentPlot;
+        public bool IsNarrationActive => m_currentPlot != null;
 
         public Progressable BlackEdgeProgressable;
         private NarrationComponent m_CurrentComponent;
@@ -62,7 +66,27 @@ namespace Phosphorescence.Narration
 
             TypeEventSystem.Global.Register<OnStoryEndEvent>(e => {
                 StateMachine.ChangeState(NarrationType.None);
+
+                GameProgressData.Instance.FinishPlot(m_currentPlot.Id);
+                m_currentPlot = null;
             }).UnRegisterWhenGameObjectDestroyed(gameObject);
+        }
+
+        public void StartNarration(string plotId)
+        {
+            if (IsNarrationActive) return;
+
+            if (GameDesignData.GetData<PlotData>(plotId, out var plot))
+            {
+                m_currentPlot = plot;
+                StateMachine.ChangeState(NarrationType.None);
+
+                TypeEventSystem.Global.Send(new InitializeStoryEvent { plot = plot });
+            }
+            else
+            {
+                Debug.LogError($"Plot {plotId} not found");
+            }
         }
 
         private void Update()

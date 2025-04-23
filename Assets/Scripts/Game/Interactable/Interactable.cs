@@ -7,8 +7,11 @@ namespace Phosphorescence.Game
 {   
     public abstract class Interactable : MonoBehaviour , IInteractable
     {
-        public bool IsInteractable = true;
-        public System.Action InteractAction { get; set; }
+        public bool IsInteractable { get => _isInteractable; set => _isInteractable = value; }
+        [SerializeField] private bool _isInteractable = true;
+
+        public virtual System.Action InteractAction { get; set; }
+        public virtual System.Action HoverAction { get; set; }
 
         public void OnInteract(IInteractor interactor)
         {
@@ -16,6 +19,14 @@ namespace Phosphorescence.Game
 
             Debug.Log("Interacted with " + interactor);
             InteractAction?.Invoke();
+        }
+
+        public void OnHover(IInteractor interactor)
+        {
+            if (!IsInteractable) throw new System.Exception("Not Interactable");
+
+            Debug.Log("Hovered with " + interactor);
+            HoverAction?.Invoke();
         }
     }
 }
