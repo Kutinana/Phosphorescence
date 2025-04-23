@@ -12,23 +12,35 @@ namespace Phosphorescence.Game
 
         private void SelectInteractable()
         {
+            IInteractable interactable = null;
             if (m_Interactables.Count == 0 || m_Interactables.All(i => !i.IsInteractable))
             {
+                if (m_CurrentInteractTarget != null && m_CurrentInteractTarget.TryGetComponent<IInteractable>(out interactable))
+                {
+                    interactable.OnUnhover(this);
+                }
+
                 m_CurrentInteractTarget = null;
                 return;
             }
 
-            foreach (var interactable in m_Interactables.Where(i => i.IsInteractable))
+            foreach (var i in m_Interactables.Where(i => i.IsInteractable))
             {
                 if (m_CurrentInteractTarget == null)
                 {
-                    m_CurrentInteractTarget = interactable;
+                    m_CurrentInteractTarget = i;
                 }
-                else if (Vector2.Distance(transform.position, interactable.transform.position) <
+                else if (Vector2.Distance(transform.position, i.transform.position) <
                          Vector2.Distance(transform.position, m_CurrentInteractTarget.transform.position))
                 {
-                    m_CurrentInteractTarget = interactable;
+                    m_CurrentInteractTarget = i;
                 }
+            }
+
+            if (m_CurrentInteractTarget != null && m_CurrentInteractTarget.IsInteractable
+                && m_CurrentInteractTarget.TryGetComponent<IInteractable>(out interactable))
+            {
+                interactable.OnHover(this);
             }
         }
 

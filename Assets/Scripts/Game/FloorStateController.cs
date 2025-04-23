@@ -44,6 +44,10 @@ namespace Phosphorescence.Game
                 {
                     light.enabled = true;
                 }
+                foreach (var audioSource in mTarget.AudioSources)
+                {
+                    audioSource.enabled = true;
+                }
 
                 mTarget.Mask.SetActive(false);
             }
@@ -62,6 +66,10 @@ namespace Phosphorescence.Game
                 foreach (var light in mTarget.Lights)
                 {
                     light.enabled = false;
+                }
+                foreach (var audioSource in mTarget.AudioSources)
+                {
+                    audioSource.enabled = false;
                 }
 
                 mTarget.Mask.SetActive(true);

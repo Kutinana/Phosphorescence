@@ -12,6 +12,7 @@ namespace Phosphorescence.Game
 
         public virtual System.Action InteractAction { get; set; }
         public virtual System.Action HoverAction { get; set; }
+        public virtual System.Action UnhoverAction { get; set; }
 
         public void OnInteract(IInteractor interactor)
         {
@@ -27,6 +28,12 @@ namespace Phosphorescence.Game
 
             Debug.Log("Hovered with " + interactor);
             HoverAction?.Invoke();
+        }
+
+        public void OnUnhover(IInteractor interactor)
+        {
+            Debug.Log("Unhovered with " + interactor);
+            UnhoverAction?.Invoke();
         }
     }
 }
