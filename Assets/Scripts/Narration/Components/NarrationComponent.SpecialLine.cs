@@ -63,6 +63,19 @@ namespace Phosphorescence.Narration
                         AudioKit.PlayMusic(audioConfig.clip, loop: audioConfig.isLoop);
                     }
                     break;
+                case "stop_music":
+                    AudioKit.StopMusic();
+                    break;
+                case "sfx" when args.Length == 1:
+                    GameDesignData.GetAudioData(args[0], out var sfxConfig);
+                    if (sfxConfig != null)
+                    {
+                        AudioKit.PlaySound(sfxConfig.clip);
+                    }
+                    break;
+                case "stop_sfx":
+                    AudioKit.StopAllSound();
+                    break;
                 case "event" when args.Length == 1:
                     TypeEventSystem.Global.Send(new OnStoryEventTriggerEvent { eventName = args[0] });
                     break;

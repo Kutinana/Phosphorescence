@@ -1,0 +1,455 @@
+fileFormatVersion: 2
+guid: 64cb7cd6b83e2493a8f280825d9fd9ba
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5171975932870756630
+    second: mothvia_text_0
+  - first:
+      213: -8576497738043657921
+    second: mothvia_text_1
+  - first:
+      213: 7565692138483745279
+    second: mothvia_text_2
+  - first:
+      213: -8854266106325055866
+    second: mothvia_text_3
+  - first:
+      213: 6323314110210390630
+    second: mothvia_text_4
+  - first:
+      213: 4453313911806615236
+    second: mothvia_text_5
+  - first:
+      213: -5939222538415579790
+    second: mothvia_text_6
+  - first:
+      213: -5431070538645002999
+    second: mothvia_text_7
+  - first:
+      213: -6004627632277985061
+    second: mothvia_text_8
+  - first:
+      213: 8027591036549252452
+    second: mothvia_text_9
+  - first:
+      213: 6347101172049740729
+    second: mothvia_text_10
+  - first:
+      213: -2400064369922604054
+    second: mothvia_text_11
+  - first:
+      213: 2991362127383984566
+    second: mothvia_text_12
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: mothvia_text_0
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 80
+        width: 222
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61981a965bc86c740800000000000000
+      internalID: 5171975932870756630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mothvia_text_1
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 79
+        width: 137
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3177fa5fb82af880800000000000000
+      internalID: -8576497738043657921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mothvia_text_2
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 81
+        width: 123
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff10a4a4aecbef860800000000000000
+      internalID: 7565692138483745279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mothvia_text_3
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 81
+        width: 142
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 686c6b163e35f1580800000000000000
+      internalID: -8854266106325055866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mothvia_text_4
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 79
+        width: 147
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66a3e4e4eace0c750800000000000000
+      internalID: 6323314110210390630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mothvia_text_5
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 81
+        width: 62
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ced98a78695dcd30800000000000000
+      internalID: 4453313911806615236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mothvia_text_6
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 81
+        width: 147
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27ddeb39194a39da0800000000000000
+      internalID: -5939222538415579790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mothvia_text_7
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 78
+        width: 129
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 905a9f1ce16f0a4b0800000000000000
+      internalID: -5431070538645002999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mothvia_text_8
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 81
+        width: 123
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd863997bf64baca0800000000000000
+      internalID: -6004627632277985061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mothvia_text_9
+      rect:
+        serializedVersion: 2
+        x: 1409
+        y: 79
+        width: 138
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 465c0a7048bb76f60800000000000000
+      internalID: 8027591036549252452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mothvia_text_10
+      rect:
+        serializedVersion: 2
+        x: 1553
+        y: 81
+        width: 144
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b38d7933ee651850800000000000000
+      internalID: 6347101172049740729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mothvia_text_11
+      rect:
+        serializedVersion: 2
+        x: 1709
+        y: 81
+        width: 62
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae301b0fb2241bed0800000000000000
+      internalID: -2400064369922604054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mothvia_text_12
+      rect:
+        serializedVersion: 2
+        x: 1783
+        y: 79
+        width: 137
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b977458104738920800000000000000
+      internalID: 2991362127383984566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      mothvia_text_0: 5171975932870756630
+      mothvia_text_1: -8576497738043657921
+      mothvia_text_10: 6347101172049740729
+      mothvia_text_11: -2400064369922604054
+      mothvia_text_12: 2991362127383984566
+      mothvia_text_2: 7565692138483745279
+      mothvia_text_3: -8854266106325055866
+      mothvia_text_4: 6323314110210390630
+      mothvia_text_5: 4453313911806615236
+      mothvia_text_6: -5939222538415579790
+      mothvia_text_7: -5431070538645002999
+      mothvia_text_8: -6004627632277985061
+      mothvia_text_9: 8027591036549252452
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

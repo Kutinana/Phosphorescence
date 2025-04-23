@@ -1,4 +1,6 @@
+using System.Collections;
 using System.Linq;
+using Common.SceneControl;
 using Phosphorescence.DataSystem;
 using Phosphorescence.Narration;
 using QFramework;
@@ -44,9 +46,6 @@ namespace Phosphorescence.Game
                     break;
                 case "0.1":
                     targetPlotId = "0.5";
-                    break;
-                default:
-                    Debug.LogError($"Plot {GameProgressData.Instance.CurrentPlotProgress} not found");
                     break;
             }
 

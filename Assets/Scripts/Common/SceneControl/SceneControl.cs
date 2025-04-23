@@ -9,8 +9,14 @@ using TMPro;
 using UnityEngine.Events;
 using Kuchinashi.Utils.Progressable;
 using System.Runtime.InteropServices;
+using Phosphorescence.Others;
+using Phosphorescence.DataSystem;
+using Phosphorescence.Game;
 
-# if UNITY_EDITOR
+
+
+
+#if UNITY_EDITOR
 
 using UnityEditor;
 
@@ -73,6 +79,29 @@ namespace Common.SceneControl
             // SceneManager.SetActiveScene(SceneManager.GetSceneByName(sceneName));
 
             SceneManager.UnloadSceneAsync(SceneManager.GetSceneByName("ControlScene"));
+
+            yield return null;
+
+            SplashScreenController.Instance.Initialize();
+
+            yield return SplashScreenController.Instance.FadeInGroup.LinearTransition(2f, 0f);
+
+            if (GameProgressData.Instance.IsPlotFinished("0.0"))
+            {
+                yield return new WaitForSeconds(0.5f);
+                yield return SplashScreenController.Instance.FadeOutGroup.InverseLinearTransition(0.5f, 0f);
+            }
+            else
+            {
+                yield return new WaitForSeconds(0.5f);
+                yield return SplashScreenController.Instance.ImageColorProgressable.LinearTransition(1f, 0f);
+                GameManager.Instance.ContinuePlot();
+
+                yield return new WaitForSeconds(3f);
+                yield return SplashScreenController.Instance.FadeOutGroup.InverseLinearTransition(0.5f, 0f);
+            }
+
+            TypeEventSystem.Global.Send<OnGameInitializedEvent>();
         }
 
         public static void SetActive(string targetSceneName)
