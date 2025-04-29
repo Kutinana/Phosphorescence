@@ -52,7 +52,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -131,10 +131,10 @@ TextureImporter:
       name: 11-Anemometer-sheet_0
       rect:
         serializedVersion: 2
-        x: 31
-        y: 619
-        width: 194
-        height: 42
+        x: 0
+        y: 512
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,10 +153,10 @@ TextureImporter:
       name: 11-Anemometer-sheet_1
       rect:
         serializedVersion: 2
-        x: 295
-        y: 619
-        width: 178
-        height: 42
+        x: 256
+        y: 512
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -175,10 +175,10 @@ TextureImporter:
       name: 11-Anemometer-sheet_2
       rect:
         serializedVersion: 2
-        x: 55
-        y: 363
-        width: 150
-        height: 42
+        x: 0
+        y: 256
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -197,10 +197,10 @@ TextureImporter:
       name: 11-Anemometer-sheet_3
       rect:
         serializedVersion: 2
-        x: 299
-        y: 363
-        width: 174
-        height: 42
+        x: 256
+        y: 256
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -219,10 +219,10 @@ TextureImporter:
       name: 11-Anemometer-sheet_4
       rect:
         serializedVersion: 2
-        x: 35
-        y: 107
-        width: 190
-        height: 42
+        x: 0
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -241,10 +241,10 @@ TextureImporter:
       name: 11-Anemometer-sheet_5
       rect:
         serializedVersion: 2
-        x: 287
-        y: 107
-        width: 198
-        height: 42
+        x: 256
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -263,7 +263,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -272,7 +272,13 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      11-Anemometer-sheet_0: -5001905596759524996
+      11-Anemometer-sheet_1: 7210749349537695017
+      11-Anemometer-sheet_2: 556583189502549533
+      11-Anemometer-sheet_3: -2194650094120397226
+      11-Anemometer-sheet_4: 8788235069384340312
+      11-Anemometer-sheet_5: 1380275079169583147
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

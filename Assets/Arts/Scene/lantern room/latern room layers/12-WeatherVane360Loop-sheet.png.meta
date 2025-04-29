@@ -322,7 +322,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -357,7 +357,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -401,10 +401,10 @@ TextureImporter:
       name: 12-WeatherVane360Loop-sheet_0
       rect:
         serializedVersion: 2
-        x: 103
-        y: 3575
-        width: 398
-        height: 206
+        x: 0
+        y: 3520
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -423,10 +423,10 @@ TextureImporter:
       name: 12-WeatherVane360Loop-sheet_1
       rect:
         serializedVersion: 2
-        x: 615
-        y: 3575
-        width: 398
-        height: 206
+        x: 512
+        y: 3520
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -445,10 +445,10 @@ TextureImporter:
       name: 12-WeatherVane360Loop-sheet_2
       rect:
         serializedVersion: 2
-        x: 1131
-        y: 3575
-        width: 390
-        height: 206
+        x: 1024
+        y: 3520
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -467,10 +467,10 @@ TextureImporter:
       name: 12-WeatherVane360Loop-sheet_3
       rect:
         serializedVersion: 2
-        x: 1643
-        y: 3575
-        width: 390
-        height: 206
+        x: 1536
+        y: 3520
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -489,10 +489,10 @@ TextureImporter:
       name: 12-WeatherVane360Loop-sheet_4
       rect:
         serializedVersion: 2
-        x: 2159
-        y: 3575
-        width: 382
-        height: 206
+        x: 2048
+        y: 3520
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -511,10 +511,10 @@ TextureImporter:
       name: 12-WeatherVane360Loop-sheet_5
       rect:
         serializedVersion: 2
-        x: 2671
-        y: 3575
-        width: 378
-        height: 206
+        x: 2560
+        y: 3520
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -533,10 +533,10 @@ TextureImporter:
       name: 12-WeatherVane360Loop-sheet_6
       rect:
         serializedVersion: 2
-        x: 3187
-        y: 3575
-        width: 366
-        height: 206
+        x: 3072
+        y: 3520
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -555,10 +555,10 @@ TextureImporter:
       name: 12-WeatherVane360Loop-sheet_7
       rect:
         serializedVersion: 2
-        x: 3703
-        y: 3575
-        width: 358
-        height: 206
+        x: 3584
+        y: 3520
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -577,10 +577,10 @@ TextureImporter:
       name: 12-WeatherVane360Loop-sheet_8
       rect:
         serializedVersion: 2
-        x: 123
-        y: 3255
-        width: 346
-        height: 206
+        x: 0
+        y: 3200
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -599,10 +599,10 @@ TextureImporter:
       name: 12-WeatherVane360Loop-sheet_9
       rect:
         serializedVersion: 2
-        x: 639
-        y: 3255
-        width: 334
-        height: 206
+        x: 512
+        y: 3200
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -621,10 +621,10 @@ TextureImporter:
       name: 12-WeatherVane360Loop-sheet_10
       rect:
         serializedVersion: 2
-        x: 1159
-        y: 3255
-        width: 318
-        height: 206
+        x: 1024
+        y: 3200
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -643,10 +643,10 @@ TextureImporter:
       name: 12-WeatherVane360Loop-sheet_11
       rect:
         serializedVersion: 2
-        x: 1675
-        y: 3255
-        width: 302
-        height: 206
+        x: 1536
+        y: 3200
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -665,10 +665,10 @@ TextureImporter:
       name: 12-WeatherVane360Loop-sheet_12
       rect:
         serializedVersion: 2
-        x: 2195
-        y: 3255
-        width: 282
-        height: 206
+        x: 2048
+        y: 3200
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -687,10 +687,10 @@ TextureImporter:
       name: 12-WeatherVane360Loop-sheet_13
       rect:
         serializedVersion: 2
-        x: 2715
-        y: 3255
-        width: 266
-        height: 206
+        x: 2560
+        y: 3200
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -709,10 +709,10 @@ TextureImporter:
       name: 12-WeatherVane360Loop-sheet_14
       rect:
         serializedVersion: 2
-        x: 3235
-        y: 3255
-        width: 246
-        height: 206
+        x: 3072
+        y: 3200
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -731,10 +731,10 @@ TextureImporter:
       name: 12-WeatherVane360Loop-sheet_15
       rect:
         serializedVersion: 2
-        x: 3755
-        y: 3255
-        width: 222
-        height: 206
+        x: 3584
+        y: 3200
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -753,10 +753,10 @@ TextureImporter:
       name: 12-WeatherVane360Loop-sheet_16
       rect:
         serializedVersion: 2
-        x: 179
-        y: 2935
-        width: 202
-        height: 206
+        x: 0
+        y: 2880
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -775,10 +775,10 @@ TextureImporter:
       name: 12-WeatherVane360Loop-sheet_17
       rect:
         serializedVersion: 2
-        x: 699
-        y: 2935
-        width: 178
-        height: 206
+        x: 512
+        y: 2880
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -797,10 +797,10 @@ TextureImporter:
       name: 12-WeatherVane360Loop-sheet_18
       rect:
         serializedVersion: 2
-        x: 1219
-        y: 2935
-        width: 158
-        height: 206
+        x: 1024
+        y: 2880
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -819,10 +819,10 @@ TextureImporter:
       name: 12-WeatherVane360Loop-sheet_19
       rect:
         serializedVersion: 2
-        x: 1739
-        y: 2935
-        width: 134
-        height: 206
+        x: 1536
+        y: 2880
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -841,10 +841,10 @@ TextureImporter:
       name: 12-WeatherVane360Loop-sheet_20
       rect:
         serializedVersion: 2
-        x: 2263
-        y: 2935
-        width: 106
-        height: 206
+        x: 2048
+        y: 2880
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -863,10 +863,10 @@ TextureImporter:
       name: 12-WeatherVane360Loop-sheet_21
       rect:
         serializedVersion: 2
-        x: 2783
-        y: 2935
-        width: 82
-        height: 206
+        x: 2560
+        y: 2880
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -885,10 +885,10 @@ TextureImporter:
       name: 12-WeatherVane360Loop-sheet_22
       rect:
         serializedVersion: 2
-        x: 3303
-        y: 2935
-        width: 62
-        height: 206
+        x: 3072
+        y: 2880
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -907,10 +907,10 @@ TextureImporter:
       name: 12-WeatherVane360Loop-sheet_23
       rect:
         serializedVersion: 2
-        x: 3827
-        y: 2935
-        width: 34
-        height: 206
+        x: 3584
+        y: 2880
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -929,10 +929,10 @@ TextureImporter:
       name: 12-WeatherVane360Loop-sheet_24
       rect:
         serializedVersion: 2
-        x: 251
-        y: 2615
-        width: 10
-        height: 206
+        x: 0
+        y: 2560
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -951,10 +951,10 @@ TextureImporter:
       name: 12-WeatherVane360Loop-sheet_25
       rect:
         serializedVersion: 2
-        x: 747
-        y: 2615
-        width: 34
-        height: 206
+        x: 512
+        y: 2560
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -973,10 +973,10 @@ TextureImporter:
       name: 12-WeatherVane360Loop-sheet_26
       rect:
         serializedVersion: 2
-        x: 1243
-        y: 2615
-        width: 62
-        height: 206
+        x: 1024
+        y: 2560
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -995,10 +995,10 @@ TextureImporter:
       name: 12-WeatherVane360Loop-sheet_27
       rect:
         serializedVersion: 2
-        x: 1743
-        y: 2615
-        width: 82
-        height: 206
+        x: 1536
+        y: 2560
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1017,10 +1017,10 @@ TextureImporter:
       name: 12-WeatherVane360Loop-sheet_28
       rect:
         serializedVersion: 2
-        x: 2239
-        y: 2615
-        width: 106
-        height: 206
+        x: 2048
+        y: 2560
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1039,10 +1039,10 @@ TextureImporter:
       name: 12-WeatherVane360Loop-sheet_29
       rect:
         serializedVersion: 2
-        x: 2735
-        y: 2615
-        width: 134
-        height: 206
+        x: 2560
+        y: 2560
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1061,10 +1061,10 @@ TextureImporter:
       name: 12-WeatherVane360Loop-sheet_30
       rect:
         serializedVersion: 2
-        x: 3231
-        y: 2615
-        width: 158
-        height: 206
+        x: 3072
+        y: 2560
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1083,10 +1083,10 @@ TextureImporter:
       name: 12-WeatherVane360Loop-sheet_31
       rect:
         serializedVersion: 2
-        x: 3731
-        y: 2615
-        width: 178
-        height: 206
+        x: 3584
+        y: 2560
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1105,10 +1105,10 @@ TextureImporter:
       name: 12-WeatherVane360Loop-sheet_32
       rect:
         serializedVersion: 2
-        x: 131
-        y: 2295
-        width: 202
-        height: 206
+        x: 0
+        y: 2240
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1127,10 +1127,10 @@ TextureImporter:
       name: 12-WeatherVane360Loop-sheet_33
       rect:
         serializedVersion: 2
-        x: 631
-        y: 2295
-        width: 222
-        height: 206
+        x: 512
+        y: 2240
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1149,10 +1149,10 @@ TextureImporter:
       name: 12-WeatherVane360Loop-sheet_34
       rect:
         serializedVersion: 2
-        x: 1127
-        y: 2295
-        width: 246
-        height: 206
+        x: 1024
+        y: 2240
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1171,10 +1171,10 @@ TextureImporter:
       name: 12-WeatherVane360Loop-sheet_35
       rect:
         serializedVersion: 2
-        x: 1627
-        y: 2295
-        width: 266
-        height: 206
+        x: 1536
+        y: 2240
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1193,10 +1193,10 @@ TextureImporter:
       name: 12-WeatherVane360Loop-sheet_36
       rect:
         serializedVersion: 2
-        x: 2131
-        y: 2295
-        width: 282
-        height: 206
+        x: 2048
+        y: 2240
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1215,10 +1215,10 @@ TextureImporter:
       name: 12-WeatherVane360Loop-sheet_37
       rect:
         serializedVersion: 2
-        x: 2631
-        y: 2295
-        width: 302
-        height: 206
+        x: 2560
+        y: 2240
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1237,10 +1237,10 @@ TextureImporter:
       name: 12-WeatherVane360Loop-sheet_38
       rect:
         serializedVersion: 2
-        x: 3131
-        y: 2295
-        width: 318
-        height: 206
+        x: 3072
+        y: 2240
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1259,10 +1259,10 @@ TextureImporter:
       name: 12-WeatherVane360Loop-sheet_39
       rect:
         serializedVersion: 2
-        x: 3635
-        y: 2295
-        width: 334
-        height: 206
+        x: 3584
+        y: 2240
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1281,10 +1281,10 @@ TextureImporter:
       name: 12-WeatherVane360Loop-sheet_40
       rect:
         serializedVersion: 2
-        x: 43
-        y: 1975
-        width: 346
-        height: 206
+        x: 0
+        y: 1920
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1303,10 +1303,10 @@ TextureImporter:
       name: 12-WeatherVane360Loop-sheet_41
       rect:
         serializedVersion: 2
-        x: 547
-        y: 1975
-        width: 358
-        height: 206
+        x: 512
+        y: 1920
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1325,10 +1325,10 @@ TextureImporter:
       name: 12-WeatherVane360Loop-sheet_42
       rect:
         serializedVersion: 2
-        x: 1055
-        y: 1975
-        width: 366
-        height: 206
+        x: 1024
+        y: 1920
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1347,10 +1347,10 @@ TextureImporter:
       name: 12-WeatherVane360Loop-sheet_43
       rect:
         serializedVersion: 2
-        x: 1559
-        y: 1975
-        width: 378
-        height: 206
+        x: 1536
+        y: 1920
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1369,10 +1369,10 @@ TextureImporter:
       name: 12-WeatherVane360Loop-sheet_44
       rect:
         serializedVersion: 2
-        x: 2067
-        y: 1975
-        width: 382
-        height: 206
+        x: 2048
+        y: 1920
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1391,10 +1391,10 @@ TextureImporter:
       name: 12-WeatherVane360Loop-sheet_45
       rect:
         serializedVersion: 2
-        x: 2575
-        y: 1975
-        width: 390
-        height: 206
+        x: 2560
+        y: 1920
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1413,10 +1413,10 @@ TextureImporter:
       name: 12-WeatherVane360Loop-sheet_46
       rect:
         serializedVersion: 2
-        x: 3087
-        y: 1975
-        width: 390
-        height: 206
+        x: 3072
+        y: 1920
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1435,10 +1435,10 @@ TextureImporter:
       name: 12-WeatherVane360Loop-sheet_47
       rect:
         serializedVersion: 2
-        x: 3595
-        y: 1975
-        width: 398
-        height: 206
+        x: 3584
+        y: 1920
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1457,10 +1457,10 @@ TextureImporter:
       name: 12-WeatherVane360Loop-sheet_48
       rect:
         serializedVersion: 2
-        x: 11
-        y: 1655
-        width: 398
-        height: 206
+        x: 0
+        y: 1600
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1479,10 +1479,10 @@ TextureImporter:
       name: 12-WeatherVane360Loop-sheet_49
       rect:
         serializedVersion: 2
-        x: 523
-        y: 1655
-        width: 398
-        height: 206
+        x: 512
+        y: 1600
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1501,10 +1501,10 @@ TextureImporter:
       name: 12-WeatherVane360Loop-sheet_50
       rect:
         serializedVersion: 2
-        x: 1039
-        y: 1655
-        width: 390
-        height: 206
+        x: 1024
+        y: 1600
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1523,10 +1523,10 @@ TextureImporter:
       name: 12-WeatherVane360Loop-sheet_51
       rect:
         serializedVersion: 2
-        x: 1551
-        y: 1655
-        width: 390
-        height: 206
+        x: 1536
+        y: 1600
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1545,10 +1545,10 @@ TextureImporter:
       name: 12-WeatherVane360Loop-sheet_52
       rect:
         serializedVersion: 2
-        x: 2067
-        y: 1655
-        width: 382
-        height: 206
+        x: 2048
+        y: 1600
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1567,10 +1567,10 @@ TextureImporter:
       name: 12-WeatherVane360Loop-sheet_53
       rect:
         serializedVersion: 2
-        x: 2583
-        y: 1655
-        width: 378
-        height: 206
+        x: 2560
+        y: 1600
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1589,10 +1589,10 @@ TextureImporter:
       name: 12-WeatherVane360Loop-sheet_54
       rect:
         serializedVersion: 2
-        x: 3103
-        y: 1655
-        width: 366
-        height: 206
+        x: 3072
+        y: 1600
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1611,10 +1611,10 @@ TextureImporter:
       name: 12-WeatherVane360Loop-sheet_55
       rect:
         serializedVersion: 2
-        x: 3619
-        y: 1655
-        width: 358
-        height: 206
+        x: 3584
+        y: 1600
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1633,10 +1633,10 @@ TextureImporter:
       name: 12-WeatherVane360Loop-sheet_56
       rect:
         serializedVersion: 2
-        x: 43
-        y: 1335
-        width: 346
-        height: 206
+        x: 0
+        y: 1280
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1655,10 +1655,10 @@ TextureImporter:
       name: 12-WeatherVane360Loop-sheet_57
       rect:
         serializedVersion: 2
-        x: 563
-        y: 1335
-        width: 334
-        height: 206
+        x: 512
+        y: 1280
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1677,10 +1677,10 @@ TextureImporter:
       name: 12-WeatherVane360Loop-sheet_58
       rect:
         serializedVersion: 2
-        x: 1083
-        y: 1335
-        width: 318
-        height: 206
+        x: 1024
+        y: 1280
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1699,10 +1699,10 @@ TextureImporter:
       name: 12-WeatherVane360Loop-sheet_59
       rect:
         serializedVersion: 2
-        x: 1607
-        y: 1335
-        width: 302
-        height: 206
+        x: 1536
+        y: 1280
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1721,10 +1721,10 @@ TextureImporter:
       name: 12-WeatherVane360Loop-sheet_60
       rect:
         serializedVersion: 2
-        x: 2131
-        y: 1335
-        width: 282
-        height: 206
+        x: 2048
+        y: 1280
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1743,10 +1743,10 @@ TextureImporter:
       name: 12-WeatherVane360Loop-sheet_61
       rect:
         serializedVersion: 2
-        x: 2651
-        y: 1335
-        width: 266
-        height: 206
+        x: 2560
+        y: 1280
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1765,10 +1765,10 @@ TextureImporter:
       name: 12-WeatherVane360Loop-sheet_62
       rect:
         serializedVersion: 2
-        x: 3175
-        y: 1335
-        width: 246
-        height: 206
+        x: 3072
+        y: 1280
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1787,10 +1787,10 @@ TextureImporter:
       name: 12-WeatherVane360Loop-sheet_63
       rect:
         serializedVersion: 2
-        x: 3703
-        y: 1335
-        width: 222
-        height: 206
+        x: 3584
+        y: 1280
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1809,10 +1809,10 @@ TextureImporter:
       name: 12-WeatherVane360Loop-sheet_64
       rect:
         serializedVersion: 2
-        x: 131
-        y: 1015
-        width: 202
-        height: 206
+        x: 0
+        y: 960
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1831,10 +1831,10 @@ TextureImporter:
       name: 12-WeatherVane360Loop-sheet_65
       rect:
         serializedVersion: 2
-        x: 659
-        y: 1015
-        width: 178
-        height: 206
+        x: 512
+        y: 960
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1853,10 +1853,10 @@ TextureImporter:
       name: 12-WeatherVane360Loop-sheet_66
       rect:
         serializedVersion: 2
-        x: 1183
-        y: 1015
-        width: 158
-        height: 206
+        x: 1024
+        y: 960
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1875,10 +1875,10 @@ TextureImporter:
       name: 12-WeatherVane360Loop-sheet_67
       rect:
         serializedVersion: 2
-        x: 1711
-        y: 1015
-        width: 134
-        height: 206
+        x: 1536
+        y: 960
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1897,10 +1897,10 @@ TextureImporter:
       name: 12-WeatherVane360Loop-sheet_68
       rect:
         serializedVersion: 2
-        x: 2239
-        y: 1015
-        width: 106
-        height: 206
+        x: 2048
+        y: 960
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1919,10 +1919,10 @@ TextureImporter:
       name: 12-WeatherVane360Loop-sheet_69
       rect:
         serializedVersion: 2
-        x: 2767
-        y: 1015
-        width: 82
-        height: 206
+        x: 2560
+        y: 960
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1941,10 +1941,10 @@ TextureImporter:
       name: 12-WeatherVane360Loop-sheet_70
       rect:
         serializedVersion: 2
-        x: 3291
-        y: 1015
-        width: 62
-        height: 206
+        x: 3072
+        y: 960
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1963,10 +1963,10 @@ TextureImporter:
       name: 12-WeatherVane360Loop-sheet_71
       rect:
         serializedVersion: 2
-        x: 3819
-        y: 1015
-        width: 34
-        height: 206
+        x: 3584
+        y: 960
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1985,10 +1985,10 @@ TextureImporter:
       name: 12-WeatherVane360Loop-sheet_72
       rect:
         serializedVersion: 2
-        x: 251
-        y: 695
-        width: 10
-        height: 206
+        x: 0
+        y: 640
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2007,10 +2007,10 @@ TextureImporter:
       name: 12-WeatherVane360Loop-sheet_73
       rect:
         serializedVersion: 2
-        x: 755
-        y: 695
-        width: 34
-        height: 206
+        x: 512
+        y: 640
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2029,10 +2029,10 @@ TextureImporter:
       name: 12-WeatherVane360Loop-sheet_74
       rect:
         serializedVersion: 2
-        x: 1255
-        y: 695
-        width: 62
-        height: 206
+        x: 1024
+        y: 640
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2051,10 +2051,10 @@ TextureImporter:
       name: 12-WeatherVane360Loop-sheet_75
       rect:
         serializedVersion: 2
-        x: 1759
-        y: 695
-        width: 82
-        height: 206
+        x: 1536
+        y: 640
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2073,10 +2073,10 @@ TextureImporter:
       name: 12-WeatherVane360Loop-sheet_76
       rect:
         serializedVersion: 2
-        x: 2263
-        y: 695
-        width: 106
-        height: 206
+        x: 2048
+        y: 640
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2095,10 +2095,10 @@ TextureImporter:
       name: 12-WeatherVane360Loop-sheet_77
       rect:
         serializedVersion: 2
-        x: 2763
-        y: 695
-        width: 134
-        height: 206
+        x: 2560
+        y: 640
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2117,10 +2117,10 @@ TextureImporter:
       name: 12-WeatherVane360Loop-sheet_78
       rect:
         serializedVersion: 2
-        x: 3267
-        y: 695
-        width: 158
-        height: 206
+        x: 3072
+        y: 640
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2139,10 +2139,10 @@ TextureImporter:
       name: 12-WeatherVane360Loop-sheet_79
       rect:
         serializedVersion: 2
-        x: 3771
-        y: 695
-        width: 178
-        height: 206
+        x: 3584
+        y: 640
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2161,10 +2161,10 @@ TextureImporter:
       name: 12-WeatherVane360Loop-sheet_80
       rect:
         serializedVersion: 2
-        x: 179
-        y: 375
-        width: 202
-        height: 206
+        x: 0
+        y: 320
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2183,10 +2183,10 @@ TextureImporter:
       name: 12-WeatherVane360Loop-sheet_81
       rect:
         serializedVersion: 2
-        x: 683
-        y: 375
-        width: 222
-        height: 206
+        x: 512
+        y: 320
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2205,10 +2205,10 @@ TextureImporter:
       name: 12-WeatherVane360Loop-sheet_82
       rect:
         serializedVersion: 2
-        x: 1187
-        y: 375
-        width: 246
-        height: 206
+        x: 1024
+        y: 320
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2227,10 +2227,10 @@ TextureImporter:
       name: 12-WeatherVane360Loop-sheet_83
       rect:
         serializedVersion: 2
-        x: 1691
-        y: 375
-        width: 266
-        height: 206
+        x: 1536
+        y: 320
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2249,10 +2249,10 @@ TextureImporter:
       name: 12-WeatherVane360Loop-sheet_84
       rect:
         serializedVersion: 2
-        x: 2195
-        y: 375
-        width: 282
-        height: 206
+        x: 2048
+        y: 320
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2271,10 +2271,10 @@ TextureImporter:
       name: 12-WeatherVane360Loop-sheet_85
       rect:
         serializedVersion: 2
-        x: 2699
-        y: 375
-        width: 302
-        height: 206
+        x: 2560
+        y: 320
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2293,10 +2293,10 @@ TextureImporter:
       name: 12-WeatherVane360Loop-sheet_86
       rect:
         serializedVersion: 2
-        x: 3207
-        y: 375
-        width: 318
-        height: 206
+        x: 3072
+        y: 320
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2315,10 +2315,10 @@ TextureImporter:
       name: 12-WeatherVane360Loop-sheet_87
       rect:
         serializedVersion: 2
-        x: 3711
-        y: 375
-        width: 334
-        height: 206
+        x: 3584
+        y: 320
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2337,10 +2337,10 @@ TextureImporter:
       name: 12-WeatherVane360Loop-sheet_88
       rect:
         serializedVersion: 2
-        x: 123
-        y: 55
-        width: 346
-        height: 206
+        x: 0
+        y: 0
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2359,10 +2359,10 @@ TextureImporter:
       name: 12-WeatherVane360Loop-sheet_89
       rect:
         serializedVersion: 2
-        x: 631
-        y: 55
-        width: 358
-        height: 206
+        x: 512
+        y: 0
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2381,10 +2381,10 @@ TextureImporter:
       name: 12-WeatherVane360Loop-sheet_90
       rect:
         serializedVersion: 2
-        x: 1139
-        y: 55
-        width: 366
-        height: 206
+        x: 1024
+        y: 0
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2403,10 +2403,10 @@ TextureImporter:
       name: 12-WeatherVane360Loop-sheet_91
       rect:
         serializedVersion: 2
-        x: 1647
-        y: 55
-        width: 378
-        height: 206
+        x: 1536
+        y: 0
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2425,10 +2425,10 @@ TextureImporter:
       name: 12-WeatherVane360Loop-sheet_92
       rect:
         serializedVersion: 2
-        x: 2159
-        y: 55
-        width: 382
-        height: 206
+        x: 2048
+        y: 0
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2447,10 +2447,10 @@ TextureImporter:
       name: 12-WeatherVane360Loop-sheet_93
       rect:
         serializedVersion: 2
-        x: 2667
-        y: 55
-        width: 390
-        height: 206
+        x: 2560
+        y: 0
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2469,10 +2469,10 @@ TextureImporter:
       name: 12-WeatherVane360Loop-sheet_94
       rect:
         serializedVersion: 2
-        x: 3179
-        y: 55
-        width: 390
-        height: 206
+        x: 3072
+        y: 0
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2491,10 +2491,10 @@ TextureImporter:
       name: 12-WeatherVane360Loop-sheet_95
       rect:
         serializedVersion: 2
-        x: 3687
-        y: 55
-        width: 398
-        height: 206
+        x: 3584
+        y: 0
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2513,7 +2513,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: c5a01c685f5f94e9da98ee98743ee462
     internalID: 0
     vertices: []
     indices: 
@@ -2522,7 +2522,103 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      12-WeatherVane360Loop-sheet_0: 5297976962880417674
+      12-WeatherVane360Loop-sheet_1: 1760407692505600959
+      12-WeatherVane360Loop-sheet_10: -8341770202919098275
+      12-WeatherVane360Loop-sheet_11: 4211301335784691916
+      12-WeatherVane360Loop-sheet_12: 124661234592306148
+      12-WeatherVane360Loop-sheet_13: -3590950368848201547
+      12-WeatherVane360Loop-sheet_14: -1754799753152670279
+      12-WeatherVane360Loop-sheet_15: -5753650321185939167
+      12-WeatherVane360Loop-sheet_16: -1694255670109851309
+      12-WeatherVane360Loop-sheet_17: 8166916513368308424
+      12-WeatherVane360Loop-sheet_18: 5372696571389226263
+      12-WeatherVane360Loop-sheet_19: 2107493532582333167
+      12-WeatherVane360Loop-sheet_2: 774689695608637653
+      12-WeatherVane360Loop-sheet_20: 612827401907724700
+      12-WeatherVane360Loop-sheet_21: -2661547194010141986
+      12-WeatherVane360Loop-sheet_22: -8724932369591584879
+      12-WeatherVane360Loop-sheet_23: -1112071800220903900
+      12-WeatherVane360Loop-sheet_24: -2239589429596770721
+      12-WeatherVane360Loop-sheet_25: -2116423627549450624
+      12-WeatherVane360Loop-sheet_26: 6550594721774011400
+      12-WeatherVane360Loop-sheet_27: -1783309342234482623
+      12-WeatherVane360Loop-sheet_28: 6531155006120679202
+      12-WeatherVane360Loop-sheet_29: -602831545715242376
+      12-WeatherVane360Loop-sheet_3: 4826035093742221229
+      12-WeatherVane360Loop-sheet_30: 4572537417664770039
+      12-WeatherVane360Loop-sheet_31: -5395559753337498996
+      12-WeatherVane360Loop-sheet_32: -4517066788208615887
+      12-WeatherVane360Loop-sheet_33: 6900514213785747569
+      12-WeatherVane360Loop-sheet_34: 2001645573377818709
+      12-WeatherVane360Loop-sheet_35: -166500427669674812
+      12-WeatherVane360Loop-sheet_36: -7199178114719058286
+      12-WeatherVane360Loop-sheet_37: -3541147246816157184
+      12-WeatherVane360Loop-sheet_38: 3773060046375814685
+      12-WeatherVane360Loop-sheet_39: -1566728412246552460
+      12-WeatherVane360Loop-sheet_4: -5371758391921020958
+      12-WeatherVane360Loop-sheet_40: 4611508521952466863
+      12-WeatherVane360Loop-sheet_41: 4601730790435087166
+      12-WeatherVane360Loop-sheet_42: 880832802041796052
+      12-WeatherVane360Loop-sheet_43: -320813035197400548
+      12-WeatherVane360Loop-sheet_44: 7793707668020423205
+      12-WeatherVane360Loop-sheet_45: 1109295211365007746
+      12-WeatherVane360Loop-sheet_46: 5886514085964849999
+      12-WeatherVane360Loop-sheet_47: 6521736618835597650
+      12-WeatherVane360Loop-sheet_48: -2355973818115475516
+      12-WeatherVane360Loop-sheet_49: 5158613634972603090
+      12-WeatherVane360Loop-sheet_5: -2604538583803120282
+      12-WeatherVane360Loop-sheet_50: 2535305939891459449
+      12-WeatherVane360Loop-sheet_51: 570494868591614485
+      12-WeatherVane360Loop-sheet_52: -2920697371519871185
+      12-WeatherVane360Loop-sheet_53: 6322306156037382843
+      12-WeatherVane360Loop-sheet_54: -180272047395092326
+      12-WeatherVane360Loop-sheet_55: -7609505375473813058
+      12-WeatherVane360Loop-sheet_56: -6192131547125409917
+      12-WeatherVane360Loop-sheet_57: 8246859017519888903
+      12-WeatherVane360Loop-sheet_58: -1366217008213341090
+      12-WeatherVane360Loop-sheet_59: -5688894155315236431
+      12-WeatherVane360Loop-sheet_6: -4594012349936073271
+      12-WeatherVane360Loop-sheet_60: -3905669708432910729
+      12-WeatherVane360Loop-sheet_61: -571220338980518258
+      12-WeatherVane360Loop-sheet_62: 6250621381110739707
+      12-WeatherVane360Loop-sheet_63: -8117434604756216693
+      12-WeatherVane360Loop-sheet_64: -5806045619320064473
+      12-WeatherVane360Loop-sheet_65: 8083975906869830295
+      12-WeatherVane360Loop-sheet_66: -3561015853925874485
+      12-WeatherVane360Loop-sheet_67: -3735203696303009051
+      12-WeatherVane360Loop-sheet_68: 2792227959596177236
+      12-WeatherVane360Loop-sheet_69: -4881109254533158784
+      12-WeatherVane360Loop-sheet_7: -280990069215223824
+      12-WeatherVane360Loop-sheet_70: -1413692172962845318
+      12-WeatherVane360Loop-sheet_71: 7426515018740267147
+      12-WeatherVane360Loop-sheet_72: 8533046659896006026
+      12-WeatherVane360Loop-sheet_73: 4788313875545945048
+      12-WeatherVane360Loop-sheet_74: -4748890523475926161
+      12-WeatherVane360Loop-sheet_75: -5416253079396041131
+      12-WeatherVane360Loop-sheet_76: -2773603318247624747
+      12-WeatherVane360Loop-sheet_77: -6341852034563975233
+      12-WeatherVane360Loop-sheet_78: 8598715836349203563
+      12-WeatherVane360Loop-sheet_79: 2433027373666751047
+      12-WeatherVane360Loop-sheet_8: 4409095336428959915
+      12-WeatherVane360Loop-sheet_80: -7189950359256324725
+      12-WeatherVane360Loop-sheet_81: 7278757583784936478
+      12-WeatherVane360Loop-sheet_82: 429235006244256067
+      12-WeatherVane360Loop-sheet_83: -6741716513518065073
+      12-WeatherVane360Loop-sheet_84: -7823337065346924922
+      12-WeatherVane360Loop-sheet_85: -6073928733161255
+      12-WeatherVane360Loop-sheet_86: 7882041782971795017
+      12-WeatherVane360Loop-sheet_87: 6971090646416350747
+      12-WeatherVane360Loop-sheet_88: -8853577513022901203
+      12-WeatherVane360Loop-sheet_89: -328307398714483011
+      12-WeatherVane360Loop-sheet_9: 1247223994316329265
+      12-WeatherVane360Loop-sheet_90: -842565772056128209
+      12-WeatherVane360Loop-sheet_91: -3788792727025094728
+      12-WeatherVane360Loop-sheet_92: 2905733771633620192
+      12-WeatherVane360Loop-sheet_93: 1151610973842680180
+      12-WeatherVane360Loop-sheet_94: -2658690224291895421
+      12-WeatherVane360Loop-sheet_95: -2477051760171330456
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

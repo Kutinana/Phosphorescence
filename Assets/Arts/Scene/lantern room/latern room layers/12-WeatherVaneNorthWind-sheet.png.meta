@@ -322,7 +322,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -357,7 +357,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -401,10 +401,10 @@ TextureImporter:
       name: 12-WeatherVaneNorthWind-sheet_0
       rect:
         serializedVersion: 2
-        x: 31
-        y: 3575
-        width: 366
-        height: 206
+        x: 0
+        y: 3520
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -423,10 +423,10 @@ TextureImporter:
       name: 12-WeatherVaneNorthWind-sheet_1
       rect:
         serializedVersion: 2
-        x: 543
-        y: 3575
-        width: 366
-        height: 206
+        x: 512
+        y: 3520
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -445,10 +445,10 @@ TextureImporter:
       name: 12-WeatherVaneNorthWind-sheet_2
       rect:
         serializedVersion: 2
-        x: 1055
-        y: 3575
-        width: 366
-        height: 206
+        x: 1024
+        y: 3520
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -467,10 +467,10 @@ TextureImporter:
       name: 12-WeatherVaneNorthWind-sheet_3
       rect:
         serializedVersion: 2
-        x: 1567
-        y: 3575
-        width: 366
-        height: 206
+        x: 1536
+        y: 3520
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -489,10 +489,10 @@ TextureImporter:
       name: 12-WeatherVaneNorthWind-sheet_4
       rect:
         serializedVersion: 2
-        x: 2079
-        y: 3575
-        width: 366
-        height: 206
+        x: 2048
+        y: 3520
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -511,10 +511,10 @@ TextureImporter:
       name: 12-WeatherVaneNorthWind-sheet_5
       rect:
         serializedVersion: 2
-        x: 2591
-        y: 3575
-        width: 362
-        height: 206
+        x: 2560
+        y: 3520
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -533,10 +533,10 @@ TextureImporter:
       name: 12-WeatherVaneNorthWind-sheet_6
       rect:
         serializedVersion: 2
-        x: 3107
-        y: 3575
-        width: 358
-        height: 206
+        x: 3072
+        y: 3520
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -555,10 +555,10 @@ TextureImporter:
       name: 12-WeatherVaneNorthWind-sheet_7
       rect:
         serializedVersion: 2
-        x: 3619
-        y: 3575
-        width: 358
-        height: 206
+        x: 3584
+        y: 3520
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -577,10 +577,10 @@ TextureImporter:
       name: 12-WeatherVaneNorthWind-sheet_8
       rect:
         serializedVersion: 2
-        x: 39
-        y: 3255
-        width: 354
-        height: 206
+        x: 0
+        y: 3200
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -599,10 +599,10 @@ TextureImporter:
       name: 12-WeatherVaneNorthWind-sheet_9
       rect:
         serializedVersion: 2
-        x: 551
-        y: 3255
-        width: 350
-        height: 206
+        x: 512
+        y: 3200
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -621,10 +621,10 @@ TextureImporter:
       name: 12-WeatherVaneNorthWind-sheet_10
       rect:
         serializedVersion: 2
-        x: 1067
-        y: 3255
-        width: 346
-        height: 206
+        x: 1024
+        y: 3200
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -643,10 +643,10 @@ TextureImporter:
       name: 12-WeatherVaneNorthWind-sheet_11
       rect:
         serializedVersion: 2
-        x: 1579
-        y: 3255
-        width: 346
-        height: 206
+        x: 1536
+        y: 3200
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -665,10 +665,10 @@ TextureImporter:
       name: 12-WeatherVaneNorthWind-sheet_12
       rect:
         serializedVersion: 2
-        x: 2095
-        y: 3255
-        width: 338
-        height: 206
+        x: 2048
+        y: 3200
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -687,10 +687,10 @@ TextureImporter:
       name: 12-WeatherVaneNorthWind-sheet_13
       rect:
         serializedVersion: 2
-        x: 2611
-        y: 3255
-        width: 334
-        height: 206
+        x: 2560
+        y: 3200
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -709,10 +709,10 @@ TextureImporter:
       name: 12-WeatherVaneNorthWind-sheet_14
       rect:
         serializedVersion: 2
-        x: 3123
-        y: 3255
-        width: 330
-        height: 206
+        x: 3072
+        y: 3200
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -731,10 +731,10 @@ TextureImporter:
       name: 12-WeatherVaneNorthWind-sheet_15
       rect:
         serializedVersion: 2
-        x: 3639
-        y: 3255
-        width: 326
-        height: 206
+        x: 3584
+        y: 3200
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -753,10 +753,10 @@ TextureImporter:
       name: 12-WeatherVaneNorthWind-sheet_16
       rect:
         serializedVersion: 2
-        x: 59
-        y: 2935
-        width: 318
-        height: 206
+        x: 0
+        y: 2880
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -775,10 +775,10 @@ TextureImporter:
       name: 12-WeatherVaneNorthWind-sheet_17
       rect:
         serializedVersion: 2
-        x: 575
-        y: 2935
-        width: 314
-        height: 206
+        x: 512
+        y: 2880
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -797,10 +797,10 @@ TextureImporter:
       name: 12-WeatherVaneNorthWind-sheet_18
       rect:
         serializedVersion: 2
-        x: 1091
-        y: 2935
-        width: 306
-        height: 206
+        x: 1024
+        y: 2880
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -819,10 +819,10 @@ TextureImporter:
       name: 12-WeatherVaneNorthWind-sheet_19
       rect:
         serializedVersion: 2
-        x: 1607
-        y: 2935
-        width: 302
-        height: 206
+        x: 1536
+        y: 2880
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -841,10 +841,10 @@ TextureImporter:
       name: 12-WeatherVaneNorthWind-sheet_20
       rect:
         serializedVersion: 2
-        x: 2123
-        y: 2935
-        width: 294
-        height: 206
+        x: 2048
+        y: 2880
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -863,10 +863,10 @@ TextureImporter:
       name: 12-WeatherVaneNorthWind-sheet_21
       rect:
         serializedVersion: 2
-        x: 2639
-        y: 2935
-        width: 290
-        height: 206
+        x: 2560
+        y: 2880
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -885,10 +885,10 @@ TextureImporter:
       name: 12-WeatherVaneNorthWind-sheet_22
       rect:
         serializedVersion: 2
-        x: 3155
-        y: 2935
-        width: 282
-        height: 206
+        x: 3072
+        y: 2880
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -907,10 +907,10 @@ TextureImporter:
       name: 12-WeatherVaneNorthWind-sheet_23
       rect:
         serializedVersion: 2
-        x: 3671
-        y: 2935
-        width: 274
-        height: 206
+        x: 3584
+        y: 2880
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -929,10 +929,10 @@ TextureImporter:
       name: 12-WeatherVaneNorthWind-sheet_24
       rect:
         serializedVersion: 2
-        x: 91
-        y: 2615
-        width: 270
-        height: 206
+        x: 0
+        y: 2560
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -951,10 +951,10 @@ TextureImporter:
       name: 12-WeatherVaneNorthWind-sheet_25
       rect:
         serializedVersion: 2
-        x: 607
-        y: 2615
-        width: 262
-        height: 206
+        x: 512
+        y: 2560
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -973,10 +973,10 @@ TextureImporter:
       name: 12-WeatherVaneNorthWind-sheet_26
       rect:
         serializedVersion: 2
-        x: 1123
-        y: 2615
-        width: 254
-        height: 206
+        x: 1024
+        y: 2560
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -995,10 +995,10 @@ TextureImporter:
       name: 12-WeatherVaneNorthWind-sheet_27
       rect:
         serializedVersion: 2
-        x: 1639
-        y: 2615
-        width: 250
-        height: 206
+        x: 1536
+        y: 2560
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1017,10 +1017,10 @@ TextureImporter:
       name: 12-WeatherVaneNorthWind-sheet_28
       rect:
         serializedVersion: 2
-        x: 2155
-        y: 2615
-        width: 242
-        height: 206
+        x: 2048
+        y: 2560
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1039,10 +1039,10 @@ TextureImporter:
       name: 12-WeatherVaneNorthWind-sheet_29
       rect:
         serializedVersion: 2
-        x: 2671
-        y: 2615
-        width: 234
-        height: 206
+        x: 2560
+        y: 2560
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1061,10 +1061,10 @@ TextureImporter:
       name: 12-WeatherVaneNorthWind-sheet_30
       rect:
         serializedVersion: 2
-        x: 3187
-        y: 2615
-        width: 230
-        height: 206
+        x: 3072
+        y: 2560
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1083,10 +1083,10 @@ TextureImporter:
       name: 12-WeatherVaneNorthWind-sheet_31
       rect:
         serializedVersion: 2
-        x: 3703
-        y: 2615
-        width: 222
-        height: 206
+        x: 3584
+        y: 2560
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1105,10 +1105,10 @@ TextureImporter:
       name: 12-WeatherVaneNorthWind-sheet_32
       rect:
         serializedVersion: 2
-        x: 123
-        y: 2295
-        width: 218
-        height: 206
+        x: 0
+        y: 2240
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1127,10 +1127,10 @@ TextureImporter:
       name: 12-WeatherVaneNorthWind-sheet_33
       rect:
         serializedVersion: 2
-        x: 639
-        y: 2295
-        width: 210
-        height: 206
+        x: 512
+        y: 2240
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1149,10 +1149,10 @@ TextureImporter:
       name: 12-WeatherVaneNorthWind-sheet_34
       rect:
         serializedVersion: 2
-        x: 1155
-        y: 2295
-        width: 202
-        height: 206
+        x: 1024
+        y: 2240
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1171,10 +1171,10 @@ TextureImporter:
       name: 12-WeatherVaneNorthWind-sheet_35
       rect:
         serializedVersion: 2
-        x: 1671
-        y: 2295
-        width: 198
-        height: 206
+        x: 1536
+        y: 2240
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1193,10 +1193,10 @@ TextureImporter:
       name: 12-WeatherVaneNorthWind-sheet_36
       rect:
         serializedVersion: 2
-        x: 2187
-        y: 2295
-        width: 190
-        height: 206
+        x: 2048
+        y: 2240
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1215,10 +1215,10 @@ TextureImporter:
       name: 12-WeatherVaneNorthWind-sheet_37
       rect:
         serializedVersion: 2
-        x: 2703
-        y: 2295
-        width: 186
-        height: 206
+        x: 2560
+        y: 2240
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1237,10 +1237,10 @@ TextureImporter:
       name: 12-WeatherVaneNorthWind-sheet_38
       rect:
         serializedVersion: 2
-        x: 3215
-        y: 2295
-        width: 182
-        height: 206
+        x: 3072
+        y: 2240
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1259,10 +1259,10 @@ TextureImporter:
       name: 12-WeatherVaneNorthWind-sheet_39
       rect:
         serializedVersion: 2
-        x: 3731
-        y: 2295
-        width: 178
-        height: 206
+        x: 3584
+        y: 2240
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1281,10 +1281,10 @@ TextureImporter:
       name: 12-WeatherVaneNorthWind-sheet_40
       rect:
         serializedVersion: 2
-        x: 151
-        y: 1975
-        width: 170
-        height: 206
+        x: 0
+        y: 1920
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1303,10 +1303,10 @@ TextureImporter:
       name: 12-WeatherVaneNorthWind-sheet_41
       rect:
         serializedVersion: 2
-        x: 663
-        y: 1975
-        width: 170
-        height: 206
+        x: 512
+        y: 1920
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1325,10 +1325,10 @@ TextureImporter:
       name: 12-WeatherVaneNorthWind-sheet_42
       rect:
         serializedVersion: 2
-        x: 1179
-        y: 1975
-        width: 166
-        height: 206
+        x: 1024
+        y: 1920
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1347,10 +1347,10 @@ TextureImporter:
       name: 12-WeatherVaneNorthWind-sheet_43
       rect:
         serializedVersion: 2
-        x: 1691
-        y: 1975
-        width: 162
-        height: 206
+        x: 1536
+        y: 1920
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1369,10 +1369,10 @@ TextureImporter:
       name: 12-WeatherVaneNorthWind-sheet_44
       rect:
         serializedVersion: 2
-        x: 2207
-        y: 1975
-        width: 158
-        height: 206
+        x: 2048
+        y: 1920
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1391,10 +1391,10 @@ TextureImporter:
       name: 12-WeatherVaneNorthWind-sheet_45
       rect:
         serializedVersion: 2
-        x: 2719
-        y: 1975
-        width: 158
-        height: 206
+        x: 2560
+        y: 1920
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1413,10 +1413,10 @@ TextureImporter:
       name: 12-WeatherVaneNorthWind-sheet_46
       rect:
         serializedVersion: 2
-        x: 3231
-        y: 1975
-        width: 158
-        height: 206
+        x: 3072
+        y: 1920
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1435,10 +1435,10 @@ TextureImporter:
       name: 12-WeatherVaneNorthWind-sheet_47
       rect:
         serializedVersion: 2
-        x: 3743
-        y: 1975
-        width: 158
-        height: 206
+        x: 3584
+        y: 1920
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1457,10 +1457,10 @@ TextureImporter:
       name: 12-WeatherVaneNorthWind-sheet_48
       rect:
         serializedVersion: 2
-        x: 159
-        y: 1655
-        width: 158
-        height: 206
+        x: 0
+        y: 1600
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1479,10 +1479,10 @@ TextureImporter:
       name: 12-WeatherVaneNorthWind-sheet_49
       rect:
         serializedVersion: 2
-        x: 671
-        y: 1655
-        width: 158
-        height: 206
+        x: 512
+        y: 1600
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1501,10 +1501,10 @@ TextureImporter:
       name: 12-WeatherVaneNorthWind-sheet_50
       rect:
         serializedVersion: 2
-        x: 1183
-        y: 1655
-        width: 158
-        height: 206
+        x: 1024
+        y: 1600
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1523,10 +1523,10 @@ TextureImporter:
       name: 12-WeatherVaneNorthWind-sheet_51
       rect:
         serializedVersion: 2
-        x: 1691
-        y: 1655
-        width: 166
-        height: 206
+        x: 1536
+        y: 1600
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1545,10 +1545,10 @@ TextureImporter:
       name: 12-WeatherVaneNorthWind-sheet_52
       rect:
         serializedVersion: 2
-        x: 2203
-        y: 1655
-        width: 166
-        height: 206
+        x: 2048
+        y: 1600
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1567,10 +1567,10 @@ TextureImporter:
       name: 12-WeatherVaneNorthWind-sheet_53
       rect:
         serializedVersion: 2
-        x: 2711
-        y: 1655
-        width: 170
-        height: 206
+        x: 2560
+        y: 1600
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1589,10 +1589,10 @@ TextureImporter:
       name: 12-WeatherVaneNorthWind-sheet_54
       rect:
         serializedVersion: 2
-        x: 3219
-        y: 1655
-        width: 178
-        height: 206
+        x: 3072
+        y: 1600
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1611,10 +1611,10 @@ TextureImporter:
       name: 12-WeatherVaneNorthWind-sheet_55
       rect:
         serializedVersion: 2
-        x: 3731
-        y: 1655
-        width: 178
-        height: 206
+        x: 3584
+        y: 1600
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1633,10 +1633,10 @@ TextureImporter:
       name: 12-WeatherVaneNorthWind-sheet_56
       rect:
         serializedVersion: 2
-        x: 143
-        y: 1335
-        width: 186
-        height: 206
+        x: 0
+        y: 1280
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1655,10 +1655,10 @@ TextureImporter:
       name: 12-WeatherVaneNorthWind-sheet_57
       rect:
         serializedVersion: 2
-        x: 651
-        y: 1335
-        width: 190
-        height: 206
+        x: 512
+        y: 1280
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1677,10 +1677,10 @@ TextureImporter:
       name: 12-WeatherVaneNorthWind-sheet_58
       rect:
         serializedVersion: 2
-        x: 1159
-        y: 1335
-        width: 198
-        height: 206
+        x: 1024
+        y: 1280
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1699,10 +1699,10 @@ TextureImporter:
       name: 12-WeatherVaneNorthWind-sheet_59
       rect:
         serializedVersion: 2
-        x: 1667
-        y: 1335
-        width: 202
-        height: 206
+        x: 1536
+        y: 1280
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1721,10 +1721,10 @@ TextureImporter:
       name: 12-WeatherVaneNorthWind-sheet_60
       rect:
         serializedVersion: 2
-        x: 2175
-        y: 1335
-        width: 210
-        height: 206
+        x: 2048
+        y: 1280
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1743,10 +1743,10 @@ TextureImporter:
       name: 12-WeatherVaneNorthWind-sheet_61
       rect:
         serializedVersion: 2
-        x: 2683
-        y: 1335
-        width: 214
-        height: 206
+        x: 2560
+        y: 1280
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1765,10 +1765,10 @@ TextureImporter:
       name: 12-WeatherVaneNorthWind-sheet_62
       rect:
         serializedVersion: 2
-        x: 3191
-        y: 1335
-        width: 222
-        height: 206
+        x: 3072
+        y: 1280
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1787,10 +1787,10 @@ TextureImporter:
       name: 12-WeatherVaneNorthWind-sheet_63
       rect:
         serializedVersion: 2
-        x: 3699
-        y: 1335
-        width: 230
-        height: 206
+        x: 3584
+        y: 1280
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1809,10 +1809,10 @@ TextureImporter:
       name: 12-WeatherVaneNorthWind-sheet_64
       rect:
         serializedVersion: 2
-        x: 111
-        y: 1015
-        width: 234
-        height: 206
+        x: 0
+        y: 960
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1831,10 +1831,10 @@ TextureImporter:
       name: 12-WeatherVaneNorthWind-sheet_65
       rect:
         serializedVersion: 2
-        x: 619
-        y: 1015
-        width: 242
-        height: 206
+        x: 512
+        y: 960
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1853,10 +1853,10 @@ TextureImporter:
       name: 12-WeatherVaneNorthWind-sheet_66
       rect:
         serializedVersion: 2
-        x: 1127
-        y: 1015
-        width: 246
-        height: 206
+        x: 1024
+        y: 960
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1875,10 +1875,10 @@ TextureImporter:
       name: 12-WeatherVaneNorthWind-sheet_67
       rect:
         serializedVersion: 2
-        x: 1635
-        y: 1015
-        width: 254
-        height: 206
+        x: 1536
+        y: 960
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1897,10 +1897,10 @@ TextureImporter:
       name: 12-WeatherVaneNorthWind-sheet_68
       rect:
         serializedVersion: 2
-        x: 2143
-        y: 1015
-        width: 262
-        height: 206
+        x: 2048
+        y: 960
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1919,10 +1919,10 @@ TextureImporter:
       name: 12-WeatherVaneNorthWind-sheet_69
       rect:
         serializedVersion: 2
-        x: 2651
-        y: 1015
-        width: 266
-        height: 206
+        x: 2560
+        y: 960
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1941,10 +1941,10 @@ TextureImporter:
       name: 12-WeatherVaneNorthWind-sheet_70
       rect:
         serializedVersion: 2
-        x: 3159
-        y: 1015
-        width: 274
-        height: 206
+        x: 3072
+        y: 960
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1963,10 +1963,10 @@ TextureImporter:
       name: 12-WeatherVaneNorthWind-sheet_71
       rect:
         serializedVersion: 2
-        x: 3667
-        y: 1015
-        width: 278
-        height: 206
+        x: 3584
+        y: 960
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1985,10 +1985,10 @@ TextureImporter:
       name: 12-WeatherVaneNorthWind-sheet_72
       rect:
         serializedVersion: 2
-        x: 79
-        y: 695
-        width: 286
-        height: 206
+        x: 0
+        y: 640
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2007,10 +2007,10 @@ TextureImporter:
       name: 12-WeatherVaneNorthWind-sheet_73
       rect:
         serializedVersion: 2
-        x: 591
-        y: 695
-        width: 290
-        height: 206
+        x: 512
+        y: 640
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2029,10 +2029,10 @@ TextureImporter:
       name: 12-WeatherVaneNorthWind-sheet_74
       rect:
         serializedVersion: 2
-        x: 1099
-        y: 695
-        width: 294
-        height: 206
+        x: 1024
+        y: 640
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2051,10 +2051,10 @@ TextureImporter:
       name: 12-WeatherVaneNorthWind-sheet_75
       rect:
         serializedVersion: 2
-        x: 1607
-        y: 695
-        width: 302
-        height: 206
+        x: 1536
+        y: 640
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2073,10 +2073,10 @@ TextureImporter:
       name: 12-WeatherVaneNorthWind-sheet_76
       rect:
         serializedVersion: 2
-        x: 2115
-        y: 695
-        width: 306
-        height: 206
+        x: 2048
+        y: 640
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2095,10 +2095,10 @@ TextureImporter:
       name: 12-WeatherVaneNorthWind-sheet_77
       rect:
         serializedVersion: 2
-        x: 2623
-        y: 695
-        width: 314
-        height: 206
+        x: 2560
+        y: 640
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2117,10 +2117,10 @@ TextureImporter:
       name: 12-WeatherVaneNorthWind-sheet_78
       rect:
         serializedVersion: 2
-        x: 3131
-        y: 695
-        width: 318
-        height: 206
+        x: 3072
+        y: 640
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2139,10 +2139,10 @@ TextureImporter:
       name: 12-WeatherVaneNorthWind-sheet_79
       rect:
         serializedVersion: 2
-        x: 3639
-        y: 695
-        width: 326
-        height: 206
+        x: 3584
+        y: 640
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2161,10 +2161,10 @@ TextureImporter:
       name: 12-WeatherVaneNorthWind-sheet_80
       rect:
         serializedVersion: 2
-        x: 55
-        y: 375
-        width: 326
-        height: 206
+        x: 0
+        y: 320
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2183,10 +2183,10 @@ TextureImporter:
       name: 12-WeatherVaneNorthWind-sheet_81
       rect:
         serializedVersion: 2
-        x: 563
-        y: 375
-        width: 334
-        height: 206
+        x: 512
+        y: 320
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2205,10 +2205,10 @@ TextureImporter:
       name: 12-WeatherVaneNorthWind-sheet_82
       rect:
         serializedVersion: 2
-        x: 1071
-        y: 375
-        width: 338
-        height: 206
+        x: 1024
+        y: 320
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2227,10 +2227,10 @@ TextureImporter:
       name: 12-WeatherVaneNorthWind-sheet_83
       rect:
         serializedVersion: 2
-        x: 1583
-        y: 375
-        width: 338
-        height: 206
+        x: 1536
+        y: 320
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2249,10 +2249,10 @@ TextureImporter:
       name: 12-WeatherVaneNorthWind-sheet_84
       rect:
         serializedVersion: 2
-        x: 2091
-        y: 375
-        width: 346
-        height: 206
+        x: 2048
+        y: 320
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2271,10 +2271,10 @@ TextureImporter:
       name: 12-WeatherVaneNorthWind-sheet_85
       rect:
         serializedVersion: 2
-        x: 2603
-        y: 375
-        width: 346
-        height: 206
+        x: 2560
+        y: 320
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2293,10 +2293,10 @@ TextureImporter:
       name: 12-WeatherVaneNorthWind-sheet_86
       rect:
         serializedVersion: 2
-        x: 3111
-        y: 375
-        width: 350
-        height: 206
+        x: 3072
+        y: 320
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2315,10 +2315,10 @@ TextureImporter:
       name: 12-WeatherVaneNorthWind-sheet_87
       rect:
         serializedVersion: 2
-        x: 3623
-        y: 375
-        width: 354
-        height: 206
+        x: 3584
+        y: 320
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2337,10 +2337,10 @@ TextureImporter:
       name: 12-WeatherVaneNorthWind-sheet_88
       rect:
         serializedVersion: 2
-        x: 35
-        y: 55
-        width: 358
-        height: 206
+        x: 0
+        y: 0
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2359,10 +2359,10 @@ TextureImporter:
       name: 12-WeatherVaneNorthWind-sheet_89
       rect:
         serializedVersion: 2
-        x: 547
-        y: 55
-        width: 358
-        height: 206
+        x: 512
+        y: 0
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2381,10 +2381,10 @@ TextureImporter:
       name: 12-WeatherVaneNorthWind-sheet_90
       rect:
         serializedVersion: 2
-        x: 1055
-        y: 55
-        width: 362
-        height: 206
+        x: 1024
+        y: 0
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2403,10 +2403,10 @@ TextureImporter:
       name: 12-WeatherVaneNorthWind-sheet_91
       rect:
         serializedVersion: 2
-        x: 1567
-        y: 55
-        width: 366
-        height: 206
+        x: 1536
+        y: 0
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2425,10 +2425,10 @@ TextureImporter:
       name: 12-WeatherVaneNorthWind-sheet_92
       rect:
         serializedVersion: 2
-        x: 2079
-        y: 55
-        width: 366
-        height: 206
+        x: 2048
+        y: 0
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2447,10 +2447,10 @@ TextureImporter:
       name: 12-WeatherVaneNorthWind-sheet_93
       rect:
         serializedVersion: 2
-        x: 2591
-        y: 55
-        width: 366
-        height: 206
+        x: 2560
+        y: 0
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2469,10 +2469,10 @@ TextureImporter:
       name: 12-WeatherVaneNorthWind-sheet_94
       rect:
         serializedVersion: 2
-        x: 3103
-        y: 55
-        width: 366
-        height: 206
+        x: 3072
+        y: 0
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2491,10 +2491,10 @@ TextureImporter:
       name: 12-WeatherVaneNorthWind-sheet_95
       rect:
         serializedVersion: 2
-        x: 3615
-        y: 55
-        width: 366
-        height: 206
+        x: 3584
+        y: 0
+        width: 512
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2513,7 +2513,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 1915b5c8b751841f1ad1690b758b21bf
     internalID: 0
     vertices: []
     indices: 
@@ -2522,7 +2522,103 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      12-WeatherVaneNorthWind-sheet_0: 5459316756363178255
+      12-WeatherVaneNorthWind-sheet_1: -7538759345976920912
+      12-WeatherVaneNorthWind-sheet_10: -843163954420579585
+      12-WeatherVaneNorthWind-sheet_11: 3395990603293043397
+      12-WeatherVaneNorthWind-sheet_12: 1991057886693931169
+      12-WeatherVaneNorthWind-sheet_13: -3985940255956180781
+      12-WeatherVaneNorthWind-sheet_14: 189454382403530828
+      12-WeatherVaneNorthWind-sheet_15: -2405216634369491120
+      12-WeatherVaneNorthWind-sheet_16: 1069239545513949495
+      12-WeatherVaneNorthWind-sheet_17: -2055818166096028193
+      12-WeatherVaneNorthWind-sheet_18: 8214481330797771271
+      12-WeatherVaneNorthWind-sheet_19: 1188260931082365330
+      12-WeatherVaneNorthWind-sheet_2: -1458310396218814356
+      12-WeatherVaneNorthWind-sheet_20: 6611342390115091499
+      12-WeatherVaneNorthWind-sheet_21: -359351259191742398
+      12-WeatherVaneNorthWind-sheet_22: -8433487351492009319
+      12-WeatherVaneNorthWind-sheet_23: 1137140534812722848
+      12-WeatherVaneNorthWind-sheet_24: -4252560402479657721
+      12-WeatherVaneNorthWind-sheet_25: 5896856103839573263
+      12-WeatherVaneNorthWind-sheet_26: -8236600158654695998
+      12-WeatherVaneNorthWind-sheet_27: -3682852185765124588
+      12-WeatherVaneNorthWind-sheet_28: -3746154783046491197
+      12-WeatherVaneNorthWind-sheet_29: 6497426432227042414
+      12-WeatherVaneNorthWind-sheet_3: 9007013520472243081
+      12-WeatherVaneNorthWind-sheet_30: -6112559256718740948
+      12-WeatherVaneNorthWind-sheet_31: 6075565148595420366
+      12-WeatherVaneNorthWind-sheet_32: 6109827592303945772
+      12-WeatherVaneNorthWind-sheet_33: -178068406876652152
+      12-WeatherVaneNorthWind-sheet_34: -1437240181060794357
+      12-WeatherVaneNorthWind-sheet_35: 4369779498079131266
+      12-WeatherVaneNorthWind-sheet_36: 7046239192267820233
+      12-WeatherVaneNorthWind-sheet_37: -8349483839805166208
+      12-WeatherVaneNorthWind-sheet_38: 3146237624291224205
+      12-WeatherVaneNorthWind-sheet_39: -7497827753141810148
+      12-WeatherVaneNorthWind-sheet_4: 8597098561119729570
+      12-WeatherVaneNorthWind-sheet_40: -3118528618974495930
+      12-WeatherVaneNorthWind-sheet_41: -4794590699576544592
+      12-WeatherVaneNorthWind-sheet_42: -6698769112672542917
+      12-WeatherVaneNorthWind-sheet_43: -3410338568024600006
+      12-WeatherVaneNorthWind-sheet_44: -886870089407863885
+      12-WeatherVaneNorthWind-sheet_45: 1331328247025238396
+      12-WeatherVaneNorthWind-sheet_46: 3230447959876663838
+      12-WeatherVaneNorthWind-sheet_47: 3687033791765400629
+      12-WeatherVaneNorthWind-sheet_48: -6527488519126154303
+      12-WeatherVaneNorthWind-sheet_49: -4444962040966890984
+      12-WeatherVaneNorthWind-sheet_5: 3249703531394978514
+      12-WeatherVaneNorthWind-sheet_50: 4363516240108468228
+      12-WeatherVaneNorthWind-sheet_51: 2523437810505899522
+      12-WeatherVaneNorthWind-sheet_52: 1278658219924643355
+      12-WeatherVaneNorthWind-sheet_53: -4695042470193476092
+      12-WeatherVaneNorthWind-sheet_54: -7030131487425843795
+      12-WeatherVaneNorthWind-sheet_55: -615632110774039505
+      12-WeatherVaneNorthWind-sheet_56: -8174992023203047904
+      12-WeatherVaneNorthWind-sheet_57: 1269755272281458901
+      12-WeatherVaneNorthWind-sheet_58: 3406196871449793456
+      12-WeatherVaneNorthWind-sheet_59: -982136162730789803
+      12-WeatherVaneNorthWind-sheet_6: -8040375156977010219
+      12-WeatherVaneNorthWind-sheet_60: -5528571852942909656
+      12-WeatherVaneNorthWind-sheet_61: 4548036222464091837
+      12-WeatherVaneNorthWind-sheet_62: -2376645732133768326
+      12-WeatherVaneNorthWind-sheet_63: 2914568949471662852
+      12-WeatherVaneNorthWind-sheet_64: -1051189020490346119
+      12-WeatherVaneNorthWind-sheet_65: -2049873386246736422
+      12-WeatherVaneNorthWind-sheet_66: -2458531583518252283
+      12-WeatherVaneNorthWind-sheet_67: 3931826202038576540
+      12-WeatherVaneNorthWind-sheet_68: -4195226425456045963
+      12-WeatherVaneNorthWind-sheet_69: -8764176523458671132
+      12-WeatherVaneNorthWind-sheet_7: -3024767973330426526
+      12-WeatherVaneNorthWind-sheet_70: 2318747450504826256
+      12-WeatherVaneNorthWind-sheet_71: -8357122477268402794
+      12-WeatherVaneNorthWind-sheet_72: -4129944490708796880
+      12-WeatherVaneNorthWind-sheet_73: -8398605931998798740
+      12-WeatherVaneNorthWind-sheet_74: -3318335570693580771
+      12-WeatherVaneNorthWind-sheet_75: 6427686235720166725
+      12-WeatherVaneNorthWind-sheet_76: -6487022957032713496
+      12-WeatherVaneNorthWind-sheet_77: 5370749652392171246
+      12-WeatherVaneNorthWind-sheet_78: -2373041043224721520
+      12-WeatherVaneNorthWind-sheet_79: 5889304637653846357
+      12-WeatherVaneNorthWind-sheet_8: 3739819162884985733
+      12-WeatherVaneNorthWind-sheet_80: 4526408233383988765
+      12-WeatherVaneNorthWind-sheet_81: 5375773714102585143
+      12-WeatherVaneNorthWind-sheet_82: 775617279196808647
+      12-WeatherVaneNorthWind-sheet_83: -6773874552611216154
+      12-WeatherVaneNorthWind-sheet_84: 7722931602178069728
+      12-WeatherVaneNorthWind-sheet_85: -6885295294034095964
+      12-WeatherVaneNorthWind-sheet_86: -7220248933646760692
+      12-WeatherVaneNorthWind-sheet_87: -2108106164709720413
+      12-WeatherVaneNorthWind-sheet_88: 1124931554519489527
+      12-WeatherVaneNorthWind-sheet_89: -5743611671739785633
+      12-WeatherVaneNorthWind-sheet_9: -6944649332641090605
+      12-WeatherVaneNorthWind-sheet_90: 5917975040708177398
+      12-WeatherVaneNorthWind-sheet_91: -9176221349748419805
+      12-WeatherVaneNorthWind-sheet_92: 7252157578462512995
+      12-WeatherVaneNorthWind-sheet_93: -1067678401621413477
+      12-WeatherVaneNorthWind-sheet_94: -6828417872336679136
+      12-WeatherVaneNorthWind-sheet_95: 404716521027819743
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
