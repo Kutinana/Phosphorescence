@@ -1,0 +1,1365 @@
+fileFormatVersion: 2
+guid: 06b72b591368e407eab32f5d444809b4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2979892228344753423
+    second: 11-AnemometerSmooth-sheet_0
+  - first:
+      213: -6912463607669260170
+    second: 11-AnemometerSmooth-sheet_1
+  - first:
+      213: 3657857265443643866
+    second: 11-AnemometerSmooth-sheet_2
+  - first:
+      213: 4414378953602872048
+    second: 11-AnemometerSmooth-sheet_3
+  - first:
+      213: 5833961900337342832
+    second: 11-AnemometerSmooth-sheet_4
+  - first:
+      213: -5224804550890333076
+    second: 11-AnemometerSmooth-sheet_5
+  - first:
+      213: -4820816994477577577
+    second: 11-AnemometerSmooth-sheet_6
+  - first:
+      213: 923147395311137136
+    second: 11-AnemometerSmooth-sheet_7
+  - first:
+      213: -5906122565164121466
+    second: 11-AnemometerSmooth-sheet_8
+  - first:
+      213: -2520714350466656980
+    second: 11-AnemometerSmooth-sheet_9
+  - first:
+      213: -8935039193858146405
+    second: 11-AnemometerSmooth-sheet_10
+  - first:
+      213: -1413313231844548203
+    second: 11-AnemometerSmooth-sheet_11
+  - first:
+      213: 9155484381318181543
+    second: 11-AnemometerSmooth-sheet_12
+  - first:
+      213: 98010170285033065
+    second: 11-AnemometerSmooth-sheet_13
+  - first:
+      213: 2675668470388043392
+    second: 11-AnemometerSmooth-sheet_14
+  - first:
+      213: -5100562457303381279
+    second: 11-AnemometerSmooth-sheet_15
+  - first:
+      213: -4290948482305557807
+    second: 11-AnemometerSmooth-sheet_16
+  - first:
+      213: 1176993922480253767
+    second: 11-AnemometerSmooth-sheet_17
+  - first:
+      213: -2093207987550083175
+    second: 11-AnemometerSmooth-sheet_18
+  - first:
+      213: 401187757830735756
+    second: 11-AnemometerSmooth-sheet_19
+  - first:
+      213: -1277718525820553707
+    second: 11-AnemometerSmooth-sheet_20
+  - first:
+      213: -3927319604578629084
+    second: 11-AnemometerSmooth-sheet_21
+  - first:
+      213: -4124295606977033282
+    second: 11-AnemometerSmooth-sheet_22
+  - first:
+      213: 1617515396874211133
+    second: 11-AnemometerSmooth-sheet_23
+  - first:
+      213: 6076068768935720770
+    second: 11-AnemometerSmooth-sheet_24
+  - first:
+      213: -1018467880776162672
+    second: 11-AnemometerSmooth-sheet_25
+  - first:
+      213: 6904803479485404958
+    second: 11-AnemometerSmooth-sheet_26
+  - first:
+      213: -6158529513159069237
+    second: 11-AnemometerSmooth-sheet_27
+  - first:
+      213: 8632765678156856934
+    second: 11-AnemometerSmooth-sheet_28
+  - first:
+      213: -2149316410376697561
+    second: 11-AnemometerSmooth-sheet_29
+  - first:
+      213: -8741382783685714474
+    second: 11-AnemometerSmooth-sheet_30
+  - first:
+      213: 2595014552547056950
+    second: 11-AnemometerSmooth-sheet_31
+  - first:
+      213: 1485815418949380925
+    second: 11-AnemometerSmooth-sheet_32
+  - first:
+      213: -4261260671280358591
+    second: 11-AnemometerSmooth-sheet_33
+  - first:
+      213: 174176754256090268
+    second: 11-AnemometerSmooth-sheet_34
+  - first:
+      213: -8144128476472434887
+    second: 11-AnemometerSmooth-sheet_35
+  - first:
+      213: -4086587511527707816
+    second: 11-AnemometerSmooth-sheet_36
+  - first:
+      213: 731273498618013194
+    second: 11-AnemometerSmooth-sheet_37
+  - first:
+      213: -3033406775014590561
+    second: 11-AnemometerSmooth-sheet_38
+  - first:
+      213: -8394931967653573579
+    second: 11-AnemometerSmooth-sheet_39
+  - first:
+      213: -4947314441765290772
+    second: 11-AnemometerSmooth-sheet_40
+  - first:
+      213: -3774059423658904042
+    second: 11-AnemometerSmooth-sheet_41
+  - first:
+      213: 397305920781889556
+    second: 11-AnemometerSmooth-sheet_42
+  - first:
+      213: 6628831199030303762
+    second: 11-AnemometerSmooth-sheet_43
+  - first:
+      213: 9102555691646011126
+    second: 11-AnemometerSmooth-sheet_44
+  - first:
+      213: 1728787787306078701
+    second: 11-AnemometerSmooth-sheet_45
+  - first:
+      213: -238572510585584304
+    second: 11-AnemometerSmooth-sheet_46
+  - first:
+      213: 5037625536171496400
+    second: 11-AnemometerSmooth-sheet_47
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 11-AnemometerSmooth-sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1280
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0daf6b8134ba5920800000000000000
+      internalID: 2979892228344753423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 11-AnemometerSmooth-sheet_1
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1280
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6700f0ef8fef110a0800000000000000
+      internalID: -6912463607669260170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 11-AnemometerSmooth-sheet_2
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1280
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad1a9d18dc153c230800000000000000
+      internalID: 3657857265443643866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 11-AnemometerSmooth-sheet_3
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1280
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f2b5791546034d30800000000000000
+      internalID: 4414378953602872048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 11-AnemometerSmooth-sheet_4
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1280
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07925ce407566f050800000000000000
+      internalID: 5833961900337342832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 11-AnemometerSmooth-sheet_5
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1280
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6c565371f3cd77b0800000000000000
+      internalID: -5224804550890333076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 11-AnemometerSmooth-sheet_6
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1280
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79a6ffc3c74091db0800000000000000
+      internalID: -4820816994477577577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 11-AnemometerSmooth-sheet_7
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 1280
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 071f8dc3aadafcc00800000000000000
+      internalID: 923147395311137136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 11-AnemometerSmooth-sheet_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1024
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6824977a1dc390ea0800000000000000
+      internalID: -5906122565164121466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 11-AnemometerSmooth-sheet_9
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1024
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c25943057af940dd0800000000000000
+      internalID: -2520714350466656980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 11-AnemometerSmooth-sheet_10
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1024
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9f74eb613d500480800000000000000
+      internalID: -8935039193858146405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 11-AnemometerSmooth-sheet_11
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1024
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 591eb8b8a17e26ce0800000000000000
+      internalID: -1413313231844548203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 11-AnemometerSmooth-sheet_12
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1024
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a27b177980de0f70800000000000000
+      internalID: 9155484381318181543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 11-AnemometerSmooth-sheet_13
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1024
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96607380bb33c5100800000000000000
+      internalID: 98010170285033065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 11-AnemometerSmooth-sheet_14
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1024
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08e213a2c42e12520800000000000000
+      internalID: 2675668470388043392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 11-AnemometerSmooth-sheet_15
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 1024
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ea0db118792739b0800000000000000
+      internalID: -5100562457303381279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 11-AnemometerSmooth-sheet_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dafcaaf61d7374c0800000000000000
+      internalID: -4290948482305557807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 11-AnemometerSmooth-sheet_17
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74baa3c8cb5855010800000000000000
+      internalID: 1176993922480253767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 11-AnemometerSmooth-sheet_18
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9972115fc6e63f2e0800000000000000
+      internalID: -2093207987550083175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 11-AnemometerSmooth-sheet_19
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c878cb1e32e419500800000000000000
+      internalID: 401187757830735756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 11-AnemometerSmooth-sheet_20
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 516b78935c1a44ee0800000000000000
+      internalID: -1277718525820553707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 11-AnemometerSmooth-sheet_21
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42ac9a1a0ab5f79c0800000000000000
+      internalID: -3927319604578629084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 11-AnemometerSmooth-sheet_22
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebb0e653ffe83c6c0800000000000000
+      internalID: -4124295606977033282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 11-AnemometerSmooth-sheet_23
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3f8969fea1927610800000000000000
+      internalID: 1617515396874211133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 11-AnemometerSmooth-sheet_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 247324b5a58825450800000000000000
+      internalID: 6076068768935720770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 11-AnemometerSmooth-sheet_25
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0922137cbdcadd1f0800000000000000
+      internalID: -1018467880776162672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 11-AnemometerSmooth-sheet_26
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e17db9e6e2ac2df50800000000000000
+      internalID: 6904803479485404958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 11-AnemometerSmooth-sheet_27
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc1f46d7902888aa0800000000000000
+      internalID: -6158529513159069237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 11-AnemometerSmooth-sheet_28
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66e39bb55aebdc770800000000000000
+      internalID: 8632765678156856934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 11-AnemometerSmooth-sheet_29
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7294491cc181c22e0800000000000000
+      internalID: -2149316410376697561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 11-AnemometerSmooth-sheet_30
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dd92bc0cae50b680800000000000000
+      internalID: -8741382783685714474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 11-AnemometerSmooth-sheet_31
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63d598f8cf7530420800000000000000
+      internalID: 2595014552547056950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 11-AnemometerSmooth-sheet_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3ba648504dae9410800000000000000
+      internalID: 1485815418949380925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 11-AnemometerSmooth-sheet_33
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14bddf02ff5fcd4c0800000000000000
+      internalID: -4261260671280358591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 11-AnemometerSmooth-sheet_34
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c94909dc5dcca6200800000000000000
+      internalID: 174176754256090268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 11-AnemometerSmooth-sheet_35
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93f97b2dc4e3afe80800000000000000
+      internalID: -8144128476472434887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 11-AnemometerSmooth-sheet_36
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85be7d75f468947c0800000000000000
+      internalID: -4086587511527707816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 11-AnemometerSmooth-sheet_37
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a06a8ce5f51062a00800000000000000
+      internalID: 731273498618013194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 11-AnemometerSmooth-sheet_38
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f97fdfb1c9c27e5d0800000000000000
+      internalID: -3033406775014590561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 11-AnemometerSmooth-sheet_39
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53c007a8ad53f7b80800000000000000
+      internalID: -8394931967653573579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 11-AnemometerSmooth-sheet_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cec7b6a2abb975bb0800000000000000
+      internalID: -4947314441765290772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 11-AnemometerSmooth-sheet_41
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 616789333f8df9bc0800000000000000
+      internalID: -3774059423658904042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 11-AnemometerSmooth-sheet_42
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4103d5341a3838500800000000000000
+      internalID: 397305920781889556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 11-AnemometerSmooth-sheet_43
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21c5a3ebad65efb50800000000000000
+      internalID: 6628831199030303762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 11-AnemometerSmooth-sheet_44
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f645c49c26c25e70800000000000000
+      internalID: 9102555691646011126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 11-AnemometerSmooth-sheet_45
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de199624553edf710800000000000000
+      internalID: 1728787787306078701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 11-AnemometerSmooth-sheet_46
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0558f5dc09b60bcf0800000000000000
+      internalID: -238572510585584304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 11-AnemometerSmooth-sheet_47
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d350f21cbd39e540800000000000000
+      internalID: 5037625536171496400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 1ae35927b4bd54da1b27fdc6ba700a6f
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      11-AnemometerSmooth-sheet_0: 2979892228344753423
+      11-AnemometerSmooth-sheet_1: -6912463607669260170
+      11-AnemometerSmooth-sheet_10: -8935039193858146405
+      11-AnemometerSmooth-sheet_11: -1413313231844548203
+      11-AnemometerSmooth-sheet_12: 9155484381318181543
+      11-AnemometerSmooth-sheet_13: 98010170285033065
+      11-AnemometerSmooth-sheet_14: 2675668470388043392
+      11-AnemometerSmooth-sheet_15: -5100562457303381279
+      11-AnemometerSmooth-sheet_16: -4290948482305557807
+      11-AnemometerSmooth-sheet_17: 1176993922480253767
+      11-AnemometerSmooth-sheet_18: -2093207987550083175
+      11-AnemometerSmooth-sheet_19: 401187757830735756
+      11-AnemometerSmooth-sheet_2: 3657857265443643866
+      11-AnemometerSmooth-sheet_20: -1277718525820553707
+      11-AnemometerSmooth-sheet_21: -3927319604578629084
+      11-AnemometerSmooth-sheet_22: -4124295606977033282
+      11-AnemometerSmooth-sheet_23: 1617515396874211133
+      11-AnemometerSmooth-sheet_24: 6076068768935720770
+      11-AnemometerSmooth-sheet_25: -1018467880776162672
+      11-AnemometerSmooth-sheet_26: 6904803479485404958
+      11-AnemometerSmooth-sheet_27: -6158529513159069237
+      11-AnemometerSmooth-sheet_28: 8632765678156856934
+      11-AnemometerSmooth-sheet_29: -2149316410376697561
+      11-AnemometerSmooth-sheet_3: 4414378953602872048
+      11-AnemometerSmooth-sheet_30: -8741382783685714474
+      11-AnemometerSmooth-sheet_31: 2595014552547056950
+      11-AnemometerSmooth-sheet_32: 1485815418949380925
+      11-AnemometerSmooth-sheet_33: -4261260671280358591
+      11-AnemometerSmooth-sheet_34: 174176754256090268
+      11-AnemometerSmooth-sheet_35: -8144128476472434887
+      11-AnemometerSmooth-sheet_36: -4086587511527707816
+      11-AnemometerSmooth-sheet_37: 731273498618013194
+      11-AnemometerSmooth-sheet_38: -3033406775014590561
+      11-AnemometerSmooth-sheet_39: -8394931967653573579
+      11-AnemometerSmooth-sheet_4: 5833961900337342832
+      11-AnemometerSmooth-sheet_40: -4947314441765290772
+      11-AnemometerSmooth-sheet_41: -3774059423658904042
+      11-AnemometerSmooth-sheet_42: 397305920781889556
+      11-AnemometerSmooth-sheet_43: 6628831199030303762
+      11-AnemometerSmooth-sheet_44: 9102555691646011126
+      11-AnemometerSmooth-sheet_45: 1728787787306078701
+      11-AnemometerSmooth-sheet_46: -238572510585584304
+      11-AnemometerSmooth-sheet_47: 5037625536171496400
+      11-AnemometerSmooth-sheet_5: -5224804550890333076
+      11-AnemometerSmooth-sheet_6: -4820816994477577577
+      11-AnemometerSmooth-sheet_7: 923147395311137136
+      11-AnemometerSmooth-sheet_8: -5906122565164121466
+      11-AnemometerSmooth-sheet_9: -2520714350466656980
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
