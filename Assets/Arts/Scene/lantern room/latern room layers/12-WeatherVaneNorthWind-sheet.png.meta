@@ -1,0 +1,2530 @@
+fileFormatVersion: 2
+guid: e0162520c5b8f3541bd810636dc4e572
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5459316756363178255
+    second: 12-WeatherVaneNorthWind-sheet_0
+  - first:
+      213: -7538759345976920912
+    second: 12-WeatherVaneNorthWind-sheet_1
+  - first:
+      213: -1458310396218814356
+    second: 12-WeatherVaneNorthWind-sheet_2
+  - first:
+      213: 9007013520472243081
+    second: 12-WeatherVaneNorthWind-sheet_3
+  - first:
+      213: 8597098561119729570
+    second: 12-WeatherVaneNorthWind-sheet_4
+  - first:
+      213: 3249703531394978514
+    second: 12-WeatherVaneNorthWind-sheet_5
+  - first:
+      213: -8040375156977010219
+    second: 12-WeatherVaneNorthWind-sheet_6
+  - first:
+      213: -3024767973330426526
+    second: 12-WeatherVaneNorthWind-sheet_7
+  - first:
+      213: 3739819162884985733
+    second: 12-WeatherVaneNorthWind-sheet_8
+  - first:
+      213: -6944649332641090605
+    second: 12-WeatherVaneNorthWind-sheet_9
+  - first:
+      213: -843163954420579585
+    second: 12-WeatherVaneNorthWind-sheet_10
+  - first:
+      213: 3395990603293043397
+    second: 12-WeatherVaneNorthWind-sheet_11
+  - first:
+      213: 1991057886693931169
+    second: 12-WeatherVaneNorthWind-sheet_12
+  - first:
+      213: -3985940255956180781
+    second: 12-WeatherVaneNorthWind-sheet_13
+  - first:
+      213: 189454382403530828
+    second: 12-WeatherVaneNorthWind-sheet_14
+  - first:
+      213: -2405216634369491120
+    second: 12-WeatherVaneNorthWind-sheet_15
+  - first:
+      213: 1069239545513949495
+    second: 12-WeatherVaneNorthWind-sheet_16
+  - first:
+      213: -2055818166096028193
+    second: 12-WeatherVaneNorthWind-sheet_17
+  - first:
+      213: 8214481330797771271
+    second: 12-WeatherVaneNorthWind-sheet_18
+  - first:
+      213: 1188260931082365330
+    second: 12-WeatherVaneNorthWind-sheet_19
+  - first:
+      213: 6611342390115091499
+    second: 12-WeatherVaneNorthWind-sheet_20
+  - first:
+      213: -359351259191742398
+    second: 12-WeatherVaneNorthWind-sheet_21
+  - first:
+      213: -8433487351492009319
+    second: 12-WeatherVaneNorthWind-sheet_22
+  - first:
+      213: 1137140534812722848
+    second: 12-WeatherVaneNorthWind-sheet_23
+  - first:
+      213: -4252560402479657721
+    second: 12-WeatherVaneNorthWind-sheet_24
+  - first:
+      213: 5896856103839573263
+    second: 12-WeatherVaneNorthWind-sheet_25
+  - first:
+      213: -8236600158654695998
+    second: 12-WeatherVaneNorthWind-sheet_26
+  - first:
+      213: -3682852185765124588
+    second: 12-WeatherVaneNorthWind-sheet_27
+  - first:
+      213: -3746154783046491197
+    second: 12-WeatherVaneNorthWind-sheet_28
+  - first:
+      213: 6497426432227042414
+    second: 12-WeatherVaneNorthWind-sheet_29
+  - first:
+      213: -6112559256718740948
+    second: 12-WeatherVaneNorthWind-sheet_30
+  - first:
+      213: 6075565148595420366
+    second: 12-WeatherVaneNorthWind-sheet_31
+  - first:
+      213: 6109827592303945772
+    second: 12-WeatherVaneNorthWind-sheet_32
+  - first:
+      213: -178068406876652152
+    second: 12-WeatherVaneNorthWind-sheet_33
+  - first:
+      213: -1437240181060794357
+    second: 12-WeatherVaneNorthWind-sheet_34
+  - first:
+      213: 4369779498079131266
+    second: 12-WeatherVaneNorthWind-sheet_35
+  - first:
+      213: 7046239192267820233
+    second: 12-WeatherVaneNorthWind-sheet_36
+  - first:
+      213: -8349483839805166208
+    second: 12-WeatherVaneNorthWind-sheet_37
+  - first:
+      213: 3146237624291224205
+    second: 12-WeatherVaneNorthWind-sheet_38
+  - first:
+      213: -7497827753141810148
+    second: 12-WeatherVaneNorthWind-sheet_39
+  - first:
+      213: -3118528618974495930
+    second: 12-WeatherVaneNorthWind-sheet_40
+  - first:
+      213: -4794590699576544592
+    second: 12-WeatherVaneNorthWind-sheet_41
+  - first:
+      213: -6698769112672542917
+    second: 12-WeatherVaneNorthWind-sheet_42
+  - first:
+      213: -3410338568024600006
+    second: 12-WeatherVaneNorthWind-sheet_43
+  - first:
+      213: -886870089407863885
+    second: 12-WeatherVaneNorthWind-sheet_44
+  - first:
+      213: 1331328247025238396
+    second: 12-WeatherVaneNorthWind-sheet_45
+  - first:
+      213: 3230447959876663838
+    second: 12-WeatherVaneNorthWind-sheet_46
+  - first:
+      213: 3687033791765400629
+    second: 12-WeatherVaneNorthWind-sheet_47
+  - first:
+      213: -6527488519126154303
+    second: 12-WeatherVaneNorthWind-sheet_48
+  - first:
+      213: -4444962040966890984
+    second: 12-WeatherVaneNorthWind-sheet_49
+  - first:
+      213: 4363516240108468228
+    second: 12-WeatherVaneNorthWind-sheet_50
+  - first:
+      213: 2523437810505899522
+    second: 12-WeatherVaneNorthWind-sheet_51
+  - first:
+      213: 1278658219924643355
+    second: 12-WeatherVaneNorthWind-sheet_52
+  - first:
+      213: -4695042470193476092
+    second: 12-WeatherVaneNorthWind-sheet_53
+  - first:
+      213: -7030131487425843795
+    second: 12-WeatherVaneNorthWind-sheet_54
+  - first:
+      213: -615632110774039505
+    second: 12-WeatherVaneNorthWind-sheet_55
+  - first:
+      213: -8174992023203047904
+    second: 12-WeatherVaneNorthWind-sheet_56
+  - first:
+      213: 1269755272281458901
+    second: 12-WeatherVaneNorthWind-sheet_57
+  - first:
+      213: 3406196871449793456
+    second: 12-WeatherVaneNorthWind-sheet_58
+  - first:
+      213: -982136162730789803
+    second: 12-WeatherVaneNorthWind-sheet_59
+  - first:
+      213: -5528571852942909656
+    second: 12-WeatherVaneNorthWind-sheet_60
+  - first:
+      213: 4548036222464091837
+    second: 12-WeatherVaneNorthWind-sheet_61
+  - first:
+      213: -2376645732133768326
+    second: 12-WeatherVaneNorthWind-sheet_62
+  - first:
+      213: 2914568949471662852
+    second: 12-WeatherVaneNorthWind-sheet_63
+  - first:
+      213: -1051189020490346119
+    second: 12-WeatherVaneNorthWind-sheet_64
+  - first:
+      213: -2049873386246736422
+    second: 12-WeatherVaneNorthWind-sheet_65
+  - first:
+      213: -2458531583518252283
+    second: 12-WeatherVaneNorthWind-sheet_66
+  - first:
+      213: 3931826202038576540
+    second: 12-WeatherVaneNorthWind-sheet_67
+  - first:
+      213: -4195226425456045963
+    second: 12-WeatherVaneNorthWind-sheet_68
+  - first:
+      213: -8764176523458671132
+    second: 12-WeatherVaneNorthWind-sheet_69
+  - first:
+      213: 2318747450504826256
+    second: 12-WeatherVaneNorthWind-sheet_70
+  - first:
+      213: -8357122477268402794
+    second: 12-WeatherVaneNorthWind-sheet_71
+  - first:
+      213: -4129944490708796880
+    second: 12-WeatherVaneNorthWind-sheet_72
+  - first:
+      213: -8398605931998798740
+    second: 12-WeatherVaneNorthWind-sheet_73
+  - first:
+      213: -3318335570693580771
+    second: 12-WeatherVaneNorthWind-sheet_74
+  - first:
+      213: 6427686235720166725
+    second: 12-WeatherVaneNorthWind-sheet_75
+  - first:
+      213: -6487022957032713496
+    second: 12-WeatherVaneNorthWind-sheet_76
+  - first:
+      213: 5370749652392171246
+    second: 12-WeatherVaneNorthWind-sheet_77
+  - first:
+      213: -2373041043224721520
+    second: 12-WeatherVaneNorthWind-sheet_78
+  - first:
+      213: 5889304637653846357
+    second: 12-WeatherVaneNorthWind-sheet_79
+  - first:
+      213: 4526408233383988765
+    second: 12-WeatherVaneNorthWind-sheet_80
+  - first:
+      213: 5375773714102585143
+    second: 12-WeatherVaneNorthWind-sheet_81
+  - first:
+      213: 775617279196808647
+    second: 12-WeatherVaneNorthWind-sheet_82
+  - first:
+      213: -6773874552611216154
+    second: 12-WeatherVaneNorthWind-sheet_83
+  - first:
+      213: 7722931602178069728
+    second: 12-WeatherVaneNorthWind-sheet_84
+  - first:
+      213: -6885295294034095964
+    second: 12-WeatherVaneNorthWind-sheet_85
+  - first:
+      213: -7220248933646760692
+    second: 12-WeatherVaneNorthWind-sheet_86
+  - first:
+      213: -2108106164709720413
+    second: 12-WeatherVaneNorthWind-sheet_87
+  - first:
+      213: 1124931554519489527
+    second: 12-WeatherVaneNorthWind-sheet_88
+  - first:
+      213: -5743611671739785633
+    second: 12-WeatherVaneNorthWind-sheet_89
+  - first:
+      213: 5917975040708177398
+    second: 12-WeatherVaneNorthWind-sheet_90
+  - first:
+      213: -9176221349748419805
+    second: 12-WeatherVaneNorthWind-sheet_91
+  - first:
+      213: 7252157578462512995
+    second: 12-WeatherVaneNorthWind-sheet_92
+  - first:
+      213: -1067678401621413477
+    second: 12-WeatherVaneNorthWind-sheet_93
+  - first:
+      213: -6828417872336679136
+    second: 12-WeatherVaneNorthWind-sheet_94
+  - first:
+      213: 404716521027819743
+    second: 12-WeatherVaneNorthWind-sheet_95
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 12-WeatherVaneNorthWind-sheet_0
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 3575
+        width: 366
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f017d5b4aa363cb40800000000000000
+      internalID: 5459316756363178255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12-WeatherVaneNorthWind-sheet_1
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 3575
+        width: 366
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b4b3ef1152f06790800000000000000
+      internalID: -7538759345976920912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12-WeatherVaneNorthWind-sheet_2
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 3575
+        width: 366
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c605e1dcb6a03cbe0800000000000000
+      internalID: -1458310396218814356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12-WeatherVaneNorthWind-sheet_3
+      rect:
+        serializedVersion: 2
+        x: 1567
+        y: 3575
+        width: 366
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98b73ee53175ffc70800000000000000
+      internalID: 9007013520472243081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12-WeatherVaneNorthWind-sheet_4
+      rect:
+        serializedVersion: 2
+        x: 2079
+        y: 3575
+        width: 366
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a7309a87970f4770800000000000000
+      internalID: 8597098561119729570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12-WeatherVaneNorthWind-sheet_5
+      rect:
+        serializedVersion: 2
+        x: 2591
+        y: 3575
+        width: 362
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d25126e424491d20800000000000000
+      internalID: 3249703531394978514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12-WeatherVaneNorthWind-sheet_6
+      rect:
+        serializedVersion: 2
+        x: 3107
+        y: 3575
+        width: 358
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d9728bf469da6090800000000000000
+      internalID: -8040375156977010219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12-WeatherVaneNorthWind-sheet_7
+      rect:
+        serializedVersion: 2
+        x: 3619
+        y: 3575
+        width: 358
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26569addd8dd506d0800000000000000
+      internalID: -3024767973330426526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12-WeatherVaneNorthWind-sheet_8
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 3255
+        width: 354
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58355f7d6b186e330800000000000000
+      internalID: 3739819162884985733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12-WeatherVaneNorthWind-sheet_9
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 3255
+        width: 350
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d3364ee936af9f90800000000000000
+      internalID: -6944649332641090605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12-WeatherVaneNorthWind-sheet_10
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 3255
+        width: 346
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff20959c9da7c44f0800000000000000
+      internalID: -843163954420579585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12-WeatherVaneNorthWind-sheet_11
+      rect:
+        serializedVersion: 2
+        x: 1579
+        y: 3255
+        width: 346
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5caa8d1067bf02f20800000000000000
+      internalID: 3395990603293043397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12-WeatherVaneNorthWind-sheet_12
+      rect:
+        serializedVersion: 2
+        x: 2095
+        y: 3255
+        width: 338
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a8b1af4998a1ab10800000000000000
+      internalID: 1991057886693931169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12-WeatherVaneNorthWind-sheet_13
+      rect:
+        serializedVersion: 2
+        x: 2611
+        y: 3255
+        width: 334
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d06dc3a4781fa8c0800000000000000
+      internalID: -3985940255956180781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12-WeatherVaneNorthWind-sheet_14
+      rect:
+        serializedVersion: 2
+        x: 3123
+        y: 3255
+        width: 330
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c40bd4cc1c311a200800000000000000
+      internalID: 189454382403530828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12-WeatherVaneNorthWind-sheet_15
+      rect:
+        serializedVersion: 2
+        x: 3639
+        y: 3255
+        width: 326
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05fbb84e634fe9ed0800000000000000
+      internalID: -2405216634369491120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12-WeatherVaneNorthWind-sheet_16
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 2935
+        width: 318
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 739b82a93b3b6de00800000000000000
+      internalID: 1069239545513949495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12-WeatherVaneNorthWind-sheet_17
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 2935
+        width: 314
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdd1d0725444873e0800000000000000
+      internalID: -2055818166096028193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12-WeatherVaneNorthWind-sheet_18
+      rect:
+        serializedVersion: 2
+        x: 1091
+        y: 2935
+        width: 306
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70a77488f33bff170800000000000000
+      internalID: 8214481330797771271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12-WeatherVaneNorthWind-sheet_19
+      rect:
+        serializedVersion: 2
+        x: 1607
+        y: 2935
+        width: 302
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 299a3a9650d8d7010800000000000000
+      internalID: 1188260931082365330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12-WeatherVaneNorthWind-sheet_20
+      rect:
+        serializedVersion: 2
+        x: 2123
+        y: 2935
+        width: 294
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b24ca4b10e430cb50800000000000000
+      internalID: 6611342390115091499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12-WeatherVaneNorthWind-sheet_21
+      rect:
+        serializedVersion: 2
+        x: 2639
+        y: 2935
+        width: 290
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24079460fe3530bf0800000000000000
+      internalID: -359351259191742398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12-WeatherVaneNorthWind-sheet_22
+      rect:
+        serializedVersion: 2
+        x: 3155
+        y: 2935
+        width: 282
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 992a194bfeb36fa80800000000000000
+      internalID: -8433487351492009319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12-WeatherVaneNorthWind-sheet_23
+      rect:
+        serializedVersion: 2
+        x: 3671
+        y: 2935
+        width: 274
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a6c535aa4fe7cf00800000000000000
+      internalID: 1137140534812722848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12-WeatherVaneNorthWind-sheet_24
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 2615
+        width: 270
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70dce4058dedbf4c0800000000000000
+      internalID: -4252560402479657721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12-WeatherVaneNorthWind-sheet_25
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 2615
+        width: 262
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f05a3f03267d5d150800000000000000
+      internalID: 5896856103839573263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12-WeatherVaneNorthWind-sheet_26
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 2615
+        width: 254
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c5f57a8bc7b1bd80800000000000000
+      internalID: -8236600158654695998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12-WeatherVaneNorthWind-sheet_27
+      rect:
+        serializedVersion: 2
+        x: 1639
+        y: 2615
+        width: 250
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 416e23b1371e3ecc0800000000000000
+      internalID: -3682852185765124588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12-WeatherVaneNorthWind-sheet_28
+      rect:
+        serializedVersion: 2
+        x: 2155
+        y: 2615
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c322e2a21cf20cc0800000000000000
+      internalID: -3746154783046491197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12-WeatherVaneNorthWind-sheet_29
+      rect:
+        serializedVersion: 2
+        x: 2671
+        y: 2615
+        width: 234
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e64602f4aee7b2a50800000000000000
+      internalID: 6497426432227042414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12-WeatherVaneNorthWind-sheet_30
+      rect:
+        serializedVersion: 2
+        x: 3187
+        y: 2615
+        width: 230
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c22f0c2edb3db2ba0800000000000000
+      internalID: -6112559256718740948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12-WeatherVaneNorthWind-sheet_31
+      rect:
+        serializedVersion: 2
+        x: 3703
+        y: 2615
+        width: 222
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eccf5cb105eb05450800000000000000
+      internalID: 6075565148595420366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12-WeatherVaneNorthWind-sheet_32
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 2295
+        width: 218
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c28282ee2d77ac450800000000000000
+      internalID: 6109827592303945772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12-WeatherVaneNorthWind-sheet_33
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 2295
+        width: 210
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88db5663abf578df0800000000000000
+      internalID: -178068406876652152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12-WeatherVaneNorthWind-sheet_34
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 2295
+        width: 202
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0804fe8ba5ed0ce0800000000000000
+      internalID: -1437240181060794357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12-WeatherVaneNorthWind-sheet_35
+      rect:
+        serializedVersion: 2
+        x: 1671
+        y: 2295
+        width: 198
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2869ac92d4394ac30800000000000000
+      internalID: 4369779498079131266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12-WeatherVaneNorthWind-sheet_36
+      rect:
+        serializedVersion: 2
+        x: 2187
+        y: 2295
+        width: 190
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cc0f89763549c160800000000000000
+      internalID: 7046239192267820233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12-WeatherVaneNorthWind-sheet_37
+      rect:
+        serializedVersion: 2
+        x: 2703
+        y: 2295
+        width: 186
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08d6c866faca02c80800000000000000
+      internalID: -8349483839805166208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12-WeatherVaneNorthWind-sheet_38
+      rect:
+        serializedVersion: 2
+        x: 3215
+        y: 2295
+        width: 182
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8ae8d6237ea9ab20800000000000000
+      internalID: 3146237624291224205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12-WeatherVaneNorthWind-sheet_39
+      rect:
+        serializedVersion: 2
+        x: 3731
+        y: 2295
+        width: 178
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1ccaea326d52f790800000000000000
+      internalID: -7497827753141810148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12-WeatherVaneNorthWind-sheet_40
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 1975
+        width: 170
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64bb2246eb2c8b4d0800000000000000
+      internalID: -3118528618974495930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12-WeatherVaneNorthWind-sheet_41
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 1975
+        width: 170
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b2395c5921367db0800000000000000
+      internalID: -4794590699576544592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12-WeatherVaneNorthWind-sheet_42
+      rect:
+        serializedVersion: 2
+        x: 1179
+        y: 1975
+        width: 166
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3f5bcecbf03903a0800000000000000
+      internalID: -6698769112672542917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12-WeatherVaneNorthWind-sheet_43
+      rect:
+        serializedVersion: 2
+        x: 1691
+        y: 1975
+        width: 162
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a325411242b0ca0d0800000000000000
+      internalID: -3410338568024600006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12-WeatherVaneNorthWind-sheet_44
+      rect:
+        serializedVersion: 2
+        x: 2207
+        y: 1975
+        width: 158
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b3ecee3a5431b3f0800000000000000
+      internalID: -886870089407863885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12-WeatherVaneNorthWind-sheet_45
+      rect:
+        serializedVersion: 2
+        x: 2719
+        y: 1975
+        width: 158
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c71026bacf3d97210800000000000000
+      internalID: 1331328247025238396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12-WeatherVaneNorthWind-sheet_46
+      rect:
+        serializedVersion: 2
+        x: 3231
+        y: 1975
+        width: 158
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1a75d9cd4bd4dc20800000000000000
+      internalID: 3230447959876663838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12-WeatherVaneNorthWind-sheet_47
+      rect:
+        serializedVersion: 2
+        x: 3743
+        y: 1975
+        width: 158
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53cc909e2b9fa2330800000000000000
+      internalID: 3687033791765400629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12-WeatherVaneNorthWind-sheet_48
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 1655
+        width: 158
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c38b06a6c3b965a0800000000000000
+      internalID: -6527488519126154303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12-WeatherVaneNorthWind-sheet_49
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 1655
+        width: 158
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81ab21cf2925052c0800000000000000
+      internalID: -4444962040966890984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12-WeatherVaneNorthWind-sheet_50
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 1655
+        width: 158
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4083057c6e25e8c30800000000000000
+      internalID: 4363516240108468228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12-WeatherVaneNorthWind-sheet_51
+      rect:
+        serializedVersion: 2
+        x: 1691
+        y: 1655
+        width: 166
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20e5ef3a15d050320800000000000000
+      internalID: 2523437810505899522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12-WeatherVaneNorthWind-sheet_52
+      rect:
+        serializedVersion: 2
+        x: 2203
+        y: 1655
+        width: 166
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1eddbb50e4beb110800000000000000
+      internalID: 1278658219924643355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12-WeatherVaneNorthWind-sheet_53
+      rect:
+        serializedVersion: 2
+        x: 2711
+        y: 1655
+        width: 170
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40ecebeafbbd7deb0800000000000000
+      internalID: -4695042470193476092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12-WeatherVaneNorthWind-sheet_54
+      rect:
+        serializedVersion: 2
+        x: 3219
+        y: 1655
+        width: 178
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dada1bfc8a4ff6e90800000000000000
+      internalID: -7030131487425843795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12-WeatherVaneNorthWind-sheet_55
+      rect:
+        serializedVersion: 2
+        x: 3731
+        y: 1655
+        width: 178
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2c4df46bd5d477f0800000000000000
+      internalID: -615632110774039505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12-WeatherVaneNorthWind-sheet_56
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 1335
+        width: 186
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 026945f51189c8e80800000000000000
+      internalID: -8174992023203047904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12-WeatherVaneNorthWind-sheet_57
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 1335
+        width: 190
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d8040451b31f9110800000000000000
+      internalID: 1269755272281458901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12-WeatherVaneNorthWind-sheet_58
+      rect:
+        serializedVersion: 2
+        x: 1159
+        y: 1335
+        width: 198
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b3dfcdf10e354f20800000000000000
+      internalID: 3406196871449793456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12-WeatherVaneNorthWind-sheet_59
+      rect:
+        serializedVersion: 2
+        x: 1667
+        y: 1335
+        width: 202
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 554bd531d50ce52f0800000000000000
+      internalID: -982136162730789803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12-WeatherVaneNorthWind-sheet_60
+      rect:
+        serializedVersion: 2
+        x: 2175
+        y: 1335
+        width: 210
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82f5d1ef0319643b0800000000000000
+      internalID: -5528571852942909656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12-WeatherVaneNorthWind-sheet_61
+      rect:
+        serializedVersion: 2
+        x: 2683
+        y: 1335
+        width: 214
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db6e49909dedd1f30800000000000000
+      internalID: 4548036222464091837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12-WeatherVaneNorthWind-sheet_62
+      rect:
+        serializedVersion: 2
+        x: 3191
+        y: 1335
+        width: 222
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a73f7337c45740fd0800000000000000
+      internalID: -2376645732133768326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12-WeatherVaneNorthWind-sheet_63
+      rect:
+        serializedVersion: 2
+        x: 3699
+        y: 1335
+        width: 230
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40354aa7401a27820800000000000000
+      internalID: 2914568949471662852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12-WeatherVaneNorthWind-sheet_64
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 1015
+        width: 234
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 971d1e1c72d6961f0800000000000000
+      internalID: -1051189020490346119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12-WeatherVaneNorthWind-sheet_65
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 1015
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad57c3214036d83e0800000000000000
+      internalID: -2049873386246736422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12-WeatherVaneNorthWind-sheet_66
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 1015
+        width: 246
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 503e057fc8a81edd0800000000000000
+      internalID: -2458531583518252283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12-WeatherVaneNorthWind-sheet_67
+      rect:
+        serializedVersion: 2
+        x: 1635
+        y: 1015
+        width: 254
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c95251b5917a09630800000000000000
+      internalID: 3931826202038576540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12-WeatherVaneNorthWind-sheet_68
+      rect:
+        serializedVersion: 2
+        x: 2143
+        y: 1015
+        width: 262
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5705c561bcf87c5c0800000000000000
+      internalID: -4195226425456045963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12-WeatherVaneNorthWind-sheet_69
+      rect:
+        serializedVersion: 2
+        x: 2651
+        y: 1015
+        width: 266
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ed8d62f2e36f5680800000000000000
+      internalID: -8764176523458671132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12-WeatherVaneNorthWind-sheet_70
+      rect:
+        serializedVersion: 2
+        x: 3159
+        y: 1015
+        width: 274
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09dce2f5588dd2020800000000000000
+      internalID: 2318747450504826256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12-WeatherVaneNorthWind-sheet_71
+      rect:
+        serializedVersion: 2
+        x: 3667
+        y: 1015
+        width: 278
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69dfbf58269850c80800000000000000
+      internalID: -8357122477268402794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12-WeatherVaneNorthWind-sheet_72
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 695
+        width: 286
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03a7839fd5d7fa6c0800000000000000
+      internalID: -4129944490708796880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12-WeatherVaneNorthWind-sheet_73
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 695
+        width: 290
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6c19be0768227b80800000000000000
+      internalID: -8398605931998798740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12-WeatherVaneNorthWind-sheet_74
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 695
+        width: 294
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1814473167e2f1d0800000000000000
+      internalID: -3318335570693580771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12-WeatherVaneNorthWind-sheet_75
+      rect:
+        serializedVersion: 2
+        x: 1607
+        y: 695
+        width: 302
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54da4c7739ab33950800000000000000
+      internalID: 6427686235720166725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12-WeatherVaneNorthWind-sheet_76
+      rect:
+        serializedVersion: 2
+        x: 2115
+        y: 695
+        width: 306
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e2d2448df679f5a0800000000000000
+      internalID: -6487022957032713496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12-WeatherVaneNorthWind-sheet_77
+      rect:
+        serializedVersion: 2
+        x: 2623
+        y: 695
+        width: 314
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee653687a5cb88a40800000000000000
+      internalID: 5370749652392171246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12-WeatherVaneNorthWind-sheet_78
+      rect:
+        serializedVersion: 2
+        x: 3131
+        y: 695
+        width: 318
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0970b2d7eb3411fd0800000000000000
+      internalID: -2373041043224721520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12-WeatherVaneNorthWind-sheet_79
+      rect:
+        serializedVersion: 2
+        x: 3639
+        y: 695
+        width: 326
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5590b657d530bb150800000000000000
+      internalID: 5889304637653846357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12-WeatherVaneNorthWind-sheet_80
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 375
+        width: 326
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1e814b6e4801de30800000000000000
+      internalID: 4526408233383988765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12-WeatherVaneNorthWind-sheet_81
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 375
+        width: 334
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73787fdf5b59a9a40800000000000000
+      internalID: 5375773714102585143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12-WeatherVaneNorthWind-sheet_82
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 375
+        width: 338
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c54e285ecb83ca00800000000000000
+      internalID: 775617279196808647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12-WeatherVaneNorthWind-sheet_83
+      rect:
+        serializedVersion: 2
+        x: 1583
+        y: 375
+        width: 338
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e4ec82ebfc5ef1a0800000000000000
+      internalID: -6773874552611216154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12-WeatherVaneNorthWind-sheet_84
+      rect:
+        serializedVersion: 2
+        x: 2091
+        y: 375
+        width: 346
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e45674df5d5d2b60800000000000000
+      internalID: 7722931602178069728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12-WeatherVaneNorthWind-sheet_85
+      rect:
+        serializedVersion: 2
+        x: 2603
+        y: 375
+        width: 346
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a0dd61f8648270a0800000000000000
+      internalID: -6885295294034095964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12-WeatherVaneNorthWind-sheet_86
+      rect:
+        serializedVersion: 2
+        x: 3111
+        y: 375
+        width: 350
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c05871079d58ccb90800000000000000
+      internalID: -7220248933646760692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12-WeatherVaneNorthWind-sheet_87
+      rect:
+        serializedVersion: 2
+        x: 3623
+        y: 375
+        width: 354
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ae7aa7cc908eb2e0800000000000000
+      internalID: -2108106164709720413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12-WeatherVaneNorthWind-sheet_88
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 55
+        width: 358
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fb13c7e94f8c9f00800000000000000
+      internalID: 1124931554519489527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12-WeatherVaneNorthWind-sheet_89
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 55
+        width: 358
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5e99229d979a40b0800000000000000
+      internalID: -5743611671739785633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12-WeatherVaneNorthWind-sheet_90
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 55
+        width: 362
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fde90bd1fed02250800000000000000
+      internalID: 5917975040708177398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12-WeatherVaneNorthWind-sheet_91
+      rect:
+        serializedVersion: 2
+        x: 1567
+        y: 55
+        width: 366
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 323d3e3dc4387a080800000000000000
+      internalID: -9176221349748419805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12-WeatherVaneNorthWind-sheet_92
+      rect:
+        serializedVersion: 2
+        x: 2079
+        y: 55
+        width: 366
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3674a6fd4e6d4a460800000000000000
+      internalID: 7252157578462512995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12-WeatherVaneNorthWind-sheet_93
+      rect:
+        serializedVersion: 2
+        x: 2591
+        y: 55
+        width: 366
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b91bff88628de21f0800000000000000
+      internalID: -1067678401621413477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12-WeatherVaneNorthWind-sheet_94
+      rect:
+        serializedVersion: 2
+        x: 3103
+        y: 55
+        width: 366
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02f8175af169c31a0800000000000000
+      internalID: -6828417872336679136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12-WeatherVaneNorthWind-sheet_95
+      rect:
+        serializedVersion: 2
+        x: 3615
+        y: 55
+        width: 366
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd858961887dd9500800000000000000
+      internalID: 404716521027819743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
