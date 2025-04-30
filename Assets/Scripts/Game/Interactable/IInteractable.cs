@@ -7,6 +7,7 @@ namespace Phosphorescence.Game
     public interface IInteractable
     {
         public virtual void OnHover(IInteractor interactor) {}
+        public virtual void OnHold(IInteractor interactor) {}
         public virtual void OnInteract(IInteractor interactor) {}
         public virtual void OnUnhover(IInteractor interactor) {}
     }

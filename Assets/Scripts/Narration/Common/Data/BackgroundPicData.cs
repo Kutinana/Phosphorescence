@@ -7,7 +7,7 @@ using UnityEngine;
 namespace Phosphorescence.Narration.Common
 {
     [Serializable]
-    [CreateAssetMenu(fileName = "Background Pic Data", menuName = "Scriptable Objects/Background Pic Data", order = 0)]
+    [CreateAssetMenu(fileName = "New Background Picture Data", menuName = "Scriptable Objects/Background Picture Data", order = 0)]
     public class BackgroundPicData : ScriptableObject, IHaveId
     {
         public string Id => id;

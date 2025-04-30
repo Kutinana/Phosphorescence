@@ -13,6 +13,8 @@ namespace Phosphorescence.Game
         private void SelectInteractable()
         {
             IInteractable interactable = null;
+            var lastInteractTarget = m_CurrentInteractTarget;
+
             if (m_Interactables.Count == 0 || m_Interactables.All(i => !i.IsInteractable))
             {
                 if (m_CurrentInteractTarget != null && m_CurrentInteractTarget.TryGetComponent<IInteractable>(out interactable))
@@ -40,7 +42,15 @@ namespace Phosphorescence.Game
             if (m_CurrentInteractTarget != null && m_CurrentInteractTarget.IsInteractable
                 && m_CurrentInteractTarget.TryGetComponent<IInteractable>(out interactable))
             {
-                interactable.OnHover(this);
+                if (lastInteractTarget != m_CurrentInteractTarget)
+                {
+                    lastInteractTarget?.OnUnhover(this);
+                    interactable.OnHover(this);
+                }
+                else
+                {
+                    interactable.OnHold(this);
+                }
             }
         }
 

@@ -7,7 +7,7 @@ using UnityEngine;
 namespace Phosphorescence.Narration.Common
 {
     [Serializable]
-    [CreateAssetMenu(fileName = "Tachi E Data", menuName = "Scriptable Objects/Tachi E Data", order = 1)]
+    [CreateAssetMenu(fileName = "New Tachi E Data", menuName = "Scriptable Objects/Tachi E Data", order = 1)]
     public class TachiEData : ScriptableObject, IHaveId
     {
         public string Id => id;

@@ -7,7 +7,7 @@ using UnityEngine;
 namespace Phosphorescence.Narration.Common
 {
     [Serializable]
-    [CreateAssetMenu(fileName = "Audio Data", menuName = "Scriptable Objects/Audio Data", order = 1)]
+    [CreateAssetMenu(fileName = "New Audio Data", menuName = "Scriptable Objects/Audio Data", order = 1)]
     public class AudioData : ScriptableObject, IHaveId
     {
         public string Id => id;

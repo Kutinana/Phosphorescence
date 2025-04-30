@@ -1,3 +1,4 @@
+using Phosphorescence.DataSystem;
 using QFramework;
 using UnityEngine;
 
@@ -6,10 +7,11 @@ namespace Phosphorescence.Game
     public class FloorManager : MonoSingleton<FloorManager>
     {
         public FloorStateController[] Floors;
+        public Transform[] FloorPivots;
 
         public void Start()
         {
-            SwitchTo(PlayerController.Instance.ImAtFloor);
+            
         }
 
         public void SwitchTo(int floorIndex)
@@ -24,6 +26,7 @@ namespace Phosphorescence.Game
             Floors[floorIndex].StateMachine.ChangeState(FloorStateController.FloorState.Active);
 
             PlayerController.Instance.ImAtFloor = floorIndex;
+            GameProgressData.Instance.LastFloorIndex = floorIndex;
         }
     }
 }

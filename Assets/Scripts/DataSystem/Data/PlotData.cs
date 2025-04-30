@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace Phosphorescence.DataSystem
 {
-    [CreateAssetMenu(fileName = "PlotData", menuName = "Scriptable Objects/Plot Data")]
+    [CreateAssetMenu(fileName = "New Plot Data", menuName = "Scriptable Objects/Plot Data")]
     public class PlotData : ScriptableObject , IHaveId
     {
         public string Id => _id;
