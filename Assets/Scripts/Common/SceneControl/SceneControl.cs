@@ -74,7 +74,7 @@ namespace Common.SceneControl
 
         private IEnumerator InitializeSceneControl()
         {
-            mAsyncOperation = SceneManager.LoadSceneAsync("StartScene", LoadSceneMode.Additive);
+            mAsyncOperation = SceneManager.LoadSceneAsync("MainScene", LoadSceneMode.Additive);
             yield return mAsyncOperation;
             // SceneManager.SetActiveScene(SceneManager.GetSceneByName(sceneName));
 

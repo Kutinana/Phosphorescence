@@ -17,6 +17,8 @@ namespace Phosphorescence.Game
 
         public InputAction nextLineAction;
 
+        public InputAction pauseResumeAction;
+
         private void Awake()
         {
             DontDestroyOnLoad(this);
@@ -29,11 +31,19 @@ namespace Phosphorescence.Game
             climbAction = InputSystem.actions.FindAction("Climb");
 
             nextLineAction = InputSystem.actions.FindAction("NextLine");
+
+            pauseResumeAction = InputSystem.actions.FindAction("PauseResume");
         }
 
         private void Update()
         {
             if (interactAction.WasPressedThisFrame()) PlayerController.Instance.Interact();
+
+            if (pauseResumeAction.WasPressedThisFrame())
+            {
+                if (MenuPanelController.Instance.IsActivated) MenuPanelController.Instance.StateMachine.ChangeState(MenuPanelState.None);
+                else MenuPanelController.Instance.StateMachine.ChangeState(MenuPanelState.MainMenu);
+            }
         }
 
         public void ContinuePlot()

@@ -1548,6 +1548,15 @@ MonoBehaviour:
     m_Interactions: 
     m_SingletonActionBindings: []
     m_Flags: 0
+  pauseResumeAction:
+    m_Name: Pause Resume
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 30d11e1d-7565-40a1-b9c1-8583c1f7ddc4
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
 --- !u!4 &604638999
 Transform:
   m_ObjectHideFlags: 0
