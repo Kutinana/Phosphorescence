@@ -1,5 +1,6 @@
 using System;
 using System.Collections;
+using System.Collections.Generic;
 using Phosphorescence.DataSystem;
 using Phosphorescence.Narration.Common;
 using QFramework;
@@ -24,6 +25,9 @@ namespace Phosphorescence.Narration
         private AnimationPlayableOutput animationOutputPlayable;
 
         private float m_SleepTime = 0f;
+        private AudioClip voiceClip;
+        private AudioClip simulatedVoiceClip;
+        private List<char> omittedChars = new List<char> { ' ', '\r', '\n', '\"', '”', '”' };
 
         private OnLineReadEvent m_CurrentLineEvent;
         private Coroutine m_CurrentTypeTextCoroutine;
@@ -52,6 +56,8 @@ namespace Phosphorescence.Narration
             this.SetAvatar(e.tags.TryGetValue("avatar", out var avatar) ? avatar : "")
                 .SetSpeaker(e.tags.TryGetValue("speaker", out var speaker) ? speaker : "")
                 .SetBackground(e.tags.TryGetValue("background_pic", out var backgroundPic) ? backgroundPic : "")
+                .SetVoice(e.tags.TryGetValue("voice", out var voice) ? voice : "")
+                .SetSimulatedVoice(e.tags.TryGetValue("simulated_voice", out var simulatedVoice) ? simulatedVoice : "")
                 .SetSkippable(!e.tags.TryGetValue("skippable", out var skippable) || skippable == "true")
                 .SetSleepTime(e.tags.TryGetValue("sleep", out var sleep) ? float.Parse(sleep) : 0f)
                 .Process();
@@ -78,14 +84,17 @@ namespace Phosphorescence.Narration
 
             var len = text.Length;
 
+            if (voiceClip != null) AudioKit.PlayVoice(voiceClip);
+
             for (var i = 0; i < len; i++)
             {
                 textfield.text += text[i];
-                // if (text[i] is not ' ' or '\r' or '\n') AudioKit.PlaySound("InteractClick");
+                if (!omittedChars.Contains(text[i]) && simulatedVoiceClip != null) AudioKit.PlaySound(simulatedVoiceClip);
                 yield return new WaitForSeconds(speed);
             }
             textfield.SetText(text);
 
+            if (voiceClip != null) yield return new WaitUntil(() => !AudioKit.VoicePlayer.AudioSource.isPlaying);
             m_CurrentTypeTextCoroutine = null;
         }
 
@@ -163,6 +172,26 @@ namespace Phosphorescence.Narration
                 Background.color = Color.white;
             }
             else Background.color = new Color(0, 0, 0, 0);
+
+            return this;
+        }
+
+        private AvatarTextComponent SetVoice(string voice = "")
+        {
+            if (GameDesignData.GetAudioData(voice, out var voiceConfig))
+            {
+                voiceClip = voiceConfig.clip;
+            }
+
+            return this;
+        }
+
+        private AvatarTextComponent SetSimulatedVoice(string simulatedVoice = "")
+        {
+            if (GameDesignData.GetAudioData(simulatedVoice, out var simulatedVoiceConfig))
+            {
+                simulatedVoiceClip = simulatedVoiceConfig.clip;
+            }
 
             return this;
         }

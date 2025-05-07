@@ -80,10 +80,7 @@ namespace Common.SceneControl
 
             SceneManager.UnloadSceneAsync(SceneManager.GetSceneByName("ControlScene"));
 
-            yield return null;
-
             SplashScreenController.Instance.Initialize();
-
             yield return SplashScreenController.Instance.FadeInGroup.LinearTransition(2f, 0f);
 
             if (GameProgressData.Instance.IsPlotFinished("0.0"))  // After tutorial
@@ -99,12 +96,14 @@ namespace Common.SceneControl
             {
                 GameProgressData.Instance.ResetPlotProgress();
                 PlayerController.Instance.TransportTo(FloorManager.Instance.FloorPivots[1].position);
+                FloorManager.Instance.SwitchTo(1);
 
                 yield return new WaitForSeconds(0.5f);
                 yield return SplashScreenController.Instance.ImageColorProgressable.LinearTransition(1f, 0f);
                 GameManager.Instance.ContinuePlot();
 
-                yield return new WaitForSeconds(3f);
+                yield return new WaitForSeconds(2f);
+                SplashScreenController.Instance.FadeInGroup.Progress = 0f;
                 yield return SplashScreenController.Instance.FadeOutGroup.InverseLinearTransition(0.5f, 0f);
             }
 

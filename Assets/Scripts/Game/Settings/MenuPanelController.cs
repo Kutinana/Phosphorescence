@@ -35,6 +35,29 @@ namespace Phosphorescence.Game
             StateMachine.StartState(MenuPanelState.None);
         }
 
+        private void Update()
+        {
+            if (GameManager.Instance.pauseResumeAction.WasPressedThisFrame())
+            {
+                if (IsActivated)
+                {
+                    switch (StateMachine.CurrentStateId)
+                    {
+                        case MenuPanelState.MainMenu:
+                            StateMachine.ChangeState(MenuPanelState.None);
+                            break;
+                        case MenuPanelState.Settings:
+                            StateMachine.ChangeState(MenuPanelState.MainMenu);
+                            break;
+                        case MenuPanelState.Credits:
+                            StateMachine.ChangeState(MenuPanelState.MainMenu);
+                            break;
+                    }
+                }
+                else StateMachine.ChangeState(MenuPanelState.MainMenu);
+            }
+        }
+
         public void ChangeState(string stateId)
         {
             if (Enum.TryParse(stateId, out MenuPanelState state))
@@ -54,11 +77,21 @@ namespace Phosphorescence.Game
             protected override void OnEnter()
             {
                 mTarget.ProgressableGroup.InverseLinearTransition(0.5f, 0.5f);
+
+                GameManager.Instance.moveAction.Enable();
+                GameManager.Instance.interactAction.Enable();
+                GameManager.Instance.climbAction.Enable();
+                GameManager.Instance.nextLineAction.Enable();
             }
 
             protected override void OnExit()
             {
                 mTarget.ProgressableGroup.LinearTransition(0.5f);
+
+                GameManager.Instance.moveAction.Disable();
+                GameManager.Instance.interactAction.Disable();
+                GameManager.Instance.climbAction.Disable();
+                GameManager.Instance.nextLineAction.Disable();
             }
         }
 

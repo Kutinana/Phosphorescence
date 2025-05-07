@@ -3,7 +3,7 @@
 
 === opening ===
 
-$DISABLE_INTERACTION #auto:true
+$DISABLE_ALL_ACTIONS #auto:true
 $MUSIC:main_theme #auto:true
 $SLEEP:2 #auto:true
 
@@ -23,6 +23,6 @@ $SLEEP:2 #auto:true
 每个远航在外的游子都会瞬间明白，那就是家的方向。 #type:SubtitleText #skippable:false #auto:true #sleep:0.5
 这才是灯塔无可替代的地方。 #type:SubtitleText #skippable:false #auto:true #sleep:1
 
-$ENABLE_INTERACTION
+$ENABLE_ALL_ACTIONS
 
 -> END

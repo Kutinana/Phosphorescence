@@ -17,9 +17,6 @@ namespace Phosphorescence.Others
 
         public void Initialize()
         {
-            FadeInGroup = GetComponent<ProgressableGroup>();
-            FadeOutGroup = GetComponent<CanvasGroupAlphaProgressable>();
-
             FadeInGroup.Progress = 0;
             ImageColorProgressable.Progress = 0;
             FadeOutGroup.Progress = 1;

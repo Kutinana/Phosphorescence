@@ -31,6 +31,8 @@ namespace Phosphorescence.Game
             if (CanInteract)
             {
                 SelectInteractable();
+
+                if (GameManager.Instance.interactAction.WasPressedThisFrame()) Interact();
             }
         }
 

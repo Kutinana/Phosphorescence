@@ -3,7 +3,7 @@
 
 === prologue_after_switch_on ===
 
-$DISABLE_INTERACTION #auto:true
+$DISABLE_ALL_ACTIONS #auto:true
 $SFX:sfx_radio_switch_01
 
 （咔嗒） # type:FullScreenText #opacity:0.5
@@ -20,45 +20,45 @@ $SFX:sfx_radio_switch_02
 
 $SLEEP:3 #skippable:false
 
-“……喂？” # type: LeftAvatarText #speaker:未知信号
-“……你好？” # type:LeftAvatarText #speaker:未知信号
+“……喂？” # type: LeftAvatarText #speaker:未知信号 #simulated_voice: sfx_hakumei_re
+“……你好？” # type:LeftAvatarText #speaker:未知信号 #simulated_voice: sfx_hakumei_re
 
 - #type:FullScreenOptions #opacity:0.5
   * [> “你好。”]“你好。” #type: RightAvatarText #speaker:磷光
   * [> “我听得到。”]“我听得到。” #type: RightAvatarText #speaker:磷光
 -
 
-“啊。” #type:LeftAvatarText #speaker:未知信号
-“好真实的幻听。” #type:LeftAvatarText #speaker:未知信号
+“啊。” #type:LeftAvatarText #speaker:未知信号 #simulated_voice: sfx_hakumei_do
+“好真实的幻听。” #type:LeftAvatarText #speaker:未知信号 #simulated_voice: sfx_hakumei_do
 “我想大概不是幻听。” #type: RightAvatarText #speaker:磷光
-“诶，不是吗？” #type:LeftAvatarText #speaker:未知信号
+“诶，不是吗？” #type:LeftAvatarText #speaker:未知信号 #simulated_voice: sfx_hakumei_re
 “不是。幻听会给你编出这么详细的数据吗。” #type: RightAvatarText #speaker:磷光
-“有道理，那你是谁？” #type:LeftAvatarText #speaker:未知信号
+“有道理，那你是谁？” #type:LeftAvatarText #speaker:未知信号 #simulated_voice: sfx_hakumei_do
 
 - #type:FullScreenOptions #opacity:0.5
   * [> “我是灯塔「磷光」”]“我是灯塔「磷光」，呼号 TF4674。我已经转发你的求救信号，海岸警卫队应该很快就会联系你。” #type: RightAvatarText #speaker:磷光
 -
 
 “请保持于 VHF 频道 16 监听，确保补充定位保障开启，等待救援即可。” #type: RightAvatarText #speaker:磷光
-“磷光。” #type:LeftAvatarText #speaker:未知信号
+“磷光。” #type:LeftAvatarText #speaker:未知信号 #simulated_voice: sfx_hakumei_do
 “什么事？” #type: RightAvatarText #speaker:磷光
-“有趣的名字。” #type:LeftAvatarText #speaker:未知信号
+“有趣的名字。” #type:LeftAvatarText #speaker:未知信号 #simulated_voice: sfx_hakumei_do
 “……谢谢？” #type: RightAvatarText #speaker:磷光
-“你是灯塔来着？” #type:LeftAvatarText #speaker:未知信号
+“你是灯塔来着？” #type:LeftAvatarText #speaker:未知信号 #simulated_voice: sfx_hakumei_re
 “是的。” #type: RightAvatarText #speaker:磷光
-“原来这个时代还有灯塔欸。” #type:LeftAvatarText #speaker:未知信号
+“原来这个时代还有灯塔欸。” #type:LeftAvatarText #speaker:未知信号 #simulated_voice: sfx_hakumei_mi
 “经常有人这么说。” #type: RightAvatarText #speaker:磷光
-“这么说，你也有航标灯吗？” #type:LeftAvatarText #speaker:未知信号
+“这么说，你也有航标灯吗？” #type:LeftAvatarText #speaker:未知信号 #simulated_voice: sfx_hakumei_re
 “是啊，没有航标灯怎么叫灯塔呢。” #type: RightAvatarText #speaker:磷光
-“欸，那现在开着吗？我想去看看！” #type:LeftAvatarText #speaker:未知信号
+“欸，那现在开着吗？我想去看看！” #type:LeftAvatarText #speaker:未知信号 #simulated_voice: sfx_hakumei_mi
 “这么说起来……应该没开。” #type: RightAvatarText #speaker:磷光
-“欸——” #type:LeftAvatarText #speaker:未知信号
+“欸——” #type:LeftAvatarText #speaker:未知信号 #simulated_voice: sfx_hakumei_la
 “我刚刚睡着了，都不知道已经到晚上了。我现在就去开灯。” #type: RightAvatarText #speaker:磷光
-“好喔。等你打开了航标灯，我应该也正好走到甲板上了！” #type:LeftAvatarText #speaker:未知信号
+“好喔。等你打开了航标灯，我应该也正好走到甲板上了！” #type:LeftAvatarText #speaker:未知信号 #simulated_voice: sfx_hakumei_do
 “感谢你的提醒，X92HKM。” #type: RightAvatarText #speaker:磷光
 “以及，虽然救援还没到……但还请允许我提前道一声——” #type: RightAvatarText #speaker:磷光
 “欢迎回家。” #type: RightAvatarText #speaker:磷光
 
-$ENABLE_INTERACTION
+$ENABLE_ALL_ACTIONS
 
 -> END

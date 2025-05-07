@@ -2,14 +2,9 @@ using System;
 using System.Collections;
 using Phosphorescence.DataSystem;
 using Phosphorescence.Game;
-using Phosphorescence.Narration.Common;
 using QFramework;
 using TMPro;
 using UnityEngine;
-using UnityEngine.Animations;
-using UnityEngine.InputSystem;
-using UnityEngine.Playables;
-using UnityEngine.UI;
 
 namespace Phosphorescence.Narration
 {
@@ -44,14 +39,28 @@ namespace Phosphorescence.Narration
             switch(command)
             {
                 case "enable_interaction":
-                    GameManager.Instance.moveAction.Enable();
                     GameManager.Instance.climbAction.Enable();
                     GameManager.Instance.interactAction.Enable();
                     break;
                 case "disable_interaction":
-                    GameManager.Instance.moveAction.Disable();
                     GameManager.Instance.climbAction.Disable();
                     GameManager.Instance.interactAction.Disable();
+                    break;
+                case "enable_movement":
+                    GameManager.Instance.moveAction.Enable();
+                    break;
+                case "disable_movement":
+                    GameManager.Instance.moveAction.Disable();
+                    break;
+                case "enable_all_actions":
+                    GameManager.Instance.moveAction.Enable();
+                    GameManager.Instance.interactAction.Enable();
+                    GameManager.Instance.climbAction.Enable();
+                    break;
+                case "disable_all_actions":
+                    GameManager.Instance.moveAction.Disable();
+                    GameManager.Instance.interactAction.Disable();
+                    GameManager.Instance.climbAction.Disable();
                     break;
                 case "sleep" when args.Length == 1:
                     yield return new WaitForSeconds(float.Parse(args[0]));

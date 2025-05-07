@@ -41,6 +41,7 @@ namespace Phosphorescence.DataSystem
         public bool IsPlotFinished(string plotId) => PlotProgress.Contains(plotId);
         public void FinishPlot(string plotId)
         {
+            if (IsPlotFinished(plotId)) return;
             PlotProgress.Add(plotId);
             Serialize();
         }

@@ -94,15 +94,6 @@
                     "processors": "",
                     "interactions": "Hold",
                     "initialStateCheck": false
-                },
-                {
-                    "name": "PauseResume",
-                    "type": "Button",
-                    "id": "d366b73b-f68d-4d1c-a342-b84ed5b4bbb9",
-                    "expectedControlType": "",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -512,17 +503,6 @@
                     "action": "Climb",
                     "isComposite": false,
                     "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "5d91fc7b-d6d8-490a-abb3-d3249fb3f0b0",
-                    "path": "<Keyboard>/escape",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": ";Keyboard&Mouse",
-                    "action": "PauseResume",
-                    "isComposite": false,
-                    "isPartOfComposite": false
                 }
             ]
         },
@@ -628,6 +608,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
+                },
+                {
+                    "name": "PauseResume",
+                    "type": "Button",
+                    "id": "02d03f99-1282-4f2c-a5a5-b2df90720b7a",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -1134,6 +1123,17 @@
                     "processors": "",
                     "groups": ";Joystick",
                     "action": "NextLine",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7fce5408-fa8f-4e99-829a-85a59c0f2ae0",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Keyboard&Mouse",
+                    "action": "PauseResume",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

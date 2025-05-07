@@ -35,7 +35,7 @@ namespace Phosphorescence.Narration
                 if (_currentStory == null) return;
 
                 _currentStory.ChooseChoiceIndex(e.index);
-                Continue();
+                // Continue();
             }).UnRegisterWhenGameObjectDestroyed(gameObject);
         }
 
