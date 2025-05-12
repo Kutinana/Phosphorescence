@@ -99,12 +99,24 @@ namespace Common.SceneControl
                 FloorManager.Instance.SwitchTo(1);
 
                 yield return new WaitForSeconds(0.5f);
-                yield return SplashScreenController.Instance.ImageColorProgressable.LinearTransition(1f, 0f);
+                yield return SplashScreenController.Instance.MaskProgressable.LinearTransition(1f, 0f);
+                yield return new WaitForSeconds(1f);
+
+                yield return SplashScreenController.Instance.DisclaimerProgressable.SmoothDamp(0.8f, out var disclaimerCoroutine);
+                yield return SplashScreenController.Instance.DisclaimerProgressable.InverseSmoothDamp(0.5f, out disclaimerCoroutine);
+
+                yield return new WaitForSeconds(1f);
+
+                yield return SplashScreenController.Instance.PrefaceProgressable.SmoothDamp(1f, out var prefaceCoroutine);
+                // yield return new WaitForSeconds(1f);
+                yield return SplashScreenController.Instance.PrefaceProgressable.InverseSmoothDamp(0.5f, out prefaceCoroutine);
+
                 GameManager.Instance.ContinuePlot();
 
-                yield return new WaitForSeconds(2f);
+                yield return new WaitForSeconds(2.5f);
                 SplashScreenController.Instance.FadeInGroup.Progress = 0f;
-                yield return SplashScreenController.Instance.FadeOutGroup.InverseLinearTransition(0.5f, 0f);
+                SplashScreenController.Instance.FadeOutGroup.Progress = 0f;
+                yield return SplashScreenController.Instance.MaskProgressable.InverseSmoothDamp(0.5f, out var maskCoroutine);
             }
 
             TypeEventSystem.Global.Send<OnGameInitializedEvent>();

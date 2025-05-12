@@ -11,15 +11,21 @@ namespace Phosphorescence.Others
         public ProgressableGroup FadeInGroup;
         public float FadeInDuration = 0.8f;
         public float WaitDuration = 0.5f;
-        public ImageColorProgressable ImageColorProgressable;
         public CanvasGroupAlphaProgressable FadeOutGroup;
         public float FadeOutDuration = 0.8f;
+
+        public ImageColorProgressable DisclaimerProgressable;
+        public ImageColorProgressable PrefaceProgressable;
+        public ImageColorProgressable MaskProgressable;
 
         public void Initialize()
         {
             FadeInGroup.Progress = 0;
-            ImageColorProgressable.Progress = 0;
             FadeOutGroup.Progress = 1;
+
+            DisclaimerProgressable.Progress = 0;
+            PrefaceProgressable.Progress = 0;
+            MaskProgressable.Progress = 0;
         }
     }
 }
