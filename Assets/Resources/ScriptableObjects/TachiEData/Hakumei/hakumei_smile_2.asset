@@ -10,10 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2432a1f751327a1479c235c1d5a4c360, type: 3}
-  m_Name: right_phos_idle
+  m_Name: hakumei_smile_2
   m_EditorClassIdentifier: 
-  id: right_phos_idle
-  sprite: {fileID: 21300000, guid: 2cc63757dd6dff0499a3fafad13a11b6, type: 3}
-  positionOffset: {x: -40, y: -640, z: 0}
+  id: hakumei_smile_2
+  type: 0
+  sprite: {fileID: 21300000, guid: 67d77e1fa1739dc468ded1e1122a7eb1, type: 3}
+  animationClip: {fileID: 0}
+  positionOffset: {x: 0, y: -640, z: 0}
   rotationOffset: {x: 0, y: 0, z: 0}
   scaleOffset: {x: 1, y: 1, z: 1}

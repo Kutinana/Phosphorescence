@@ -17,10 +17,17 @@ namespace Phosphorescence.Narration.Common
 
         public Sprite sprite;
         public AnimationClip animationClip;
-        
-        public Vector3 positionOffset;
-        public Vector3 rotationOffset;
-        public Vector3 scaleOffset = Vector3.one;
+        public bool isAnimationLoop = false;
+
+        [Header("Left Offset Settings")]
+        public Vector3 positionOffsetForLeft = new Vector3(0, -640, 0);
+        public Vector3 rotationOffsetForLeft = Vector3.zero;
+        public Vector3 scaleOffsetForLeft = Vector3.one;
+
+        [Header("Right Offset Settings")]
+        public Vector3 positionOffsetForRight = new Vector3(-706, -640, 0);
+        public Vector3 rotationOffsetForRight = Vector3.zero;
+        public Vector3 scaleOffsetForRight = new Vector3(-1f, 1f, 1);
     }
 
     public enum TachiEType

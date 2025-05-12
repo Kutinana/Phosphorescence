@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: d3b97a26b74d3b54faef64efe23e1b53
+guid: a49ac293187c70745bcd2e3b021616c2
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4111424705806028456
-    second: Phos_Thingking2_0
+      213: -8739150421960771701
+    second: Phos_Thingking3_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -46,7 +46,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -113,7 +113,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Phos_Thingking2_0
+      name: Phos_Thingking3_0
       rect:
         serializedVersion: 2
         x: 31
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8ae45569cf6be0930800000000000000
-      internalID: 4111424705806028456
+      spriteID: b87b2544efc48b680800000000000000
+      internalID: -8739150421960771701
       vertices: []
       indices: 
       edges: []
@@ -138,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Phos_Thingking3_0: -8739150421960771701
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

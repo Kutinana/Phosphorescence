@@ -19,6 +19,9 @@ namespace Phosphorescence.Narration
         public Transform OptionParent;
         public GameObject OptionTemplate;
 
+        [Header("Settings")]
+        public bool IsLeft = false;
+
         private PlayableGraph _graph;
         private AnimationPlayableOutput animationOutputPlayable;
 
@@ -80,9 +83,9 @@ namespace Phosphorescence.Narration
                         Avatar.sprite = avatarConfig.sprite ?? null;
                         Avatar.SetNativeSize();
 
-                        Avatar.rectTransform.anchoredPosition = avatarConfig.positionOffset;
-                        Avatar.transform.localScale = avatarConfig.scaleOffset;
-                        Avatar.transform.localEulerAngles = avatarConfig.rotationOffset;
+                        Avatar.rectTransform.anchoredPosition = IsLeft ? avatarConfig.positionOffsetForLeft : avatarConfig.positionOffsetForRight;
+                        Avatar.transform.localScale = IsLeft ? avatarConfig.scaleOffsetForLeft : avatarConfig.scaleOffsetForRight;
+                        Avatar.transform.localEulerAngles = IsLeft ? avatarConfig.rotationOffsetForLeft : avatarConfig.rotationOffsetForRight;
 
                         Avatar.color = Color.white;
 
@@ -96,9 +99,9 @@ namespace Phosphorescence.Narration
 
                         Avatar.SetNativeSize();
 
-                        Avatar.rectTransform.anchoredPosition = avatarConfig.positionOffset;
-                        Avatar.transform.localScale = avatarConfig.scaleOffset;
-                        Avatar.transform.localEulerAngles = avatarConfig.rotationOffset;
+                        Avatar.rectTransform.anchoredPosition = IsLeft ? avatarConfig.positionOffsetForLeft : avatarConfig.positionOffsetForRight;
+                        Avatar.transform.localScale = IsLeft ? avatarConfig.scaleOffsetForLeft : avatarConfig.scaleOffsetForRight;
+                        Avatar.transform.localEulerAngles = IsLeft ? avatarConfig.rotationOffsetForLeft : avatarConfig.rotationOffsetForRight;
 
                         Avatar.color = Color.white;
 

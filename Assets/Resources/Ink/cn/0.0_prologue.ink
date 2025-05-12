@@ -16,11 +16,11 @@ $MUSIC:sfx_radio_noise_01
 $STOP_MUSIC
 $SLEEP:3
 
-“……” # type: RightAvatarText #speaker:磷光
-“……咦？”  # type: RightAvatarText #speaker:磷光
-“……我睡着了？”  # type: RightAvatarText #speaker:磷光
-“这是什么信号……啊，求援？”  # type: RightAvatarText #speaker:磷光
-“得快点打开发报机回复……”  # type: RightAvatarText #speaker:磷光
+“……” #type: RightAvatarText #speaker:磷光 #avatar:phos_sleeping
+“……咦？”  #type: RightAvatarText #speaker:磷光 #avatar:phos_wake_up
+“这是什么信号……”  # type: RightAvatarText #speaker:磷光 #avatar:phos_speechless
+“啊，求援？”  # type: RightAvatarText #speaker:磷光 #avatar:phos_surprised
+“得快点打开发报机回复……”  # type: RightAvatarText #speaker:磷光 #avatar:phos_default
 
 $ENABLE_INTERACTION
 

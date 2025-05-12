@@ -13,7 +13,7 @@ namespace Phosphorescence.Game.Tutorials
         private void Awake()
         {
             TypeEventSystem.Global.Register<OnStoryEndEvent>(e => {
-                if (e.plot.Id == "0.0")
+                if (e.plot && e.plot.Id == "0.0")
                 {
                     StartCoroutine(StartTutorial());
                 }
