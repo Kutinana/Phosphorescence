@@ -20,6 +20,7 @@ namespace Phosphorescence.Narration
         public TMP_Text Text;
 
         private float m_SleepTime = 0f;
+        private AudioData voiceConfig;
 
         private OnLineReadEvent m_CurrentLineEvent;
         private Coroutine m_CurrentTypeTextCoroutine;
@@ -92,6 +93,8 @@ namespace Phosphorescence.Narration
         {
             var len = text.Length;
 
+            if (voiceConfig != null) AudioKit.PlayVoice(voiceConfig.clip, loop: false, volumeScale: voiceConfig.standardVolume);
+
             for (var i = 0; i < len; i++)
             {
                 textfield.text += text[i];
@@ -100,7 +103,17 @@ namespace Phosphorescence.Narration
             }
             textfield.SetText(text);
 
+            if (voiceConfig != null) yield return new WaitUntil(() => !AudioKit.VoicePlayer.AudioSource.isPlaying);
+
             m_CurrentTypeTextCoroutine = null;
+        }
+
+        private FullScreenTextComponent SetVoice(string voice = "")
+        {
+            voiceConfig = null;
+            GameDesignData.GetAudioData(voice, out voiceConfig);
+
+            return this;
         }
 
         private FullScreenTextComponent SetSkippable(bool skippable = true)

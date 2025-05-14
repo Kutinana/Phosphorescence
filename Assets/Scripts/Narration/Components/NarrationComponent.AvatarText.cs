@@ -28,8 +28,8 @@ namespace Phosphorescence.Narration
         private AnimationPlayableOutput animationOutputPlayable;
 
         private float m_SleepTime = 0f;
-        private AudioClip voiceClip;
-        private AudioClip simulatedVoiceClip;
+        private AudioData voiceConfig;
+        private AudioData simulatedVoiceConfig;
         private List<char> omittedChars = new List<char> { ' ', '\r', '\n', '\"', '”', '”' };
 
         private OnLineReadEvent m_CurrentLineEvent;
@@ -57,6 +57,7 @@ namespace Phosphorescence.Narration
             m_SleepTime = 0f;
 
             this.SetAvatar(e.tags.TryGetValue("avatar", out var avatar) ? avatar : "")
+                .SetAvatarOpacity(e.tags.TryGetValue("avatar_opacity", out var avatarOpacity) ? float.Parse(avatarOpacity) : 1f)
                 .SetSpeaker(e.tags.TryGetValue("speaker", out var speaker) ? speaker : "")
                 .SetBackground(e.tags.TryGetValue("background_pic", out var backgroundPic) ? backgroundPic : "")
                 .SetVoice(e.tags.TryGetValue("voice", out var voice) ? voice : "")
@@ -87,17 +88,19 @@ namespace Phosphorescence.Narration
 
             var len = text.Length;
 
-            if (voiceClip != null) AudioKit.PlayVoice(voiceClip);
+            if (voiceConfig != null)
+                AudioKit.PlayVoice(voiceConfig.clip, loop: false, volumeScale: voiceConfig.standardVolume);
 
             for (var i = 0; i < len; i++)
             {
                 textfield.text += text[i];
-                if (!omittedChars.Contains(text[i]) && simulatedVoiceClip != null) AudioKit.PlaySound(simulatedVoiceClip);
+                if (!omittedChars.Contains(text[i]) && simulatedVoiceConfig != null)
+                    AudioKit.PlaySound(simulatedVoiceConfig.clip, loop: false, volume: simulatedVoiceConfig.standardVolume);
                 yield return new WaitForSeconds(speed);
             }
             textfield.SetText(text);
 
-            if (voiceClip != null) yield return new WaitUntil(() => !AudioKit.VoicePlayer.AudioSource.isPlaying);
+            if (voiceConfig != null) yield return new WaitUntil(() => !AudioKit.VoicePlayer.AudioSource.isPlaying);
             m_CurrentTypeTextCoroutine = null;
         }
 
@@ -154,7 +157,11 @@ namespace Phosphorescence.Narration
                     }
                 }
             }
-            else Avatar.color = new Color(0, 0, 0, 0);
+            else
+            {
+                Avatar.sprite = null;
+                Avatar.color = new Color(0, 0, 0, 0);
+            }
 
             return this;
         }
@@ -179,22 +186,26 @@ namespace Phosphorescence.Narration
             return this;
         }
 
+        private AvatarTextComponent SetAvatarOpacity(float opacity = 1f)
+        {
+            if (Avatar == null || Avatar.sprite == null) return this;
+            
+            Avatar.color = new Color(1, 1, 1, opacity);
+            return this;
+        }
+
         private AvatarTextComponent SetVoice(string voice = "")
         {
-            if (GameDesignData.GetAudioData(voice, out var voiceConfig))
-            {
-                voiceClip = voiceConfig.clip;
-            }
+            voiceConfig = null;
+            GameDesignData.GetAudioData(voice, out voiceConfig);
 
             return this;
         }
 
         private AvatarTextComponent SetSimulatedVoice(string simulatedVoice = "")
         {
-            if (GameDesignData.GetAudioData(simulatedVoice, out var simulatedVoiceConfig))
-            {
-                simulatedVoiceClip = simulatedVoiceConfig.clip;
-            }
+            simulatedVoiceConfig = null;
+            GameDesignData.GetAudioData(simulatedVoice, out simulatedVoiceConfig);
 
             return this;
         }

@@ -14,5 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: sfx_hakumei_do
   type: 2
-  isLoop: 0
   clip: {fileID: 8300000, guid: a79b653e045694f078745fb8193723ea, type: 3}
+  isLoop: 0
+  standardVolume: 0.75
+  standardPitch: 1

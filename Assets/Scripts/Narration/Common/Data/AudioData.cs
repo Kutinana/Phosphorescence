@@ -14,8 +14,12 @@ namespace Phosphorescence.Narration.Common
         public string id;
 
         public AudioType type;
-        public bool isLoop;
         public AudioClip clip;
+
+        [Header("Settings")]
+        public bool isLoop;
+        public float standardVolume = 0.8f;
+        public float standardPitch = 1f;
     }
 
     public enum AudioType
