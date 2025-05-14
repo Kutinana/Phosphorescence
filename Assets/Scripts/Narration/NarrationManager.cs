@@ -54,6 +54,7 @@ namespace Phosphorescence.Narration
             StateMachine.AddState(NarrationType.FullScreenOptions, new FullScreenOptionsState(StateMachine, this));
             StateMachine.AddState(NarrationType.SubtitleText, new SubtitleTextState(StateMachine, this));
             StateMachine.AddState(NarrationType.Special, new SpecialState(StateMachine, this));
+
             StateMachine.StartState(NarrationType.None);
 
             TypeEventSystem.Global.Register<OnLineReadEvent>(e => {
