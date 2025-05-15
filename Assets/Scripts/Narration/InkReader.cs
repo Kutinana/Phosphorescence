@@ -37,6 +37,12 @@ namespace Phosphorescence.Narration
                 _currentStory.ChooseChoiceIndex(e.index);
                 // Continue();
             }).UnRegisterWhenGameObjectDestroyed(gameObject);
+
+            TypeEventSystem.Global.Register<RequestSetVariableEvent>(e => {
+                if (_currentStory == null) return;
+
+                _currentStory.variablesState[e.variableName] = e.value;
+            }).UnRegisterWhenGameObjectDestroyed(gameObject);
         }
 
         public InkReader Initialize(TextAsset rawStory)
@@ -146,6 +152,11 @@ namespace Phosphorescence.Narration
 
     public struct SelectOptionEvent {
         public int index;
+    }
+
+    public struct RequestSetVariableEvent {
+        public string variableName;
+        public object value;
     }
 
     

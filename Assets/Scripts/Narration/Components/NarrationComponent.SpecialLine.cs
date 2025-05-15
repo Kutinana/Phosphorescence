@@ -28,7 +28,7 @@ namespace Phosphorescence.Narration
         public void Process() => StartCoroutine(ProcessCoroutine());
         private IEnumerator ProcessCoroutine()
         {
-            var content = m_CurrentLineEvent.content.ToLower().Replace(" ", "").Replace("\n", "").Replace("\r", "").Split("$")[1].Split(":");
+            var content = m_CurrentLineEvent.content.Replace(" ", "").Replace("\n", "").Replace("\r", "").Split("$")[1].Split(":");
             var command = content[0];
             
             string[] args = Array.Empty<string>();
@@ -36,7 +36,7 @@ namespace Phosphorescence.Narration
 
             Debug.Log($"Command: {command} Args: {string.Join(", ", args)}");
 
-            switch(command)
+            switch(command.ToLower())
             {
                 case "enable_interaction":
                     GameManager.Instance.climbAction.Enable();
@@ -88,10 +88,23 @@ namespace Phosphorescence.Narration
                 case "event" when args.Length == 1:
                     TypeEventSystem.Global.Send(new OnStoryEventTriggerEvent { eventName = args[0] });
                     break;
+                case "set_variable" when args.Length == 1:
+                    OnRequestReadVariable(args[0]);
+                    break;
             }
 
             IsComplete = true;
             if (IsAuto) TypeEventSystem.Global.Send<RequestNewLineEvent>();
+        }
+
+        private void OnRequestReadVariable(string variableName)
+        {
+            switch(variableName)
+            {
+                case "isBeaconOn":
+                    TypeEventSystem.Global.Send(new RequestSetVariableEvent { variableName = "isBeaconOn", value = BeaconController.Instance.IsOn });
+                    break;
+            }
         }
     }
 }

@@ -7,11 +7,11 @@ $SLEEP:2
 $DISABLE_ALL_ACTIONS
 $MUSIC:sfx_radio_noise_01
 
-“……请求救援。完毕。”  #type:LeftAvatarText #speaker:未知信号 #background_pic:bg_pic_pureblack #skippable:false #simulated_voice: sfx_talk_high_pitch_01 #avatar:holo_smile_1 #avatar_opacity:0.01
-“MAYDAY, MAYDAY, MAYDAY。 任何单位，任何单位，任何单位。” #type: LeftAvatarText #speaker:未知信号 #background_pic:bg_pic_pureblack #avatar:holo_smile_1 #avatar_opacity:0.01
-“这里是科研船「薄明」，呼号 X92HKM。位于北纬 66°35'26"、西经 17°56'16"。” #type:LeftAvatarText #speaker:未知信号 #background_pic:bg_pic_pureblack #avatar:holo_smile_1 #avatar_opacity:0.01
-“引擎失去动力，正以三节向西南方向飘行。无伤亡报告。UTC 时间 1905。请求救援。完毕。” # type:LeftAvatarText #speaker:未知信号 #background_pic:bg_pic_pureblack #avatar:holo_smile_1 #avatar_opacity:0.01
-“MAYDAY, MAYDAY, MAYDAY。 任何单位……”  # type:LeftAvatarText #speaker:未知信号 #background_pic:bg_pic_pureblack #avatar:holo_smile_1 #avatar_opacity:0.01
+“……请求救援。完毕。”  #type:LeftAvatarText #speaker:未知信号 #background_pic:bg_pic_pureblack #skippable:false #simulated_voice: sfx_talk_high_pitch_01 #avatar:shadow_hakumei #avatar_opacity:0.05
+“MAYDAY, MAYDAY, MAYDAY。 任何单位，任何单位，任何单位。” #type: LeftAvatarText #speaker:未知信号 #background_pic:bg_pic_pureblack #avatar:shadow_hakumei #avatar_opacity:0.05
+“这里是科研船「薄明」，呼号 X92HKM。位于北纬 66°35'26"、西经 17°56'16"。” #type:LeftAvatarText #speaker:未知信号 #background_pic:bg_pic_pureblack #avatar:shadow_hakumei #avatar_opacity:0.05
+“引擎失去动力，正以三节向西南方向飘行。无伤亡报告。UTC 时间 1905。请求救援。完毕。” # type:LeftAvatarText #speaker:未知信号 #background_pic:bg_pic_pureblack #avatar:shadow_hakumei #avatar_opacity:0.05
+“MAYDAY, MAYDAY, MAYDAY。 任何单位……”  # type:LeftAvatarText #speaker:未知信号 #background_pic:bg_pic_pureblack #avatar:shadow_hakumei #avatar_opacity:0.05
 
 $STOP_MUSIC
 $SLEEP:3
