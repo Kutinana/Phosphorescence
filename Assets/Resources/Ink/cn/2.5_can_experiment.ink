@@ -39,8 +39,8 @@ $READ_TAG:HaveTriedCanExperiment #auto:true
 “没有为什么不去啦！” #type: LeftAvatarText #speaker:X92HKM #avatar:radio_proud #simulated_voice: sfx_hakumei_do
 
 - #type:FullScreenOptions #opacity:0.5
-  * [> ]“这就去。” #type:RightAvatarText #speaker:磷光 #avatar:phos_speaking #simulated_voice: sfx_phos_do
-  * [> ]“想听听你的声音。” #type:RightAvatarText #speaker:磷光 #avatar:phos_smile #simulated_voice: sfx_phos_re
+  * [> “这就去。”]“这就去。” #type:RightAvatarText #speaker:磷光 #avatar:phos_speaking #simulated_voice: sfx_phos_do
+  * [> “想听听你的声音。”]“想听听你的声音。” #type:RightAvatarText #speaker:磷光 #avatar:phos_smile #simulated_voice: sfx_phos_re
     “……………………你…………” #type: LeftAvatarText #speaker:X92HKM #avatar:radio_shocked_3 #simulated_voice: sfx_hakumei_mi
     “快！去！” #type: LeftAvatarText #speaker:X92HKM #avatar:radio_serious #simulated_voice: sfx_hakumei_mi
 -

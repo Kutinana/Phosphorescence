@@ -3,6 +3,7 @@ using System.Collections;
 using Common.SceneControl;
 using Phosphorescence.DataSystem;
 using Phosphorescence.Game;
+using Phosphorescence.Others;
 using QFramework;
 using TMPro;
 using UnityEngine;
@@ -40,11 +41,13 @@ namespace Phosphorescence.Narration
             switch(command.ToLower())
             {
                 case "enable_interaction":
-                    GameManager.Instance.climbAction.Enable();
+                    GameManager.Instance.upStairAction.Enable();
+                    GameManager.Instance.downStairAction.Enable();
                     GameManager.Instance.interactAction.Enable();
                     break;
                 case "disable_interaction":
-                    GameManager.Instance.climbAction.Disable();
+                    GameManager.Instance.upStairAction.Disable();
+                    GameManager.Instance.downStairAction.Disable();
                     GameManager.Instance.interactAction.Disable();
                     break;
                 case "enable_movement":
@@ -56,12 +59,14 @@ namespace Phosphorescence.Narration
                 case "enable_all_actions":
                     GameManager.Instance.moveAction.Enable();
                     GameManager.Instance.interactAction.Enable();
-                    GameManager.Instance.climbAction.Enable();
+                    GameManager.Instance.upStairAction.Enable();
+                    GameManager.Instance.downStairAction.Enable();
                     break;
                 case "disable_all_actions":
                     GameManager.Instance.moveAction.Disable();
                     GameManager.Instance.interactAction.Disable();
-                    GameManager.Instance.climbAction.Disable();
+                    GameManager.Instance.upStairAction.Disable();
+                    GameManager.Instance.downStairAction.Disable();
                     break;
                 case "sleep" when args.Length == 1:
                     yield return new WaitForSeconds(float.Parse(args[0]));
@@ -103,6 +108,13 @@ namespace Phosphorescence.Narration
                     break;
                 case "finish_ending_a":
                     FinishEndingA();
+                    break;
+                case "thank_page":
+                    yield return SplashScreenController.Instance.MaskProgressable.LinearTransition(0.2f, 0f);
+                    yield return SplashScreenController.Instance.ThanksProgressable.SmoothDamp(0.2f, out var coroutine);
+                    yield return new WaitForSeconds(3f);
+                    yield return new WaitUntil(() => Input.GetMouseButtonUp(0));
+                    yield return SplashScreenController.Instance.ThanksProgressable.InverseSmoothDamp(0.5f, out coroutine);
                     break;
             }
             IsComplete = true;

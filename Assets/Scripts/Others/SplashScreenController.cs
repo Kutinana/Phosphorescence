@@ -20,6 +20,8 @@ namespace Phosphorescence.Others
         public ImageColorProgressable PrefaceCProgressable;
         public ImageColorProgressable MaskProgressable;
 
+        public ImageColorProgressable ThanksProgressable;
+
         public void Initialize()
         {
             FadeInGroup.Progress = 0;

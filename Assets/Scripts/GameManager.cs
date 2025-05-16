@@ -13,7 +13,8 @@ namespace Phosphorescence.Game
     {
         public InputAction moveAction;
         public InputAction interactAction;
-        public InputAction climbAction;
+        public InputAction upStairAction;
+        public InputAction downStairAction;
 
         public InputAction nextLineAction;
 
@@ -29,7 +30,8 @@ namespace Phosphorescence.Game
         {
             moveAction = InputSystem.actions.FindAction("Move");
             interactAction = InputSystem.actions.FindAction("Interact");
-            climbAction = InputSystem.actions.FindAction("Climb");
+            upStairAction = InputSystem.actions.FindAction("UpStair");
+            downStairAction = InputSystem.actions.FindAction("DownStair");
 
             nextLineAction = InputSystem.actions.FindAction("NextLine");
 
@@ -48,8 +50,15 @@ namespace Phosphorescence.Game
                 case "0.1":
                     targetPlotId = "0.5";
                     break;
+                case "4.9":
+                    return;
             }
 
+            NarrationManager.Instance.StartNarration(targetPlotId);
+        }
+
+        public void ContinuePlot(string targetPlotId)
+        {
             NarrationManager.Instance.StartNarration(targetPlotId);
         }
     }

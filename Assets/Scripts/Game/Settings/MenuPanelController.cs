@@ -80,7 +80,8 @@ namespace Phosphorescence.Game
 
                 GameManager.Instance.moveAction.Enable();
                 GameManager.Instance.interactAction.Enable();
-                GameManager.Instance.climbAction.Enable();
+                GameManager.Instance.upStairAction.Enable();
+                GameManager.Instance.downStairAction.Enable();
                 GameManager.Instance.nextLineAction.Enable();
             }
 
@@ -90,7 +91,8 @@ namespace Phosphorescence.Game
 
                 GameManager.Instance.moveAction.Disable();
                 GameManager.Instance.interactAction.Disable();
-                GameManager.Instance.climbAction.Disable();
+                GameManager.Instance.upStairAction.Disable();
+                GameManager.Instance.downStairAction.Disable();
                 GameManager.Instance.nextLineAction.Disable();
             }
         }

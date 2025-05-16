@@ -117,7 +117,7 @@ namespace Common.SceneControl
 
                 yield return new WaitForSeconds(2.5f);
                 SplashScreenController.Instance.FadeInGroup.Progress = 0f;
-                SplashScreenController.Instance.FadeOutGroup.Progress = 1f;
+                SplashScreenController.Instance.FadeOutGroup.Progress = 0f;
                 yield return SplashScreenController.Instance.MaskProgressable.InverseSmoothDamp(0.5f, out var maskCoroutine);
             }
 
@@ -148,7 +148,7 @@ namespace Common.SceneControl
             // yield return new WaitForSeconds(1f);
             yield return SplashScreenController.Instance.PrefaceBProgressable.InverseSmoothDamp(0.5f, out prefaceCoroutine);
 
-            // GameManager.Instance.ContinuePlot();
+            GameManager.Instance.ContinuePlot("4.9");
 
             yield return new WaitForSeconds(2.5f);
             SplashScreenController.Instance.FadeInGroup.Progress = 0f;
