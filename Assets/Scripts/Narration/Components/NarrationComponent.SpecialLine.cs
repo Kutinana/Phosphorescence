@@ -1,5 +1,6 @@
 using System;
 using System.Collections;
+using Common.SceneControl;
 using Phosphorescence.DataSystem;
 using Phosphorescence.Game;
 using QFramework;
@@ -88,11 +89,22 @@ namespace Phosphorescence.Narration
                 case "event" when args.Length == 1:
                     TypeEventSystem.Global.Send(new OnStoryEventTriggerEvent { eventName = args[0] });
                     break;
-                case "set_variable" when args.Length == 1:
+                case "read_variable" when args.Length == 1:
                     OnRequestReadVariable(args[0]);
                     break;
+                case "set_tag" when args.Length == 1:
+                    GameProgressData.Instance.AddPlotTag(args[0]);
+                    break;
+                case "read_tag" when args.Length == 1:
+                    TypeEventSystem.Global.Send(new RequestSetVariableEvent {
+                        variableName = args[0],
+                        value = GameProgressData.Instance.HasPlotTag(args[0])
+                    });
+                    break;
+                case "finish_ending_a":
+                    FinishEndingA();
+                    break;
             }
-
             IsComplete = true;
             if (IsAuto) TypeEventSystem.Global.Send<RequestNewLineEvent>();
         }
@@ -105,6 +117,12 @@ namespace Phosphorescence.Narration
                     TypeEventSystem.Global.Send(new RequestSetVariableEvent { variableName = "isBeaconOn", value = BeaconController.Instance.IsOn });
                     break;
             }
+        }
+
+        private void FinishEndingA()
+        {
+            GameProgressData.Instance.AddPlotTag("FinishedEndingA");
+            SceneControl.Instance.FinishEndingA();
         }
     }
 }

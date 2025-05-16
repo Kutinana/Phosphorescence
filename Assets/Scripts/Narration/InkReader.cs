@@ -53,6 +53,12 @@ namespace Phosphorescence.Narration
             return this;
         }
 
+        public void Stop()
+        {
+            NarrationManager.Instance.StopNarration();
+            _currentStory = null;
+        }
+
         public void Continue()
         {
             if (_currentStory == null) return;
@@ -181,6 +187,14 @@ namespace Phosphorescence.Narration
                 manager.Initialize(manager.ToInitializeStory).Continue();
             }
             EditorGUILayout.EndHorizontal();
+
+            EditorGUILayout.Separator();
+
+            EditorGUILayout.LabelField("Debug", EditorStyles.boldLabel);
+            if (GUILayout.Button("Stop"))
+            {
+                manager.Stop();
+            }
         }
     }
 

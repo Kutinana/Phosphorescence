@@ -90,6 +90,12 @@ namespace Phosphorescence.Narration
             }
         }
 
+        public void StopNarration()
+        {
+            StateMachine.ChangeState(NarrationType.None);
+            m_currentPlot = null;
+        }
+
         private void Update()
         {
             if (!m_CanReceiveInput) return;

@@ -15,7 +15,9 @@ namespace Phosphorescence.Others
         public float FadeOutDuration = 0.8f;
 
         public ImageColorProgressable DisclaimerProgressable;
-        public ImageColorProgressable PrefaceProgressable;
+        public ImageColorProgressable PrefaceAProgressable;
+        public ImageColorProgressable PrefaceBProgressable;
+        public ImageColorProgressable PrefaceCProgressable;
         public ImageColorProgressable MaskProgressable;
 
         public void Initialize()
@@ -24,7 +26,9 @@ namespace Phosphorescence.Others
             FadeOutGroup.Progress = 1;
 
             DisclaimerProgressable.Progress = 0;
-            PrefaceProgressable.Progress = 0;
+            PrefaceAProgressable.Progress = 0;
+            PrefaceBProgressable.Progress = 0;
+            PrefaceCProgressable.Progress = 0;
             MaskProgressable.Progress = 0;
         }
     }

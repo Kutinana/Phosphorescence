@@ -32,6 +32,7 @@ namespace Phosphorescence.DataSystem
 
         [JsonProperty] public string CurrentObject = "";
         [JsonProperty] public List<string> PlotProgress = new();
+        [JsonProperty] public List<string> PlotTags = new();
         [JsonProperty] public Dictionary<string, int> ObtainedObjects = new();
     }
 
@@ -48,6 +49,25 @@ namespace Phosphorescence.DataSystem
         public void ResetPlotProgress()
         {
             PlotProgress.Clear();
+            Serialize();
+        }
+
+        public void AddPlotTag(string tag)
+        {
+            if (PlotTags.Contains(tag)) return;
+            PlotTags.Add(tag);
+            Serialize();
+        }
+        public bool HasPlotTag(string tag) => PlotTags.Contains(tag);
+        public void RemovePlotTag(string tag)
+        {
+            if (!PlotTags.Contains(tag)) return;
+            PlotTags.Remove(tag);
+            Serialize();
+        }
+        public void ResetPlotTags()
+        {
+            PlotTags.Clear();
             Serialize();
         }
 

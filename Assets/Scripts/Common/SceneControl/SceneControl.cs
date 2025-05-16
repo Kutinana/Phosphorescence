@@ -78,7 +78,9 @@ namespace Common.SceneControl
             yield return mAsyncOperation;
             // SceneManager.SetActiveScene(SceneManager.GetSceneByName(sceneName));
 
-            SceneManager.UnloadSceneAsync(SceneManager.GetSceneByName("ControlScene"));
+            // SceneManager.UnloadSceneAsync(SceneManager.GetSceneByName("ControlScene"));
+
+            SceneManager.SetActiveScene(SceneManager.GetSceneByName("MainScene"));
 
             SplashScreenController.Instance.Initialize();
             yield return SplashScreenController.Instance.FadeInGroup.LinearTransition(2f, 0f);
@@ -107,19 +109,51 @@ namespace Common.SceneControl
 
                 yield return new WaitForSeconds(1f);
 
-                yield return SplashScreenController.Instance.PrefaceProgressable.SmoothDamp(1f, out var prefaceCoroutine);
+                yield return SplashScreenController.Instance.PrefaceAProgressable.SmoothDamp(1f, out var prefaceCoroutine);
                 // yield return new WaitForSeconds(1f);
-                yield return SplashScreenController.Instance.PrefaceProgressable.InverseSmoothDamp(0.5f, out prefaceCoroutine);
+                yield return SplashScreenController.Instance.PrefaceAProgressable.InverseSmoothDamp(0.5f, out prefaceCoroutine);
 
                 GameManager.Instance.ContinuePlot();
 
                 yield return new WaitForSeconds(2.5f);
                 SplashScreenController.Instance.FadeInGroup.Progress = 0f;
-                SplashScreenController.Instance.FadeOutGroup.Progress = 0f;
+                SplashScreenController.Instance.FadeOutGroup.Progress = 1f;
                 yield return SplashScreenController.Instance.MaskProgressable.InverseSmoothDamp(0.5f, out var maskCoroutine);
             }
 
             TypeEventSystem.Global.Send<OnGameInitializedEvent>();
+        }
+
+        public void FinishEndingA() => StartCoroutine(FinishEndingACoroutine());
+        private IEnumerator FinishEndingACoroutine()
+        {
+            yield return SceneManager.UnloadSceneAsync(SceneManager.GetActiveScene());
+
+            yield return new WaitForSeconds(2f);
+            SplashScreenController.Instance.Initialize();
+            
+            mAsyncOperation = SceneManager.LoadSceneAsync("MainScene", LoadSceneMode.Additive);
+            yield return mAsyncOperation;
+
+            PlayerController.Instance.TransportTo(FloorManager.Instance.FloorPivots[1].position);
+            FloorManager.Instance.SwitchTo(1);
+
+            yield return SplashScreenController.Instance.FadeInGroup.LinearTransition(2f, 0f);
+
+            yield return new WaitForSeconds(0.5f);
+            yield return SplashScreenController.Instance.MaskProgressable.LinearTransition(1f, 0f);
+            yield return new WaitForSeconds(1f);
+
+            yield return SplashScreenController.Instance.PrefaceBProgressable.SmoothDamp(1f, out var prefaceCoroutine);
+            // yield return new WaitForSeconds(1f);
+            yield return SplashScreenController.Instance.PrefaceBProgressable.InverseSmoothDamp(0.5f, out prefaceCoroutine);
+
+            // GameManager.Instance.ContinuePlot();
+
+            yield return new WaitForSeconds(2.5f);
+            SplashScreenController.Instance.FadeInGroup.Progress = 0f;
+            SplashScreenController.Instance.FadeOutGroup.Progress = 0f;
+            yield return SplashScreenController.Instance.MaskProgressable.InverseSmoothDamp(0.5f, out var maskCoroutine);
         }
 
         public static void SetActive(string targetSceneName)
@@ -367,6 +401,16 @@ namespace Common.SceneControl
             if (GUILayout.Button("Switch"))
             {
                 SceneControl.SwitchSceneWithoutConfirm(manager.ToSwitchSceneName);
+            }
+            EditorGUILayout.EndHorizontal();
+
+            EditorGUILayout.Separator();
+
+            EditorGUILayout.LabelField("Ending", EditorStyles.boldLabel);
+            EditorGUILayout.BeginHorizontal();
+            if (GUILayout.Button("Finish Ending A"))
+            {
+                manager.FinishEndingA();
             }
             EditorGUILayout.EndHorizontal();
         }
