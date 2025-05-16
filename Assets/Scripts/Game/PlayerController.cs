@@ -32,7 +32,14 @@ namespace Phosphorescence.Game
             {
                 SelectInteractable();
 
-                if (GameManager.Instance.interactAction.WasPressedThisFrame()) Interact();
+                if (GameManager.Instance.interactAction.WasPressedThisFrame()) Interact(GameManager.Instance.interactAction);
+                if (GameManager.Instance.upStairAction.WasPressedThisFrame()) Interact(GameManager.Instance.upStairAction);
+                if (GameManager.Instance.downStairAction.WasPressedThisFrame()) Interact(GameManager.Instance.downStairAction);
+
+                if (GameManager.Instance.upStairAction.WasReleasedThisFrame() || GameManager.Instance.downStairAction.WasReleasedThisFrame())
+                {
+                    OffStair();
+                }
             }
         }
 

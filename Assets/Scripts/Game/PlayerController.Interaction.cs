@@ -54,13 +54,13 @@ namespace Phosphorescence.Game
             }
         }
 
-        public void Interact()
+        public void Interact(InputAction inputAction)
         {
             if (m_CurrentInteractTarget == null) return;
 
             if (m_CurrentInteractTarget.IsInteractable)
             {
-                m_CurrentInteractTarget.OnInteract(this);
+                m_CurrentInteractTarget.OnInteract(this, inputAction);
             }
         }
 

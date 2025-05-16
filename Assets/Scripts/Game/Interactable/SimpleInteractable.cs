@@ -13,10 +13,11 @@ namespace Phosphorescence.Game
 
         private void Start()
         {
-            InteractAction = () =>
-            {
-                OnInteractEvent?.Invoke();
-                Debug.Log("Interacted with " + this);
+            InteractAction = new Dictionary<InputAction, System.Action> {
+                { GameManager.Instance.interactAction, () => {
+                    OnInteractEvent?.Invoke();
+                    Debug.Log("Interacted with " + this);
+                } }
             };
 
             HoverAction = () =>

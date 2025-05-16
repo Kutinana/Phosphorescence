@@ -1,14 +1,13 @@
+using System.Collections.Generic;
 using Phosphorescence.DataSystem;
 using Phosphorescence.Narration;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 namespace Phosphorescence.Game
 {
     public class RadioController : Interactable
     {
-        public override System.Action InteractAction { get; set; }
-        public override System.Action HoverAction { get; set; }
-        public override System.Action UnhoverAction { get; set; }
         public Sprite defaultSprite;
         public Sprite onHoverSprite;
         public SpriteRenderer spriteRenderer;
@@ -20,8 +19,10 @@ namespace Phosphorescence.Game
 
         private void Start()
         {
-            InteractAction = () => {
-                GameManager.Instance.ContinuePlot();
+            InteractAction = new Dictionary<InputAction, System.Action> {
+                { GameManager.Instance.interactAction, () => {
+                    GameManager.Instance.ContinuePlot();
+                } }
             };
             HoverAction = () => {
                 spriteRenderer.sprite = onHoverSprite;
