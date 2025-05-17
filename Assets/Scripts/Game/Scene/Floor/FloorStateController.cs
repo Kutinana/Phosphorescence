@@ -21,10 +21,13 @@ namespace Phosphorescence.Game
         public List<Animator> Animators = new();
         public List<Light2D> Lights = new();
         public List<AudioSource> AudioSources = new();
+        public List<ICanPlayAndPause> PlayAndPauseObjects = new();
         public GameObject Mask;
 
         public void Awake()
         {
+            PlayAndPauseObjects.AddRange(GetComponentsInChildren<ICanPlayAndPause>());
+            
             StateMachine.AddState(FloorState.Active, new ActiveState(StateMachine, this));
             StateMachine.AddState(FloorState.Paused, new PausedState(StateMachine, this));
             StateMachine.StartState(FloorState.Paused);
@@ -46,7 +49,12 @@ namespace Phosphorescence.Game
                 }
                 foreach (var audioSource in mTarget.AudioSources)
                 {
-                    audioSource.enabled = true;
+                    audioSource.volume = 0.8f;
+                }
+
+                foreach (var playAndPauseObject in mTarget.PlayAndPauseObjects)
+                {
+                    playAndPauseObject.Play();
                 }
 
                 mTarget.Mask.SetActive(false);
@@ -69,7 +77,12 @@ namespace Phosphorescence.Game
                 }
                 foreach (var audioSource in mTarget.AudioSources)
                 {
-                    audioSource.enabled = false;
+                    audioSource.volume = 0f;
+                }
+
+                foreach (var playAndPauseObject in mTarget.PlayAndPauseObjects)
+                {
+                    playAndPauseObject.Pause();
                 }
 
                 mTarget.Mask.SetActive(true);
