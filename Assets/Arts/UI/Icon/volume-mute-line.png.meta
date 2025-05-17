@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: 2faf65ad2f9f5b945bdea69066125cd8
+guid: 8b14c2bb2feed4cad8ea84de0f645124
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8374361775712488167
-    second: Bunker Closed Outlined_0
+      213: 7187205204051664785
+    second: volume-mute-line_0
+  - first:
+      213: -5249561791527700137
+    second: volume-mute-line_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +49,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -96,30 +99,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Bunker Closed Outlined_0
+      name: volume-mute-line_0
       rect:
         serializedVersion: 2
-        x: 139
-        y: 43
-        width: 274
-        height: 106
+        x: 9
+        y: 34
+        width: 112
+        height: 172
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +118,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7eac3fd6aa5b73470800000000000000
-      internalID: 8374361775712488167
+      spriteID: 19f965bbd051eb360800000000000000
+      internalID: 7187205204051664785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volume-mute-line_1
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 69
+        width: 101
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 759378d2d5fc527b0800000000000000
+      internalID: -5249561791527700137
       vertices: []
       indices: 
       edges: []
@@ -138,7 +150,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -148,7 +160,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Bunker Closed Outlined_0: 8374361775712488167
+      volume-mute-line_0: 7187205204051664785
+      volume-mute-line_1: -5249561791527700137
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

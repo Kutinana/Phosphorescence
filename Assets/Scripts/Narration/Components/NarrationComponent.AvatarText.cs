@@ -88,19 +88,20 @@ namespace Phosphorescence.Narration
 
             var len = text.Length;
 
+            AudioSource source = null;
             if (voiceConfig != null)
-                AudioKit.PlayVoice(voiceConfig.clip, loop: false, volumeScale: voiceConfig.standardVolume);
+                source = Audio.AudioManager.PlayVoice(voiceConfig.clip, loop: false, volume: voiceConfig.standardVolume);
 
             for (var i = 0; i < len; i++)
             {
                 textfield.text += text[i];
                 if (!omittedChars.Contains(text[i]) && simulatedVoiceConfig != null)
-                    AudioKit.PlaySound(simulatedVoiceConfig.clip, loop: false, volume: simulatedVoiceConfig.standardVolume);
+                    Audio.AudioManager.PlayVoice(simulatedVoiceConfig.clip, loop: false, volume: simulatedVoiceConfig.standardVolume);
                 yield return new WaitForSeconds(speed);
             }
             textfield.SetText(text);
 
-            if (voiceConfig != null) yield return new WaitUntil(() => !AudioKit.VoicePlayer.AudioSource.isPlaying);
+            if (voiceConfig != null) yield return new WaitUntil(() => !source.isPlaying);
             m_CurrentTypeTextCoroutine = null;
         }
 

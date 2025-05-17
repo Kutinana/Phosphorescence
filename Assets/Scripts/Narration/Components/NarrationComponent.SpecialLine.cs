@@ -111,7 +111,7 @@ namespace Phosphorescence.Narration
                     break;
                 case "thank_page":
                     yield return SplashScreenController.Instance.MaskProgressable.LinearTransition(0.2f, 0f);
-                    yield return SplashScreenController.Instance.ThanksProgressable.SmoothDamp(0.2f, out var coroutine);
+                    yield return SplashScreenController.Instance.ThanksProgressable.SmoothDamp(0.5f, out var coroutine);
                     yield return new WaitForSeconds(3f);
                     yield return new WaitUntil(() => Input.GetMouseButtonUp(0));
                     yield return SplashScreenController.Instance.ThanksProgressable.InverseSmoothDamp(0.5f, out coroutine);

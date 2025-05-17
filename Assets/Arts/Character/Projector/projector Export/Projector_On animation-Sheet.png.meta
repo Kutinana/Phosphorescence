@@ -1,0 +1,1701 @@
+fileFormatVersion: 2
+guid: 00198dec735af4a09820aa0de936f236
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2552529819125613654
+    second: Projector_On animation-Sheet_0
+  - first:
+      213: 1834774127515196992
+    second: Projector_On animation-Sheet_1
+  - first:
+      213: -3631455771148146081
+    second: Projector_On animation-Sheet_2
+  - first:
+      213: 5360548498252390558
+    second: Projector_On animation-Sheet_3
+  - first:
+      213: -8651191712511532725
+    second: Projector_On animation-Sheet_4
+  - first:
+      213: 367429477432616482
+    second: Projector_On animation-Sheet_5
+  - first:
+      213: 8921490578224910642
+    second: Projector_On animation-Sheet_6
+  - first:
+      213: 6790935998167584172
+    second: Projector_On animation-Sheet_7
+  - first:
+      213: 4946045468058809980
+    second: Projector_On animation-Sheet_8
+  - first:
+      213: 3152586753225929888
+    second: Projector_On animation-Sheet_9
+  - first:
+      213: -8896234698498903330
+    second: Projector_On animation-Sheet_10
+  - first:
+      213: -6325104698273392223
+    second: Projector_On animation-Sheet_11
+  - first:
+      213: -4127481638350248119
+    second: Projector_On animation-Sheet_12
+  - first:
+      213: -5060604029484552660
+    second: Projector_On animation-Sheet_13
+  - first:
+      213: -4675522139389917608
+    second: Projector_On animation-Sheet_14
+  - first:
+      213: -1263471011602655544
+    second: Projector_On animation-Sheet_15
+  - first:
+      213: -5384206335931611563
+    second: Projector_On animation-Sheet_16
+  - first:
+      213: -1209037594117968521
+    second: Projector_On animation-Sheet_17
+  - first:
+      213: -1871374098337535882
+    second: Projector_On animation-Sheet_18
+  - first:
+      213: 178058791309397511
+    second: Projector_On animation-Sheet_19
+  - first:
+      213: 5366490722124777972
+    second: Projector_On animation-Sheet_20
+  - first:
+      213: -6622288516893919889
+    second: Projector_On animation-Sheet_21
+  - first:
+      213: 362079030991883567
+    second: Projector_On animation-Sheet_22
+  - first:
+      213: 7003340162540691894
+    second: Projector_On animation-Sheet_23
+  - first:
+      213: -1271739738332481068
+    second: Projector_On animation-Sheet_24
+  - first:
+      213: -3988087677894358641
+    second: Projector_On animation-Sheet_25
+  - first:
+      213: 8572947288207127540
+    second: Projector_On animation-Sheet_26
+  - first:
+      213: -4156191102812821000
+    second: Projector_On animation-Sheet_27
+  - first:
+      213: -1666207792879346220
+    second: Projector_On animation-Sheet_28
+  - first:
+      213: 2910943315983402121
+    second: Projector_On animation-Sheet_29
+  - first:
+      213: -6896321385988106695
+    second: Projector_On animation-Sheet_30
+  - first:
+      213: 6585966763265111830
+    second: Projector_On animation-Sheet_31
+  - first:
+      213: 8080389281830464258
+    second: Projector_On animation-Sheet_32
+  - first:
+      213: 5858731868903548922
+    second: Projector_On animation-Sheet_33
+  - first:
+      213: 5108289084341257110
+    second: Projector_On animation-Sheet_34
+  - first:
+      213: -2195957154411558007
+    second: Projector_On animation-Sheet_35
+  - first:
+      213: -6696882453901436962
+    second: Projector_On animation-Sheet_36
+  - first:
+      213: -2882761864257180107
+    second: Projector_On animation-Sheet_37
+  - first:
+      213: 8567490754868384434
+    second: Projector_On animation-Sheet_38
+  - first:
+      213: -8107906257967422294
+    second: Projector_On animation-Sheet_39
+  - first:
+      213: -466662679168750766
+    second: Projector_On animation-Sheet_40
+  - first:
+      213: 153036834476479068
+    second: Projector_On animation-Sheet_41
+  - first:
+      213: -7417480983733729761
+    second: Projector_On animation-Sheet_42
+  - first:
+      213: 2592653766046942681
+    second: Projector_On animation-Sheet_43
+  - first:
+      213: -8239884751983528648
+    second: Projector_On animation-Sheet_44
+  - first:
+      213: 1671719278425361232
+    second: Projector_On animation-Sheet_45
+  - first:
+      213: 1376471231959186077
+    second: Projector_On animation-Sheet_46
+  - first:
+      213: -8180269539967743731
+    second: Projector_On animation-Sheet_47
+  - first:
+      213: -4163698107246360542
+    second: Projector_On animation-Sheet_48
+  - first:
+      213: 8186864770184605631
+    second: Projector_On animation-Sheet_49
+  - first:
+      213: 3310291158153500972
+    second: Projector_On animation-Sheet_50
+  - first:
+      213: -7678397339343020770
+    second: Projector_On animation-Sheet_51
+  - first:
+      213: 7248385951629710146
+    second: Projector_On animation-Sheet_52
+  - first:
+      213: -4554182910941060179
+    second: Projector_On animation-Sheet_53
+  - first:
+      213: 2419769219376334811
+    second: Projector_On animation-Sheet_54
+  - first:
+      213: 3906310780809962411
+    second: Projector_On animation-Sheet_55
+  - first:
+      213: 8386294879798419213
+    second: Projector_On animation-Sheet_56
+  - first:
+      213: 7016905456375782617
+    second: Projector_On animation-Sheet_57
+  - first:
+      213: 3450788263598739438
+    second: Projector_On animation-Sheet_58
+  - first:
+      213: 8750125360554129798
+    second: Projector_On animation-Sheet_59
+  - first:
+      213: 3548352234837090245
+    second: Projector_On animation-Sheet_60
+  - first:
+      213: 6862491658087238721
+    second: Projector_On animation-Sheet_61
+  - first:
+      213: 267974483972318381
+    second: Projector_On animation-Sheet_62
+  - first:
+      213: -2873962103491918022
+    second: Projector_On animation-Sheet_63
+  - first:
+      213: -6855523895030094182
+    second: Projector_On animation-Sheet_64
+  - first:
+      213: -1313391560439210726
+    second: Projector_On animation-Sheet_65
+  - first:
+      213: 2735334093656867280
+    second: Projector_On animation-Sheet_66
+  - first:
+      213: 7873912059943261561
+    second: Projector_On animation-Sheet_67
+  - first:
+      213: 4223741278368157627
+    second: Projector_On animation-Sheet_68
+  - first:
+      213: -3198223658242416113
+    second: Projector_On animation-Sheet_69
+  - first:
+      213: 5400288340565968456
+    second: Projector_On animation-Sheet_70
+  - first:
+      213: -3419766898062084743
+    second: Projector_On animation-Sheet_71
+  - first:
+      213: -2028551697055366520
+    second: Projector_On animation-Sheet_72
+  - first:
+      213: 400215114333562533
+    second: Projector_On animation-Sheet_73
+  - first:
+      213: -3180046538085013898
+    second: Projector_On animation-Sheet_74
+  - first:
+      213: -844660228505472915
+    second: Projector_On animation-Sheet_75
+  - first:
+      213: 7314088533115391704
+    second: Projector_On animation-Sheet_76
+  - first:
+      213: -3969194352748167735
+    second: Projector_On animation-Sheet_77
+  - first:
+      213: 6792502964926119391
+    second: Projector_On animation-Sheet_78
+  - first:
+      213: -7109538003679407116
+    second: Projector_On animation-Sheet_79
+  - first:
+      213: 9205069769432798467
+    second: Projector_On animation-Sheet_80
+  - first:
+      213: -5165299273263208520
+    second: Projector_On animation-Sheet_81
+  - first:
+      213: 8893604261780278160
+    second: Projector_On animation-Sheet_82
+  - first:
+      213: 5103229698736805789
+    second: Projector_On animation-Sheet_83
+  - first:
+      213: 6030903004783023543
+    second: Projector_On animation-Sheet_84
+  - first:
+      213: -6201158945738191665
+    second: Projector_On animation-Sheet_85
+  - first:
+      213: 7778311434253570251
+    second: Projector_On animation-Sheet_86
+  - first:
+      213: -1290090709167919518
+    second: Projector_On animation-Sheet_87
+  - first:
+      213: 4660071340603079734
+    second: Projector_On animation-Sheet_88
+  - first:
+      213: 360383007654822881
+    second: Projector_On animation-Sheet_89
+  - first:
+      213: -6322873506352096946
+    second: Projector_On animation-Sheet_90
+  - first:
+      213: -6421179511197201485
+    second: Projector_On animation-Sheet_91
+  - first:
+      213: 7627197696187704394
+    second: Projector_On animation-Sheet_92
+  - first:
+      213: -5652214456758012686
+    second: Projector_On animation-Sheet_93
+  - first:
+      213: 1581362309311314423
+    second: Projector_On animation-Sheet_94
+  - first:
+      213: 959041762315833622
+    second: Projector_On animation-Sheet_95
+  - first:
+      213: -4563377701930274279
+    second: Projector_On animation-Sheet_96
+  - first:
+      213: -6683435477283540715
+    second: Projector_On animation-Sheet_97
+  - first:
+      213: 3256442550121883527
+    second: Projector_On animation-Sheet_98
+  - first:
+      213: 4911400750327593623
+    second: Projector_On animation-Sheet_99
+  - first:
+      213: -4631272640439666020
+    second: Projector_On animation-Sheet_100
+  - first:
+      213: -1534505314064936187
+    second: Projector_On animation-Sheet_101
+  - first:
+      213: 2023905511629237707
+    second: Projector_On animation-Sheet_102
+  - first:
+      213: 2214323184599552956
+    second: Projector_On animation-Sheet_103
+  - first:
+      213: 1639664521726735310
+    second: Projector_On animation-Sheet_104
+  - first:
+      213: -2758625758035981692
+    second: Projector_On animation-Sheet_105
+  - first:
+      213: -975104587528309910
+    second: Projector_On animation-Sheet_106
+  - first:
+      213: 558215570996239291
+    second: Projector_On animation-Sheet_107
+  - first:
+      213: 4641083629657703197
+    second: Projector_On animation-Sheet_108
+  - first:
+      213: -3615107831303103740
+    second: Projector_On animation-Sheet_109
+  - first:
+      213: 1746522039908476996
+    second: Projector_On animation-Sheet_110
+  - first:
+      213: -6169596876580853342
+    second: Projector_On animation-Sheet_111
+  - first:
+      213: 4163463818056845969
+    second: Projector_On animation-Sheet_112
+  - first:
+      213: -8618473753047787748
+    second: Projector_On animation-Sheet_113
+  - first:
+      213: 7374296240320593299
+    second: Projector_On animation-Sheet_114
+  - first:
+      213: -6827060331325836658
+    second: Projector_On animation-Sheet_115
+  - first:
+      213: 2273633855916996554
+    second: Projector_On animation-Sheet_116
+  - first:
+      213: -1669537838774448825
+    second: Projector_On animation-Sheet_117
+  - first:
+      213: -6739550417883711297
+    second: Projector_On animation-Sheet_118
+  - first:
+      213: -4199096984569743997
+    second: Projector_On animation-Sheet_119
+  - first:
+      213: -9060516244053600263
+    second: Projector_On animation-Sheet_120
+  - first:
+      213: -1461301073372831318
+    second: Projector_On animation-Sheet_121
+  - first:
+      213: 4076595346651505833
+    second: Projector_On animation-Sheet_122
+  - first:
+      213: 1005296449449757453
+    second: Projector_On animation-Sheet_123
+  - first:
+      213: -8992664482834776810
+    second: Projector_On animation-Sheet_124
+  - first:
+      213: -3540045599755998316
+    second: Projector_On animation-Sheet_125
+  - first:
+      213: 1132326083067362593
+    second: Projector_On animation-Sheet_126
+  - first:
+      213: -380148781389793588
+    second: Projector_On animation-Sheet_127
+  - first:
+      213: 7791837052479693697
+    second: Projector_On animation-Sheet_128
+  - first:
+      213: 3740703219114351989
+    second: Projector_On animation-Sheet_129
+  - first:
+      213: 8986204094534696549
+    second: Projector_On animation-Sheet_130
+  - first:
+      213: 91031380920348220
+    second: Projector_On animation-Sheet_131
+  - first:
+      213: -8803072028486506405
+    second: Projector_On animation-Sheet_132
+  - first:
+      213: -5272139715620549561
+    second: Projector_On animation-Sheet_133
+  - first:
+      213: -7417414650742715642
+    second: Projector_On animation-Sheet_134
+  - first:
+      213: -2542687724871959567
+    second: Projector_On animation-Sheet_135
+  - first:
+      213: 3029740317811188565
+    second: Projector_On animation-Sheet_136
+  - first:
+      213: 3683033289293890257
+    second: Projector_On animation-Sheet_137
+  - first:
+      213: -6199692608189460936
+    second: Projector_On animation-Sheet_138
+  - first:
+      213: -2836621596173582377
+    second: Projector_On animation-Sheet_139
+  - first:
+      213: 6441349718906625108
+    second: Projector_On animation-Sheet_140
+  - first:
+      213: -8110582729010268163
+    second: Projector_On animation-Sheet_141
+  - first:
+      213: -1480148767953864768
+    second: Projector_On animation-Sheet_142
+  - first:
+      213: -5191449043374019902
+    second: Projector_On animation-Sheet_143
+  - first:
+      213: -6983678500629228177
+    second: Projector_On animation-Sheet_144
+  - first:
+      213: -2108371634116309244
+    second: Projector_On animation-Sheet_145
+  - first:
+      213: 2621394527639823718
+    second: Projector_On animation-Sheet_146
+  - first:
+      213: -9058890656483828622
+    second: Projector_On animation-Sheet_147
+  - first:
+      213: -2927370112860864096
+    second: Projector_On animation-Sheet_148
+  - first:
+      213: -6355435612759731614
+    second: Projector_On animation-Sheet_149
+  - first:
+      213: -337739333785057888
+    second: Projector_On animation-Sheet_150
+  - first:
+      213: 7082308278372894525
+    second: Projector_On animation-Sheet_151
+  - first:
+      213: 552626095163022545
+    second: Projector_On animation-Sheet_152
+  - first:
+      213: -94588754110057363
+    second: Projector_On animation-Sheet_153
+  - first:
+      213: 681384797227899358
+    second: Projector_On animation-Sheet_154
+  - first:
+      213: 6327494160747012095
+    second: Projector_On animation-Sheet_155
+  - first:
+      213: 6266188479332179030
+    second: Projector_On animation-Sheet_156
+  - first:
+      213: -539578599183211455
+    second: Projector_On animation-Sheet_157
+  - first:
+      213: -6269474459982965740
+    second: Projector_On animation-Sheet_158
+  - first:
+      213: 6469815023895644550
+    second: Projector_On animation-Sheet_159
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Projector_On animation-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1920
+        width: 192
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b772dee63e3c449cab35763f4119e21f
+      internalID: -1897134070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projector_On animation-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1920
+        width: 192
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c97fdd797db7248b3b43a95fb5d0f476
+      internalID: 1900075783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projector_On animation-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1920
+        width: 192
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52b557a8cd9ca4ff6b61f3e815f81f82
+      internalID: 1718918194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projector_On animation-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 1920
+        width: 192
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 229f0b60507c3421eafc75458ce98397
+      internalID: 545881777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projector_On animation-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1920
+        width: 192
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3685cfd2d86eb41fc8b3c68d7cfdfee8
+      internalID: -353919631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projector_On animation-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1920
+        width: 192
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06217fe360e474a3cb7d039541e90eb0
+      internalID: 1828936958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projector_On animation-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1920
+        width: 192
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adf7d3d4ed49149b1954af5c19b9fc43
+      internalID: 1441149560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projector_On animation-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 1920
+        width: 192
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12648d79aa0534767a6b3cbf3425ce6d
+      internalID: 156626063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projector_On animation-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1536
+        width: 192
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dbfebcd791194a6e8a8b17ff36eaebe
+      internalID: 1795240293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projector_On animation-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1536
+        width: 192
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39817a1f64bdc4b9582fe5eace454c92
+      internalID: 1308128372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projector_On animation-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1536
+        width: 192
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26ce3e019e3174ebd9f793534a696432
+      internalID: 1534227014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projector_On animation-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 1536
+        width: 192
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51d1c1352156b4cb6a53f10593b3f6be
+      internalID: -1955153612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projector_On animation-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1536
+        width: 192
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24155703043e240dbbc85f5fb5c1f8c1
+      internalID: -1876197106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projector_On animation-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1536
+        width: 192
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddf1d0c3e53544aaebdfb6db87aa9eb2
+      internalID: -1410661063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projector_On animation-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1536
+        width: 192
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eadaf33e9efdf4ba79572f53af8e6ebe
+      internalID: -1384442322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projector_On animation-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 1536
+        width: 192
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4c8cf640b315452588d25c3d10bfac1
+      internalID: -334284169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projector_On animation-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1152
+        width: 192
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebec3a39d66f24f6fada6e0325a1c412
+      internalID: -1379890254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projector_On animation-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1152
+        width: 192
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cccfd2d0f5d054d17a344b6555efce45
+      internalID: -605147051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projector_On animation-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1152
+        width: 192
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26b1d0f5d58804c7e81905e3d73cd934
+      internalID: 2110036236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projector_On animation-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 1152
+        width: 192
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29546429516e14422a5934e47dd49ca0
+      internalID: -1045888950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projector_On animation-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1152
+        width: 192
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 492182c38ad0e4f81a60c15d62aa744f
+      internalID: 1331331423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projector_On animation-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1152
+        width: 192
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94a17ebfea546408ab19e6067aee3f23
+      internalID: -529618810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projector_On animation-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1152
+        width: 192
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2704d39fdb61b4b678dbc4bff25d44b3
+      internalID: 2094752947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projector_On animation-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 1152
+        width: 192
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd3fef3afc57b43f08e751564648f161
+      internalID: -1897801676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projector_On animation-Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 192
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a25e891f833148428d1506f16d97203
+      internalID: 1060933989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projector_On animation-Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 768
+        width: 192
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d67949eda47b84282b3af9c212c1a333
+      internalID: -1919553296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projector_On animation-Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 768
+        width: 192
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f58430b1f7b2a48049268426d36fca3d
+      internalID: -324602699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projector_On animation-Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 768
+        width: 192
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22df6c19fb3bc4f3ba89267d6e34ca95
+      internalID: 1430591108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projector_On animation-Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 192
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93d80cf9282f541b09dd5361ae63730c
+      internalID: 1148870597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projector_On animation-Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 768
+        width: 192
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10d8ec8b046244c1491a7e88dc443a6b
+      internalID: -834331372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projector_On animation-Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 768
+        width: 192
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f8fff9c70834402b9f390e69e017e61
+      internalID: 1619104486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projector_On animation-Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 768
+        width: 192
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e2ad4f2675054ee7b30089dbd268675
+      internalID: 1193429108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projector_On animation-Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 192
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92c1ef5478f184b1db92aab158d8c44f
+      internalID: 774646126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projector_On animation-Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 384
+        width: 192
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3053e2fd160e24b22bfb4486f2e78141
+      internalID: 606723235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projector_On animation-Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 192
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a73c33f7899c46ab8a67d91f57102f2
+      internalID: -990595440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projector_On animation-Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 384
+        width: 192
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 880a1037bee2942589f316de83da535d
+      internalID: 982649227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projector_On animation-Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 384
+        width: 192
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 448c7785fd4aa4608aa9afb3a23a63e2
+      internalID: -989441423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projector_On animation-Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 384
+        width: 192
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4d99295712554a8aa8fd59a3247ca7a
+      internalID: 1223089525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projector_On animation-Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 384
+        width: 192
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cb34ca14c0704770a753628acd5f89d
+      internalID: 84515869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projector_On animation-Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 384
+        width: 192
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 814203761dcfd442c9889461127d8e17
+      internalID: 2027857556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projector_On animation-Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 192
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7077c75e9a014090b5f1c4c5ceca4d8
+      internalID: 1095634071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projector_On animation-Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 192
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 252401dd40e8a42f797187df51904a86
+      internalID: -355629736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projector_On animation-Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 192
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a097333747c6b477dab4091ef9d13255
+      internalID: -1090424664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projector_On animation-Sheet_43
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 192
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a9d7dc11d020442eb31400cd3611cc6
+      internalID: -1729426534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projector_On animation-Sheet_44
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 192
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f408d399b6a98410b91cad9b673c2e66
+      internalID: 466456001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projector_On animation-Sheet_45
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 0
+        width: 192
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c3d515a1bb10431ca7beb5a3e08d1df
+      internalID: -185100874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projector_On animation-Sheet_46
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 192
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc3e498ed3f4f40a9a59f88124691bf1
+      internalID: 572331339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projector_On animation-Sheet_47
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 0
+        width: 192
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc2e3f6aafb5a49d6a763ae61964c080
+      internalID: -913311303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 9458a94d6501f4421917fb5f63f6c465
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Projector_On animation-Sheet_0: -1897134070
+      Projector_On animation-Sheet_1: 1900075783
+      Projector_On animation-Sheet_10: 1534227014
+      Projector_On animation-Sheet_11: -1955153612
+      Projector_On animation-Sheet_12: -1876197106
+      Projector_On animation-Sheet_13: -1410661063
+      Projector_On animation-Sheet_14: -1384442322
+      Projector_On animation-Sheet_15: -334284169
+      Projector_On animation-Sheet_16: -1379890254
+      Projector_On animation-Sheet_17: -605147051
+      Projector_On animation-Sheet_18: 2110036236
+      Projector_On animation-Sheet_19: -1045888950
+      Projector_On animation-Sheet_2: 1718918194
+      Projector_On animation-Sheet_20: 1331331423
+      Projector_On animation-Sheet_21: -529618810
+      Projector_On animation-Sheet_22: 2094752947
+      Projector_On animation-Sheet_23: -1897801676
+      Projector_On animation-Sheet_24: 1060933989
+      Projector_On animation-Sheet_25: -1919553296
+      Projector_On animation-Sheet_26: -324602699
+      Projector_On animation-Sheet_27: 1430591108
+      Projector_On animation-Sheet_28: 1148870597
+      Projector_On animation-Sheet_29: -834331372
+      Projector_On animation-Sheet_3: 545881777
+      Projector_On animation-Sheet_30: 1619104486
+      Projector_On animation-Sheet_31: 1193429108
+      Projector_On animation-Sheet_32: 774646126
+      Projector_On animation-Sheet_33: 606723235
+      Projector_On animation-Sheet_34: -990595440
+      Projector_On animation-Sheet_35: 982649227
+      Projector_On animation-Sheet_36: -989441423
+      Projector_On animation-Sheet_37: 1223089525
+      Projector_On animation-Sheet_38: 84515869
+      Projector_On animation-Sheet_39: 2027857556
+      Projector_On animation-Sheet_4: -353919631
+      Projector_On animation-Sheet_40: 1095634071
+      Projector_On animation-Sheet_41: -355629736
+      Projector_On animation-Sheet_42: -1090424664
+      Projector_On animation-Sheet_43: -1729426534
+      Projector_On animation-Sheet_44: 466456001
+      Projector_On animation-Sheet_45: -185100874
+      Projector_On animation-Sheet_46: 572331339
+      Projector_On animation-Sheet_47: -913311303
+      Projector_On animation-Sheet_5: 1828936958
+      Projector_On animation-Sheet_6: 1441149560
+      Projector_On animation-Sheet_7: 156626063
+      Projector_On animation-Sheet_8: 1795240293
+      Projector_On animation-Sheet_9: 1308128372
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

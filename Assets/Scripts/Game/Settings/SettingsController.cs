@@ -34,6 +34,11 @@ namespace Phosphorescence.Game
                 });
             }
 
+            foreach (var state in StateGroups)
+            {
+                state.Value.Progress = 0f;
+            }
+
             StateMachine.AddState(SettingsState.Audio, new AudioState(StateMachine, this));
             StateMachine.AddState(SettingsState.Video, new VideoState(StateMachine, this));
             StateMachine.AddState(SettingsState.System, new SystemState(StateMachine, this));

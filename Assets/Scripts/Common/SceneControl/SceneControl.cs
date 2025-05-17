@@ -129,7 +129,7 @@ namespace Common.SceneControl
         {
             yield return SceneManager.UnloadSceneAsync(SceneManager.GetActiveScene());
 
-            yield return new WaitForSeconds(2f);
+            yield return new WaitForSeconds(3f);
             SplashScreenController.Instance.Initialize();
             
             mAsyncOperation = SceneManager.LoadSceneAsync("MainScene", LoadSceneMode.Additive);
