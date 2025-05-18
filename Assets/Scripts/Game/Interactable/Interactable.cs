@@ -14,15 +14,18 @@ namespace Phosphorescence.Game
         public virtual System.Action HoverAction { get; set; }
         public virtual System.Action UnhoverAction { get; set; }
 
-        public void OnInteract(IInteractor interactor, InputAction inputAction)
+        public virtual void OnInteract(IInteractor interactor, InputAction inputAction)
         {
             if (!IsInteractable) throw new System.Exception("Not Interactable");
 
             Debug.Log("Interacted with " + interactor);
-            InteractAction[inputAction]?.Invoke();
+            if (InteractAction.TryGetValue(inputAction, out var action))
+            {
+                action?.Invoke();
+            }
         }
 
-        public void OnHover(IInteractor interactor)
+        public virtual void OnHover(IInteractor interactor)
         {
             if (!IsInteractable) throw new System.Exception("Not Interactable");
 
@@ -30,7 +33,7 @@ namespace Phosphorescence.Game
             HoverAction?.Invoke();
         }
 
-        public void OnUnhover(IInteractor interactor)
+        public virtual void OnUnhover(IInteractor interactor)
         {
             Debug.Log("Unhovered with " + interactor);
             UnhoverAction?.Invoke();
