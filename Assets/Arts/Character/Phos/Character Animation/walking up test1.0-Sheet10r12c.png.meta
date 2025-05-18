@@ -1,0 +1,3237 @@
+fileFormatVersion: 2
+guid: dd938cfa1d05344a2b5c766c14b83333
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -907146963451441583
+    second: walking up test1.0-Sheet10r12c_0
+  - first:
+      213: 5041404424842148216
+    second: walking up test1.0-Sheet10r12c_1
+  - first:
+      213: 4266957316054436214
+    second: walking up test1.0-Sheet10r12c_2
+  - first:
+      213: -5453548771237021952
+    second: walking up test1.0-Sheet10r12c_3
+  - first:
+      213: 8841686433911160084
+    second: walking up test1.0-Sheet10r12c_4
+  - first:
+      213: 4635828374018448079
+    second: walking up test1.0-Sheet10r12c_5
+  - first:
+      213: 7725337069931612010
+    second: walking up test1.0-Sheet10r12c_6
+  - first:
+      213: -6064989221458817829
+    second: walking up test1.0-Sheet10r12c_7
+  - first:
+      213: 959076769538445497
+    second: walking up test1.0-Sheet10r12c_8
+  - first:
+      213: 9068073833769298865
+    second: walking up test1.0-Sheet10r12c_9
+  - first:
+      213: -2795398493787990055
+    second: walking up test1.0-Sheet10r12c_10
+  - first:
+      213: 536446867691939945
+    second: walking up test1.0-Sheet10r12c_11
+  - first:
+      213: -352232683300121872
+    second: walking up test1.0-Sheet10r12c_12
+  - first:
+      213: 3742136283258539719
+    second: walking up test1.0-Sheet10r12c_13
+  - first:
+      213: -5273860879780621585
+    second: walking up test1.0-Sheet10r12c_14
+  - first:
+      213: -5624873985690187470
+    second: walking up test1.0-Sheet10r12c_15
+  - first:
+      213: 8296171974389275909
+    second: walking up test1.0-Sheet10r12c_16
+  - first:
+      213: -663003440032377605
+    second: walking up test1.0-Sheet10r12c_17
+  - first:
+      213: 5615233957449741050
+    second: walking up test1.0-Sheet10r12c_18
+  - first:
+      213: 4783495877574917115
+    second: walking up test1.0-Sheet10r12c_19
+  - first:
+      213: -8895007288828695927
+    second: walking up test1.0-Sheet10r12c_20
+  - first:
+      213: 6632968540842402359
+    second: walking up test1.0-Sheet10r12c_21
+  - first:
+      213: -1837195678714311931
+    second: walking up test1.0-Sheet10r12c_22
+  - first:
+      213: 516191467833375865
+    second: walking up test1.0-Sheet10r12c_23
+  - first:
+      213: 4266551036246223029
+    second: walking up test1.0-Sheet10r12c_24
+  - first:
+      213: -5103662693253435392
+    second: walking up test1.0-Sheet10r12c_25
+  - first:
+      213: -2842729680694265288
+    second: walking up test1.0-Sheet10r12c_26
+  - first:
+      213: 535059281279288350
+    second: walking up test1.0-Sheet10r12c_27
+  - first:
+      213: -4001120130303466185
+    second: walking up test1.0-Sheet10r12c_28
+  - first:
+      213: -8596345514803006819
+    second: walking up test1.0-Sheet10r12c_29
+  - first:
+      213: 2299691022431654695
+    second: walking up test1.0-Sheet10r12c_30
+  - first:
+      213: 5679517965018158180
+    second: walking up test1.0-Sheet10r12c_31
+  - first:
+      213: -5609651766583073314
+    second: walking up test1.0-Sheet10r12c_32
+  - first:
+      213: -3107132134466629112
+    second: walking up test1.0-Sheet10r12c_33
+  - first:
+      213: 8887647494325667360
+    second: walking up test1.0-Sheet10r12c_34
+  - first:
+      213: -1572620898807072800
+    second: walking up test1.0-Sheet10r12c_35
+  - first:
+      213: -7043531432228334621
+    second: walking up test1.0-Sheet10r12c_36
+  - first:
+      213: -7888513569044467627
+    second: walking up test1.0-Sheet10r12c_37
+  - first:
+      213: -282171045089977996
+    second: walking up test1.0-Sheet10r12c_38
+  - first:
+      213: 4095068949108160279
+    second: walking up test1.0-Sheet10r12c_39
+  - first:
+      213: -237061888140287314
+    second: walking up test1.0-Sheet10r12c_40
+  - first:
+      213: -1022774240587112411
+    second: walking up test1.0-Sheet10r12c_41
+  - first:
+      213: -9028332838078648547
+    second: walking up test1.0-Sheet10r12c_42
+  - first:
+      213: -2301735852536223269
+    second: walking up test1.0-Sheet10r12c_43
+  - first:
+      213: 6459699281799751876
+    second: walking up test1.0-Sheet10r12c_44
+  - first:
+      213: -1339988718914709587
+    second: walking up test1.0-Sheet10r12c_45
+  - first:
+      213: -1935997582725245508
+    second: walking up test1.0-Sheet10r12c_46
+  - first:
+      213: -1216689068196023856
+    second: walking up test1.0-Sheet10r12c_47
+  - first:
+      213: -2890520569168929683
+    second: walking up test1.0-Sheet10r12c_48
+  - first:
+      213: -763758309071314183
+    second: walking up test1.0-Sheet10r12c_49
+  - first:
+      213: 1004054298035585936
+    second: walking up test1.0-Sheet10r12c_50
+  - first:
+      213: 5839679098060505915
+    second: walking up test1.0-Sheet10r12c_51
+  - first:
+      213: 6177937034331606208
+    second: walking up test1.0-Sheet10r12c_52
+  - first:
+      213: -3505259522487627865
+    second: walking up test1.0-Sheet10r12c_53
+  - first:
+      213: 1197948496245140298
+    second: walking up test1.0-Sheet10r12c_54
+  - first:
+      213: -6647676194232838225
+    second: walking up test1.0-Sheet10r12c_55
+  - first:
+      213: 727570644738973876
+    second: walking up test1.0-Sheet10r12c_56
+  - first:
+      213: 7362108731070244407
+    second: walking up test1.0-Sheet10r12c_57
+  - first:
+      213: -5917164850429625915
+    second: walking up test1.0-Sheet10r12c_58
+  - first:
+      213: 8360534098109761788
+    second: walking up test1.0-Sheet10r12c_59
+  - first:
+      213: -7215896674659454491
+    second: walking up test1.0-Sheet10r12c_60
+  - first:
+      213: -6007312663815118911
+    second: walking up test1.0-Sheet10r12c_61
+  - first:
+      213: 4152373594177311919
+    second: walking up test1.0-Sheet10r12c_62
+  - first:
+      213: -5808784510747912017
+    second: walking up test1.0-Sheet10r12c_63
+  - first:
+      213: -4775385809908726746
+    second: walking up test1.0-Sheet10r12c_64
+  - first:
+      213: -2928879579151496876
+    second: walking up test1.0-Sheet10r12c_65
+  - first:
+      213: -6662250216407001602
+    second: walking up test1.0-Sheet10r12c_66
+  - first:
+      213: -6330141983138581671
+    second: walking up test1.0-Sheet10r12c_67
+  - first:
+      213: 294365571396661066
+    second: walking up test1.0-Sheet10r12c_68
+  - first:
+      213: -8364170179150424936
+    second: walking up test1.0-Sheet10r12c_69
+  - first:
+      213: 1834411001326193747
+    second: walking up test1.0-Sheet10r12c_70
+  - first:
+      213: 2776726411213153877
+    second: walking up test1.0-Sheet10r12c_71
+  - first:
+      213: -2223050570335814671
+    second: walking up test1.0-Sheet10r12c_72
+  - first:
+      213: -3950875861593291107
+    second: walking up test1.0-Sheet10r12c_73
+  - first:
+      213: 3558678089940409926
+    second: walking up test1.0-Sheet10r12c_74
+  - first:
+      213: 5678839016173417440
+    second: walking up test1.0-Sheet10r12c_75
+  - first:
+      213: -7918583995889485578
+    second: walking up test1.0-Sheet10r12c_76
+  - first:
+      213: 19599902118753934
+    second: walking up test1.0-Sheet10r12c_77
+  - first:
+      213: 8441900896856190442
+    second: walking up test1.0-Sheet10r12c_78
+  - first:
+      213: 5901713021346666531
+    second: walking up test1.0-Sheet10r12c_79
+  - first:
+      213: -5360152039886514656
+    second: walking up test1.0-Sheet10r12c_80
+  - first:
+      213: 4884571815882447743
+    second: walking up test1.0-Sheet10r12c_81
+  - first:
+      213: -4612984343019200977
+    second: walking up test1.0-Sheet10r12c_82
+  - first:
+      213: -7082032352833925244
+    second: walking up test1.0-Sheet10r12c_83
+  - first:
+      213: -7218405980164627981
+    second: walking up test1.0-Sheet10r12c_84
+  - first:
+      213: -588944601437488837
+    second: walking up test1.0-Sheet10r12c_85
+  - first:
+      213: -2080110918717762559
+    second: walking up test1.0-Sheet10r12c_86
+  - first:
+      213: -8898996268869438570
+    second: walking up test1.0-Sheet10r12c_87
+  - first:
+      213: -5275354519052128511
+    second: walking up test1.0-Sheet10r12c_88
+  - first:
+      213: -3115908121066423544
+    second: walking up test1.0-Sheet10r12c_89
+  - first:
+      213: 585159974358070509
+    second: walking up test1.0-Sheet10r12c_90
+  - first:
+      213: -3887871608269171280
+    second: walking up test1.0-Sheet10r12c_91
+  - first:
+      213: 7157854150980807815
+    second: walking up test1.0-Sheet10r12c_92
+  - first:
+      213: 6187056212595136237
+    second: walking up test1.0-Sheet10r12c_93
+  - first:
+      213: -9047763456356302803
+    second: walking up test1.0-Sheet10r12c_94
+  - first:
+      213: 4904973743720611418
+    second: walking up test1.0-Sheet10r12c_95
+  - first:
+      213: -7023039600492237019
+    second: walking up test1.0-Sheet10r12c_96
+  - first:
+      213: 2736089543915912336
+    second: walking up test1.0-Sheet10r12c_97
+  - first:
+      213: 8677761709337684333
+    second: walking up test1.0-Sheet10r12c_98
+  - first:
+      213: 6614452521606533639
+    second: walking up test1.0-Sheet10r12c_99
+  - first:
+      213: 5949704863174554537
+    second: walking up test1.0-Sheet10r12c_100
+  - first:
+      213: -5971247319511114062
+    second: walking up test1.0-Sheet10r12c_101
+  - first:
+      213: 1524865002470349462
+    second: walking up test1.0-Sheet10r12c_102
+  - first:
+      213: 383085473262253048
+    second: walking up test1.0-Sheet10r12c_103
+  - first:
+      213: 5307699855804216700
+    second: walking up test1.0-Sheet10r12c_104
+  - first:
+      213: -4920396973293471661
+    second: walking up test1.0-Sheet10r12c_105
+  - first:
+      213: 7313243074172451826
+    second: walking up test1.0-Sheet10r12c_106
+  - first:
+      213: 107354554367553599
+    second: walking up test1.0-Sheet10r12c_107
+  - first:
+      213: -3565018059362484922
+    second: walking up test1.0-Sheet10r12c_108
+  - first:
+      213: -2580402531713329552
+    second: walking up test1.0-Sheet10r12c_109
+  - first:
+      213: 1913444398754134502
+    second: walking up test1.0-Sheet10r12c_110
+  - first:
+      213: -6007770765143655888
+    second: walking up test1.0-Sheet10r12c_111
+  - first:
+      213: -1066883663908845581
+    second: walking up test1.0-Sheet10r12c_112
+  - first:
+      213: 2747760877191260283
+    second: walking up test1.0-Sheet10r12c_113
+  - first:
+      213: 4368215162128332944
+    second: walking up test1.0-Sheet10r12c_114
+  - first:
+      213: 2952724270456282470
+    second: walking up test1.0-Sheet10r12c_115
+  - first:
+      213: -6343911689093172713
+    second: walking up test1.0-Sheet10r12c_116
+  - first:
+      213: -6499754789215571764
+    second: walking up test1.0-Sheet10r12c_117
+  - first:
+      213: 8468745482727129554
+    second: walking up test1.0-Sheet10r12c_118
+  - first:
+      213: 2331154421090404645
+    second: walking up test1.0-Sheet10r12c_119
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: walking up test1.0-Sheet10r12c_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9720
+        width: 836
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15e076c94aa2963f0800000000000000
+      internalID: -907146963451441583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking up test1.0-Sheet10r12c_1
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 9720
+        width: 836
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8797cc72d9aa6f540800000000000000
+      internalID: 5041404424842148216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking up test1.0-Sheet10r12c_2
+      rect:
+        serializedVersion: 2
+        x: 1672
+        y: 9720
+        width: 836
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 679cd275217473b30800000000000000
+      internalID: 4266957316054436214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking up test1.0-Sheet10r12c_3
+      rect:
+        serializedVersion: 2
+        x: 2508
+        y: 9720
+        width: 836
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0073625694a1154b0800000000000000
+      internalID: -5453548771237021952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking up test1.0-Sheet10r12c_4
+      rect:
+        serializedVersion: 2
+        x: 3344
+        y: 9720
+        width: 836
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41d3aa467faf3ba70800000000000000
+      internalID: 8841686433911160084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking up test1.0-Sheet10r12c_5
+      rect:
+        serializedVersion: 2
+        x: 4180
+        y: 9720
+        width: 836
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcadb013855c55040800000000000000
+      internalID: 4635828374018448079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking up test1.0-Sheet10r12c_6
+      rect:
+        serializedVersion: 2
+        x: 5016
+        y: 9720
+        width: 836
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a674e6f6229e53b60800000000000000
+      internalID: 7725337069931612010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking up test1.0-Sheet10r12c_7
+      rect:
+        serializedVersion: 2
+        x: 5852
+        y: 9720
+        width: 836
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdccf50df64d4dba0800000000000000
+      internalID: -6064989221458817829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking up test1.0-Sheet10r12c_8
+      rect:
+        serializedVersion: 2
+        x: 6688
+        y: 9720
+        width: 836
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b01ba09d335f4d00800000000000000
+      internalID: 959076769538445497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking up test1.0-Sheet10r12c_9
+      rect:
+        serializedVersion: 2
+        x: 7524
+        y: 9720
+        width: 836
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bb65da6b1548dd70800000000000000
+      internalID: 9068073833769298865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking up test1.0-Sheet10r12c_10
+      rect:
+        serializedVersion: 2
+        x: 8360
+        y: 9720
+        width: 836
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d7da1c61efb439d0800000000000000
+      internalID: -2795398493787990055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking up test1.0-Sheet10r12c_11
+      rect:
+        serializedVersion: 2
+        x: 9196
+        y: 9720
+        width: 836
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96826ad7597d17700800000000000000
+      internalID: 536446867691939945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking up test1.0-Sheet10r12c_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8640
+        width: 836
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f21d91ad3e9c1bf0800000000000000
+      internalID: -352232683300121872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking up test1.0-Sheet10r12c_13
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 8640
+        width: 836
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cec9b87f1dbee330800000000000000
+      internalID: 3742136283258539719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking up test1.0-Sheet10r12c_14
+      rect:
+        serializedVersion: 2
+        x: 1672
+        y: 8640
+        width: 836
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe2d8d1d87b7fc6b0800000000000000
+      internalID: -5273860879780621585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking up test1.0-Sheet10r12c_15
+      rect:
+        serializedVersion: 2
+        x: 2508
+        y: 8640
+        width: 836
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 239c99079ee60f1b0800000000000000
+      internalID: -5624873985690187470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking up test1.0-Sheet10r12c_16
+      rect:
+        serializedVersion: 2
+        x: 3344
+        y: 8640
+        width: 836
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50d1609a47ce12370800000000000000
+      internalID: 8296171974389275909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking up test1.0-Sheet10r12c_17
+      rect:
+        serializedVersion: 2
+        x: 4180
+        y: 8640
+        width: 836
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf4120052e98cc6f0800000000000000
+      internalID: -663003440032377605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking up test1.0-Sheet10r12c_18
+      rect:
+        serializedVersion: 2
+        x: 5016
+        y: 8640
+        width: 836
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af2b08498815ded40800000000000000
+      internalID: 5615233957449741050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking up test1.0-Sheet10r12c_19
+      rect:
+        serializedVersion: 2
+        x: 5852
+        y: 8640
+        width: 836
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfbf5671824626240800000000000000
+      internalID: 4783495877574917115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking up test1.0-Sheet10r12c_20
+      rect:
+        serializedVersion: 2
+        x: 6688
+        y: 8640
+        width: 836
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98aead2aff59e8480800000000000000
+      internalID: -8895007288828695927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking up test1.0-Sheet10r12c_21
+      rect:
+        serializedVersion: 2
+        x: 7524
+        y: 8640
+        width: 836
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 732a043beb90d0c50800000000000000
+      internalID: 6632968540842402359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking up test1.0-Sheet10r12c_22
+      rect:
+        serializedVersion: 2
+        x: 8360
+        y: 8640
+        width: 836
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50bc95b9348f086e0800000000000000
+      internalID: -1837195678714311931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking up test1.0-Sheet10r12c_23
+      rect:
+        serializedVersion: 2
+        x: 9196
+        y: 8640
+        width: 836
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97cbb44b761e92700800000000000000
+      internalID: 516191467833375865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking up test1.0-Sheet10r12c_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7560
+        width: 836
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b8e783ff85d53b30800000000000000
+      internalID: 4266551036246223029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking up test1.0-Sheet10r12c_25
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 7560
+        width: 836
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 000373322d52c29b0800000000000000
+      internalID: -5103662693253435392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking up test1.0-Sheet10r12c_26
+      rect:
+        serializedVersion: 2
+        x: 1672
+        y: 7560
+        width: 836
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83a32c5ba689c88d0800000000000000
+      internalID: -2842729680694265288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking up test1.0-Sheet10r12c_27
+      rect:
+        serializedVersion: 2
+        x: 2508
+        y: 7560
+        width: 836
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e148d6ad499ec6700800000000000000
+      internalID: 535059281279288350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking up test1.0-Sheet10r12c_28
+      rect:
+        serializedVersion: 2
+        x: 3344
+        y: 7560
+        width: 836
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 735e899b07a2978c0800000000000000
+      internalID: -4001120130303466185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking up test1.0-Sheet10r12c_29
+      rect:
+        serializedVersion: 2
+        x: 4180
+        y: 7560
+        width: 836
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d92f4a7bc45a3b880800000000000000
+      internalID: -8596345514803006819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking up test1.0-Sheet10r12c_30
+      rect:
+        serializedVersion: 2
+        x: 5016
+        y: 7560
+        width: 836
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7239135fcc42aef10800000000000000
+      internalID: 2299691022431654695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking up test1.0-Sheet10r12c_31
+      rect:
+        serializedVersion: 2
+        x: 5852
+        y: 7560
+        width: 836
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4645b507f73b1de40800000000000000
+      internalID: 5679517965018158180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking up test1.0-Sheet10r12c_32
+      rect:
+        serializedVersion: 2
+        x: 6688
+        y: 7560
+        width: 836
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed56c2380738622b0800000000000000
+      internalID: -5609651766583073314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking up test1.0-Sheet10r12c_33
+      rect:
+        serializedVersion: 2
+        x: 7524
+        y: 7560
+        width: 836
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8025ae639cf31e4d0800000000000000
+      internalID: -3107132134466629112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking up test1.0-Sheet10r12c_34
+      rect:
+        serializedVersion: 2
+        x: 8360
+        y: 7560
+        width: 836
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0260c2cae44475b70800000000000000
+      internalID: 8887647494325667360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking up test1.0-Sheet10r12c_35
+      rect:
+        serializedVersion: 2
+        x: 9196
+        y: 7560
+        width: 836
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e7bf38ef9dec2ae0800000000000000
+      internalID: -1572620898807072800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking up test1.0-Sheet10r12c_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6480
+        width: 836
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e35bb90b79504e90800000000000000
+      internalID: -7043531432228334621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking up test1.0-Sheet10r12c_37
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 6480
+        width: 836
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 550714f34be568290800000000000000
+      internalID: -7888513569044467627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking up test1.0-Sheet10r12c_38
+      rect:
+        serializedVersion: 2
+        x: 1672
+        y: 6480
+        width: 836
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 479d283fde6851cf0800000000000000
+      internalID: -282171045089977996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking up test1.0-Sheet10r12c_39
+      rect:
+        serializedVersion: 2
+        x: 2508
+        y: 6480
+        width: 836
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 717f25a338b94d830800000000000000
+      internalID: 4095068949108160279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking up test1.0-Sheet10r12c_40
+      rect:
+        serializedVersion: 2
+        x: 3344
+        y: 6480
+        width: 836
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea26d9ff779c5bcf0800000000000000
+      internalID: -237061888140287314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking up test1.0-Sheet10r12c_41
+      rect:
+        serializedVersion: 2
+        x: 4180
+        y: 6480
+        width: 836
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 520a2604f306ec1f0800000000000000
+      internalID: -1022774240587112411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking up test1.0-Sheet10r12c_42
+      rect:
+        serializedVersion: 2
+        x: 5016
+        y: 6480
+        width: 836
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1fe3503e1be4b280800000000000000
+      internalID: -9028332838078648547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking up test1.0-Sheet10r12c_43
+      rect:
+        serializedVersion: 2
+        x: 5852
+        y: 6480
+        width: 836
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd92cceef679e00e0800000000000000
+      internalID: -2301735852536223269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking up test1.0-Sheet10r12c_44
+      rect:
+        serializedVersion: 2
+        x: 6688
+        y: 6480
+        width: 836
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c82587954675a950800000000000000
+      internalID: 6459699281799751876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking up test1.0-Sheet10r12c_45
+      rect:
+        serializedVersion: 2
+        x: 7524
+        y: 6480
+        width: 836
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da7de061c57676de0800000000000000
+      internalID: -1339988718914709587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking up test1.0-Sheet10r12c_46
+      rect:
+        serializedVersion: 2
+        x: 8360
+        y: 6480
+        width: 836
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb595a3b474f125e0800000000000000
+      internalID: -1935997582725245508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking up test1.0-Sheet10r12c_47
+      rect:
+        serializedVersion: 2
+        x: 9196
+        y: 6480
+        width: 836
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d133102db37d1fe0800000000000000
+      internalID: -1216689068196023856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking up test1.0-Sheet10r12c_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5400
+        width: 836
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6cd9b26bdec2e7d0800000000000000
+      internalID: -2890520569168929683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking up test1.0-Sheet10r12c_49
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 5400
+        width: 836
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f22d8d4dd59665f0800000000000000
+      internalID: -763758309071314183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking up test1.0-Sheet10r12c_50
+      rect:
+        serializedVersion: 2
+        x: 1672
+        y: 5400
+        width: 836
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0938d99701e1fed00800000000000000
+      internalID: 1004054298035585936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking up test1.0-Sheet10r12c_51
+      rect:
+        serializedVersion: 2
+        x: 2508
+        y: 5400
+        width: 836
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b338b222335ba0150800000000000000
+      internalID: 5839679098060505915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking up test1.0-Sheet10r12c_52
+      rect:
+        serializedVersion: 2
+        x: 3344
+        y: 5400
+        width: 836
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ccc01820017cb550800000000000000
+      internalID: 6177937034331606208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking up test1.0-Sheet10r12c_53
+      rect:
+        serializedVersion: 2
+        x: 4180
+        y: 5400
+        width: 836
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7afc1943901da5fc0800000000000000
+      internalID: -3505259522487627865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking up test1.0-Sheet10r12c_54
+      rect:
+        serializedVersion: 2
+        x: 5016
+        y: 5400
+        width: 836
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4ba7e17fc7ff9010800000000000000
+      internalID: 1197948496245140298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking up test1.0-Sheet10r12c_55
+      rect:
+        serializedVersion: 2
+        x: 5852
+        y: 5400
+        width: 836
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa75ee4e8b5beb3a0800000000000000
+      internalID: -6647676194232838225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking up test1.0-Sheet10r12c_56
+      rect:
+        serializedVersion: 2
+        x: 6688
+        y: 5400
+        width: 836
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b02ba485a9d81a00800000000000000
+      internalID: 727570644738973876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking up test1.0-Sheet10r12c_57
+      rect:
+        serializedVersion: 2
+        x: 7524
+        y: 5400
+        width: 836
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7366e3182e67b2660800000000000000
+      internalID: 7362108731070244407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking up test1.0-Sheet10r12c_58
+      rect:
+        serializedVersion: 2
+        x: 8360
+        y: 5400
+        width: 836
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c9f6b44be102eda0800000000000000
+      internalID: -5917164850429625915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking up test1.0-Sheet10r12c_59
+      rect:
+        serializedVersion: 2
+        x: 9196
+        y: 5400
+        width: 836
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf88f5a5775960470800000000000000
+      internalID: 8360534098109761788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking up test1.0-Sheet10r12c_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4320
+        width: 836
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e13003b43cfbdb90800000000000000
+      internalID: -7215896674659454491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking up test1.0-Sheet10r12c_61
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 4320
+        width: 836
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cf189ad5fcb1aca0800000000000000
+      internalID: -6007312663815118911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking up test1.0-Sheet10r12c_62
+      rect:
+        serializedVersion: 2
+        x: 1672
+        y: 4320
+        width: 836
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa496af98c130a930800000000000000
+      internalID: 4152373594177311919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking up test1.0-Sheet10r12c_63
+      rect:
+        serializedVersion: 2
+        x: 2508
+        y: 4320
+        width: 836
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa85414834d036fa0800000000000000
+      internalID: -5808784510747912017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking up test1.0-Sheet10r12c_64
+      rect:
+        serializedVersion: 2
+        x: 3344
+        y: 4320
+        width: 836
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62403fe28eb6abdb0800000000000000
+      internalID: -4775385809908726746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking up test1.0-Sheet10r12c_65
+      rect:
+        serializedVersion: 2
+        x: 4180
+        y: 4320
+        width: 836
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45987c66a878a57d0800000000000000
+      internalID: -2928879579151496876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking up test1.0-Sheet10r12c_66
+      rect:
+        serializedVersion: 2
+        x: 5016
+        y: 4320
+        width: 836
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef59a4ee9beea83a0800000000000000
+      internalID: -6662250216407001602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking up test1.0-Sheet10r12c_67
+      rect:
+        serializedVersion: 2
+        x: 5852
+        y: 4320
+        width: 836
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 953fc35a761d628a0800000000000000
+      internalID: -6330141983138581671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking up test1.0-Sheet10r12c_68
+      rect:
+        serializedVersion: 2
+        x: 6688
+        y: 4320
+        width: 836
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4fe3357debc51400800000000000000
+      internalID: 294365571396661066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking up test1.0-Sheet10r12c_69
+      rect:
+        serializedVersion: 2
+        x: 7524
+        y: 4320
+        width: 836
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 894d2de898f7ceb80800000000000000
+      internalID: -8364170179150424936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking up test1.0-Sheet10r12c_70
+      rect:
+        serializedVersion: 2
+        x: 8360
+        y: 4320
+        width: 836
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35ccd1a2613257910800000000000000
+      internalID: 1834411001326193747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking up test1.0-Sheet10r12c_71
+      rect:
+        serializedVersion: 2
+        x: 9196
+        y: 4320
+        width: 836
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5562ec295f9e88620800000000000000
+      internalID: 2776726411213153877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking up test1.0-Sheet10r12c_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3240
+        width: 836
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fb7765d8432621e0800000000000000
+      internalID: -2223050570335814671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking up test1.0-Sheet10r12c_73
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 3240
+        width: 836
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d960116265bab29c0800000000000000
+      internalID: -3950875861593291107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking up test1.0-Sheet10r12c_74
+      rect:
+        serializedVersion: 2
+        x: 1672
+        y: 3240
+        width: 836
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64e1ddc3ed6f26130800000000000000
+      internalID: 3558678089940409926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking up test1.0-Sheet10r12c_75
+      rect:
+        serializedVersion: 2
+        x: 2508
+        y: 3240
+        width: 836
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e335a75ff94fce40800000000000000
+      internalID: 5678839016173417440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking up test1.0-Sheet10r12c_76
+      rect:
+        serializedVersion: 2
+        x: 3344
+        y: 3240
+        width: 836
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f8f9e86fc98b1290800000000000000
+      internalID: -7918583995889485578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking up test1.0-Sheet10r12c_77
+      rect:
+        serializedVersion: 2
+        x: 4180
+        y: 3240
+        width: 836
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e86bb63d102a54000800000000000000
+      internalID: 19599902118753934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking up test1.0-Sheet10r12c_78
+      rect:
+        serializedVersion: 2
+        x: 5016
+        y: 3240
+        width: 836
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aed2a2a7328a72570800000000000000
+      internalID: 8441900896856190442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking up test1.0-Sheet10r12c_79
+      rect:
+        serializedVersion: 2
+        x: 5852
+        y: 3240
+        width: 836
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3285aab69b817e150800000000000000
+      internalID: 5901713021346666531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking up test1.0-Sheet10r12c_80
+      rect:
+        serializedVersion: 2
+        x: 6688
+        y: 3240
+        width: 836
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0269a787e1aec95b0800000000000000
+      internalID: -5360152039886514656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking up test1.0-Sheet10r12c_81
+      rect:
+        serializedVersion: 2
+        x: 7524
+        y: 3240
+        width: 836
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7bde8ddf2c79c340800000000000000
+      internalID: 4884571815882447743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking up test1.0-Sheet10r12c_82
+      rect:
+        serializedVersion: 2
+        x: 8360
+        y: 3240
+        width: 836
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2ed6ef3e236bffb0800000000000000
+      internalID: -4612984343019200977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking up test1.0-Sheet10r12c_83
+      rect:
+        serializedVersion: 2
+        x: 9196
+        y: 3240
+        width: 836
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48f8289e81197bd90800000000000000
+      internalID: -7082032352833925244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking up test1.0-Sheet10r12c_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2160
+        width: 836
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f16bbb710213db90800000000000000
+      internalID: -7218405980164627981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking up test1.0-Sheet10r12c_85
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 2160
+        width: 836
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b393fee5106a3d7f0800000000000000
+      internalID: -588944601437488837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking up test1.0-Sheet10r12c_86
+      rect:
+        serializedVersion: 2
+        x: 1672
+        y: 2160
+        width: 836
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1049a6ce326f123e0800000000000000
+      internalID: -2080110918717762559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking up test1.0-Sheet10r12c_87
+      rect:
+        serializedVersion: 2
+        x: 2508
+        y: 2160
+        width: 836
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 693b288da0a608480800000000000000
+      internalID: -8898996268869438570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking up test1.0-Sheet10r12c_88
+      rect:
+        serializedVersion: 2
+        x: 3344
+        y: 2160
+        width: 836
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10f65a3d30d2ac6b0800000000000000
+      internalID: -5275354519052128511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking up test1.0-Sheet10r12c_89
+      rect:
+        serializedVersion: 2
+        x: 4180
+        y: 2160
+        width: 836
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80bb41b921212c4d0800000000000000
+      internalID: -3115908121066423544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking up test1.0-Sheet10r12c_90
+      rect:
+        serializedVersion: 2
+        x: 5016
+        y: 2160
+        width: 836
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de4b36875e7ee1800800000000000000
+      internalID: 585159974358070509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking up test1.0-Sheet10r12c_91
+      rect:
+        serializedVersion: 2
+        x: 5852
+        y: 2160
+        width: 836
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b51ac00f518b0ac0800000000000000
+      internalID: -3887871608269171280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking up test1.0-Sheet10r12c_92
+      rect:
+        serializedVersion: 2
+        x: 6688
+        y: 2160
+        width: 836
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78c24472d6ec55360800000000000000
+      internalID: 7157854150980807815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking up test1.0-Sheet10r12c_93
+      rect:
+        serializedVersion: 2
+        x: 7524
+        y: 2160
+        width: 836
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de65b1d48d6dcd550800000000000000
+      internalID: 6187056212595136237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking up test1.0-Sheet10r12c_94
+      rect:
+        serializedVersion: 2
+        x: 8360
+        y: 2160
+        width: 836
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d204f14d213ef6280800000000000000
+      internalID: -9047763456356302803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking up test1.0-Sheet10r12c_95
+      rect:
+        serializedVersion: 2
+        x: 9196
+        y: 2160
+        width: 836
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5eb51bd1a7f11440800000000000000
+      internalID: 4904973743720611418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking up test1.0-Sheet10r12c_96
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1080
+        width: 836
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52fa82961b6298e90800000000000000
+      internalID: -7023039600492237019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking up test1.0-Sheet10r12c_97
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 1080
+        width: 836
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09cb4ca91fa88f520800000000000000
+      internalID: 2736089543915912336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking up test1.0-Sheet10r12c_98
+      rect:
+        serializedVersion: 2
+        x: 1672
+        y: 1080
+        width: 836
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d692f824c4a9d6870800000000000000
+      internalID: 8677761709337684333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking up test1.0-Sheet10r12c_99
+      rect:
+        serializedVersion: 2
+        x: 2508
+        y: 1080
+        width: 836
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7025b0606814bcb50800000000000000
+      internalID: 6614452521606533639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking up test1.0-Sheet10r12c_100
+      rect:
+        serializedVersion: 2
+        x: 3344
+        y: 1080
+        width: 836
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a3fee7dc09919250800000000000000
+      internalID: 5949704863174554537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking up test1.0-Sheet10r12c_101
+      rect:
+        serializedVersion: 2
+        x: 4180
+        y: 1080
+        width: 836
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2be598e233ed12da0800000000000000
+      internalID: -5971247319511114062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking up test1.0-Sheet10r12c_102
+      rect:
+        serializedVersion: 2
+        x: 5016
+        y: 1080
+        width: 836
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69a9ba204a8692510800000000000000
+      internalID: 1524865002470349462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking up test1.0-Sheet10r12c_103
+      rect:
+        serializedVersion: 2
+        x: 5852
+        y: 1080
+        width: 836
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f3b860553ef05500800000000000000
+      internalID: 383085473262253048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking up test1.0-Sheet10r12c_104
+      rect:
+        serializedVersion: 2
+        x: 6688
+        y: 1080
+        width: 836
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c753a9fb5ecb8a940800000000000000
+      internalID: 5307699855804216700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking up test1.0-Sheet10r12c_105
+      rect:
+        serializedVersion: 2
+        x: 7524
+        y: 1080
+        width: 836
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3587feca50d37bbb0800000000000000
+      internalID: -4920396973293471661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking up test1.0-Sheet10r12c_106
+      rect:
+        serializedVersion: 2
+        x: 8360
+        y: 1080
+        width: 836
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fb722824dbdd7560800000000000000
+      internalID: 7313243074172451826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking up test1.0-Sheet10r12c_107
+      rect:
+        serializedVersion: 2
+        x: 9196
+        y: 1080
+        width: 836
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f30391ef5666d7100800000000000000
+      internalID: 107354554367553599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking up test1.0-Sheet10r12c_108
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 836
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64db8d996f2868ec0800000000000000
+      internalID: -3565018059362484922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking up test1.0-Sheet10r12c_109
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 0
+        width: 836
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07655b7a191903cd0800000000000000
+      internalID: -2580402531713329552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking up test1.0-Sheet10r12c_110
+      rect:
+        serializedVersion: 2
+        x: 1672
+        y: 0
+        width: 836
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e97335fa8bed8a10800000000000000
+      internalID: 1913444398754134502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking up test1.0-Sheet10r12c_111
+      rect:
+        serializedVersion: 2
+        x: 2508
+        y: 0
+        width: 836
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03ab2a3d15c10aca0800000000000000
+      internalID: -6007770765143655888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking up test1.0-Sheet10r12c_112
+      rect:
+        serializedVersion: 2
+        x: 3344
+        y: 0
+        width: 836
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f7cb04d5faa131f0800000000000000
+      internalID: -1066883663908845581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking up test1.0-Sheet10r12c_113
+      rect:
+        serializedVersion: 2
+        x: 4180
+        y: 0
+        width: 836
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7863b4a5f1022620800000000000000
+      internalID: 2747760877191260283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking up test1.0-Sheet10r12c_114
+      rect:
+        serializedVersion: 2
+        x: 5016
+        y: 0
+        width: 836
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0987221db840f9c30800000000000000
+      internalID: 4368215162128332944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking up test1.0-Sheet10r12c_115
+      rect:
+        serializedVersion: 2
+        x: 5852
+        y: 0
+        width: 836
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66d983c641f2af820800000000000000
+      internalID: 2952724270456282470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking up test1.0-Sheet10r12c_116
+      rect:
+        serializedVersion: 2
+        x: 6688
+        y: 0
+        width: 836
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71237252ee5e5f7a0800000000000000
+      internalID: -6343911689093172713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking up test1.0-Sheet10r12c_117
+      rect:
+        serializedVersion: 2
+        x: 7524
+        y: 0
+        width: 836
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc079a5d47b3cc5a0800000000000000
+      internalID: -6499754789215571764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking up test1.0-Sheet10r12c_118
+      rect:
+        serializedVersion: 2
+        x: 8360
+        y: 0
+        width: 836
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d1052fa527078570800000000000000
+      internalID: 8468745482727129554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking up test1.0-Sheet10r12c_119
+      rect:
+        serializedVersion: 2
+        x: 9196
+        y: 0
+        width: 836
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 529cca1589ce95020800000000000000
+      internalID: 2331154421090404645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: b74c31f53b45140e688dfcb28f46b0b0
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      walking up test1.0-Sheet10r12c_0: -907146963451441583
+      walking up test1.0-Sheet10r12c_1: 5041404424842148216
+      walking up test1.0-Sheet10r12c_10: -2795398493787990055
+      walking up test1.0-Sheet10r12c_100: 5949704863174554537
+      walking up test1.0-Sheet10r12c_101: -5971247319511114062
+      walking up test1.0-Sheet10r12c_102: 1524865002470349462
+      walking up test1.0-Sheet10r12c_103: 383085473262253048
+      walking up test1.0-Sheet10r12c_104: 5307699855804216700
+      walking up test1.0-Sheet10r12c_105: -4920396973293471661
+      walking up test1.0-Sheet10r12c_106: 7313243074172451826
+      walking up test1.0-Sheet10r12c_107: 107354554367553599
+      walking up test1.0-Sheet10r12c_108: -3565018059362484922
+      walking up test1.0-Sheet10r12c_109: -2580402531713329552
+      walking up test1.0-Sheet10r12c_11: 536446867691939945
+      walking up test1.0-Sheet10r12c_110: 1913444398754134502
+      walking up test1.0-Sheet10r12c_111: -6007770765143655888
+      walking up test1.0-Sheet10r12c_112: -1066883663908845581
+      walking up test1.0-Sheet10r12c_113: 2747760877191260283
+      walking up test1.0-Sheet10r12c_114: 4368215162128332944
+      walking up test1.0-Sheet10r12c_115: 2952724270456282470
+      walking up test1.0-Sheet10r12c_116: -6343911689093172713
+      walking up test1.0-Sheet10r12c_117: -6499754789215571764
+      walking up test1.0-Sheet10r12c_118: 8468745482727129554
+      walking up test1.0-Sheet10r12c_119: 2331154421090404645
+      walking up test1.0-Sheet10r12c_12: -352232683300121872
+      walking up test1.0-Sheet10r12c_13: 3742136283258539719
+      walking up test1.0-Sheet10r12c_14: -5273860879780621585
+      walking up test1.0-Sheet10r12c_15: -5624873985690187470
+      walking up test1.0-Sheet10r12c_16: 8296171974389275909
+      walking up test1.0-Sheet10r12c_17: -663003440032377605
+      walking up test1.0-Sheet10r12c_18: 5615233957449741050
+      walking up test1.0-Sheet10r12c_19: 4783495877574917115
+      walking up test1.0-Sheet10r12c_2: 4266957316054436214
+      walking up test1.0-Sheet10r12c_20: -8895007288828695927
+      walking up test1.0-Sheet10r12c_21: 6632968540842402359
+      walking up test1.0-Sheet10r12c_22: -1837195678714311931
+      walking up test1.0-Sheet10r12c_23: 516191467833375865
+      walking up test1.0-Sheet10r12c_24: 4266551036246223029
+      walking up test1.0-Sheet10r12c_25: -5103662693253435392
+      walking up test1.0-Sheet10r12c_26: -2842729680694265288
+      walking up test1.0-Sheet10r12c_27: 535059281279288350
+      walking up test1.0-Sheet10r12c_28: -4001120130303466185
+      walking up test1.0-Sheet10r12c_29: -8596345514803006819
+      walking up test1.0-Sheet10r12c_3: -5453548771237021952
+      walking up test1.0-Sheet10r12c_30: 2299691022431654695
+      walking up test1.0-Sheet10r12c_31: 5679517965018158180
+      walking up test1.0-Sheet10r12c_32: -5609651766583073314
+      walking up test1.0-Sheet10r12c_33: -3107132134466629112
+      walking up test1.0-Sheet10r12c_34: 8887647494325667360
+      walking up test1.0-Sheet10r12c_35: -1572620898807072800
+      walking up test1.0-Sheet10r12c_36: -7043531432228334621
+      walking up test1.0-Sheet10r12c_37: -7888513569044467627
+      walking up test1.0-Sheet10r12c_38: -282171045089977996
+      walking up test1.0-Sheet10r12c_39: 4095068949108160279
+      walking up test1.0-Sheet10r12c_4: 8841686433911160084
+      walking up test1.0-Sheet10r12c_40: -237061888140287314
+      walking up test1.0-Sheet10r12c_41: -1022774240587112411
+      walking up test1.0-Sheet10r12c_42: -9028332838078648547
+      walking up test1.0-Sheet10r12c_43: -2301735852536223269
+      walking up test1.0-Sheet10r12c_44: 6459699281799751876
+      walking up test1.0-Sheet10r12c_45: -1339988718914709587
+      walking up test1.0-Sheet10r12c_46: -1935997582725245508
+      walking up test1.0-Sheet10r12c_47: -1216689068196023856
+      walking up test1.0-Sheet10r12c_48: -2890520569168929683
+      walking up test1.0-Sheet10r12c_49: -763758309071314183
+      walking up test1.0-Sheet10r12c_5: 4635828374018448079
+      walking up test1.0-Sheet10r12c_50: 1004054298035585936
+      walking up test1.0-Sheet10r12c_51: 5839679098060505915
+      walking up test1.0-Sheet10r12c_52: 6177937034331606208
+      walking up test1.0-Sheet10r12c_53: -3505259522487627865
+      walking up test1.0-Sheet10r12c_54: 1197948496245140298
+      walking up test1.0-Sheet10r12c_55: -6647676194232838225
+      walking up test1.0-Sheet10r12c_56: 727570644738973876
+      walking up test1.0-Sheet10r12c_57: 7362108731070244407
+      walking up test1.0-Sheet10r12c_58: -5917164850429625915
+      walking up test1.0-Sheet10r12c_59: 8360534098109761788
+      walking up test1.0-Sheet10r12c_6: 7725337069931612010
+      walking up test1.0-Sheet10r12c_60: -7215896674659454491
+      walking up test1.0-Sheet10r12c_61: -6007312663815118911
+      walking up test1.0-Sheet10r12c_62: 4152373594177311919
+      walking up test1.0-Sheet10r12c_63: -5808784510747912017
+      walking up test1.0-Sheet10r12c_64: -4775385809908726746
+      walking up test1.0-Sheet10r12c_65: -2928879579151496876
+      walking up test1.0-Sheet10r12c_66: -6662250216407001602
+      walking up test1.0-Sheet10r12c_67: -6330141983138581671
+      walking up test1.0-Sheet10r12c_68: 294365571396661066
+      walking up test1.0-Sheet10r12c_69: -8364170179150424936
+      walking up test1.0-Sheet10r12c_7: -6064989221458817829
+      walking up test1.0-Sheet10r12c_70: 1834411001326193747
+      walking up test1.0-Sheet10r12c_71: 2776726411213153877
+      walking up test1.0-Sheet10r12c_72: -2223050570335814671
+      walking up test1.0-Sheet10r12c_73: -3950875861593291107
+      walking up test1.0-Sheet10r12c_74: 3558678089940409926
+      walking up test1.0-Sheet10r12c_75: 5678839016173417440
+      walking up test1.0-Sheet10r12c_76: -7918583995889485578
+      walking up test1.0-Sheet10r12c_77: 19599902118753934
+      walking up test1.0-Sheet10r12c_78: 8441900896856190442
+      walking up test1.0-Sheet10r12c_79: 5901713021346666531
+      walking up test1.0-Sheet10r12c_8: 959076769538445497
+      walking up test1.0-Sheet10r12c_80: -5360152039886514656
+      walking up test1.0-Sheet10r12c_81: 4884571815882447743
+      walking up test1.0-Sheet10r12c_82: -4612984343019200977
+      walking up test1.0-Sheet10r12c_83: -7082032352833925244
+      walking up test1.0-Sheet10r12c_84: -7218405980164627981
+      walking up test1.0-Sheet10r12c_85: -588944601437488837
+      walking up test1.0-Sheet10r12c_86: -2080110918717762559
+      walking up test1.0-Sheet10r12c_87: -8898996268869438570
+      walking up test1.0-Sheet10r12c_88: -5275354519052128511
+      walking up test1.0-Sheet10r12c_89: -3115908121066423544
+      walking up test1.0-Sheet10r12c_9: 9068073833769298865
+      walking up test1.0-Sheet10r12c_90: 585159974358070509
+      walking up test1.0-Sheet10r12c_91: -3887871608269171280
+      walking up test1.0-Sheet10r12c_92: 7157854150980807815
+      walking up test1.0-Sheet10r12c_93: 6187056212595136237
+      walking up test1.0-Sheet10r12c_94: -9047763456356302803
+      walking up test1.0-Sheet10r12c_95: 4904973743720611418
+      walking up test1.0-Sheet10r12c_96: -7023039600492237019
+      walking up test1.0-Sheet10r12c_97: 2736089543915912336
+      walking up test1.0-Sheet10r12c_98: 8677761709337684333
+      walking up test1.0-Sheet10r12c_99: 6614452521606533639
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

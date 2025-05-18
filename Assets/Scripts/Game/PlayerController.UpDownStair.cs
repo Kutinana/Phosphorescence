@@ -1,4 +1,5 @@
 using System.Collections;
+using Kuchinashi.Utils.Progressable;
 using QFramework;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -9,8 +10,12 @@ namespace Phosphorescence.Game
     {
         [Header("UpDownStair Reference")]
         public bool IsOnStair = false;
-        public Sprite[] UpDownSprites;
+        public Sprite[] UpStairSprites;
+        public Sprite[] DownStairSprites;
         public SpriteRenderer UpDownSpriteRenderer;
+        public Progressable NormalSpriteProgressable;
+        public Progressable UpstairProgressable;
+        public Progressable DownstairProgressable;
 
         private int m_SpriteCounter = 0;
 
@@ -29,8 +34,11 @@ namespace Phosphorescence.Game
 
             rb.linearVelocity = Vector2.zero;
 
-            UpDownSpriteRenderer.sprite = UpDownSprites[0];
+            UpDownSpriteRenderer.sprite = UpStairSprites[0];
             UpDownSpriteRenderer.enabled = true;
+            UpDownSpriteRenderer.sortingLayerName = "Front";
+            UpDownSpriteRenderer.sortingOrder = 2;
+
             spriteRenderer.enabled = false;
             m_SpriteCounter = 0;
         }
@@ -50,12 +58,19 @@ namespace Phosphorescence.Game
         private bool m_IsUpstairFinished = false;
         private IEnumerator UpstairCoroutine()
         {
-            while (m_SpriteCounter < UpDownSprites.Length - 1)
+            while (m_SpriteCounter < UpStairSprites.Length - 1)
             {
                 m_SpriteCounter++;
-                UpDownSpriteRenderer.sprite = UpDownSprites[m_SpriteCounter];
-                CameraStack.Instance.Offset += new Vector3(0, 0.5f);
-                yield return new WaitForSeconds(0.5f);
+                UpDownSpriteRenderer.sprite = UpStairSprites[m_SpriteCounter];
+                CameraStack.Instance.Offset += new Vector3(0, 0.05f);
+                UpstairProgressable.Progress += 0.01f;
+                yield return new WaitForSeconds(0.05f);
+
+                if (m_SpriteCounter == 75)
+                {
+                    UpDownSpriteRenderer.sortingLayerName = "Middle";
+                    UpDownSpriteRenderer.sortingOrder = 0;
+                }
             }
 
             m_IsUpstairFinished = true;
@@ -77,10 +92,13 @@ namespace Phosphorescence.Game
             IsOnStair = true;
             m_IsDownstairFinished = false;
 
-            UpDownSpriteRenderer.sprite = UpDownSprites[UpDownSprites.Length - 1];
+            UpDownSpriteRenderer.sprite = DownStairSprites[0];
             UpDownSpriteRenderer.enabled = true;
-            spriteRenderer.enabled = false;
-            m_SpriteCounter = UpDownSprites.Length - 1;
+            UpDownSpriteRenderer.sortingLayerName = "Middle";
+            UpDownSpriteRenderer.sortingOrder = 0;
+
+            NormalSpriteProgressable.Progress = 0;
+            m_SpriteCounter = 0;
         }
 
         public void Downstair()
@@ -100,10 +118,17 @@ namespace Phosphorescence.Game
         {
             while (m_SpriteCounter > 0)
             {
-                m_SpriteCounter--;
-                UpDownSpriteRenderer.sprite = UpDownSprites[m_SpriteCounter];
-                CameraStack.Instance.Offset -= new Vector3(0, 0.5f);
-                yield return new WaitForSeconds(0.5f);
+                m_SpriteCounter++;
+                UpDownSpriteRenderer.sprite = DownStairSprites[m_SpriteCounter];
+                CameraStack.Instance.Offset -= new Vector3(0, 0.05f);
+                DownstairProgressable.Progress -= 0.01f;
+                yield return new WaitForSeconds(0.05f);
+
+                if (m_SpriteCounter == 45)
+                {
+                    UpDownSpriteRenderer.sortingLayerName = "Front";
+                    UpDownSpriteRenderer.sortingOrder = 2;
+                }
             }
 
             m_IsDownstairFinished = true;
@@ -136,7 +161,12 @@ namespace Phosphorescence.Game
 
             IsOnStair = false;
             UpDownSpriteRenderer.enabled = false;
+            UpstairProgressable.Progress = 0;
+            DownstairProgressable.Progress = 0;
+
             spriteRenderer.enabled = true;
+            NormalSpriteProgressable.LinearTransition(0.2f, 0f);
+            
             CameraStack.Instance.Offset = new Vector3(0, 0f);
 
             m_IsUpstairFinished = false;
