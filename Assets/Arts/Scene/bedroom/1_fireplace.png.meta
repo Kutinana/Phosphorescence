@@ -1,0 +1,2680 @@
+fileFormatVersion: 2
+guid: 8d851de0c6ddad043bab2b97a089f266
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2733284051398699134
+    second: 1_fireplace_0
+  - first:
+      213: -6242691016428812342
+    second: 1_fireplace_1
+  - first:
+      213: 5835730028100786008
+    second: 1_fireplace_2
+  - first:
+      213: -1787350815496813905
+    second: 1_fireplace_3
+  - first:
+      213: -5981020782968700866
+    second: 1_fireplace_4
+  - first:
+      213: 1122957212942168485
+    second: 1_fireplace_5
+  - first:
+      213: -2329421130917443294
+    second: 1_fireplace_6
+  - first:
+      213: -680114110617949216
+    second: 1_fireplace_7
+  - first:
+      213: -5482171317416228407
+    second: 1_fireplace_8
+  - first:
+      213: -2965106402006380996
+    second: 1_fireplace_9
+  - first:
+      213: -6659599385766247564
+    second: 1_fireplace_10
+  - first:
+      213: 446797615917793841
+    second: 1_fireplace_11
+  - first:
+      213: 4280338578697824009
+    second: 1_fireplace_12
+  - first:
+      213: -5232954970534753205
+    second: 1_fireplace_13
+  - first:
+      213: -3076472389581220879
+    second: 1_fireplace_14
+  - first:
+      213: 6147519037016211012
+    second: 1_fireplace_15
+  - first:
+      213: 2564285525004820633
+    second: 1_fireplace_16
+  - first:
+      213: -922087731408855359
+    second: 1_fireplace_17
+  - first:
+      213: -3276362238522354236
+    second: 1_fireplace_18
+  - first:
+      213: -1055016752744959714
+    second: 1_fireplace_19
+  - first:
+      213: -7843178290759519446
+    second: 1_fireplace_20
+  - first:
+      213: 2237748790557794090
+    second: 1_fireplace_21
+  - first:
+      213: 2886531521717780982
+    second: 1_fireplace_22
+  - first:
+      213: 8390563261404226376
+    second: 1_fireplace_23
+  - first:
+      213: 5026759371632361569
+    second: 1_fireplace_24
+  - first:
+      213: 8708112227144954595
+    second: 1_fireplace_25
+  - first:
+      213: 5060196277925589775
+    second: 1_fireplace_26
+  - first:
+      213: 3038553758288880877
+    second: 1_fireplace_27
+  - first:
+      213: 1775521232988020842
+    second: 1_fireplace_28
+  - first:
+      213: -5286067906215572233
+    second: 1_fireplace_29
+  - first:
+      213: -8190913742710197820
+    second: 1_fireplace_30
+  - first:
+      213: 7984471229395968067
+    second: 1_fireplace_31
+  - first:
+      213: 220526726859115520
+    second: 1_fireplace_32
+  - first:
+      213: 7629357655511923970
+    second: 1_fireplace_33
+  - first:
+      213: -9066609792983650641
+    second: 1_fireplace_34
+  - first:
+      213: 2765870829397794959
+    second: 1_fireplace_35
+  - first:
+      213: -7987470514398253549
+    second: 1_fireplace_36
+  - first:
+      213: -7335819152152625188
+    second: 1_fireplace_37
+  - first:
+      213: -5294470690488457074
+    second: 1_fireplace_38
+  - first:
+      213: 5728708131162355764
+    second: 1_fireplace_39
+  - first:
+      213: -4169726956790579906
+    second: 1_fireplace_40
+  - first:
+      213: -6577603448198103300
+    second: 1_fireplace_41
+  - first:
+      213: 7470021145247931301
+    second: 1_fireplace_42
+  - first:
+      213: -5330044351935152480
+    second: 1_fireplace_43
+  - first:
+      213: -3048405965172337433
+    second: 1_fireplace_44
+  - first:
+      213: -2383363636371664339
+    second: 1_fireplace_45
+  - first:
+      213: -2884655091933083694
+    second: 1_fireplace_46
+  - first:
+      213: -5332707619704983674
+    second: 1_fireplace_47
+  - first:
+      213: -7898810112714754214
+    second: 1_fireplace_48
+  - first:
+      213: 1335182242298743686
+    second: 1_fireplace_49
+  - first:
+      213: -7387794486393842147
+    second: 1_fireplace_50
+  - first:
+      213: 9204121542674361530
+    second: 1_fireplace_51
+  - first:
+      213: -244985443539099338
+    second: 1_fireplace_52
+  - first:
+      213: -7958204033833188849
+    second: 1_fireplace_53
+  - first:
+      213: 166212892340118256
+    second: 1_fireplace_54
+  - first:
+      213: -6822239855598230868
+    second: 1_fireplace_55
+  - first:
+      213: -8642636519075320047
+    second: 1_fireplace_56
+  - first:
+      213: 830728795636261869
+    second: 1_fireplace_57
+  - first:
+      213: -8715540483464283868
+    second: 1_fireplace_58
+  - first:
+      213: -6583368586250688021
+    second: 1_fireplace_59
+  - first:
+      213: -2606672901669463757
+    second: 1_fireplace_60
+  - first:
+      213: -635155912062773256
+    second: 1_fireplace_61
+  - first:
+      213: -7012222627933236084
+    second: 1_fireplace_62
+  - first:
+      213: -9039381355026901285
+    second: 1_fireplace_63
+  - first:
+      213: 4143284832869339284
+    second: 1_fireplace_64
+  - first:
+      213: -7133860347359784793
+    second: 1_fireplace_65
+  - first:
+      213: 2608202674759317852
+    second: 1_fireplace_66
+  - first:
+      213: -1542160798605327063
+    second: 1_fireplace_67
+  - first:
+      213: -1781434147826041970
+    second: 1_fireplace_68
+  - first:
+      213: -8631849499405787919
+    second: 1_fireplace_69
+  - first:
+      213: 7704426838335134520
+    second: 1_fireplace_70
+  - first:
+      213: -8501242159211245066
+    second: 1_fireplace_71
+  - first:
+      213: 5233025517446964798
+    second: 1_fireplace_72
+  - first:
+      213: 8116220385068746891
+    second: 1_fireplace_73
+  - first:
+      213: -8880357330435430031
+    second: 1_fireplace_74
+  - first:
+      213: -7070259851713551778
+    second: 1_fireplace_75
+  - first:
+      213: 219805315495665001
+    second: 1_fireplace_76
+  - first:
+      213: 5055376471750434759
+    second: 1_fireplace_77
+  - first:
+      213: 2156851004283450593
+    second: 1_fireplace_78
+  - first:
+      213: -4700481511728732010
+    second: 1_fireplace_79
+  - first:
+      213: -2732891566471531855
+    second: 1_fireplace_80
+  - first:
+      213: -6480752605971680701
+    second: 1_fireplace_81
+  - first:
+      213: -7166659813499384594
+    second: 1_fireplace_82
+  - first:
+      213: -8110901387421662203
+    second: 1_fireplace_83
+  - first:
+      213: -5863486600444566143
+    second: 1_fireplace_84
+  - first:
+      213: -4370656121372210944
+    second: 1_fireplace_85
+  - first:
+      213: 1624879407116155663
+    second: 1_fireplace_86
+  - first:
+      213: 6806347806859349197
+    second: 1_fireplace_87
+  - first:
+      213: 3086264279578146769
+    second: 1_fireplace_88
+  - first:
+      213: -5022877045235784228
+    second: 1_fireplace_89
+  - first:
+      213: -2358645774140422529
+    second: 1_fireplace_90
+  - first:
+      213: 2739953055298511419
+    second: 1_fireplace_91
+  - first:
+      213: 3245287367772526910
+    second: 1_fireplace_92
+  - first:
+      213: -1732328440879444047
+    second: 1_fireplace_93
+  - first:
+      213: -6403031387722394915
+    second: 1_fireplace_94
+  - first:
+      213: -8889373670338364239
+    second: 1_fireplace_95
+  - first:
+      213: -3990828197885768980
+    second: 1_fireplace_96
+  - first:
+      213: -8032919781568034587
+    second: 1_fireplace_97
+  - first:
+      213: 3461498754398637927
+    second: 1_fireplace_98
+  - first:
+      213: -8755192563607281339
+    second: 1_fireplace_99
+  - first:
+      213: -4004358646062802777
+    second: 1_fireplace_100
+  - first:
+      213: 8640261463602760565
+    second: 1_fireplace_101
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 1_fireplace_0
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 311
+        width: 6
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 287d32603ac611ad0800000000000000
+      internalID: -2733284051398699134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_fireplace_1
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 311
+        width: 34
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac70d3388918d59a0800000000000000
+      internalID: -6242691016428812342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_fireplace_2
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 311
+        width: 74
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8571702aa8dacf050800000000000000
+      internalID: 5835730028100786008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_fireplace_3
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 311
+        width: 34
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa2ce4137ed0237e0800000000000000
+      internalID: -1787350815496813905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_fireplace_4
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 311
+        width: 34
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e300ce469452ffca0800000000000000
+      internalID: -5981020782968700866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_fireplace_5
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 151
+        width: 518
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a1716fa2ab859f00800000000000000
+      internalID: 1122957212942168485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_fireplace_6
+      rect:
+        serializedVersion: 2
+        x: 1107
+        y: 311
+        width: 34
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 229806fb2db3cafd0800000000000000
+      internalID: -2329421130917443294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_fireplace_7
+      rect:
+        serializedVersion: 2
+        x: 1143
+        y: 311
+        width: 34
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ebe2edd1dfbf86f0800000000000000
+      internalID: -680114110617949216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_fireplace_8
+      rect:
+        serializedVersion: 2
+        x: 1179
+        y: 311
+        width: 74
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c9029b8b3a6be3b0800000000000000
+      internalID: -5482171317416228407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_fireplace_9
+      rect:
+        serializedVersion: 2
+        x: 1255
+        y: 311
+        width: 34
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3e4c2bef63d9d6d0800000000000000
+      internalID: -2965106402006380996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_fireplace_10
+      rect:
+        serializedVersion: 2
+        x: 1291
+        y: 311
+        width: 34
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4734ef884a95493a0800000000000000
+      internalID: -6659599385766247564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_fireplace_11
+      rect:
+        serializedVersion: 2
+        x: 1327
+        y: 311
+        width: 74
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 132854f7018533600800000000000000
+      internalID: 446797615917793841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_fireplace_12
+      rect:
+        serializedVersion: 2
+        x: 1403
+        y: 311
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9072fa55241d66b30800000000000000
+      internalID: 4280338578697824009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_fireplace_13
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 287
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4c49affd2fc067b0800000000000000
+      internalID: -5232954970534753205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_fireplace_14
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 287
+        width: 34
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f3d6b959ac2e45d0800000000000000
+      internalID: -3076472389581220879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_fireplace_15
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 287
+        width: 34
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44e7d434eff505550800000000000000
+      internalID: 6147519037016211012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_fireplace_16
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 287
+        width: 38
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 990a69c491c269320800000000000000
+      internalID: 2564285525004820633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_fireplace_17
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 287
+        width: 34
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ce11adf7161433f0800000000000000
+      internalID: -922087731408855359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_fireplace_18
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 287
+        width: 34
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c51f5927e50882d0800000000000000
+      internalID: -3276362238522354236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_fireplace_19
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 287
+        width: 38
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e11fc846ad3db51f0800000000000000
+      internalID: -1055016752744959714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_fireplace_20
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 287
+        width: 34
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a23393546ee672390800000000000000
+      internalID: -7843178290759519446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_fireplace_21
+      rect:
+        serializedVersion: 2
+        x: 1159
+        y: 287
+        width: 34
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2fd1cd3ba41e0f10800000000000000
+      internalID: 2237748790557794090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_fireplace_22
+      rect:
+        serializedVersion: 2
+        x: 1195
+        y: 287
+        width: 34
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f1c4f020250f0820800000000000000
+      internalID: 2886531521717780982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_fireplace_23
+      rect:
+        serializedVersion: 2
+        x: 1231
+        y: 287
+        width: 38
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8432175c4d4417470800000000000000
+      internalID: 8390563261404226376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_fireplace_24
+      rect:
+        serializedVersion: 2
+        x: 1271
+        y: 287
+        width: 34
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 160438df303a2c540800000000000000
+      internalID: 5026759371632361569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_fireplace_25
+      rect:
+        serializedVersion: 2
+        x: 1307
+        y: 287
+        width: 34
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e2f53bdeed69d870800000000000000
+      internalID: 8708112227144954595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_fireplace_26
+      rect:
+        serializedVersion: 2
+        x: 1343
+        y: 287
+        width: 34
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f03328764bd693640800000000000000
+      internalID: 5060196277925589775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_fireplace_27
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 287
+        width: 38
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de4acb15b8c1b2a20800000000000000
+      internalID: 3038553758288880877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_fireplace_28
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 263
+        width: 70
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a602a6f772be3a810800000000000000
+      internalID: 1775521232988020842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_fireplace_29
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 263
+        width: 38
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fc8d6ffe3d14a6b0800000000000000
+      internalID: -5286067906215572233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_fireplace_30
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 263
+        width: 34
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c1b4eb2957045e80800000000000000
+      internalID: -8190913742710197820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_fireplace_31
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 263
+        width: 70
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3402973974a8ece60800000000000000
+      internalID: 7984471229395968067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_fireplace_32
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 263
+        width: 34
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00ccae1c3e77f0300800000000000000
+      internalID: 220526726859115520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_fireplace_33
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 263
+        width: 70
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20df1399d5ce0e960800000000000000
+      internalID: 7629357655511923970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_fireplace_34
+      rect:
+        serializedVersion: 2
+        x: 1211
+        y: 263
+        width: 38
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faea1242e6eec2280800000000000000
+      internalID: -9066609792983650641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_fireplace_35
+      rect:
+        serializedVersion: 2
+        x: 1251
+        y: 263
+        width: 34
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f80eed87dd8526620800000000000000
+      internalID: 2765870829397794959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_fireplace_36
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 263
+        width: 70
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31ea267f2edc62190800000000000000
+      internalID: -7987470514398253549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_fireplace_37
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 263
+        width: 38
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdf7f63195fe13a90800000000000000
+      internalID: -7335819152152625188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_fireplace_38
+      rect:
+        serializedVersion: 2
+        x: 1399
+        y: 263
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e88e7b355f24686b0800000000000000
+      internalID: -5294470690488457074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_fireplace_39
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 239
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 438f2db71b5708f40800000000000000
+      internalID: 5728708131162355764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_fireplace_40
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 239
+        width: 34
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3d702acc672226c0800000000000000
+      internalID: -4169726956790579906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_fireplace_41
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 239
+        width: 34
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfe74c47388a7b4a0800000000000000
+      internalID: -6577603448198103300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_fireplace_42
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 239
+        width: 34
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5abd82b57a8daa760800000000000000
+      internalID: 7470021145247931301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_fireplace_43
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 239
+        width: 34
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0aef3d5d6e0e706b0800000000000000
+      internalID: -5330044351935152480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_fireplace_44
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 239
+        width: 34
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e498b20de2e1b5d0800000000000000
+      internalID: -3048405965172337433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_fireplace_45
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 239
+        width: 34
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d22db7b76679ceed0800000000000000
+      internalID: -2383363636371664339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_fireplace_46
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 239
+        width: 34
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d78ec93a75a7f7d0800000000000000
+      internalID: -2884655091933083694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_fireplace_47
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 239
+        width: 34
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68f277c7caa6ef5b0800000000000000
+      internalID: -5332707619704983674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_fireplace_48
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 239
+        width: 34
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a57bf5b5d0ac16290800000000000000
+      internalID: -7898810112714754214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_fireplace_49
+      rect:
+        serializedVersion: 2
+        x: 1235
+        y: 239
+        width: 34
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68b40aedc25878210800000000000000
+      internalID: 1335182242298743686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_fireplace_50
+      rect:
+        serializedVersion: 2
+        x: 1271
+        y: 239
+        width: 34
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d16d7ec8e08497990800000000000000
+      internalID: -7387794486393842147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_fireplace_51
+      rect:
+        serializedVersion: 2
+        x: 1311
+        y: 239
+        width: 34
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abc20ac07cb9bbf70800000000000000
+      internalID: 9204121542674361530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_fireplace_52
+      rect:
+        serializedVersion: 2
+        x: 1347
+        y: 239
+        width: 34
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 631e5be7903a99cf0800000000000000
+      internalID: -244985443539099338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_fireplace_53
+      rect:
+        serializedVersion: 2
+        x: 1383
+        y: 239
+        width: 34
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f02ca497897ce8190800000000000000
+      internalID: -7958204033833188849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_fireplace_54
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 215
+        width: 6
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f2e505beb18e4200800000000000000
+      internalID: 166212892340118256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_fireplace_55
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 215
+        width: 34
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca22e824ff88251a0800000000000000
+      internalID: -6822239855598230868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_fireplace_56
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 215
+        width: 74
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11f62b560ef2f0880800000000000000
+      internalID: -8642636519075320047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_fireplace_57
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 215
+        width: 34
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de366903077578b00800000000000000
+      internalID: 830728795636261869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_fireplace_58
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 215
+        width: 34
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42933917b1e2c0780800000000000000
+      internalID: -8715540483464283868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_fireplace_59
+      rect:
+        serializedVersion: 2
+        x: 1107
+        y: 215
+        width: 34
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be9ef07a62d23a4a0800000000000000
+      internalID: -6583368586250688021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_fireplace_60
+      rect:
+        serializedVersion: 2
+        x: 1143
+        y: 215
+        width: 34
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 339da528ecc33dbd0800000000000000
+      internalID: -2606672901669463757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_fireplace_61
+      rect:
+        serializedVersion: 2
+        x: 1179
+        y: 215
+        width: 74
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f7528c20197f27f0800000000000000
+      internalID: -635155912062773256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_fireplace_62
+      rect:
+        serializedVersion: 2
+        x: 1255
+        y: 215
+        width: 34
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8455181ca49fae90800000000000000
+      internalID: -7012222627933236084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_fireplace_63
+      rect:
+        serializedVersion: 2
+        x: 1291
+        y: 215
+        width: 34
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd61550ec8aad8280800000000000000
+      internalID: -9039381355026901285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_fireplace_64
+      rect:
+        serializedVersion: 2
+        x: 1327
+        y: 215
+        width: 74
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 490d07a7a97ef7930800000000000000
+      internalID: 4143284832869339284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_fireplace_65
+      rect:
+        serializedVersion: 2
+        x: 1403
+        y: 215
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a010669fcf6ffc90800000000000000
+      internalID: -7133860347359784793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_fireplace_66
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 191
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c59b04b8382323420800000000000000
+      internalID: 2608202674759317852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_fireplace_67
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 191
+        width: 34
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 925c894ace4299ae0800000000000000
+      internalID: -1542160798605327063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_fireplace_68
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 191
+        width: 34
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8bf31cb4131747e0800000000000000
+      internalID: -1781434147826041970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_fireplace_69
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 191
+        width: 38
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fcd8412d92853880800000000000000
+      internalID: -8631849499405787919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_fireplace_70
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 191
+        width: 34
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83b93f0c36f9bea60800000000000000
+      internalID: 7704426838335134520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_fireplace_71
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 191
+        width: 34
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f193a63c45850a80800000000000000
+      internalID: -8501242159211245066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_fireplace_72
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 191
+        width: 38
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e362bfb7bf07f9840800000000000000
+      internalID: 5233025517446964798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_fireplace_73
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 191
+        width: 34
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b888eca407b92a070800000000000000
+      internalID: 8116220385068746891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_fireplace_74
+      rect:
+        serializedVersion: 2
+        x: 1159
+        y: 191
+        width: 34
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1792cd0ee02a2c480800000000000000
+      internalID: -8880357330435430031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_fireplace_75
+      rect:
+        serializedVersion: 2
+        x: 1195
+        y: 191
+        width: 34
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5268ecef1461ed90800000000000000
+      internalID: -7070259851713551778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_fireplace_76
+      rect:
+        serializedVersion: 2
+        x: 1231
+        y: 191
+        width: 38
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96d9cd515c7ec0300800000000000000
+      internalID: 219805315495665001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_fireplace_77
+      rect:
+        serializedVersion: 2
+        x: 1271
+        y: 191
+        width: 34
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cf5d84dd1e482640800000000000000
+      internalID: 5055376471750434759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_fireplace_78
+      rect:
+        serializedVersion: 2
+        x: 1307
+        y: 191
+        width: 34
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e472c79f8caeed10800000000000000
+      internalID: 2156851004283450593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_fireplace_79
+      rect:
+        serializedVersion: 2
+        x: 1343
+        y: 191
+        width: 34
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6982e1428f884ceb0800000000000000
+      internalID: -4700481511728732010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_fireplace_80
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 191
+        width: 38
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b2bdca8991d21ad0800000000000000
+      internalID: -2732891566471531855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_fireplace_81
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 155
+        width: 70
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 342fed367ddbf06a0800000000000000
+      internalID: -6480752605971680701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_fireplace_82
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 167
+        width: 38
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eec4d46ced8ea8c90800000000000000
+      internalID: -7166659813499384594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_fireplace_83
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 155
+        width: 106
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 504428a592a407f80800000000000000
+      internalID: -8110901387421662203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_fireplace_84
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 167
+        width: 34
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1852d33c006b0aea0800000000000000
+      internalID: -5863486600444566143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_fireplace_85
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 167
+        width: 70
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00909321a6f4853c0800000000000000
+      internalID: -4370656121372210944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_fireplace_86
+      rect:
+        serializedVersion: 2
+        x: 1211
+        y: 167
+        width: 74
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0b7108363bbc8610800000000000000
+      internalID: 1624879407116155663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_fireplace_87
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 167
+        width: 70
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcc4c9dc441057e50800000000000000
+      internalID: 6806347806859349197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_fireplace_88
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 167
+        width: 38
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d77b33b20d94da20800000000000000
+      internalID: 3086264279578146769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_fireplace_89
+      rect:
+        serializedVersion: 2
+        x: 1399
+        y: 167
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd5e14090f72b4ab0800000000000000
+      internalID: -5022877045235784228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_fireplace_90
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 155
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7642614a28644fd0800000000000000
+      internalID: -2358645774140422529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_fireplace_91
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 155
+        width: 26
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b32605279c4460620800000000000000
+      internalID: 2739953055298511419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_fireplace_92
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 155
+        width: 26
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e39d42eaaa3990d20800000000000000
+      internalID: 3245287367772526910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_fireplace_93
+      rect:
+        serializedVersion: 2
+        x: 1095
+        y: 155
+        width: 26
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bf0317167885f7e0800000000000000
+      internalID: -1732328440879444047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_fireplace_94
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 151
+        width: 30
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd25129a0ecd327a0800000000000000
+      internalID: -6403031387722394915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_fireplace_95
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 155
+        width: 30
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bc75c7aeb992a480800000000000000
+      internalID: -8889373670338364239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_fireplace_96
+      rect:
+        serializedVersion: 2
+        x: 1187
+        y: 155
+        width: 26
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cea0869f5eabd98c0800000000000000
+      internalID: -3990828197885768980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_fireplace_97
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 155
+        width: 26
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e8cd66d406558090800000000000000
+      internalID: -8032919781568034587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_fireplace_98
+      rect:
+        serializedVersion: 2
+        x: 1243
+        y: 151
+        width: 30
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76f436ef6c6b90030800000000000000
+      internalID: 3461498754398637927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_fireplace_99
+      rect:
+        serializedVersion: 2
+        x: 1275
+        y: 155
+        width: 30
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 541eb0a10ce4f7680800000000000000
+      internalID: -8755192563607281339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_fireplace_100
+      rect:
+        serializedVersion: 2
+        x: 1307
+        y: 155
+        width: 26
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a899240709ad68c0800000000000000
+      internalID: -4004358646062802777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_fireplace_101
+      rect:
+        serializedVersion: 2
+        x: 1335
+        y: 155
+        width: 26
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57b0a88e50068e770800000000000000
+      internalID: 8640261463602760565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
