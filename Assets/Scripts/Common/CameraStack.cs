@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using Common;
+using Kuchinashi.Utils;
 using QFramework;
 using UnityEngine;
 
@@ -9,8 +10,10 @@ namespace Phosphorescence.Game
     public class CameraStack : MonoSingleton<CameraStack>
     {
         public Camera[] cameraStack;
+        private FollowTransform m_FollowTransform;
 
         public float Size = 5f;
+        public Vector3 Offset = Vector3.zero;
         private Coroutine m_DampToSizeCoroutine;
 
         private void Awake()
@@ -19,19 +22,25 @@ namespace Phosphorescence.Game
             {
                 BaseCameraManager.AddToCameraStack(camera);
             }
+            m_FollowTransform = GetComponent<FollowTransform>();
+        }
+
+        private void Update()
+        {
+            m_FollowTransform.offset = Offset;
         }
 
         public void DampToSize(float targetSize)
         {
             DampToSize(targetSize, 1f, 0f);
         }
-        public void DampToSize(float targetSize, float duration = 1f, float delay = 0f)
+        public Coroutine DampToSize(float targetSize, float duration = 1f, float delay = 0f)
         {
             if (m_DampToSizeCoroutine != null)
             {
                 StopCoroutine(m_DampToSizeCoroutine);
             }
-            m_DampToSizeCoroutine = StartCoroutine(DampToSizeCoroutine(targetSize, duration, delay));
+            return m_DampToSizeCoroutine = StartCoroutine(DampToSizeCoroutine(targetSize, duration, delay));
         }
         private IEnumerator DampToSizeCoroutine(float targetSize, float duration, float delay)
         {

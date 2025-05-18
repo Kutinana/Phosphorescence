@@ -14,5 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: main_theme
   type: 0
-  isLoop: 1
   clip: {fileID: 8300000, guid: b7deaac9fdf8e484d9d2a873ab0dcceb, type: 3}
+  isLoop: 0
+  standardVolume: 0.8
+  standardPitch: 1

@@ -34,6 +34,7 @@ namespace Phosphorescence.DataSystem
         [JsonProperty] public List<string> PlotProgress = new();
         [JsonProperty] public List<string> PlotTags = new();
         [JsonProperty] public Dictionary<string, int> ObtainedObjects = new();
+        [JsonProperty] public Dictionary<string, bool> States = new();
     }
 
     public partial class GameProgressData
@@ -80,6 +81,17 @@ namespace Phosphorescence.DataSystem
                 
                 Serialize();
             }
+        }
+
+        public bool GetState(string stateId)
+        {
+            return States.GetValueOrDefault(stateId, false);
+        }
+
+        public void SetState(string stateId, bool value)
+        {
+            States[stateId] = value;
+            Serialize();
         }
     }
 }

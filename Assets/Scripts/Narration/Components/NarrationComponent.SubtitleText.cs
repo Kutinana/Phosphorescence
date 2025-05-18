@@ -66,7 +66,7 @@ namespace Phosphorescence.Narration
 
             while (!Mathf.Approximately(textfield.alpha, 1f))
             {
-                textfield.alpha = Mathf.MoveTowards(textfield.alpha, 1f, 0.05f);
+                textfield.alpha = Mathf.MoveTowards(textfield.alpha, 1f, 0.01f);
                 yield return null;
             }
             textfield.alpha = 1f;
@@ -76,7 +76,7 @@ namespace Phosphorescence.Narration
 
             while (!Mathf.Approximately(textfield.alpha, 0f))
             {
-                textfield.alpha = Mathf.MoveTowards(textfield.alpha, 0f, 0.05f);
+                textfield.alpha = Mathf.MoveTowards(textfield.alpha, 0f, 0.01f);
                 yield return null;
             }
             textfield.alpha = 0f;

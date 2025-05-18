@@ -25,9 +25,13 @@ namespace Phosphorescence.Game.Tutorials
             yield return spriteRendererProgressable.LinearTransition(0.2f, 0f);
             var coroutine = spriteRendererProgressable.PingPong(1f, 0.5f, 1f);
 
-            yield return new WaitUntil(() => Vector2.Distance(transform.position, PlayerController.Instance.transform.position) > 4f);
+            yield return new WaitUntil(() => Vector2.Distance(transform.position, PlayerController.Instance.transform.position) > 2f);
             StopCoroutine(coroutine);
             yield return spriteRendererProgressable.InverseLinearTransition(0.2f, 0f);
+
+            TypeEventSystem.Global.Send(new OnPressADTutorialEndEvent());
         }
     }
+
+    public struct OnPressADTutorialEndEvent {}
 }

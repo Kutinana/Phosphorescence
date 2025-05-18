@@ -14,5 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: sfx_radio_noise_01
   type: 2
-  isLoop: 1
   clip: {fileID: 8300000, guid: 43a69b1072ed24713bfd403d1e5f6166, type: 3}
+  isLoop: 0
+  standardVolume: 1
+  standardPitch: 1
