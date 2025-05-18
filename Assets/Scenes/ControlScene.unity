@@ -430,7 +430,7 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 0}
   m_PlayOnAwake: 0
-  m_Volume: 0.8
+  m_Volume: 1
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -1451,6 +1451,7 @@ MonoBehaviour:
   MusicSource: {fileID: 203119820}
   AmbientSource: {fileID: 10654880}
   SFXSourceTemplate: {fileID: 1786712061}
+  SFXSources: []
   VoiceSourceTemplate: {fileID: 1705089967}
 --- !u!1 &868482553
 GameObject:

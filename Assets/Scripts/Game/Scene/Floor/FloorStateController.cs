@@ -57,7 +57,10 @@ namespace Phosphorescence.Game
                     playAndPauseObject.Play();
                 }
 
-                mTarget.Mask.SetActive(false);
+                if (mTarget.Mask != null)
+                {
+                    mTarget.Mask.SetActive(false);
+                }
             }
         }
 
@@ -85,7 +88,10 @@ namespace Phosphorescence.Game
                     playAndPauseObject.Pause();
                 }
 
-                mTarget.Mask.SetActive(true);
+                if (mTarget.Mask != null)
+                {
+                    mTarget.Mask.SetActive(true);
+                }
             }
         }
     }

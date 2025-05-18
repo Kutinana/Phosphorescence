@@ -1,16 +1,10 @@
 fileFormatVersion: 2
-guid: 8f3dab5a281696e4c9b10cfedbbca033
+guid: a8cf44a0f3c3a4b99b2a8a5657ad6a3e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8048598515497556335
-    second: 1_background_0
-  - first:
-      213: -7440842586707859736
-    second: 1_background_1
-  - first:
-      213: 4189253305263072110
-    second: 1_background_2
+      213: 93750258512428525
+    second: updown+1 Operate Room_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -102,30 +96,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 1_background_0
+      name: updown+1 Operate Room_0
       rect:
         serializedVersion: 2
-        x: 551
-        y: 59
-        width: 214
-        height: 194
+        x: 535
+        y: 331
+        width: 318
+        height: 306
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -134,52 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f69d7ffd4bd52bf60800000000000000
-      internalID: 8048598515497556335
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 1_background_1
-      rect:
-        serializedVersion: 2
-        x: 843
-        y: 195
-        width: 10
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8e6eda53711dcb890800000000000000
-      internalID: -7440842586707859736
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 1_background_2
-      rect:
-        serializedVersion: 2
-        x: 851
-        y: 11
-        width: 342
-        height: 194
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e63265e7fa7332a30800000000000000
-      internalID: 4189253305263072110
+      spriteID: dedfb380d511d4100800000000000000
+      internalID: 93750258512428525
       vertices: []
       indices: 
       edges: []
@@ -198,9 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      1_background_0: 8048598515497556335
-      1_background_1: -7440842586707859736
-      1_background_2: 4189253305263072110
+      updown+1 Operate Room_0: 93750258512428525
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

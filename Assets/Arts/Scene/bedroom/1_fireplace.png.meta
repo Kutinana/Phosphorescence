@@ -340,7 +340,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -349,7 +349,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -2663,7 +2663,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -2672,7 +2672,109 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      1_fireplace_0: -2733284051398699134
+      1_fireplace_1: -6242691016428812342
+      1_fireplace_10: -6659599385766247564
+      1_fireplace_100: -4004358646062802777
+      1_fireplace_101: 8640261463602760565
+      1_fireplace_11: 446797615917793841
+      1_fireplace_12: 4280338578697824009
+      1_fireplace_13: -5232954970534753205
+      1_fireplace_14: -3076472389581220879
+      1_fireplace_15: 6147519037016211012
+      1_fireplace_16: 2564285525004820633
+      1_fireplace_17: -922087731408855359
+      1_fireplace_18: -3276362238522354236
+      1_fireplace_19: -1055016752744959714
+      1_fireplace_2: 5835730028100786008
+      1_fireplace_20: -7843178290759519446
+      1_fireplace_21: 2237748790557794090
+      1_fireplace_22: 2886531521717780982
+      1_fireplace_23: 8390563261404226376
+      1_fireplace_24: 5026759371632361569
+      1_fireplace_25: 8708112227144954595
+      1_fireplace_26: 5060196277925589775
+      1_fireplace_27: 3038553758288880877
+      1_fireplace_28: 1775521232988020842
+      1_fireplace_29: -5286067906215572233
+      1_fireplace_3: -1787350815496813905
+      1_fireplace_30: -8190913742710197820
+      1_fireplace_31: 7984471229395968067
+      1_fireplace_32: 220526726859115520
+      1_fireplace_33: 7629357655511923970
+      1_fireplace_34: -9066609792983650641
+      1_fireplace_35: 2765870829397794959
+      1_fireplace_36: -7987470514398253549
+      1_fireplace_37: -7335819152152625188
+      1_fireplace_38: -5294470690488457074
+      1_fireplace_39: 5728708131162355764
+      1_fireplace_4: -5981020782968700866
+      1_fireplace_40: -4169726956790579906
+      1_fireplace_41: -6577603448198103300
+      1_fireplace_42: 7470021145247931301
+      1_fireplace_43: -5330044351935152480
+      1_fireplace_44: -3048405965172337433
+      1_fireplace_45: -2383363636371664339
+      1_fireplace_46: -2884655091933083694
+      1_fireplace_47: -5332707619704983674
+      1_fireplace_48: -7898810112714754214
+      1_fireplace_49: 1335182242298743686
+      1_fireplace_5: 1122957212942168485
+      1_fireplace_50: -7387794486393842147
+      1_fireplace_51: 9204121542674361530
+      1_fireplace_52: -244985443539099338
+      1_fireplace_53: -7958204033833188849
+      1_fireplace_54: 166212892340118256
+      1_fireplace_55: -6822239855598230868
+      1_fireplace_56: -8642636519075320047
+      1_fireplace_57: 830728795636261869
+      1_fireplace_58: -8715540483464283868
+      1_fireplace_59: -6583368586250688021
+      1_fireplace_6: -2329421130917443294
+      1_fireplace_60: -2606672901669463757
+      1_fireplace_61: -635155912062773256
+      1_fireplace_62: -7012222627933236084
+      1_fireplace_63: -9039381355026901285
+      1_fireplace_64: 4143284832869339284
+      1_fireplace_65: -7133860347359784793
+      1_fireplace_66: 2608202674759317852
+      1_fireplace_67: -1542160798605327063
+      1_fireplace_68: -1781434147826041970
+      1_fireplace_69: -8631849499405787919
+      1_fireplace_7: -680114110617949216
+      1_fireplace_70: 7704426838335134520
+      1_fireplace_71: -8501242159211245066
+      1_fireplace_72: 5233025517446964798
+      1_fireplace_73: 8116220385068746891
+      1_fireplace_74: -8880357330435430031
+      1_fireplace_75: -7070259851713551778
+      1_fireplace_76: 219805315495665001
+      1_fireplace_77: 5055376471750434759
+      1_fireplace_78: 2156851004283450593
+      1_fireplace_79: -4700481511728732010
+      1_fireplace_8: -5482171317416228407
+      1_fireplace_80: -2732891566471531855
+      1_fireplace_81: -6480752605971680701
+      1_fireplace_82: -7166659813499384594
+      1_fireplace_83: -8110901387421662203
+      1_fireplace_84: -5863486600444566143
+      1_fireplace_85: -4370656121372210944
+      1_fireplace_86: 1624879407116155663
+      1_fireplace_87: 6806347806859349197
+      1_fireplace_88: 3086264279578146769
+      1_fireplace_89: -5022877045235784228
+      1_fireplace_9: -2965106402006380996
+      1_fireplace_90: -2358645774140422529
+      1_fireplace_91: 2739953055298511419
+      1_fireplace_92: 3245287367772526910
+      1_fireplace_93: -1732328440879444047
+      1_fireplace_94: -6403031387722394915
+      1_fireplace_95: -8889373670338364239
+      1_fireplace_96: -3990828197885768980
+      1_fireplace_97: -8032919781568034587
+      1_fireplace_98: 3461498754398637927
+      1_fireplace_99: -8755192563607281339
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
