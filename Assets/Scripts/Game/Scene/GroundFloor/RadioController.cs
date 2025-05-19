@@ -32,7 +32,12 @@ namespace Phosphorescence.Game
 
             InteractAction = new Dictionary<InputAction, System.Action> {
                 { GameManager.Instance.interactAction, () => {
-                    GameManager.Instance.ContinuePlot();
+                    if (GameProgressData.Instance.CurrentPlotProgress == "0.0") {
+                        GameManager.Instance.ContinuePlot("0.1");
+                    }
+                    else if (GameProgressData.Instance.CurrentPlotProgress == "0.9") {
+                        GameManager.Instance.ContinuePlot("1.0");
+                    }
                 } }
             };
             HoverAction = () => {

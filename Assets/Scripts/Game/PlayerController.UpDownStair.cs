@@ -12,7 +12,8 @@ namespace Phosphorescence.Game
         public bool IsOnStair = false;
         public Sprite[] UpStairSprites;
         public Sprite[] DownStairSprites;
-        public SpriteRenderer UpDownSpriteRenderer;
+        public SpriteRenderer UpstairSpriteRenderer;
+        public SpriteRenderer DownstairSpriteRenderer;
         public Progressable NormalSpriteProgressable;
         public Progressable UpstairProgressable;
         public Progressable DownstairProgressable;
@@ -34,10 +35,10 @@ namespace Phosphorescence.Game
 
             rb.linearVelocity = Vector2.zero;
 
-            UpDownSpriteRenderer.sprite = UpStairSprites[0];
-            UpDownSpriteRenderer.enabled = true;
-            UpDownSpriteRenderer.sortingLayerName = "Front";
-            UpDownSpriteRenderer.sortingOrder = 2;
+            UpstairSpriteRenderer.sprite = UpStairSprites[0];
+            UpstairSpriteRenderer.enabled = true;
+            UpstairSpriteRenderer.sortingLayerName = "Front";
+            UpstairSpriteRenderer.sortingOrder = 2;
 
             spriteRenderer.enabled = false;
             m_SpriteCounter = 0;
@@ -45,6 +46,7 @@ namespace Phosphorescence.Game
 
         public void Upstair()
         {
+            if (IsOnStair && m_IsDownstairFinished == false) return;
             if (!IsOnStair) UpstairPrepare();
 
             if (m_UpstairCoroutine != null)
@@ -61,15 +63,15 @@ namespace Phosphorescence.Game
             while (m_SpriteCounter < UpStairSprites.Length - 1)
             {
                 m_SpriteCounter++;
-                UpDownSpriteRenderer.sprite = UpStairSprites[m_SpriteCounter];
+                UpstairSpriteRenderer.sprite = UpStairSprites[m_SpriteCounter];
                 CameraStack.Instance.Offset += new Vector3(0, 0.05f);
                 UpstairProgressable.Progress += 0.01f;
                 yield return new WaitForSeconds(0.05f);
 
                 if (m_SpriteCounter == 75)
                 {
-                    UpDownSpriteRenderer.sortingLayerName = "Middle";
-                    UpDownSpriteRenderer.sortingOrder = 0;
+                    UpstairSpriteRenderer.sortingLayerName = "Middle";
+                    UpstairSpriteRenderer.sortingOrder = 0;
                 }
             }
 
@@ -99,10 +101,10 @@ namespace Phosphorescence.Game
                 }
                 rb.linearVelocity = Vector2.zero;
 
-                UpDownSpriteRenderer.sprite = UpStairSprites[0];
-                UpDownSpriteRenderer.enabled = true;
-                UpDownSpriteRenderer.sortingLayerName = "Front";
-                UpDownSpriteRenderer.sortingOrder = 2;
+                UpstairSpriteRenderer.sprite = UpStairSprites[0];
+                UpstairSpriteRenderer.enabled = true;
+                UpstairSpriteRenderer.sortingLayerName = "Front";
+                UpstairSpriteRenderer.sortingOrder = 2;
 
                 NormalSpriteProgressable.InverseLinearTransition(0.2f, 0f);
                 m_SpriteCounter = 0;
@@ -111,15 +113,15 @@ namespace Phosphorescence.Game
                 while (m_SpriteCounter < UpStairSprites.Length - 1)
                 {
                     m_SpriteCounter++;
-                    UpDownSpriteRenderer.sprite = UpStairSprites[m_SpriteCounter];
-                    CameraStack.Instance.Offset += new Vector3(0, 0.06f);
+                    UpstairSpriteRenderer.sprite = UpStairSprites[m_SpriteCounter];
+                    CameraStack.Instance.Offset += new Vector3(0, 0.15f);
                     UpstairProgressable.Progress += 0.01f;
                     yield return new WaitForSeconds(0.15f);
 
                     if (m_SpriteCounter == 75)
                     {
-                        UpDownSpriteRenderer.sortingLayerName = "Middle";
-                        UpDownSpriteRenderer.sortingOrder = 0;
+                        UpstairSpriteRenderer.sortingLayerName = "Middle";
+                        UpstairSpriteRenderer.sortingOrder = 0;
                     }
                 }
                 TransportTo(new Vector3(transform.position.x, transform.position.y + 7.6f, 0));
@@ -132,6 +134,7 @@ namespace Phosphorescence.Game
 
         private void DownstairPrepare()
         {
+            if (IsOnStair && m_IsUpstairFinished == false) return;
             if (IsOnStair) return;
 
             if (transform.localScale.x == -1)
@@ -143,12 +146,13 @@ namespace Phosphorescence.Game
             IsOnStair = true;
             m_IsDownstairFinished = false;
 
-            UpDownSpriteRenderer.sprite = DownStairSprites[0];
-            UpDownSpriteRenderer.enabled = true;
-            UpDownSpriteRenderer.sortingLayerName = "Middle";
-            UpDownSpriteRenderer.sortingOrder = 0;
+            DownstairSpriteRenderer.sprite = DownStairSprites[0];
+            DownstairSpriteRenderer.enabled = true;
+            DownstairSpriteRenderer.sortingLayerName = "Middle";
+            DownstairSpriteRenderer.sortingOrder = 0;
 
-            NormalSpriteProgressable.Progress = 0;
+            NormalSpriteProgressable.InverseLinearTransition(0.2f, 0f);
+            DownstairProgressable.Progress = 1;
             m_SpriteCounter = 0;
         }
 
@@ -167,18 +171,18 @@ namespace Phosphorescence.Game
         private bool m_IsDownstairFinished = false;
         private IEnumerator DownstairCoroutine()
         {
-            while (m_SpriteCounter > 0)
+            while (m_SpriteCounter < DownStairSprites.Length - 1)
             {
                 m_SpriteCounter++;
-                UpDownSpriteRenderer.sprite = DownStairSprites[m_SpriteCounter];
+                DownstairSpriteRenderer.sprite = DownStairSprites[m_SpriteCounter];
                 CameraStack.Instance.Offset -= new Vector3(0, 0.05f);
                 DownstairProgressable.Progress -= 0.01f;
                 yield return new WaitForSeconds(0.05f);
 
                 if (m_SpriteCounter == 45)
                 {
-                    UpDownSpriteRenderer.sortingLayerName = "Front";
-                    UpDownSpriteRenderer.sortingOrder = 2;
+                    DownstairSpriteRenderer.sortingLayerName = "Front";
+                    DownstairSpriteRenderer.sortingOrder = 2;
                 }
             }
 
@@ -211,7 +215,8 @@ namespace Phosphorescence.Game
             }
 
             IsOnStair = false;
-            UpDownSpriteRenderer.enabled = false;
+            UpstairSpriteRenderer.enabled = false;
+            DownstairSpriteRenderer.enabled = false;
             UpstairProgressable.Progress = 0;
             DownstairProgressable.Progress = 0;
 
