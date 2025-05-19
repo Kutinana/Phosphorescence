@@ -1,3 +1,5 @@
+using Phosphorescence.DataSystem;
+using Phosphorescence.Narration;
 using QFramework;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -23,6 +25,15 @@ namespace Phosphorescence.Game
             col = GetComponent<Collider2D>();
             animator = GetComponent<Animator>();
             spriteRenderer = GetComponent<SpriteRenderer>();
+
+            if (GameProgressData.Instance.CurrentPlotProgress == "") {
+                NormalSpriteProgressable.Progress = 0f;
+            }
+            TypeEventSystem.Global.Register<OnStoryEndEvent>(e => {
+                if (e.plot.Id == "0.0") {
+                    NormalSpriteProgressable.LinearTransition(1f);
+                }
+            });
         }
 
         // Update is called once per frame
@@ -41,6 +52,11 @@ namespace Phosphorescence.Game
                     OffStair();
                 }
             }
+
+            if (Input.GetKeyDown(KeyCode.T)) {
+                GameManager.Instance.ContinuePlot("0.5");
+                PlayerController.Instance.UpstairForOpening();
+            }
         }
 
         private void FixedUpdate()
@@ -54,6 +70,23 @@ namespace Phosphorescence.Game
             if (IsOnStair) return;
 
             var direction = GameManager.Instance.moveAction.ReadValue<Vector2>().x;
+            rb.linearVelocity = new Vector2(direction * speed, rb.linearVelocityY);
+
+            if (direction != 0)
+            {
+                transform.localScale = new Vector3(direction, 1, 1);
+                spriteRenderer.material.SetFloat("_FlipGreen", direction);
+
+                animator.SetBool("isMoving", true);
+            }
+            else
+            {
+                animator.SetBool("isMoving", false);
+            }
+        }
+
+        private void Move(float direction)
+        {
             rb.linearVelocity = new Vector2(direction * speed, rb.linearVelocityY);
 
             if (direction != 0)

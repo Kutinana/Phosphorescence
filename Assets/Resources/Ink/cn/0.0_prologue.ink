@@ -15,6 +15,7 @@ $MUSIC:sfx_radio_noise_01
 
 $STOP_MUSIC
 $SLEEP:3
+$EVENT:WakeUpFromRadio
 
 “……” #type: RightAvatarText #speaker:磷光 #avatar:phos_sleeping
 “……咦？”  #type: RightAvatarText #speaker:磷光 #avatar:phos_wake_up #simulated_voice:sfx_phos_do

@@ -4,8 +4,9 @@
 === opening ===
 
 $DISABLE_ALL_ACTIONS #auto:true
+$SLEEP:1 #auto:true
 $MUSIC:before_opening #auto:true
-$SLEEP:3 #auto:true
+$SLEEP:2 #auto:true
 
 我是磷光，是灯塔「磷光」的守塔人。 #type:SubtitleText #skippable:false #auto:true #sleep:1.5 #duration:3
 九岁那年，父亲把灯塔的钥匙、连着「磷光」这个名字一并传给了我。 #type:SubtitleText #skippable:false #auto:true #sleep:2 #duration:6

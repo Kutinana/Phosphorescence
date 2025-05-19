@@ -79,6 +79,57 @@ namespace Phosphorescence.Game
             OffStair();
         }
 
+        public void UpstairForOpening() => StartCoroutine(UpstairCoroutineForOpening());
+        private IEnumerator UpstairCoroutineForOpening()
+        {
+            var target = new Vector3(-transform.position.x, 0f);
+            while (CameraStack.Instance.Offset != target)
+            {
+                CameraStack.Instance.Offset = Vector3.MoveTowards(CameraStack.Instance.Offset, target, 0.01f);
+                yield return new WaitForFixedUpdate();
+            }
+            yield return new WaitForSeconds(2f);
+
+            for (int i = 0; i < 4; i++)
+            {
+                if (transform.localScale.x == -1)
+                {
+                    transform.localScale = new Vector3(1, 1, 1);
+                    spriteRenderer.material.SetFloat("_FlipGreen", 1);
+                }
+                rb.linearVelocity = Vector2.zero;
+
+                UpDownSpriteRenderer.sprite = UpStairSprites[0];
+                UpDownSpriteRenderer.enabled = true;
+                UpDownSpriteRenderer.sortingLayerName = "Front";
+                UpDownSpriteRenderer.sortingOrder = 2;
+
+                NormalSpriteProgressable.InverseLinearTransition(0.2f, 0f);
+                m_SpriteCounter = 0;
+                UpstairProgressable.InverseLinearTransition(0.2f, 0f);
+
+                while (m_SpriteCounter < UpStairSprites.Length - 1)
+                {
+                    m_SpriteCounter++;
+                    UpDownSpriteRenderer.sprite = UpStairSprites[m_SpriteCounter];
+                    CameraStack.Instance.Offset += new Vector3(0, 0.06f);
+                    UpstairProgressable.Progress += 0.01f;
+                    yield return new WaitForSeconds(0.15f);
+
+                    if (m_SpriteCounter == 75)
+                    {
+                        UpDownSpriteRenderer.sortingLayerName = "Middle";
+                        UpDownSpriteRenderer.sortingOrder = 0;
+                    }
+                }
+                TransportTo(new Vector3(transform.position.x, transform.position.y + 7.6f, 0));
+                NormalSpriteProgressable.LinearTransition(1f, 0f);
+                CameraStack.Instance.Offset = new Vector3(-transform.position.x, 0f);
+
+                yield return new WaitForSeconds(1.5f);
+            }
+        }
+
         private void DownstairPrepare()
         {
             if (IsOnStair) return;

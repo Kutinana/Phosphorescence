@@ -76,6 +76,9 @@ namespace Phosphorescence.Game
             }
 
             GameManager.Instance.moveAction.Enable();
+
+            yield return new WaitForSeconds(1f);
+            GameManager.Instance.ContinuePlot("0.9");
         }
     }
 

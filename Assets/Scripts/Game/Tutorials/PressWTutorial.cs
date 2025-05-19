@@ -29,7 +29,7 @@ namespace Phosphorescence.Game.Tutorials
             yield return spriteRendererProgressable.InverseLinearTransition(0.2f, 0f);
 
             GameManager.Instance.ContinuePlot("0.5");
-            OpeningDirector.Instance.Climb();
+            PlayerController.Instance.UpstairForOpening();
         }
     }
 }
