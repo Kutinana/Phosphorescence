@@ -44,7 +44,7 @@ namespace Phosphorescence.Game
             m_SpriteCounter = 0;
         }
 
-        public void Upstair()
+        public void Upstair(bool isHalfFloor = false)
         {
             if (IsOnStair && m_IsDownstairFinished == false) return;
             if (!IsOnStair) UpstairPrepare();
@@ -53,19 +53,19 @@ namespace Phosphorescence.Game
             {
                 StopCoroutine(m_UpstairCoroutine);
             }
-            m_UpstairCoroutine = StartCoroutine(UpstairCoroutine());
+            m_UpstairCoroutine = StartCoroutine(UpstairCoroutine(isHalfFloor));
         }
 
         private Coroutine m_UpstairCoroutine = null;
         private bool m_IsUpstairFinished = false;
-        private IEnumerator UpstairCoroutine()
+        private IEnumerator UpstairCoroutine(bool isHalfFloor)
         {
-            while (m_SpriteCounter < UpStairSprites.Length - 1)
+            while (m_SpriteCounter < (isHalfFloor ? 75 : UpStairSprites.Length - 1))
             {
                 m_SpriteCounter++;
                 UpstairSpriteRenderer.sprite = UpStairSprites[m_SpriteCounter];
                 CameraStack.Instance.Offset += new Vector3(0, 0.05f);
-                UpstairProgressable.Progress += 0.01f;
+                UpstairProgressable.Progress += isHalfFloor ? 0.015f : 0.01f;
                 yield return new WaitForSeconds(0.05f);
 
                 if (m_SpriteCounter == 75)
@@ -132,7 +132,7 @@ namespace Phosphorescence.Game
             }
         }
 
-        private void DownstairPrepare()
+        private void DownstairPrepare(bool isHalfFloor = false)
         {
             if (IsOnStair && m_IsUpstairFinished == false) return;
             if (IsOnStair) return;
@@ -146,40 +146,42 @@ namespace Phosphorescence.Game
             IsOnStair = true;
             m_IsDownstairFinished = false;
 
-            DownstairSpriteRenderer.sprite = DownStairSprites[0];
+            DownstairSpriteRenderer.sprite = isHalfFloor ? DownStairSprites[45] : DownStairSprites[0];
             DownstairSpriteRenderer.enabled = true;
             DownstairSpriteRenderer.sortingLayerName = "Middle";
             DownstairSpriteRenderer.sortingOrder = 0;
 
             NormalSpriteProgressable.InverseLinearTransition(0.2f, 0f);
             DownstairProgressable.Progress = 1;
-            m_SpriteCounter = 0;
+            m_SpriteCounter = isHalfFloor ? 45 : 0;
+
+            DownstairSpriteRenderer.transform.localPosition = isHalfFloor ? new Vector3(-2.48f, -1.8f, 0) : Vector3.zero;
         }
 
-        public void Downstair()
+        public void Downstair(bool isHalfFloor = false)
         {
-            if (!IsOnStair) DownstairPrepare();
+            if (!IsOnStair) DownstairPrepare(isHalfFloor);
             
             if (m_DownstairCoroutine != null)
             {
                 StopCoroutine(m_DownstairCoroutine);
             }
-            m_DownstairCoroutine = StartCoroutine(DownstairCoroutine());
+            m_DownstairCoroutine = StartCoroutine(DownstairCoroutine(isHalfFloor));
         }
 
         private Coroutine m_DownstairCoroutine = null;
         private bool m_IsDownstairFinished = false;
-        private IEnumerator DownstairCoroutine()
+        private IEnumerator DownstairCoroutine(bool isHalfFloor)
         {
             while (m_SpriteCounter < DownStairSprites.Length - 1)
             {
                 m_SpriteCounter++;
                 DownstairSpriteRenderer.sprite = DownStairSprites[m_SpriteCounter];
                 CameraStack.Instance.Offset -= new Vector3(0, 0.05f);
-                DownstairProgressable.Progress -= 0.01f;
+                DownstairProgressable.Progress -= isHalfFloor ? 0.015f : 0.01f;
                 yield return new WaitForSeconds(0.05f);
 
-                if (m_SpriteCounter == 45)
+                if (m_SpriteCounter == (isHalfFloor ? 105 : 45))
                 {
                     DownstairSpriteRenderer.sortingLayerName = "Front";
                     DownstairSpriteRenderer.sortingOrder = 2;

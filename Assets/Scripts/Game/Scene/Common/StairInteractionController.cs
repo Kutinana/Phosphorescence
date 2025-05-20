@@ -8,6 +8,8 @@ namespace Phosphorescence.Game
     {
         public bool CanUpstair = true;
         public bool CanDownstair = true;
+        public bool IsHalfFloorUpstair = false;
+        public bool IsHalfFloorDownstair = false;
         public Transform UpstairFinishPoint;
         public Transform DownstairFinishPoint;
 
@@ -29,11 +31,11 @@ namespace Phosphorescence.Game
 
             if (inputAction == GameManager.Instance.upStairAction && CanUpstair)
             {
-                playerController.Upstair();
+                playerController.Upstair(IsHalfFloorUpstair);
             }
             else if (inputAction == GameManager.Instance.downStairAction && CanDownstair)
             {
-                playerController.Downstair();
+                playerController.Downstair(IsHalfFloorDownstair);
             }
         }
     }
