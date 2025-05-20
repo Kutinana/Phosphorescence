@@ -5,6 +5,10 @@
 $DISABLE_ALL_ACTIONS #auto:true
 $SLEEP:1 #auto:true
 
+$EVENT:projector_on
+
+$SLEEP:2
+
 “欸。” #type:RightAvatarText #speaker:磷光 #avatar:phos_surprised #simulated_voice: sfx_phos_mi
 “怎么第一句话是欸啊！好没礼貌。” #type: LeftAvatarText #speaker:薄明？ #avatar:holo_contempt #simulated_voice: sfx_hakumei_do
 “你这是擅闯民宅啊，没礼貌的是你才对吧。” #type:RightAvatarText #speaker:磷光 #avatar:phos_angry_2 #simulated_voice: sfx_phos_do
@@ -29,12 +33,17 @@ $SLEEP:1 #auto:true
 “说来，这个玩意儿需要充电吗？” #type:RightAvatarText #speaker:磷光 #avatar:phos_confused_0.5 #simulated_voice: sfx_phos_re
 “要的。灯塔有供电吗？” #type: LeftAvatarText #speaker:薄明 #avatar:holo_surprised_1 #simulated_voice: sfx_hakumei_do
 “没有供电你看到的航标灯难道是煤油灯吗？” #type:RightAvatarText #speaker:磷光 #avatar:phos_awkward #simulated_voice: sfx_phos_re
-“啊，那就好。你把它抓起来就能看到后面有个插头……” #type: LeftAvatarText #speaker:薄明 #avatar:holo_smile_2 #simulated_voice: sfx_hakumei_do
-“欸欸欸欸！” #type: LeftAvatarText #speaker:薄明 #avatar:holo_scared #simulated_voice: sfx_hakumei_mi
-“怎么了？” #type:RightAvatarText #speaker:磷光 #avatar:phos_confused_flip_1 #simulated_voice: sfx_phos_re
-“还问怎么了！没叫你现在抓啊！” #type: LeftAvatarText #speaker:薄明 #simulated_voice: sfx_hakumei_re
-“原来不显示投影也能通话啊。” #type:RightAvatarText #speaker:磷光 #avatar:phos_confident_1 #simulated_voice: sfx_phos_do
-“……你肯定是故意的。” #type: LeftAvatarText #speaker:薄明 #simulated_voice: sfx_hakumei_do
+
+$EVENT:grab_the_projector #auto:true
+“啊，那就好。你把它抓起来就能看到后面有个插头……” #type: LeftAvatarText #speaker:薄明 #avatar:holo_smile_2 #simulated_voice: sfx_hakumei_do #auto:true #skippable:false #sleep:1.3
+“欸欸欸欸！” #type: LeftAvatarText #speaker:薄明 #avatar:holo_scared #simulated_voice: sfx_hakumei_mi #auto:true #skippable:false #sleep:1
+“怎么了？” #type:RightAvatarText #speaker:磷光 #avatar:phos_confused_flip_1 #simulated_voice: sfx_phos_re #auto:true #skippable:false #sleep:1
+“还问怎么了！没叫你现在抓啊！” #type: LeftAvatarText #speaker:薄明 #simulated_voice: sfx_hakumei_re #auto:true #skippable:false #sleep:1
+“原来不显示投影也能通话啊。” #type:RightAvatarText #speaker:磷光 #avatar:phos_confident_1 #simulated_voice: sfx_phos_do #auto:true #skippable:false #sleep:1
+“……你肯定是故意的。” #type: LeftAvatarText #speaker:薄明 #simulated_voice: sfx_hakumei_do #auto:true #skippable:false #sleep:1 #avatar:holo_angry_2
+
+$EVENT:grab_the_projector_finished #auto:true
+
 “说回来，虽然灯塔有柴油发电机，但现在用不了。” #type:RightAvatarText #speaker:磷光 #avatar:phos_speaking #simulated_voice: sfx_phos_re
 “欸，为什么？” #type: LeftAvatarText #speaker:薄明 #avatar:holo_surprised_1 #simulated_voice: sfx_hakumei_re
 “倒也不是用不了，只是暂且加不了油了。” #type:RightAvatarText #speaker:磷光 #avatar:phos_look_upwards #simulated_voice: sfx_phos_do
@@ -50,6 +59,9 @@ $SLEEP:1 #auto:true
 “算了吧，真是这样的话还挺可怕的。” #type:RightAvatarText #speaker:磷光 #avatar:phos_smile #simulated_voice: sfx_phos_do
 “别呀，这可是实验的大好机会。就这么说定了，你在这儿等着喔。” #type: LeftAvatarText #speaker:薄明 #avatar:holo_happy_1 #simulated_voice: sfx_hakumei_do
 
+$EVENT:projector_off
+
 $ENABLE_ALL_ACTIONS
+$START_TIMER
 
 -> DONE

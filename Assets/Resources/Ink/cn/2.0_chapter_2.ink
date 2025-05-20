@@ -18,7 +18,7 @@ $SLEEP:1.5
 $SLEEP:1.5
 
 “……总不至于是生气了吧。” #type:RightAvatarText #speaker:磷光 #avatar:phos_awkward #simulated_voice: sfx_phos_do
-“……磷光于甚高频频道16呼叫薄明。完毕。” #type:RightAvatarText #speaker:磷光 #avatar:phos_speaking #simulated_voice: sfx_phos_do
+“……磷光于甚高频频道 16 呼叫薄明。完毕。” #type:RightAvatarText #speaker:磷光 #avatar:phos_speaking #simulated_voice: sfx_phos_do
 
 {isBeaconOn: “薄明收到！开着的！” #type: LeftAvatarText #speaker:X92HKM #avatar:radio_happy #simulated_voice: sfx_hakumei_do}
 {isBeaconOn == false: “薄明收到！关着的！” #type: LeftAvatarText #speaker:X92HKM #avatar:radio_happy #simulated_voice: sfx_hakumei_do}

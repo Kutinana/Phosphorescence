@@ -24,6 +24,13 @@ namespace Phosphorescence.Game
 
         private void Start()
         {
+            if (GameProgressData.Instance.CurrentPlotProgress is "2.0" or "2.5")
+            {
+                IsInteractable = true;
+            }
+            else IsInteractable = false;
+
+
             if (GameProgressData.Instance.GetState("CanShelveTaken"))
             {
                 spriteRenderer.sprite = takenSprite;

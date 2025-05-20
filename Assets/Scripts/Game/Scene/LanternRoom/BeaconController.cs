@@ -80,6 +80,8 @@ namespace Phosphorescence.Game
             {
                 light.enabled = false;
             }
+
+            GameProgressData.Instance.SetState("IsBeaconOn", false);
         }
     }
 }

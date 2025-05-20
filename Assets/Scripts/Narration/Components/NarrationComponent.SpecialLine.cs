@@ -55,6 +55,7 @@ namespace Phosphorescence.Narration
                     break;
                 case "disable_movement":
                     GameManager.Instance.moveAction.Disable();
+                    PlayerController.Instance.StopMoving();
                     break;
                 case "enable_all_actions":
                     GameManager.Instance.moveAction.Enable();
@@ -67,6 +68,7 @@ namespace Phosphorescence.Narration
                     GameManager.Instance.interactAction.Disable();
                     GameManager.Instance.upStairAction.Disable();
                     GameManager.Instance.downStairAction.Disable();
+                    PlayerController.Instance.StopMoving();
                     break;
                 case "sleep" when args.Length == 1:
                     yield return new WaitForSeconds(float.Parse(args[0]));
@@ -105,6 +107,12 @@ namespace Phosphorescence.Narration
                         variableName = args[0],
                         value = GameProgressData.Instance.HasPlotTag(args[0])
                     });
+                    break;
+                case "start_timer":
+                    GameManager.Instance.StartTimer();
+                    break;
+                case "stop_timer":
+                    GameManager.Instance.StopTimer();
                     break;
                 case "finish_ending_a":
                     FinishEndingA();

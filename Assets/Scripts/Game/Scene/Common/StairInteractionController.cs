@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using Phosphorescence.DataSystem;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -35,6 +36,11 @@ namespace Phosphorescence.Game
             }
             else if (inputAction == GameManager.Instance.downStairAction && CanDownstair)
             {
+                if (GameProgressData.Instance.CurrentPlotProgress == "3.0")
+                {
+                    GameManager.Instance.ContinuePlot("3.05");
+                    return;
+                }
                 playerController.Downstair(IsHalfFloorDownstair);
             }
         }

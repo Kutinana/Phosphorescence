@@ -1,3 +1,4 @@
+using Kuchinashi.Utils.Progressable;
 using Phosphorescence.DataSystem;
 using Phosphorescence.Narration;
 using QFramework;
@@ -19,6 +20,11 @@ namespace Phosphorescence.Game
         public float speed = 5f;
         public int ImAtFloor = -1;
 
+        [Header("References")]
+        public Animator RaiseUpAnimator;
+        public SpriteRenderer RaiseUpSpriteRenderer;
+        public Progressable RaiseUpProgressable;
+
         private void Awake()
         {
             rb = GetComponent<Rigidbody2D>();
@@ -29,9 +35,24 @@ namespace Phosphorescence.Game
             if (GameProgressData.Instance.CurrentPlotProgress == "") {
                 NormalSpriteProgressable.Progress = 0f;
             }
+
             TypeEventSystem.Global.Register<OnStoryEndEvent>(e => {
                 if (e.plot.Id == "0.0") {
                     NormalSpriteProgressable.LinearTransition(1f);
+                }
+            });
+
+            TypeEventSystem.Global.Register<OnStoryEventTriggerEvent>(e => {
+                if (e.eventName == "grab_the_projector") {
+                    NormalSpriteProgressable.InverseLinearTransition(0.2f);
+                    RaiseUpSpriteRenderer.enabled = true;
+                    RaiseUpProgressable.LinearTransition(0.2f);
+                    RaiseUpAnimator.enabled = true;
+                }
+                else if (e.eventName == "grab_the_projector_finished") {
+                    RaiseUpProgressable.InverseLinearTransition(0.2f);
+                    RaiseUpAnimator.enabled = false;
+                    NormalSpriteProgressable.LinearTransition(0.2f);
                 }
             });
         }
@@ -100,6 +121,14 @@ namespace Phosphorescence.Game
             {
                 animator.SetBool("isMoving", false);
             }
+        }
+
+        public void StopMoving(int direction = 1)
+        {
+            rb.linearVelocity = Vector2.zero;
+            transform.localScale = new Vector3(direction, 1, 1);
+            spriteRenderer.material.SetFloat("_FlipGreen", direction);
+            animator.SetBool("isMoving", false);
         }
 
         public void TransportTo(Transform target)

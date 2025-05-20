@@ -23,13 +23,18 @@ namespace Phosphorescence.Game
             TypeEventSystem.Global.Register<OnStoryEndEvent>(e => {
                 if (e.plot.Id == "2.5")
                 {
-                    spriteRenderer.enabled = false;
+                    gameObject.SetActive(false);
                 }
             });
         }
 
         private void Start()
         {
+            if (float.Parse(GameProgressData.Instance.CurrentPlotProgress) > 2.5f)
+            {
+                gameObject.SetActive(false);
+            }
+            
             HoverAction = () => {
                 if (GameProgressData.Instance.CurrentObject == "can")
                 {

@@ -21,6 +21,9 @@ namespace Phosphorescence.Game
         public InputAction pauseResumeAction;
         public InputAction navigationAction;
 
+        public bool IsTimerOn = false;
+        public float Timer;
+
         private void Awake()
         {
             DontDestroyOnLoad(this);
@@ -37,6 +40,14 @@ namespace Phosphorescence.Game
 
             pauseResumeAction = InputSystem.actions.FindAction("PauseResume");
             navigationAction = InputSystem.actions.FindAction("Navigate");
+        }
+
+        void Update()
+        {
+            if (IsTimerOn)
+            {
+                Timer += Time.deltaTime;
+            }
         }
 
         public void ContinuePlot()
@@ -61,5 +72,17 @@ namespace Phosphorescence.Game
         {
             NarrationManager.Instance.StartNarration(targetPlotId);
         }
+
+        public void StartTimer()
+        {
+            Timer = 0;
+            IsTimerOn = true;
+        }
+
+        public void StopTimer()
+        {
+            IsTimerOn = false;
+        }
+        
     }
 }

@@ -53,12 +53,31 @@ namespace Phosphorescence.Game
                     else if (GameProgressData.Instance.CurrentPlotProgress == "2.0") {
                         GameManager.Instance.ContinuePlot("2.5");
                     }
-                    else if (GameProgressData.Instance.CurrentPlotProgress == "2.5" && GameProgressData.Instance.GetPlotState("FinishedCanExperiment")) {
-                        GameManager.Instance.ContinuePlot("2.9");
-                    }
                     else if (GameProgressData.Instance.CurrentPlotProgress == "2.5") {
-                        GameManager.Instance.ContinuePlot("2.5");
+                        if (!GameProgressData.Instance.GetPlotState("FinishedCanExperiment"))
+                        {
+                            GameManager.Instance.ContinuePlot("2.5");
+                        }
+                        else if (GameManager.Instance.Timer < 20f)
+                        {
+                            GameManager.Instance.ContinuePlot("2.6");
+                        }
+                        else
+                        {
+                            GameManager.Instance.ContinuePlot("2.9");
+                        }
                     }
+                    else if (GameProgressData.Instance.CurrentPlotProgress == "2.6") {
+                        if (GameManager.Instance.Timer < 20f)
+                        {
+                            GameManager.Instance.ContinuePlot("2.6");
+                        }
+                        else
+                        {
+                            GameManager.Instance.ContinuePlot("2.9");
+                        }
+                    }
+                    
                 } }
             };
             HoverAction = () => {

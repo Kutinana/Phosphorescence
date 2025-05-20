@@ -31,6 +31,7 @@ $READ_TAG:HaveTriedCanExperiment #auto:true
 “那就祝你一路顺风。” #type:RightAvatarText #speaker:磷光 #avatar:phos_smile #simulated_voice: sfx_phos_re
 
 $SET_TAG:FinishedCanExperiment
+$START_TIMER
 $ENABLE_ALL_ACTIONS
 
 -> DONE
