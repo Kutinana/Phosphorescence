@@ -40,6 +40,8 @@ namespace Phosphorescence.Game
                         {
                             isUnlocked = true;
                             spriteRenderer.sprite = unlockedOnHoverSprite;
+
+                            BackpackManager.Instance.Clear();
                         }
                         else
                         {

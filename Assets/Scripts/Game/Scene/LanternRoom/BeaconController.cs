@@ -1,6 +1,7 @@
 using System.Collections;
 using Phosphorescence.Audio;
 using Phosphorescence.DataSystem;
+using Phosphorescence.Narration;
 using QFramework;
 using UnityEngine;
 using UnityEngine.Rendering.Universal;
@@ -20,6 +21,13 @@ namespace Phosphorescence.Game
             animator = GetComponent<Animator>();
             lights = GetComponentsInChildren<Light2D>();
             audioSource = GetComponent<AudioSource>();
+
+            TypeEventSystem.Global.Register<OnStoryEventTriggerEvent>(e => {
+                if (e.eventName == "beacon_stop")
+                {
+                    Stop();
+                }
+            });
         }
 
         void Start()
@@ -80,6 +88,15 @@ namespace Phosphorescence.Game
             {
                 light.enabled = false;
             }
+
+            GameProgressData.Instance.SetState("IsBeaconOn", false);
+        }
+
+        public void Stop()
+        {
+            IsOn = false;
+            audioSource.Pause();
+            animator.SetTrigger("Stop");
 
             GameProgressData.Instance.SetState("IsBeaconOn", false);
         }

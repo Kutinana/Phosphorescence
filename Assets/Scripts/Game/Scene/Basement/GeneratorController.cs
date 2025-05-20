@@ -10,7 +10,7 @@ using UnityEngine.Rendering.Universal;
 
 namespace Phosphorescence.Game
 {
-    public class GeneratorController : Interactable, ICanPlayAndPause
+    public class GeneratorController : Interactable, ISingleton, ICanPlayAndPause
     {
         public bool isActivated = true;
 
@@ -23,6 +23,12 @@ namespace Phosphorescence.Game
         private Animator animator;
         private Light2D[] lights;
         private AudioSource audioSource;
+
+        public static GeneratorController Instance { get; private set; }
+        public void OnSingletonInit()
+        {
+            Instance = this;
+        }
 
         void Awake()
         {

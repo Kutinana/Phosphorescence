@@ -90,7 +90,7 @@ namespace Phosphorescence.Game
             if (GameManager.Instance.moveAction == null || GameManager.Instance.moveAction.enabled == false) return;
             if (IsOnStair) return;
 
-            var direction = GameManager.Instance.moveAction.ReadValue<Vector2>().x;
+            var direction = Mathf.RoundToInt(GameManager.Instance.moveAction.ReadValue<Vector2>().x);
             rb.linearVelocity = new Vector2(direction * speed, rb.linearVelocityY);
 
             if (direction != 0)

@@ -55,9 +55,17 @@ namespace Phosphorescence.Game
 
         void Start()
         {
-            if (float.Parse(GameProgressData.Instance.CurrentPlotProgress) > 2.9f)
+            if (GameProgressData.Instance.CurrentPlotProgress == "3.1")
+            {
+                StateMachine.ChangeState(ProjectorState.On);
+            }
+            else if (float.Parse(GameProgressData.Instance.CurrentPlotProgress) >= 2.9f)
             {
                 StateMachine.ChangeState(ProjectorState.Standby);
+            }
+            else
+            {
+                StateMachine.ChangeState(ProjectorState.Hide);
             }
         }
 

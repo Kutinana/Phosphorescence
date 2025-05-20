@@ -5,7 +5,6 @@ namespace Phosphorescence.Game
 {
     public class EnteringLanternRoomDetector : Interactable
     {
-        // Start is called once before the first execution of Update after the MonoBehaviour is created
         void Start()
         {
             HoverAction = () => {
@@ -14,10 +13,19 @@ namespace Phosphorescence.Game
                     GameManager.Instance.ContinuePlot("3.0");
                     PlayerController.Instance.StopMoving(-1);
                 }
+                else if (GameProgressData.Instance.CurrentPlotProgress == "3.1")
+                {
+                    GameManager.Instance.ContinuePlot("3.2");
+                    PlayerController.Instance.StopMoving(-1);
+                }
+                else if (GameProgressData.Instance.CurrentPlotProgress == "3.2" && GeneratorController.Instance.isActivated)
+                {
+                    GameManager.Instance.ContinuePlot("4.0");
+                    PlayerController.Instance.StopMoving(-1);
+                }
             };
         }
 
-        // Update is called once per frame
         void Update()
         {
             

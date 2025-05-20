@@ -1,18 +1,21 @@
 using System.Collections.Generic;
+using Phosphorescence.Audio;
 using Phosphorescence.DataSystem;
 using Phosphorescence.Narration;
+using QFramework;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.InputSystem;
+using UnityEngine.Rendering.Universal;
 
 namespace Phosphorescence.Game
 {
-    public class CanShelveController : Interactable
+    public class BasementShelfController : Interactable
     {
         public bool isTaken = false;
 
-        public Sprite normalSprite;
-        public Sprite normalOnHoverSprite;
+        public Sprite defaultSprite;
+        public Sprite onHoverSprite;
         public Sprite takenSprite;
 
         private SpriteRenderer spriteRenderer;
@@ -24,13 +27,13 @@ namespace Phosphorescence.Game
 
         private void Start()
         {
-            if (GameProgressData.Instance.CurrentPlotProgress is "2.0" or "2.5")
+            if (GameProgressData.Instance.CurrentPlotProgress is "3.2")
             {
                 IsInteractable = true;
             }
             else IsInteractable = false;
 
-            if (GameProgressData.Instance.GetState("CanShelveTaken"))
+            if (GameProgressData.Instance.GetState("BasementShelfTaken"))
             {
                 spriteRenderer.sprite = takenSprite;
                 isTaken = true;
@@ -44,16 +47,16 @@ namespace Phosphorescence.Game
                         spriteRenderer.sprite = takenSprite;
                         isTaken = true;
 
-                        BackpackManager.Instance.Obtain("can");
-                        GameProgressData.Instance.SetState("CanShelveTaken", true);
+                        BackpackManager.Instance.Obtain("diesel");
+                        GameProgressData.Instance.SetState("BasementShelfTaken", true);
                     }
                 } }
             };
             HoverAction = () => {
-                spriteRenderer.sprite = isTaken ? takenSprite : normalOnHoverSprite;
+                spriteRenderer.sprite = isTaken ? takenSprite : onHoverSprite;
             };
             UnhoverAction = () => {
-                spriteRenderer.sprite = isTaken ? takenSprite : normalSprite;
+                spriteRenderer.sprite = isTaken ? takenSprite : defaultSprite;
             };
         }
     }
