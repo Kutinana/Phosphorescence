@@ -125,4 +125,6 @@ $SLEEP:1 #auto:true
 “要试试看才知道嘛！快来灯笼房！” #type: LeftAvatarText #speaker:薄明 #avatar:holo_happy_3 #simulated_voice: sfx_hakumei_re
 “好好……” #type:RightAvatarText #speaker:磷光 #avatar:phos_smile #simulated_voice: sfx_phos_do
 
+$ENABLE_ALL_ACTIONS
+
 -> DONE

@@ -27,5 +27,6 @@ $SLEEP:1.5 #auto:true
 “该死，怎么偏偏在这个时候停电……！” #type:RightAvatarText #speaker:磷光 #avatar:phos_surprised #simulated_voice: sfx_phos_do
 
 $EVENT:diesel_runs_out
+$ENABLE_ALL_ACTIONS
 
 -> DONE

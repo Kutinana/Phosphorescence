@@ -113,4 +113,6 @@ $SLEEP:1.5 #auto:true
 “看样子是呢。” #type: LeftAvatarText #speaker:X92HKM #simulated_voice: sfx_hakumei_do #avatar:radio_default_2
 “总之，现在只有把能做的都试一遍了。我去操作灯光，容我失陪一下。” #type:RightAvatarText #speaker:磷光 #avatar:phos_speaking #simulated_voice: sfx_phos_do
 
+$ENABLE_ALL_ACTIONS
+
 -> END

@@ -31,7 +31,7 @@ namespace Phosphorescence.Game
             }
 
             IsOnStair = true;
-            m_IsUpstairFinished = false;
+            m_IsUpstairing = true;
 
             rb.linearVelocity = Vector2.zero;
 
@@ -46,7 +46,7 @@ namespace Phosphorescence.Game
 
         public void Upstair(bool isHalfFloor = false)
         {
-            if (IsOnStair && m_IsDownstairFinished == false) return;
+            if (IsOnStair && m_IsDownstairing) return;
             if (!IsOnStair) UpstairPrepare();
 
             if (m_UpstairCoroutine != null)
@@ -57,14 +57,14 @@ namespace Phosphorescence.Game
         }
 
         private Coroutine m_UpstairCoroutine = null;
-        private bool m_IsUpstairFinished = false;
+        private bool m_IsUpstairing = false;
         private IEnumerator UpstairCoroutine(bool isHalfFloor)
         {
             while (m_SpriteCounter < (isHalfFloor ? 75 : UpStairSprites.Length - 1))
             {
                 m_SpriteCounter++;
                 UpstairSpriteRenderer.sprite = UpStairSprites[m_SpriteCounter];
-                CameraStack.Instance.Offset += new Vector3(0, 0.05f);
+                CameraStack.Instance.Offset += new Vector3(0, 0.065f);
                 UpstairProgressable.Progress += isHalfFloor ? 0.015f : 0.01f;
                 yield return new WaitForSeconds(0.05f);
 
@@ -75,7 +75,7 @@ namespace Phosphorescence.Game
                 }
             }
 
-            m_IsUpstairFinished = true;
+            // m_IsUpstairing = false;
             m_UpstairCoroutine = null;
 
             OffStair();
@@ -134,7 +134,7 @@ namespace Phosphorescence.Game
 
         private void DownstairPrepare(bool isHalfFloor = false)
         {
-            if (IsOnStair && m_IsUpstairFinished == false) return;
+            if (IsOnStair && m_IsUpstairing) return;
             if (IsOnStair) return;
 
             if (transform.localScale.x == -1)
@@ -144,7 +144,7 @@ namespace Phosphorescence.Game
             }
 
             IsOnStair = true;
-            m_IsDownstairFinished = false;
+            m_IsDownstairing = true;
 
             DownstairSpriteRenderer.sprite = isHalfFloor ? DownStairSprites[45] : DownStairSprites[0];
             DownstairSpriteRenderer.enabled = true;
@@ -155,7 +155,7 @@ namespace Phosphorescence.Game
             DownstairProgressable.Progress = 1;
             m_SpriteCounter = isHalfFloor ? 45 : 0;
 
-            DownstairSpriteRenderer.transform.localPosition = isHalfFloor ? new Vector3(-2.48f, -1.8f, 0) : Vector3.zero;
+            DownstairSpriteRenderer.transform.localPosition = isHalfFloor ? new Vector3(-2.48f, -1.8f, 0) : new Vector3(3.13f, -4.15f, 0);
         }
 
         public void Downstair(bool isHalfFloor = false)
@@ -170,14 +170,14 @@ namespace Phosphorescence.Game
         }
 
         private Coroutine m_DownstairCoroutine = null;
-        private bool m_IsDownstairFinished = false;
+        private bool m_IsDownstairing = false;
         private IEnumerator DownstairCoroutine(bool isHalfFloor)
         {
             while (m_SpriteCounter < DownStairSprites.Length - 1)
             {
                 m_SpriteCounter++;
                 DownstairSpriteRenderer.sprite = DownStairSprites[m_SpriteCounter];
-                CameraStack.Instance.Offset -= new Vector3(0, 0.05f);
+                CameraStack.Instance.Offset -= new Vector3(0, 0.065f);
                 DownstairProgressable.Progress -= isHalfFloor ? 0.015f : 0.01f;
                 yield return new WaitForSeconds(0.05f);
 
@@ -188,7 +188,7 @@ namespace Phosphorescence.Game
                 }
             }
 
-            m_IsDownstairFinished = true;
+            // m_IsDownstairing = false;
             m_DownstairCoroutine = null;
 
             OffStair();
@@ -199,14 +199,16 @@ namespace Phosphorescence.Game
         {
             if (IsOnStair)
             {
-                if (m_UpstairCoroutine != null) StopCoroutine(m_UpstairCoroutine);
-                if (m_DownstairCoroutine != null) StopCoroutine(m_DownstairCoroutine);
+                if (m_UpstairCoroutine != null || m_DownstairCoroutine != null)
+                {
+                    return;
+                }
 
-                if (m_IsUpstairFinished)
+                if (m_IsUpstairing)
                 {
                     TransportTo(m_CurrentInteractTarget.GetComponent<StairInteractionController>().UpstairFinishPoint);
                 }
-                else if (m_IsDownstairFinished)
+                else if (m_IsDownstairing)
                 {
                     TransportTo(m_CurrentInteractTarget.GetComponent<StairInteractionController>().DownstairFinishPoint);
                 }
@@ -227,8 +229,8 @@ namespace Phosphorescence.Game
             
             CameraStack.Instance.Offset = new Vector3(0, 0f);
 
-            m_IsUpstairFinished = false;
-            m_IsDownstairFinished = false;
+            m_IsUpstairing = false;
+            m_IsDownstairing = false;
 
             GameManager.Instance.moveAction.Enable();
 

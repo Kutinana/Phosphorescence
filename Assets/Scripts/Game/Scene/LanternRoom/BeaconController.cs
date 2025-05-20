@@ -30,10 +30,14 @@ namespace Phosphorescence.Game
                 animator.Play("lens rotation");
                 audioSource.enabled = true;
                 audioSource.Pause();
+
+                IsOn = true;
             }
             else
             {
                 Pause();
+
+                IsOn = false;
             }
         }
 

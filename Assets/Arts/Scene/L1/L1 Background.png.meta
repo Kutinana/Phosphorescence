@@ -268,7 +268,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -277,7 +277,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -2063,7 +2063,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -2072,7 +2072,85 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      L1 Background_0: -8639048068658972851
+      L1 Background_1: 1086789628253094916
+      L1 Background_10: -450598069869532215
+      L1 Background_11: -3579830523607041110
+      L1 Background_12: 83295610013482641
+      L1 Background_13: -306332107183537410
+      L1 Background_14: -7865242233384880693
+      L1 Background_15: -1963214693210671993
+      L1 Background_16: -5067479879891252386
+      L1 Background_17: -8660477387167764392
+      L1 Background_18: -2691496139303107575
+      L1 Background_19: -3418040377338721426
+      L1 Background_2: 5158672904835631997
+      L1 Background_20: -3974970223190154846
+      L1 Background_21: 1899379280961267675
+      L1 Background_22: 4145614296252136660
+      L1 Background_23: -8593419422234545825
+      L1 Background_24: -7520838362350782010
+      L1 Background_25: 1591371086672489741
+      L1 Background_26: -8523802583510232960
+      L1 Background_27: -4922932879140170159
+      L1 Background_28: 4231239436102630949
+      L1 Background_29: 275149370316389446
+      L1 Background_3: 6580588982908199017
+      L1 Background_30: -7527519509377512132
+      L1 Background_31: -6532791036504453078
+      L1 Background_32: -750495449326776363
+      L1 Background_33: 4167269379179500733
+      L1 Background_34: 7583763158578813124
+      L1 Background_35: 4126528846694529160
+      L1 Background_36: -5284285436733487271
+      L1 Background_37: 421841650071427155
+      L1 Background_38: -3357222352838528442
+      L1 Background_39: -5884469271600204063
+      L1 Background_4: -7649050360671757740
+      L1 Background_40: -7420128113636130590
+      L1 Background_41: 4702025691696987387
+      L1 Background_42: -7638799140407414499
+      L1 Background_43: -6215418287040539969
+      L1 Background_44: -7174246819180783939
+      L1 Background_45: -5401199927767442547
+      L1 Background_46: 3495277611869476220
+      L1 Background_47: 6726371135524666126
+      L1 Background_48: 6521084921277713796
+      L1 Background_49: -5043834221525705123
+      L1 Background_5: 5215222679891804292
+      L1 Background_50: -5657605534940410312
+      L1 Background_51: -379819260912383229
+      L1 Background_52: 6929479286779269003
+      L1 Background_53: 3890333076113637403
+      L1 Background_54: -7580246039883811202
+      L1 Background_55: 3418624049208815556
+      L1 Background_56: -1659913905964887071
+      L1 Background_57: -7868496826695145316
+      L1 Background_58: 3946365806971420440
+      L1 Background_59: -5589292855957298306
+      L1 Background_6: 7463999194168375679
+      L1 Background_60: 2397469194581091306
+      L1 Background_61: -3605007970677943961
+      L1 Background_62: -5815282163481001473
+      L1 Background_63: -6215969842655735388
+      L1 Background_64: -7751278515689186097
+      L1 Background_65: -6163506480741273840
+      L1 Background_66: 5730860105531029879
+      L1 Background_67: -9222149687303631169
+      L1 Background_68: 3043929120598000562
+      L1 Background_69: -97936305117944983
+      L1 Background_7: 6892323408633269057
+      L1 Background_70: 8843929442458234521
+      L1 Background_71: -2168586114953405455
+      L1 Background_72: 6224753506576825271
+      L1 Background_73: -19568217779269939
+      L1 Background_74: -8676928996275353789
+      L1 Background_75: 418361835763035859
+      L1 Background_76: 5377871356289426698
+      L1 Background_77: -861401629433339083
+      L1 Background_8: 9029766658378706056
+      L1 Background_9: -2345533328693891121
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

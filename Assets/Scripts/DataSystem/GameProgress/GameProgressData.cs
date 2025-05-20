@@ -93,5 +93,10 @@ namespace Phosphorescence.DataSystem
             States[stateId] = value;
             Serialize();
         }
+
+        public bool GetPlotState(string plotId)
+        {
+            return PlotProgress.Contains(plotId) || PlotTags.Contains(plotId);
+        }
     }
 }

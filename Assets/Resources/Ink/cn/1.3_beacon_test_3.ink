@@ -21,5 +21,6 @@ $SET_VARIABLE:isBeaconOn #auto:true
 “哎呀最后一次嘛！就当锻炼身体了。” #type: LeftAvatarText #speaker:X92HKM #avatar:radio_sad_2 #simulated_voice: sfx_hakumei_do
 “真受不了你，最后一次啊。” #type:RightAvatarText #speaker:磷光 #avatar:phos_sigh #simulated_voice: sfx_phos_do
 
+$ENABLE_ALL_ACTIONS
 
 -> END

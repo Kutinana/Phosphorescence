@@ -26,4 +26,6 @@ $SLEEP:1 #auto:true
 “……世界上怎么能有这么不会聊天的人。” #type: LeftAvatarText #speaker:X92HKM #avatar:radio_speechless_1 #simulated_voice: sfx_hakumei_la
 “谢谢夸奖，我去看看。” #type:RightAvatarText #speaker:磷光 #avatar:phos_smile #simulated_voice: sfx_phos_do
 
+$ENABLE_ALL_ACTIONS
+
 -> DONE

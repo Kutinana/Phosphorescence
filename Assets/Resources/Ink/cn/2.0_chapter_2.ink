@@ -74,4 +74,6 @@ $SLEEP:1.5
 “挑食可不好啊。每种给你各拿一罐吧。” #type:RightAvatarText #speaker:磷光 #avatar:phos_happy_2 #simulated_voice: sfx_phos_do
 “……那你放好之后和我说喔。我先去做下取快递的准备。” #type: LeftAvatarText #speaker:X92HKM #avatar:radio_speechless_3 #simulated_voice: sfx_hakumei_do
 
+$ENABLE_ALL_ACTIONS
+
 -> END

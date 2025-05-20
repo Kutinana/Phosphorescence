@@ -50,4 +50,6 @@ $SLEEP:1 #auto:true
 “算了吧，真是这样的话还挺可怕的。” #type:RightAvatarText #speaker:磷光 #avatar:phos_smile #simulated_voice: sfx_phos_do
 “别呀，这可是实验的大好机会。就这么说定了，你在这儿等着喔。” #type: LeftAvatarText #speaker:薄明 #avatar:holo_happy_1 #simulated_voice: sfx_hakumei_do
 
+$ENABLE_ALL_ACTIONS
+
 -> DONE

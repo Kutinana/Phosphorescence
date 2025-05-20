@@ -28,19 +28,24 @@ namespace Phosphorescence.Game
 
             InteractAction = new Dictionary<InputAction, System.Action> {
                 { GameManager.Instance.interactAction, () => {
-                    if (BeaconController.Instance.IsOn) return;
-
-                    BeaconController.Instance.Play();
-                    spriteRenderer.sprite = defaultSprite;
-
-                    if (GameProgressData.Instance.CurrentPlotProgress == "0.5")
+                    if (BeaconController.Instance.IsOn)
                     {
-                        OpeningDirector.Instance.Play();
+                        BeaconController.Instance.Pause();
+                        spriteRenderer.sprite = defaultSprite;
+                    }
+                    else
+                    {
+                        BeaconController.Instance.Play();
+                        spriteRenderer.sprite = defaultSprite;
+
+                        if (GameProgressData.Instance.CurrentPlotProgress == "0.5")
+                        {
+                            OpeningDirector.Instance.Play();
+                        }
                     }
                 } }
             };
             HoverAction = () => {
-                if (BeaconController.Instance.IsOn) return;
                 spriteRenderer.sprite = onHoverSprite;
             };
             UnhoverAction = () => {
