@@ -32,7 +32,7 @@ namespace Phosphorescence.Game
             animator = GetComponent<Animator>();
             spriteRenderer = GetComponent<SpriteRenderer>();
 
-            if (GameProgressData.Instance.CurrentPlotProgress == "") {
+            if (!GameProgressData.Instance.IsPlotFinished("0.5") || GameProgressData.Instance.CurrentPlotProgress == "4.9") {
                 NormalSpriteProgressable.Progress = 0f;
             }
 

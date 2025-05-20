@@ -114,7 +114,7 @@ namespace Phosphorescence.Game
                 {
                     m_SpriteCounter++;
                     UpstairSpriteRenderer.sprite = UpStairSprites[m_SpriteCounter];
-                    CameraStack.Instance.Offset += new Vector3(0, 0.15f);
+                    CameraStack.Instance.Offset += new Vector3(0, 0.075f);
                     UpstairProgressable.Progress += 0.01f;
                     yield return new WaitForSeconds(0.15f);
 

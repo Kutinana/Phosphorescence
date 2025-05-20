@@ -85,7 +85,7 @@ namespace Common.SceneControl
             SplashScreenController.Instance.Initialize();
             yield return SplashScreenController.Instance.FadeInGroup.LinearTransition(2f, 0f);
 
-            if (GameProgressData.Instance.IsPlotFinished("0.0"))  // After tutorial
+            if (GameProgressData.Instance.IsPlotFinished("0.5"))  // After tutorial
             {
                 var floor = GameProgressData.Instance.LastFloorIndex;
                 PlayerController.Instance.TransportTo(FloorManager.Instance.FloorPivots[floor].position);

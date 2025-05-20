@@ -23,15 +23,15 @@ namespace Phosphorescence.Game
 
         private void Start()
         {
-            if (GameProgressData.Instance.CurrentPlotProgress != "")
-            {
-                gameObject.SetActive(false);
-                return;
-            }
-            else
+            if (!GameProgressData.Instance.IsPlotFinished("0.5") || GameProgressData.Instance.CurrentPlotProgress == "4.5")
             {
                 gameObject.SetActive(true);
                 animator.enabled = false;
+            }
+            else
+            {
+                gameObject.SetActive(false);
+                return;
             }
 
             TypeEventSystem.Global.Register<OnStoryEventTriggerEvent>(e => {
