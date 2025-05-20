@@ -28,6 +28,17 @@ namespace Phosphorescence.Game
 
         private void Start()
         {
+            if (GameProgressData.Instance.GetState("bunker_unlocked"))
+            {
+                isUnlocked = true;
+                spriteRenderer.sprite = unlockedSprite;
+            }
+            else
+            {
+                spriteRenderer.sprite = defaultSprite;
+                isUnlocked = false;
+            }
+
             InteractAction = new Dictionary<InputAction, System.Action> {
                 { GameManager.Instance.interactAction, () => {
                     if (isUnlocked)
@@ -41,6 +52,7 @@ namespace Phosphorescence.Game
                             isUnlocked = true;
                             spriteRenderer.sprite = unlockedOnHoverSprite;
 
+                            GameProgressData.Instance.SetState("bunker_unlocked", true);
                             BackpackManager.Instance.Clear();
                         }
                         else

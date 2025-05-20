@@ -27,17 +27,17 @@ namespace Phosphorescence.Game
 
         private void Start()
         {
-            if (GameProgressData.Instance.CurrentPlotProgress is "3.2")
-            {
-                IsInteractable = true;
-            }
-            else IsInteractable = false;
-
             if (GameProgressData.Instance.GetState("BasementShelfTaken"))
             {
                 spriteRenderer.sprite = takenSprite;
                 isTaken = true;
                 IsInteractable = false;
+            }
+            else
+            {
+                spriteRenderer.sprite = defaultSprite;
+                isTaken = false;
+                IsInteractable = true;
             }
 
             InteractAction = new Dictionary<InputAction, System.Action> {

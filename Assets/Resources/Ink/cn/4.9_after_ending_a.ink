@@ -14,6 +14,7 @@ $MUSIC:sfx_radio_noise_01
 “MAYDAY, MAYDAY, MAYDAY。 任何单位……”  # type:LeftAvatarText #speaker:未知信号 #background_pic:bg_pic_pureblack #avatar:shadow_hakumei #avatar_opacity:0.05
 
 $STOP_MUSIC
+$EVENT:WakeUpFromRadio
 $SLEEP:3
 
 “……” #type: RightAvatarText #speaker:磷光 #avatar:phos_sleeping

@@ -4,6 +4,7 @@
 
 $DISABLE_ALL_ACTIONS #auto:true
 $SLEEP:1 #auto:true
+$EVENT:projector_on
 
 “……” #type: LeftAvatarText #speaker:薄明 #avatar:holo_sad_1 #avatar_opacity:0.01
 “…………” #type: LeftAvatarText #speaker:薄明 #avatar:holo_sad_1 #avatar_opacity:0.1
@@ -119,12 +120,15 @@ $SLEEP:1 #auto:true
 “……谢谢，我很荣幸。” #type:RightAvatarText #speaker:磷光 #avatar:phos_happy_2 #simulated_voice: sfx_phos_do
 “该说谢谢的是我。” #type: LeftAvatarText #speaker:薄明 #avatar:holo_happy_3 #simulated_voice: sfx_hakumei_do
 “啊！” #type: LeftAvatarText #speaker:薄明 #avatar:holo_surprised_2 #simulated_voice: sfx_hakumei_mi
-“怎么了？” #type:RightAvatarText #speaker:磷光 #avatar:phos_confused_0.5 #simulated_voice: sfx_phos_re
-“极光！你快来看！是极光！” #type: LeftAvatarText #speaker:薄明 #avatar:holo_happy_4 #simulated_voice: sfx_hakumei_mi
-“是 2082 年的极光吧？我看不到的啦。” #type:RightAvatarText #speaker:磷光 #avatar:phos_speaking #simulated_voice: sfx_phos_do
-“要试试看才知道嘛！快来灯笼房！” #type: LeftAvatarText #speaker:薄明 #avatar:holo_happy_3 #simulated_voice: sfx_hakumei_re
-“好好……” #type:RightAvatarText #speaker:磷光 #avatar:phos_smile #simulated_voice: sfx_phos_do
 
-$ENABLE_ALL_ACTIONS
+$EVENT:aurora_start #auto:true
+
+“怎么了？” #type:RightAvatarText #speaker:磷光 #avatar:phos_confused_0.5 #simulated_voice: sfx_phos_re
+“极光！你快看！是极光！” #type: LeftAvatarText #speaker:薄明 #avatar:holo_happy_4 #simulated_voice: sfx_hakumei_mi
+
+$START_TIMER #auto:true
+$SET_CAMERA_TO_CENTER
+$SLEEP:2
+$ZOOM_TO:15
 
 -> DONE

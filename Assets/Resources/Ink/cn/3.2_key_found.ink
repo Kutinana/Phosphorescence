@@ -18,6 +18,7 @@ $SLEEP:1 #auto:true
 “菜——” #type: LeftAvatarText #avatar:holo_happy_1 #avatar_opacity:0.1 #simulated_voice: sfx_hakumei_re #auto:true
 “菜——” #type: LeftAvatarText #avatar:holo_happy_1 #avatar_opacity:0.01 #simulated_voice: sfx_hakumei_re #auto:true
 
+$EVENT:projector_off
 $SLEEP:1.5 #auto:true
 
 “……喂？” #type:RightAvatarText #speaker:磷光 #avatar:phos_confused_0.5 #simulated_voice: sfx_phos_re

@@ -114,6 +114,12 @@ namespace Phosphorescence.Narration
                 case "stop_timer":
                     GameManager.Instance.StopTimer();
                     break;
+                case "zoom_to" when args.Length == 1:
+                    CameraStack.Instance.DampToSize(float.Parse(args[0]));
+                    break;
+                case "set_camera_to_center":
+                    CameraStack.Instance.Offset = new Vector3(-PlayerController.Instance.transform.position.x, 0, 0);
+                    break;
                 case "finish_ending_a":
                     FinishEndingA();
                     break;

@@ -27,5 +27,6 @@ $SLEEP:1 #auto:true
 “等……” #type:RightAvatarText #speaker:磷光 #avatar:phos_confused_scared_1 #auto:true
 
 $FINISH_ENDING_A
+$STOP_MUSIC
 
 -> DONE

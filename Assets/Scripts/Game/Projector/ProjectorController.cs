@@ -76,6 +76,12 @@ namespace Phosphorescence.Game
                 GameManager.Instance.StopTimer();
                 GameManager.Instance.ContinuePlot("3.1");
             }
+
+            if (GameProgressData.Instance.CurrentPlotProgress == "4.0" && GameManager.Instance.Timer > 5f)
+            {
+                GameManager.Instance.StopTimer();
+                GameManager.Instance.ContinuePlot("4.5");
+            }
         }
 
         public class HideState : AbstractState<ProjectorState, ProjectorController>

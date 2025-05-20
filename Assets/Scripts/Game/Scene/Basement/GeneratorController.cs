@@ -10,7 +10,7 @@ using UnityEngine.Rendering.Universal;
 
 namespace Phosphorescence.Game
 {
-    public class GeneratorController : Interactable, ISingleton, ICanPlayAndPause
+    public class GeneratorController : Interactable, ICanPlayAndPause
     {
         public bool isActivated = true;
 
@@ -25,10 +25,6 @@ namespace Phosphorescence.Game
         private AudioSource audioSource;
 
         public static GeneratorController Instance { get; private set; }
-        public void OnSingletonInit()
-        {
-            Instance = this;
-        }
 
         void Awake()
         {
@@ -37,8 +33,6 @@ namespace Phosphorescence.Game
             lights = GetComponentsInChildren<Light2D>();
             audioSource = GetComponent<AudioSource>();
 
-            if (isActivated) IsInteractable = false;
-
             TypeEventSystem.Global.Register<OnStoryEventTriggerEvent>(e => {
                 if (e.eventName == "diesel_runs_out")
                 {
@@ -46,10 +40,18 @@ namespace Phosphorescence.Game
                     Pause();
                 }
             });
+
+            Instance = this;
         }
 
         private void Start()
         {
+            if (GameProgressData.Instance.CurrentPlotProgress == "3.2")
+            {
+                isActivated = false;
+                Pause();
+            }
+
             InteractAction = new Dictionary<InputAction, System.Action> {
                 { GameManager.Instance.interactAction, () => {
                     if (isActivated) return;
@@ -60,7 +62,9 @@ namespace Phosphorescence.Game
                         isActivated = true;
 
                         Play();
-                        Audio.AudioManager.PlaySFX(GameDesignData.GetAudioData("diesel_engine_start", out var audioData) ? audioData.clip : null);
+                        // Audio.AudioManager.PlaySFX(GameDesignData.GetAudioData("diesel_engine_start", out var audioData) ? audioData.clip : null);
+
+                        BackpackManager.Instance.Clear();
                     }
                     else
                     {
