@@ -16,3 +16,4 @@ MonoBehaviour:
   Name: generator_no_diesel
   Description: 
   Script: {fileID: 4900000, guid: aaebb17f1cab840dab36d553478c78b6, type: 3}
+  Temporary: 1

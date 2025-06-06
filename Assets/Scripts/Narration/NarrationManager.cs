@@ -68,7 +68,7 @@ namespace Phosphorescence.Narration
             TypeEventSystem.Global.Register<OnStoryEndEvent>(e => {
                 StateMachine.ChangeState(NarrationType.None);
 
-                GameProgressData.Instance.FinishPlot(m_currentPlot.Id);
+                if (!m_currentPlot.Temporary) GameProgressData.Instance.FinishPlot(m_currentPlot.Id);
                 m_currentPlot = null;
             }).UnRegisterWhenGameObjectDestroyed(gameObject);
         }

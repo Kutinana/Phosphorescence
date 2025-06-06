@@ -16,3 +16,4 @@ MonoBehaviour:
   Name: bunker_locked
   Description: 
   Script: {fileID: 4900000, guid: b16fbd00f716745f0bcb1b66c83a4811, type: 3}
+  Temporary: 1

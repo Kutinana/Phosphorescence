@@ -11,5 +11,6 @@ namespace Phosphorescence.DataSystem
         public string Name;
         [TextArea(3, 10)] public string Description;
         public TextAsset Script;
+        public bool Temporary;  // Temporary plot will not be saved by GameProgress.
     }
 }
