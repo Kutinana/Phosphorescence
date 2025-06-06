@@ -3,6 +3,7 @@ using Kuchinashi.Utils.Progressable;
 using Phosphorescence.DataSystem;
 using QFramework;
 using UnityEngine;
+using UnityEngine.Playables;
 
 namespace Phosphorescence.Game
 {
@@ -10,6 +11,8 @@ namespace Phosphorescence.Game
     {
         public Progressable LighthouseOutside;
         public Progressable Logo;
+
+        private PlayableDirector playableDirector;
 
         public Vector3 TargetOffset;
         public float TargetZoom;
@@ -19,6 +22,11 @@ namespace Phosphorescence.Game
         public float LighthouseOutsideDelay;
         public float LogoDuration;
         public float LogoDelay;
+
+        private void Awake()
+        {
+            playableDirector = GetComponent<PlayableDirector>();
+        }
 
         public void Climb()
         {
@@ -39,8 +47,10 @@ namespace Phosphorescence.Game
         
         public void Play()
         {
-            StartCoroutine(PlayCoroutine());
+            playableDirector.Play();
+            GameManager.Instance.ContinuePlot("0.5");
         }
+        
         private IEnumerator PlayCoroutine()
         {
             GameManager.Instance.moveAction.Disable();

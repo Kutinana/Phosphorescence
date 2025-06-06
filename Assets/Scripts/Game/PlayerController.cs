@@ -75,8 +75,7 @@ namespace Phosphorescence.Game
             }
 
             if (Input.GetKeyDown(KeyCode.T)) {
-                GameManager.Instance.ContinuePlot("0.5");
-                PlayerController.Instance.UpstairForOpening();
+                OpeningDirector.Instance.Play();
             }
         }
 
@@ -139,6 +138,11 @@ namespace Phosphorescence.Game
         public void TransportTo(Vector3 target)
         {
             transform.position = target;
+        }
+
+        public void OnOpeningSwitchToAnimation()
+        {
+            TransportTo(new Vector3(-2.7f, 8.44f, 0));
         }
     }
 
