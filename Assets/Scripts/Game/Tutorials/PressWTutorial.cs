@@ -28,8 +28,7 @@ namespace Phosphorescence.Game.Tutorials
             StopCoroutine(coroutine);
             yield return spriteRendererProgressable.InverseLinearTransition(0.2f, 0f);
 
-            GameManager.Instance.ContinuePlot("0.5");
-            PlayerController.Instance.UpstairForOpening();
+            OpeningDirector.Instance.Play();
         }
     }
 }

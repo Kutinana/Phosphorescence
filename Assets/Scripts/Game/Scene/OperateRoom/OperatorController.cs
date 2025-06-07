@@ -40,7 +40,7 @@ namespace Phosphorescence.Game
 
                         if (GameProgressData.Instance.CurrentPlotProgress == "0.5")
                         {
-                            OpeningDirector.Instance.Play();
+                            OpeningDirector.Instance.AfterOpening();
                         }
                     }
                 } }

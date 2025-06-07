@@ -50,8 +50,13 @@ namespace Phosphorescence.Game
             playableDirector.Play();
             GameManager.Instance.ContinuePlot("0.5");
         }
-        
-        private IEnumerator PlayCoroutine()
+
+        public void AfterOpening()
+        {
+            StartCoroutine(AfterOpeningCoroutine());
+        }
+
+        private IEnumerator AfterOpeningCoroutine()
         {
             GameManager.Instance.moveAction.Disable();
 
