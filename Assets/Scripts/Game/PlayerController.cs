@@ -68,10 +68,10 @@ namespace Phosphorescence.Game
                 if (GameManager.Instance.upStairAction.WasPressedThisFrame()) Interact(GameManager.Instance.upStairAction);
                 if (GameManager.Instance.downStairAction.WasPressedThisFrame()) Interact(GameManager.Instance.downStairAction);
 
-                if (GameManager.Instance.upStairAction.WasReleasedThisFrame() || GameManager.Instance.downStairAction.WasReleasedThisFrame())
-                {
-                    OffStair();
-                }
+                // if (GameManager.Instance.upStairAction.WasReleasedThisFrame() || GameManager.Instance.downStairAction.WasReleasedThisFrame())
+                // {
+                //     OffStair();
+                // }
             }
 
             if (Input.GetKeyDown(KeyCode.T)) {

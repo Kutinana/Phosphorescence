@@ -1341,7 +1341,7 @@ MonoBehaviour:
     m_SingletonActionBindings: []
     m_Flags: 0
   upStairAction:
-    m_Name: 
+    m_Name: Up Stair
     m_Type: 0
     m_ExpectedControlType: 
     m_Id: 5cb422f9-0df6-462d-9b4d-4b6070d1f4d2
@@ -1350,7 +1350,7 @@ MonoBehaviour:
     m_SingletonActionBindings: []
     m_Flags: 0
   downStairAction:
-    m_Name: 
+    m_Name: Down Stair
     m_Type: 0
     m_ExpectedControlType: 
     m_Id: 3af109f8-3776-4176-8bd4-a692a99f5091
@@ -1377,7 +1377,7 @@ MonoBehaviour:
     m_SingletonActionBindings: []
     m_Flags: 0
   navigationAction:
-    m_Name: 
+    m_Name: Navigation
     m_Type: 0
     m_ExpectedControlType: 
     m_Id: 1d9f597c-456c-4d59-97fd-882be07641ce
