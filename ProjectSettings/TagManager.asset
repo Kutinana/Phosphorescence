@@ -53,5 +53,8 @@ TagManager:
   - name: OutsideFramework
     uniqueID: 2784877347
     locked: 0
+  - name: Overlay
+    uniqueID: 629654075
+    locked: 0
   m_RenderingLayers:
   - Default
