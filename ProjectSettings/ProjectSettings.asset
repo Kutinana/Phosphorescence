@@ -140,8 +140,10 @@ PlayerSettings:
   loadStoreDebugModeEnabled: 0
   visionOSBundleVersion: 1.0
   tvOSBundleVersion: 1.0
-  bundleVersion: 0.0.1
-  preloadedAssets: []
+  bundleVersion: 0.1.0
+  preloadedAssets:
+  - {fileID: 11400000, guid: 8f7d02694d1e144e480219f898e2e6e8, type: 2}
+  - {fileID: -944628639613478452, guid: 3b0e0d9f4341a4d48a681a6ca7accc4b, type: 3}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -163,7 +165,7 @@ PlayerSettings:
   androidMaxAspectRatio: 2.1
   androidMinAspectRatio: 1
   applicationIdentifier:
-    Standalone: com.Kuchinashi.Phosphorescence
+    Standalone: com.Mothvia.Phosphorescence
   buildNumber:
     Standalone: 0
     VisionOS: 0
