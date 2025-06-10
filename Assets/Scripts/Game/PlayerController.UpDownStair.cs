@@ -45,8 +45,8 @@ namespace Phosphorescence.Game
 
         public void Upstair(bool isHalfFloor = false)
         {
-            if (IsOnStair && m_IsDownstairing) return;
-            if (!IsOnStair) UpstairPrepare();
+            if (IsOnStair) return;
+            else UpstairPrepare();
 
             if (m_UpstairCoroutine != null) StopCoroutine(m_UpstairCoroutine);
             m_UpstairCoroutine = StartCoroutine(UpstairCoroutine(isHalfFloor));
@@ -79,7 +79,6 @@ namespace Phosphorescence.Game
 
         private void DownstairPrepare(bool isHalfFloor = false)
         {
-            if (IsOnStair && m_IsUpstairing) return;
             if (IsOnStair) return;
 
             if (transform.localScale.x == -1)
@@ -102,8 +101,9 @@ namespace Phosphorescence.Game
 
         public void Downstair(bool isHalfFloor = false)
         {
-            if (!IsOnStair) DownstairPrepare(isHalfFloor);
-            
+            if (IsOnStair) return;
+            else DownstairPrepare(isHalfFloor);
+
             if (m_DownstairCoroutine != null) StopCoroutine(m_DownstairCoroutine);
             m_DownstairCoroutine = StartCoroutine(DownstairCoroutine(isHalfFloor));
         }
