@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Data;
 using Phosphorescence.Audio;
 using Phosphorescence.DataSystem;
 using Phosphorescence.Narration;
@@ -10,7 +11,7 @@ using UnityEngine.Rendering.Universal;
 
 namespace Phosphorescence.Game
 {
-    public class GeneratorController : Interactable, ICanPlayAndPause
+    public class GeneratorController : Interactable
     {
         public bool isActivated = true;
 
@@ -37,7 +38,9 @@ namespace Phosphorescence.Game
                 if (e.eventName == "diesel_runs_out")
                 {
                     isActivated = false;
-                    Pause();
+                    GameProgressData.Instance.SetState("IsGeneratorOn", false);
+
+                    UpdateStatus();
                 }
             });
 
@@ -46,11 +49,8 @@ namespace Phosphorescence.Game
 
         private void Start()
         {
-            if (GameProgressData.Instance.CurrentPlotProgress == "3.2")
-            {
-                isActivated = false;
-                Pause();
-            }
+            isActivated = GameProgressData.Instance.GetState("IsGeneratorOn");
+            UpdateStatus();
 
             InteractAction = new Dictionary<InputAction, System.Action> {
                 { GameManager.Instance.interactAction, () => {
@@ -61,7 +61,8 @@ namespace Phosphorescence.Game
                         onInteract.Invoke();
                         isActivated = true;
 
-                        Play();
+                        GameProgressData.Instance.SetState("IsGeneratorOn", true);
+                        UpdateStatus();
                         // Audio.AudioManager.PlaySFX(GameDesignData.GetAudioData("diesel_engine_start", out var audioData) ? audioData.clip : null);
 
                         BackpackManager.Instance.Clear();
@@ -80,7 +81,7 @@ namespace Phosphorescence.Game
             };
         }
 
-        public void Play()
+        private void UpdateStatus()
         {
             if (isActivated)
             {
@@ -102,19 +103,5 @@ namespace Phosphorescence.Game
                 }
             }
         }
-
-        public void Pause()
-        {
-            if (isActivated)
-            {
-                animator.enabled = false;
-                audioSource.enabled = false;
-                foreach (var light in lights)
-                {
-                    light.enabled = false;
-                }
-            }
-        }
-        
     }
 }

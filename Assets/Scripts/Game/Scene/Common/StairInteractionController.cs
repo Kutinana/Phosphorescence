@@ -36,9 +36,9 @@ namespace Phosphorescence.Game
             }
             else if (inputAction == GameManager.Instance.downStairAction && CanDownstair)
             {
-                if (GameProgressData.Instance.CurrentPlotProgress == "3.0")
+                if (GameProgressData.Instance.CurrentPlotProgress is "3.0")
                 {
-                    GameManager.Instance.ContinuePlot("3.05");
+                    GameManager.Instance.ContinuePlot("wait_for_key");
                     return;
                 }
                 playerController.Downstair(IsHalfFloorDownstair);

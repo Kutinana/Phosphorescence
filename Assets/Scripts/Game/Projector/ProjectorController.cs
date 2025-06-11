@@ -71,7 +71,7 @@ namespace Phosphorescence.Game
 
         void Update()
         {
-            if (GameProgressData.Instance.CurrentPlotProgress is "3.0" or "3.05" && GameManager.Instance.Timer > 30f)
+            if (GameProgressData.Instance.CurrentPlotProgress is "3.0" && GameManager.Instance.Timer > 30f)
             {
                 GameManager.Instance.StopTimer();
                 GameManager.Instance.ContinuePlot("3.1");

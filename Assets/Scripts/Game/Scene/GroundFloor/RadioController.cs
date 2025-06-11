@@ -42,12 +42,15 @@ namespace Phosphorescence.Game
                         GameManager.Instance.ContinuePlot("1.1");
                     }
                     else if (GameProgressData.Instance.CurrentPlotProgress == "1.1") {
-                        GameManager.Instance.ContinuePlot("1.2");
+                        if (GameManager.Instance.Timer < 20f) {
+                            GameManager.Instance.ContinuePlot("1.25");
+                        }
+                        else {
+                            GameManager.Instance.ContinuePlot("1.2");
+                        }
+                        GameManager.Instance.StopTimer();
                     }
-                    else if (GameProgressData.Instance.CurrentPlotProgress == "1.2") {
-                        GameManager.Instance.ContinuePlot("1.3");
-                    }
-                    else if (GameProgressData.Instance.CurrentPlotProgress == "1.3") {
+                    else if (GameProgressData.Instance.CurrentPlotProgress is "1.2" or "1.25") {
                         GameManager.Instance.ContinuePlot("2.0");
                     }
                     else if (GameProgressData.Instance.CurrentPlotProgress == "2.0") {
