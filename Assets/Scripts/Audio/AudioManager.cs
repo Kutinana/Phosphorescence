@@ -1,4 +1,7 @@
+using System.Collections;
 using System.Collections.Generic;
+using Kuchinashi;
+using Phosphorescence.DataSystem;
 using QFramework;
 using UnityEngine;
 
@@ -7,7 +10,9 @@ namespace Phosphorescence.Audio
     public class AudioManager : MonoSingleton<AudioManager>
     {
         public AudioSource MusicSource;
-        public AudioSource AmbientSource;
+        // public AudioSource AmbientSource;
+
+        public SerializableDictionary<string, AudioSource> AmbientSources;
 
         public GameObject SFXSourceTemplate;
         public SimpleObjectPool<GameObject> SFXSourcePool = new SimpleObjectPool<GameObject>(() => {
@@ -16,9 +21,9 @@ namespace Phosphorescence.Audio
             Instance.SFXSources.Add(audioSource);
             return obj;
         }, obj => {
-            obj.SetActive(false);
             var audioSource = obj.GetComponent<AudioSource>();
             Instance.SFXSources.Remove(audioSource);
+            obj.SetActive(false);
         });
         public List<AudioSource> SFXSources = new List<AudioSource>();
 
@@ -47,7 +52,31 @@ namespace Phosphorescence.Audio
             Instance.MusicSource.Stop();
         }
         
-        
+        public static void SetAmbientVolume(string key, float volume, float duration = 0.5f)
+        {
+            if (Instance.FadeAmbientVolumeCoroutine != null)
+            {
+                Instance.StopCoroutine(Instance.FadeAmbientVolumeCoroutine);
+            }
+
+            Instance.FadeAmbientVolumeCoroutine = Instance.StartCoroutine(Instance.FadeAmbientVolume(key, volume, duration));
+        }
+
+        private Coroutine FadeAmbientVolumeCoroutine;
+        private IEnumerator FadeAmbientVolume(string key, float volume, float duration)
+        {
+            float time = 0f;
+            float startVolume = Instance.AmbientSources[key].volume;
+
+            while (time < duration)
+            {
+                Instance.AmbientSources[key].volume = Mathf.Lerp(startVolume, volume, time / duration);
+                time += Time.deltaTime;
+                yield return null;
+            }
+
+            FadeAmbientVolumeCoroutine = null;
+        }
 
         public static AudioSource PlayVoice(AudioClip clip, bool loop = false, float volume = 0.8f)
         {
@@ -60,6 +89,15 @@ namespace Phosphorescence.Audio
             obj.GetComponent<RecycleAfterPlayed>().Play();
 
             return obj;
+        }
+
+        public static AudioSource PlaySFX(string key, bool loop = false, float volume = 0.8f)
+        {
+            if (GameDesignData.GetAudioData(key, out var audioData) || GameDesignData.GetAudioData("sfx_" + key, out audioData))
+            {
+                return PlaySFX(audioData.clip, loop, volume);
+            }
+            return null;
         }
 
         public static AudioSource PlaySFX(AudioClip clip, bool loop = false, float volume = 0.8f)

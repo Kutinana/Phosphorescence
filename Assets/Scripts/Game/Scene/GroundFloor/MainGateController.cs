@@ -36,12 +36,16 @@ namespace Phosphorescence.Game
                         spriteRenderer.sprite = closedOnHoverSprite;
                         collider.enabled = true;
                         isOpen = false;
+
+                        Audio.AudioManager.PlaySFX("door_close");
                     }
                     else
                     {
                         spriteRenderer.sprite = openedOnHoverSprite;
                         collider.enabled = false;
                         isOpen = true;
+
+                        Audio.AudioManager.PlaySFX("door_open");
                     }
                 } }
             };

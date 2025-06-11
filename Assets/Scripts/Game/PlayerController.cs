@@ -19,8 +19,25 @@ namespace Phosphorescence.Game
         [Header("Parameters")]
         public float speed = 5f;
         public int ImAtFloor = -1;
+        public bool IsOutside
+        {
+            get => _isOutside;
+            set
+            {
+                _isOutside = value;
+                if (value)
+                {
+                    Audio.AudioManager.SetAmbientVolume("sea", 1f, 2f);
+                }
+                else
+                {
+                    Audio.AudioManager.SetAmbientVolume("sea", 0.2f, 2f);
+                }
+            }
+        }
+        private bool _isOutside = false;
 
-        [Header("References")]
+        [Header("Raise Up Related References")]
         public Animator RaiseUpAnimator;
         public SpriteRenderer RaiseUpSpriteRenderer;
         public Progressable RaiseUpProgressable;

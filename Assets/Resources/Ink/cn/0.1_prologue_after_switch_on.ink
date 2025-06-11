@@ -6,14 +6,14 @@
 $DISABLE_ALL_ACTIONS #auto:true
 $SFX:sfx_radio_switch_01
 
-（咔嗒） # type:FullScreenText #opacity:0.5
+（咔嗒） # type:FullScreenText #opacity:0.8
 
 “MAYDAY RELAY, MAYDAY RELAY, MAYDAY RELAY。这里是 TF4674，灯塔「磷光」。”  # type:RightAvatarText #speaker:磷光 #avatar:phos_speaking #simulated_voice:sfx_phos_do
 “抄收科研船「薄明」的 MAYDAY 信号，呼号 X92HKM，方位北纬 66°31'41"、西经 17°58'55"。” # type:RightAvatarText #speaker:磷光 #avatar:phos_look_upwards #simulated_voice:sfx_phos_do
 “UTC 时间 1907。完毕。” # type:RightAvatarText #speaker:磷光 #avatar:phos_speaking #simulated_voice:sfx_phos_do
 
 $SFX:sfx_radio_switch_02
-(咔嗒)  # type: FullScreenText
+(咔嗒)  # type: FullScreenText #opacity:0.8
 
 “呼……” # type: RightAvatarText #speaker:磷光 #avatar:phos_sigh
 “请一定要，平安无事啊……” # type: RightAvatarText #speaker:磷光 #avatar:phos_default

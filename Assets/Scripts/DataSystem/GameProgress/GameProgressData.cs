@@ -35,6 +35,8 @@ namespace Phosphorescence.DataSystem
         [JsonProperty] public List<string> PlotTags = new();
         [JsonProperty] public Dictionary<string, int> ObtainedObjects = new();
         [JsonProperty] public Dictionary<string, bool> States = new();
+
+        // TODO: Tags and states are highly likely to be merged.
     }
 
     public partial class GameProgressData

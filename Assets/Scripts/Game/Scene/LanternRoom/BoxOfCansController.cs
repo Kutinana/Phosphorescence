@@ -8,6 +8,9 @@ using UnityEngine.Rendering.Universal;
 
 namespace Phosphorescence.Game
 {
+    /// <summary>
+    /// CanBox Object put in the lantern room for displaying.
+    /// </summary>
     public class BoxOfCansController : Interactable
     {
         public SpriteRenderer spriteRenderer;
@@ -23,6 +26,7 @@ namespace Phosphorescence.Game
             TypeEventSystem.Global.Register<OnStoryEndEvent>(e => {
                 if (e.plot.Id == "2.5")
                 {
+                    GameProgressData.Instance.SetState("IsCanBoxTakenByHakumei", true);
                     gameObject.SetActive(false);
                 }
             });
@@ -30,9 +34,13 @@ namespace Phosphorescence.Game
 
         private void Start()
         {
-            if (float.Parse(GameProgressData.Instance.CurrentPlotProgress) > 2.5f)
+            if (GameProgressData.Instance.GetState("IsCanBoxTakenByHakumei"))
             {
                 gameObject.SetActive(false);
+            }
+            else
+            {
+                gameObject.SetActive(GameProgressData.Instance.GetState("IsCanBoxSet"));
             }
             
             HoverAction = () => {
@@ -40,6 +48,8 @@ namespace Phosphorescence.Game
                 {
                     spriteRenderer.enabled = true;
                     GameProgressData.Instance.PlotTags.Add("CanSet");
+                    GameProgressData.Instance.SetState("IsCanBoxSet", true);
+                    GameProgressData.Instance.SetState("IsCanBoxTakenByHakumei", false);
 
                     BackpackManager.Instance.Clear();
                     // Audio.AudioManager.PlaySFX("put_box");

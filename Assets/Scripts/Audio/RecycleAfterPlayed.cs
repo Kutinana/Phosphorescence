@@ -24,6 +24,7 @@ namespace Phosphorescence.Audio
             AudioSource.volume = 0;
 
             AudioManager.Instance.VoiceSourcePool.Recycle(gameObject);
+            AudioManager.Instance.SFXSourcePool.Recycle(gameObject);
         }
     }
 }
