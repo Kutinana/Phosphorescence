@@ -12,48 +12,63 @@ namespace Phosphorescence.Game
     {
         public bool IsOn;
 
-        private AudioSource audioSource;
         private Animator animator;
         private Light2D[] lights;
+        public AudioSource audioSource;
 
         void Awake()
         {
             animator = GetComponent<Animator>();
             lights = GetComponentsInChildren<Light2D>();
-            audioSource = GetComponent<AudioSource>();
 
             TypeEventSystem.Global.Register<OnStoryEventTriggerEvent>(e => {
                 if (e.eventName == "beacon_stop")
                 {
-                    Stop();
+                    IsOn = false;
+                    GameProgressData.Instance.SetState("IsBeaconOn", false);
+
+                    UpdateStatus();
                 }
             });
         }
 
         void Start()
         {
-            if (GameProgressData.Instance.GetState("IsBeaconOn"))
+            IsOn = GameProgressData.Instance.GetState("IsBeaconOn");
+            UpdateStatus();
+        }
+
+        private void UpdateStatus()  // Know the status, update the behavior
+        {
+            audioSource.enabled = IsOn;
+
+            if (IsOn)
             {
+                foreach (var light in lights)
+                {
+                    light.enabled = true;
+                }
                 animator.enabled = true;
                 animator.Play("lens rotation");
                 audioSource.enabled = true;
-                audioSource.Pause();
-
-                IsOn = true;
             }
             else
             {
-                Pause();
-
-                IsOn = false;
+                animator.enabled = false;
+                audioSource.enabled = false;
+                foreach (var light in lights)
+                {
+                    light.enabled = false;
+                }
             }
         }
 
-        public void Play()
+        public void Play()  // Update the status to Play and set the status
         {
             IsOn = true;
-            Audio.AudioManager.PlaySFX(GameDesignData.GetAudioData("beacon_start", out var audioData) ? audioData.clip : null);
             GameProgressData.Instance.SetState("IsBeaconOn", true);
+
+            Audio.AudioManager.PlaySFX(GameDesignData.GetAudioData("beacon_start", out var audioData) ? audioData.clip : null);
 
             foreach (var light in lights)
             {
@@ -66,36 +81,28 @@ namespace Phosphorescence.Game
         private IEnumerator PlayCoroutine()
         {
             animator.enabled = true;
+            audioSource.enabled = true;
+            audioSource.volume = 0f;
+
             var speed = 0f;
             while (speed < 1f)
             {
                 speed += Time.deltaTime;
+
                 animator.SetFloat("StartingSpeed", speed);
+                audioSource.volume = speed / 2f;
+
                 yield return null;
             }
+            animator.SetFloat("StartingSpeed", 1f);
+            audioSource.volume = 0.5f;
 
             yield return new WaitForSeconds(4f);
-            audioSource.Play();
-        }
-
-        public void Pause()
-        {
-            IsOn = false;
-            audioSource.Pause();
-            animator.enabled = false;
-            
-            foreach (var light in lights)
-            {
-                light.enabled = false;
-            }
-
-            GameProgressData.Instance.SetState("IsBeaconOn", false);
         }
 
         public void Stop()
         {
             IsOn = false;
-            audioSource.Pause();
             animator.SetTrigger("Stop");
 
             GameProgressData.Instance.SetState("IsBeaconOn", false);

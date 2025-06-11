@@ -14,11 +14,12 @@ namespace Phosphorescence.Game
         [Header("Upstair Reference")]
         public SpriteRenderer UpstairSpriteRenderer;
         public Animator UpstairAnimator;
+        public Light2D UpstairLight;
 
         [Header("Downstair Reference")]
         public SpriteRenderer DownstairSpriteRenderer;
         public Animator DownstairAnimator;
-
+        public Light2D DownstairLight;
         [Header("Normal Sprite Reference")]
         public Progressable NormalSpriteProgressable;
         public Light2D NormalLight;
@@ -38,6 +39,8 @@ namespace Phosphorescence.Game
             StopMoving();
 
             UpstairSpriteRenderer.enabled = true;
+            UpstairAnimator.enabled = true;
+            UpstairLight.enabled = true;
 
             NormalSpriteProgressable.InverseLinearTransition(0.2f, 0f);
             NormalLight.enabled = false;
@@ -92,6 +95,8 @@ namespace Phosphorescence.Game
             StopMoving();
 
             DownstairSpriteRenderer.enabled = true;
+            DownstairAnimator.enabled = true;
+            DownstairLight.enabled = true;
 
             NormalSpriteProgressable.InverseLinearTransition(0.2f, 0f);
             NormalLight.enabled = false;
@@ -159,7 +164,11 @@ namespace Phosphorescence.Game
 
             IsOnStair = false;
             UpstairSpriteRenderer.enabled = false;
+            UpstairAnimator.enabled = false;
+            UpstairLight.enabled = false;
             DownstairSpriteRenderer.enabled = false;
+            DownstairAnimator.enabled = false;
+            DownstairLight.enabled = false;
 
             spriteRenderer.enabled = true;
             NormalSpriteProgressable.LinearTransition(0.2f, 0f);

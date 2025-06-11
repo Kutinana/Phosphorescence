@@ -72,6 +72,18 @@ namespace Common.SceneControl
 
         }
 
+        private void InitialSettings()
+        {
+            Application.targetFrameRate = 120;
+            QualitySettings.vSyncCount = 0;
+            Screen.fullScreen = true;
+            Screen.sleepTimeout = SleepTimeout.NeverSleep;
+            Screen.SetResolution(1920, 1080, true);
+
+            GameProgressData.Instance.SetState("IsBeaconOn", false);
+            GameProgressData.Instance.SetState("IsGeneratorOn", true);
+        }
+
         private IEnumerator InitializeSceneControl()
         {
             mAsyncOperation = SceneManager.LoadSceneAsync("MainScene", LoadSceneMode.Additive);
@@ -97,6 +109,7 @@ namespace Common.SceneControl
             else  // Tutorial unfinished
             {
                 GameProgressData.Instance.ResetPlotProgress();
+                InitialSettings();
                 PlayerController.Instance.TransportTo(FloorManager.Instance.FloorPivots[1].position);
                 FloorManager.Instance.SwitchTo(1);
 

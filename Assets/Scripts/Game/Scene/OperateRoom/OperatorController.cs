@@ -14,8 +14,6 @@ namespace Phosphorescence.Game
 
         private SpriteRenderer spriteRenderer;
 
-        public AudioSource audioSource;
-
         void Awake()
         {
             spriteRenderer = GetComponent<SpriteRenderer>();
@@ -23,14 +21,11 @@ namespace Phosphorescence.Game
 
         private void Start()
         {
-            audioSource.enabled = GameProgressData.Instance.GetState("IsBeaconOn");
-            audioSource.Stop();
-
             InteractAction = new Dictionary<InputAction, System.Action> {
                 { GameManager.Instance.interactAction, () => {
                     if (BeaconController.Instance.IsOn)
                     {
-                        BeaconController.Instance.Pause();
+                        BeaconController.Instance.Stop();
                         spriteRenderer.sprite = defaultSprite;
                     }
                     else
