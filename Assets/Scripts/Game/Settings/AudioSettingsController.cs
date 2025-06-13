@@ -125,7 +125,7 @@ namespace Phosphorescence.Game
         private void UpdateGlobalVolume()
         {
             var value = UserConfig.ReadWithDefaultValue<float>("GlobalVolume", 0.8f);
-            AudioMixer.SetFloat("MasterVolume", value == 0 ? -80 : Mathf.Log10(value) * 40);
+            AudioMixer.SetFloat("MasterVolume", value == 0 ? -60 : Mathf.Log10(value + 0.2f) * 80);
             GlobalVolumeText.text = $"{value * 100:F0}%";
             GlobalVolumeSlider.SetValueWithoutNotify(value * 100);
             GlobalVolumeButton.image.sprite = value > 0 ? UnmuteSprite : MuteSprite;
@@ -134,7 +134,7 @@ namespace Phosphorescence.Game
         private void UpdateMusicVolume()
         {
             var value = UserConfig.ReadWithDefaultValue<float>("MusicVolume", 0.8f);
-            AudioMixer.SetFloat("MusicVolume", value == 0 ? -80 : Mathf.Log10(value) * 40);
+            AudioMixer.SetFloat("MusicVolume", value == 0 ? -60 : Mathf.Log10(value + 0.2f) * 80);
             MusicVolumeText.text = $"{value * 100:F0}%";
             MusicVolumeSlider.SetValueWithoutNotify(value * 100);
             MusicVolumeButton.image.sprite = value > 0 ? UnmuteSprite : MuteSprite;
@@ -143,7 +143,7 @@ namespace Phosphorescence.Game
         private void UpdateSFXVolume()
         {
             var value = UserConfig.ReadWithDefaultValue<float>("SFXVolume", 0.8f);
-            AudioMixer.SetFloat("SFXVolume", value == 0 ? -80 : Mathf.Log10(value) * 40);
+            AudioMixer.SetFloat("SFXVolume", value == 0 ? -60 : Mathf.Log10(value + 0.2f) * 80);
             SFXVolumeText.text = $"{value * 100:F0}%";
             SFXVolumeSlider.SetValueWithoutNotify(value * 100);
             SFXVolumeButton.image.sprite = value > 0 ? UnmuteSprite : MuteSprite;
@@ -152,7 +152,7 @@ namespace Phosphorescence.Game
         private void UpdateVoiceVolume()
         {
             var value = UserConfig.ReadWithDefaultValue<float>("VoiceVolume", 0.8f);
-            AudioMixer.SetFloat("VoiceVolume", value == 0 ? -80 : Mathf.Log10(value) * 40);
+            AudioMixer.SetFloat("VoiceVolume", value == 0 ? -60 : Mathf.Log10(value + 0.2f) * 80);
             VoiceVolumeText.text = $"{value * 100:F0}%";
             VoiceVolumeSlider.SetValueWithoutNotify(value * 100);
             VoiceVolumeButton.image.sprite = value > 0 ? UnmuteSprite : MuteSprite;

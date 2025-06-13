@@ -122,8 +122,9 @@ namespace Phosphorescence.Game
             return SettingsArchitecture.Interface;
         }
 
-        private void OnDestroy()
+        protected override void OnDestroy()
         {
+            base.OnDestroy();
             m_Model = null;
         }
     }
