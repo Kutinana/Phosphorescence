@@ -13,6 +13,7 @@ namespace Phosphorescence.Game
         private FollowTransform m_FollowTransform;
 
         public float Size = 5f;
+        private float _lastSize = 5f;
         public Vector3 Offset = Vector3.zero;
         private Coroutine m_DampToSizeCoroutine;
 
@@ -25,15 +26,24 @@ namespace Phosphorescence.Game
             m_FollowTransform = GetComponent<FollowTransform>();
         }
 
-        private void Update()
+        private void FixedUpdate()
         {
             m_FollowTransform.offset = Offset;
+
+            if (cameraStack.Length > 0 && cameraStack[0].orthographicSize != Size)
+            {
+                if (_lastSize != Size)
+                {
+                    foreach (var camera in cameraStack)
+                    {
+                        camera.orthographicSize = Size;
+                    }
+                }
+            }
+            _lastSize = Size;
         }
 
-        public void DampToSize(float targetSize)
-        {
-            DampToSize(targetSize, 1f, 0f);
-        }
+        public void DampToSize(float targetSize) => DampToSize(targetSize, 1f, 0f);
         public Coroutine DampToSize(float targetSize, float duration = 1f, float delay = 0f)
         {
             if (m_DampToSizeCoroutine != null)
@@ -44,24 +54,22 @@ namespace Phosphorescence.Game
         }
         private IEnumerator DampToSizeCoroutine(float targetSize, float duration, float delay)
         {
+            if (cameraStack.Length == 0)
+            {
+                m_DampToSizeCoroutine = null;
+                yield break;
+            }
             yield return new WaitForSeconds(delay);
 
             float velocity = 0f;
+            Size = cameraStack[0].orthographicSize;
             while (Mathf.Abs(Size - targetSize) > 0.01f)
             {
                 Size = Mathf.SmoothDamp(Size, targetSize, ref velocity, duration);
-                foreach (var camera in cameraStack)
-                {
-                    camera.orthographicSize = Size;
-                }
                 yield return new WaitForFixedUpdate();
             }
             
             Size = targetSize;
-            foreach (var camera in cameraStack)
-            {
-                camera.orthographicSize = Size;
-            }
 
             m_DampToSizeCoroutine = null;
         }

@@ -66,6 +66,7 @@ namespace Phosphorescence.Game
         public void Play()  // Update the status to Play and set the status
         {
             IsOn = true;
+            animator.SetTrigger("Play");
             GameProgressData.Instance.SetState("IsBeaconOn", true);
 
             Audio.AudioManager.PlaySFX(GameDesignData.GetAudioData("beacon_start", out var audioData) ? audioData.clip : null);
@@ -104,6 +105,7 @@ namespace Phosphorescence.Game
         {
             IsOn = false;
             animator.SetTrigger("Stop");
+            audioSource.enabled = false;
 
             GameProgressData.Instance.SetState("IsBeaconOn", false);
         }

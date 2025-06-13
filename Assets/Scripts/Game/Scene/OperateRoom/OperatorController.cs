@@ -14,6 +14,8 @@ namespace Phosphorescence.Game
 
         private SpriteRenderer spriteRenderer;
 
+        private bool _isInteracted = false;
+
         void Awake()
         {
             spriteRenderer = GetComponent<SpriteRenderer>();
@@ -23,6 +25,8 @@ namespace Phosphorescence.Game
         {
             InteractAction = new Dictionary<InputAction, System.Action> {
                 { GameManager.Instance.interactAction, () => {
+                    if (_isInteracted) return;
+
                     if (BeaconController.Instance.IsOn)
                     {
                         BeaconController.Instance.Stop();
@@ -35,9 +39,11 @@ namespace Phosphorescence.Game
 
                         if (GameProgressData.Instance.CurrentPlotProgress == "0.5")
                         {
-                            OpeningDirector.Instance.AfterOpening();
+                            AfterOpeningDirector.Instance.Play();
                         }
                     }
+
+                    _isInteracted = true;
                 } }
             };
             HoverAction = () => {
@@ -45,6 +51,7 @@ namespace Phosphorescence.Game
             };
             UnhoverAction = () => {
                 spriteRenderer.sprite = defaultSprite;
+                _isInteracted = false;
             };
         }
     }
