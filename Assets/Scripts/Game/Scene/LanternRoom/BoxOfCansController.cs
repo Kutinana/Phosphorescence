@@ -24,7 +24,7 @@ namespace Phosphorescence.Game
             spriteRenderer.enabled = false;
 
             TypeEventSystem.Global.Register<OnStoryEndEvent>(e => {
-                if (e.plot.Id == "2.5")
+                if (e.plot.Id == "2.5" && GameProgressData.Instance.HasPlotTag("FinishedCanExperiment"))
                 {
                     GameProgressData.Instance.SetState("IsCanBoxTakenByHakumei", true);
                     gameObject.SetActive(false);
@@ -36,11 +36,11 @@ namespace Phosphorescence.Game
         {
             if (GameProgressData.Instance.GetState("IsCanBoxTakenByHakumei"))
             {
-                gameObject.SetActive(false);
+                spriteRenderer.enabled = false;
             }
             else
             {
-                gameObject.SetActive(GameProgressData.Instance.GetState("IsCanBoxSet"));
+                spriteRenderer.enabled = GameProgressData.Instance.GetState("IsCanBoxSet");
             }
             
             HoverAction = () => {

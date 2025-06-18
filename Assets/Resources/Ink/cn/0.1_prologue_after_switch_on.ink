@@ -23,7 +23,7 @@ $SLEEP:3 #skippable:false
 “……喂？” # type: LeftAvatarText #speaker:未知信号 #simulated_voice: sfx_hakumei_re #avatar:radio_default_2
 “……你好？” # type:LeftAvatarText #speaker:未知信号 #simulated_voice: sfx_hakumei_re #avatar:radio_smile
 
-- #type:FullScreenOptions #opacity:0.5
+- #type:FullScreenOptions #opacity:0.8
   * [> “你好。”]“你好。” #type: RightAvatarText #speaker:磷光 #avatar:phos_default #simulated_voice: sfx_phos_re
   * [> “我听得到。”]“我听得到。” #type: RightAvatarText #speaker:磷光 #avatar:phos_default #simulated_voice: sfx_phos_do
 -
@@ -35,7 +35,7 @@ $SLEEP:3 #skippable:false
 “不是。幻听会给你编出这么详细的数据吗。” #type: RightAvatarText #speaker:磷光 #avatar:phos_smile #simulated_voice: sfx_phos_do
 “有道理，那你是谁？” #type:LeftAvatarText #speaker:未知信号 #simulated_voice: sfx_hakumei_do #avatar:radio_default_2
 
-- #type:FullScreenOptions #opacity:0.5
+- #type:FullScreenOptions #opacity:0.8
   * [> “我是灯塔「磷光」”]“我是灯塔「磷光」，呼号 TF4674。我已经转发你的求救信号，海岸警卫队应该很快就会联系你。” #type: RightAvatarText #speaker:磷光 #avatar:phos_smile #simulated_voice: sfx_phos_do
 -
 

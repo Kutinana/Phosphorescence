@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using Phosphorescence.DataSystem;
 using Phosphorescence.Narration;
+using QFramework;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.InputSystem;
@@ -20,6 +21,13 @@ namespace Phosphorescence.Game
         void Awake()
         {
             spriteRenderer = GetComponent<SpriteRenderer>();
+
+            TypeEventSystem.Global.Register<OnStoryEndEvent>(e => {
+                if (e.plot.Id == "2.0")
+                {
+                    IsInteractable = true;
+                }
+            });
         }
 
         private void Start()

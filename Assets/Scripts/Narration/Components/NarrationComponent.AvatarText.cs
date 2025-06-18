@@ -28,6 +28,7 @@ namespace Phosphorescence.Narration
         private AnimationPlayableOutput animationOutputPlayable;
 
         private float m_SleepTime = 0f;
+        private float m_Speed = 1 / 24f;
         private AudioData voiceConfig;
         private AudioData simulatedVoiceConfig;
         private List<char> omittedChars = new List<char> { ' ', '\r', '\n', '\"', '”', '”' };
@@ -64,6 +65,7 @@ namespace Phosphorescence.Narration
                 .SetSimulatedVoice(e.tags.TryGetValue("simulated_voice", out var simulatedVoice) ? simulatedVoice : "")
                 .SetSkippable(!e.tags.TryGetValue("skippable", out var skippable) || skippable == "true")
                 .SetSleepTime(e.tags.TryGetValue("sleep", out var sleep) ? float.Parse(sleep) : 0f)
+                .SetSpeed(e.tags.TryGetValue("speed", out var speed) ? float.Parse(speed) : 1 / 24f)
                 .Process();
         }
 
@@ -81,7 +83,7 @@ namespace Phosphorescence.Narration
             if (IsAuto) TypeEventSystem.Global.Send<RequestNewLineEvent>();
         }
 
-        private IEnumerator TypeTextCoroutine(TMP_Text textfield, string text, float speed = 1 / 24f)
+        private IEnumerator TypeTextCoroutine(TMP_Text textfield, string text)
         {
             textfield.SetText("");
             textfield.ForceMeshUpdate();
@@ -97,7 +99,7 @@ namespace Phosphorescence.Narration
                 textfield.text += text[i];
                 if (!omittedChars.Contains(text[i]) && simulatedVoiceConfig != null)
                     Audio.AudioManager.PlayVoice(simulatedVoiceConfig.clip, loop: false, volume: simulatedVoiceConfig.standardVolume);
-                yield return new WaitForSeconds(speed);
+                yield return new WaitForSeconds(m_Speed);
             }
             textfield.SetText(text);
 
@@ -233,6 +235,12 @@ namespace Phosphorescence.Narration
         private AvatarTextComponent SetSleepTime(float sleepTime = 0f)
         {
             m_SleepTime = sleepTime;
+            return this;
+        }
+
+        private AvatarTextComponent SetSpeed(float speed = 1 / 24f)
+        {
+            m_Speed = speed;
             return this;
         }
     }
