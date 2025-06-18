@@ -164,10 +164,8 @@ namespace Phosphorescence.Game
 
             IsOnStair = false;
             UpstairSpriteRenderer.enabled = false;
-            UpstairAnimator.enabled = false;
             UpstairLight.enabled = false;
             DownstairSpriteRenderer.enabled = false;
-            DownstairAnimator.enabled = false;
             DownstairLight.enabled = false;
 
             spriteRenderer.enabled = true;
@@ -176,13 +174,20 @@ namespace Phosphorescence.Game
             
             CameraStack.Instance.Offset = new Vector3(0, 0f);
 
-            m_IsUpstairing = false;
-            m_IsDownstairing = false;
+            m_IsUpstairing = m_IsDownstairing = false;
 
             GameManager.Instance.moveAction.Enable();
 
-            if (m_UpstairCoroutine != null) StopCoroutine(m_UpstairCoroutine);
-            if (m_DownstairCoroutine != null) StopCoroutine(m_DownstairCoroutine);
+            if (m_UpstairCoroutine != null)
+            {
+                StopCoroutine(m_UpstairCoroutine);
+                m_UpstairCoroutine = null;
+            }
+            if (m_DownstairCoroutine != null)
+            {
+                StopCoroutine(m_DownstairCoroutine);
+                m_DownstairCoroutine = null;
+            }
         }
         
     }
