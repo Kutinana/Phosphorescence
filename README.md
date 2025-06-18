@@ -8,6 +8,6 @@ Unauthorized use of assets in this repo is strictly prohibited.
 
 ## Environment
 
-- Unity 2022.3.17f1
-
+- Unity 6000.1.7f1
+- Cursor
 - Visual Studio Code
