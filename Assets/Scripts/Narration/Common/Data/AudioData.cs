@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using Kuchinashi.DataSystem;
 using UnityEngine;
 
-namespace Phosphorescence.Narration.Common
+namespace Phosphorescence.DataSystem
 {
     [Serializable]
     [CreateAssetMenu(fileName = "New Audio Data", menuName = "Scriptable Objects/Audio Data", order = 1)]

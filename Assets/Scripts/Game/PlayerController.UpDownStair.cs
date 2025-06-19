@@ -9,7 +9,6 @@ namespace Phosphorescence.Game
 {
     public partial class PlayerController
     {
-        public bool IsOnStair = false;
         
         [Header("Upstair Reference")]
         public SpriteRenderer UpstairSpriteRenderer;
@@ -72,6 +71,11 @@ namespace Phosphorescence.Game
 
                 yield return new WaitForSeconds(0.05f);
                 progress += 1f / (isHalfFloor ? 75 : 120);
+
+                if (Mathf.RoundToInt(progress * 240) % 10 == 0)
+                {
+                    PlayFootstepOnStair();
+                }
             }
 
             // m_IsUpstairing = false;

@@ -1,6 +1,9 @@
+using Kuchinashi;
+using Kuchinashi.Utils;
 using Kuchinashi.Utils.Progressable;
 using Phosphorescence.DataSystem;
 using Phosphorescence.Narration;
+using Phosphorescence.Narration.Common;
 using QFramework;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -19,6 +22,7 @@ namespace Phosphorescence.Game
         [Header("Parameters")]
         public float speed = 5f;
         public int ImAtFloor = -1;
+        public bool IsOnStair = false;
         public bool IsOutside
         {
             get => _isOutside;
@@ -41,6 +45,10 @@ namespace Phosphorescence.Game
         public Animator RaiseUpAnimator;
         public SpriteRenderer RaiseUpSpriteRenderer;
         public Progressable RaiseUpProgressable;
+
+        [Header("Audio")]
+        public float FootstepInterval = 0.5f;
+        public SerializableDictionary<string, AudioClipRandomPicker> AudioClipRandomPickers;
 
         private void Awake()
         {
@@ -147,6 +155,16 @@ namespace Phosphorescence.Game
         public void TransportTo(Vector3 target)
         {
             transform.position = target;
+        }
+
+        public void PlayFootstep()
+        {
+            Audio.AudioManager.PlaySFX(AudioClipRandomPickers["footstep"].Pick(), volume: 0.5f);
+        }
+
+        public void PlayFootstepOnStair()
+        {
+            Audio.AudioManager.PlaySFX(AudioClipRandomPickers["onstair"].Pick(), volume: 0.4f);
         }
     }
 
