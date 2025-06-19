@@ -16,6 +16,8 @@ namespace Phosphorescence.Game
         private Light2D[] lights;
         public AudioSource audioSource;
 
+        private AudioSource m_StartingAudioSource;
+
         void Awake()
         {
             animator = GetComponent<Animator>();
@@ -48,13 +50,12 @@ namespace Phosphorescence.Game
                 {
                     light.enabled = true;
                 }
-                animator.enabled = true;
-                animator.Play("lens rotation");
+                animator.Play("Running");
                 audioSource.enabled = true;
             }
             else
             {
-                animator.enabled = false;
+                animator.Play("Stopped");
                 audioSource.enabled = false;
                 foreach (var light in lights)
                 {
@@ -69,7 +70,7 @@ namespace Phosphorescence.Game
             animator.SetTrigger("Play");
             GameProgressData.Instance.SetInfo("IsBeaconOn", "true");
 
-            Audio.AudioManager.PlaySFX(GameDesignData.GetAudioData("beacon_start", out var audioData) ? audioData.clip : null);
+            m_StartingAudioSource = Audio.AudioManager.PlaySFX(GameDesignData.GetAudioData("beacon_start", out var audioData) ? audioData.clip : null);
 
             foreach (var light in lights)
             {
@@ -81,9 +82,9 @@ namespace Phosphorescence.Game
 
         private IEnumerator PlayCoroutine()
         {
-            animator.enabled = true;
             audioSource.enabled = true;
             audioSource.volume = 0f;
+            audioSource.Play();
 
             var speed = 0f;
             while (speed < 1f)
@@ -105,7 +106,12 @@ namespace Phosphorescence.Game
         {
             IsOn = false;
             animator.SetTrigger("Stop");
-            audioSource.enabled = false;
+            audioSource.Stop();
+
+            if (m_StartingAudioSource != null)
+            {
+                m_StartingAudioSource.Stop();
+            }
 
             GameProgressData.Instance.SetInfo("IsBeaconOn", "false");
         }
