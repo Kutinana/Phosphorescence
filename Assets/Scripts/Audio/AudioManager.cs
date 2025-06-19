@@ -21,8 +21,6 @@ namespace Phosphorescence.Audio
             Instance.SFXSources.Add(audioSource);
             return obj;
         }, obj => {
-            var audioSource = obj.GetComponent<AudioSource>();
-            Instance.SFXSources.Remove(audioSource);
             obj.SetActive(false);
         });
         public List<AudioSource> SFXSources = new List<AudioSource>();
@@ -86,7 +84,7 @@ namespace Phosphorescence.Audio
             obj.clip = clip;
             obj.loop = loop;
             obj.volume = volume;
-            obj.GetComponent<RecycleAfterPlayed>().Play();
+            obj.GetComponent<RecycleAfterPlayed>().Play("voice");
 
             return obj;
         }
@@ -110,7 +108,7 @@ namespace Phosphorescence.Audio
             obj.clip = clip;
             obj.loop = loop;
             obj.volume = volume;
-            obj.GetComponent<RecycleAfterPlayed>().Play();
+            obj.GetComponent<RecycleAfterPlayed>().Play("sfx");
 
             return obj;
         }

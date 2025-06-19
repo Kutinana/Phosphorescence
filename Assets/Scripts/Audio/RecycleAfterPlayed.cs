@@ -7,8 +7,12 @@ namespace Phosphorescence.Audio
     {
         public AudioSource AudioSource;
 
-        public void Play()
+        public string Type;
+
+        public void Play(string type)
         {
+            Type = type;
+
             if (AudioSource == null)
                 AudioSource = GetComponent<AudioSource>();
 
@@ -23,8 +27,10 @@ namespace Phosphorescence.Audio
             AudioSource.clip = null;
             AudioSource.volume = 0;
 
-            AudioManager.Instance.VoiceSourcePool.Recycle(gameObject);
-            AudioManager.Instance.SFXSourcePool.Recycle(gameObject);
+            if (Type == "voice")
+                AudioManager.Instance.VoiceSourcePool.Recycle(gameObject);
+            else if (Type == "sfx")
+                AudioManager.Instance.SFXSourcePool.Recycle(gameObject);
         }
     }
 }
