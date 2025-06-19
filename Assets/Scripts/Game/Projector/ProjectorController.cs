@@ -8,10 +8,13 @@ namespace Phosphorescence.Game
 {
     public enum ProjectorState
     {
-        Hide,
+        Hide,    // Invisible in the scene
+        TransitToOff,
+        Off,     // Lying on the ground
+        TransitToOn,
         On,
-        Off,
-        Standby
+        TransitToStandby,
+        Standby  // Floating without hologram
     }
     
     public class ProjectorController : MonoSingleton<ProjectorController>
@@ -27,7 +30,10 @@ namespace Phosphorescence.Game
             spriteRenderer = GetComponent<SpriteRenderer>();
             animator = GetComponent<Animator>();
             progressable = GetComponent<Progressable>();
-            
+
+            StateMachine.AddState(ProjectorState.TransitToOff, new TransitToOffState(StateMachine, this));
+            StateMachine.AddState(ProjectorState.TransitToOn, new TransitToOnState(StateMachine, this));
+            // StateMachine.AddState(ProjectorState.TransitToStandby, new TransitToStandbyState(StateMachine, this));
             StateMachine.AddState(ProjectorState.Hide, new HideState(StateMachine, this));
             StateMachine.AddState(ProjectorState.On, new OnState(StateMachine, this));
             StateMachine.AddState(ProjectorState.Off, new OffState(StateMachine, this));
@@ -40,9 +46,25 @@ namespace Phosphorescence.Game
                 {
                     StateMachine.ChangeState(ProjectorState.On);
                 }
+                else if (e.eventName == "projector_transit_to_on")
+                {
+                    StateMachine.ChangeState(ProjectorState.TransitToOn);
+                }
                 else if (e.eventName == "projector_off")
                 {
                     StateMachine.ChangeState(ProjectorState.Off);
+                }
+                else if (e.eventName == "projector_transit_to_off")
+                {
+                    StateMachine.ChangeState(ProjectorState.TransitToOff);
+                }
+                else if (e.eventName == "projector_standby")
+                {
+                    StateMachine.ChangeState(ProjectorState.Standby);
+                }
+                else if (e.eventName == "projector_transit_to_standby")
+                {
+                    StateMachine.ChangeState(ProjectorState.TransitToStandby);
                 }
                 else if (e.eventName == "grab_the_projector") {
                     progressable.InverseLinearTransition(0.2f);
@@ -59,9 +81,13 @@ namespace Phosphorescence.Game
             {
                 StateMachine.ChangeState(ProjectorState.On);
             }
-            else if (float.Parse(GameProgressData.Instance.CurrentPlotProgress) >= 2.9f)
+            else if (float.Parse(GameProgressData.Instance.CurrentPlotProgress) >= 3.0f)
             {
                 StateMachine.ChangeState(ProjectorState.Standby);
+            }
+            else if (GameProgressData.Instance.CurrentPlotProgress == "2.9")
+            {
+                StateMachine.ChangeState(ProjectorState.Off);
             }
             else
             {
@@ -84,6 +110,11 @@ namespace Phosphorescence.Game
             }
         }
 
+        public void PlayActivateSound()
+        {
+            Audio.AudioManager.PlaySFX("projector_activate");
+        }
+
         public class HideState : AbstractState<ProjectorState, ProjectorController>
         {
             public HideState(FSM<ProjectorState> fsm, ProjectorController target) : base(fsm, target) { }
@@ -91,7 +122,29 @@ namespace Phosphorescence.Game
             protected override void OnEnter()
             {
                 mTarget.spriteRenderer.enabled = false;
-                mTarget.animator.enabled = false;
+                mTarget.animator.Play("Off");
+            }
+        }
+
+        public class TransitToOffState : AbstractState<ProjectorState, ProjectorController>
+        {
+            public TransitToOffState(FSM<ProjectorState> fsm, ProjectorController target) : base(fsm, target) { }
+            protected override bool OnCondition() => mFSM.CurrentStateId is not ProjectorState.TransitToOff;
+            protected override void OnEnter()
+            {
+                mTarget.spriteRenderer.enabled = true;
+                mTarget.animator.SetTrigger("Off");
+            }
+        }
+
+        public class TransitToOnState : AbstractState<ProjectorState, ProjectorController>
+        {
+            public TransitToOnState(FSM<ProjectorState> fsm, ProjectorController target) : base(fsm, target) { }
+            protected override bool OnCondition() => mFSM.CurrentStateId is not ProjectorState.TransitToOn;
+            protected override void OnEnter()
+            {
+                mTarget.spriteRenderer.enabled = true;
+                mTarget.animator.SetTrigger("On");
             }
         }
 
@@ -102,7 +155,6 @@ namespace Phosphorescence.Game
             protected override void OnEnter()
             {
                 mTarget.spriteRenderer.enabled = true;
-                mTarget.animator.enabled = true;
                 mTarget.animator.Play("On");
             }
         }
@@ -114,7 +166,6 @@ namespace Phosphorescence.Game
             protected override void OnEnter()
             {
                 mTarget.spriteRenderer.enabled = true;
-                mTarget.animator.enabled = true;
                 mTarget.animator.Play("Off");
             }
         }
@@ -126,6 +177,7 @@ namespace Phosphorescence.Game
             protected override void OnEnter()
             {
                 mTarget.spriteRenderer.enabled = true;
+                mTarget.animator.Play("Standby");
             }
         }
         
