@@ -1,5 +1,6 @@
 using System.Collections;
 using Kuchinashi.Utils.Progressable;
+using Phosphorescence.DataSystem;
 using QFramework;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -162,10 +163,12 @@ namespace Phosphorescence.Game
                 if (m_IsUpstairing)
                 {
                     TransportTo(m_CurrentInteractTarget.GetComponent<StairInteractionController>().UpstairFinishPoint);
+                    ImAtFloor++;
                 }
                 else if (m_IsDownstairing)
                 {
                     TransportTo(m_CurrentInteractTarget.GetComponent<StairInteractionController>().DownstairFinishPoint);
+                    ImAtFloor--;
                 }
                 else
                 {
@@ -188,6 +191,7 @@ namespace Phosphorescence.Game
             m_IsUpstairing = m_IsDownstairing = false;
 
             GameManager.Instance.moveAction.Enable();
+            GameProgressData.Instance.LastFloorIndex = ImAtFloor;
 
             if (m_UpstairCoroutine != null)
             {

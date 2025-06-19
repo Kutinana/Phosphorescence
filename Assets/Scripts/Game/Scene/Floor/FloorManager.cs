@@ -22,8 +22,8 @@ namespace Phosphorescence.Game
                 return;
             }
 
-            Floors[PlayerController.Instance.ImAtFloor].StateMachine.ChangeState(FloorStateController.FloorState.Paused);
-            Floors[floorIndex].StateMachine.ChangeState(FloorStateController.FloorState.Active);
+            // Floors[PlayerController.Instance.ImAtFloor].StateMachine.ChangeState(FloorStateController.FloorState.Paused);
+            // Floors[floorIndex].StateMachine.ChangeState(FloorStateController.FloorState.Active);
 
             PlayerController.Instance.ImAtFloor = floorIndex;
             GameProgressData.Instance.LastFloorIndex = floorIndex;

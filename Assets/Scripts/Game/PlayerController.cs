@@ -21,7 +21,7 @@ namespace Phosphorescence.Game
 
         [Header("Parameters")]
         public float speed = 5f;
-        public int ImAtFloor = -1;
+        public int ImAtFloor = 1;
         public bool IsOnStair = false;
         public bool IsOutside
         {

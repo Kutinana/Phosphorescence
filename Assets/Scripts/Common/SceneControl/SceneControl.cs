@@ -100,7 +100,7 @@ namespace Common.SceneControl
             if (GameProgressData.Instance.IsPlotFinished("0.5"))  // After tutorial
             {
                 var floor = GameProgressData.Instance.LastFloorIndex;
-                PlayerController.Instance.TransportTo(FloorManager.Instance.FloorPivots[floor].position);
+                PlayerController.Instance.TransportTo(FloorManager.Instance.FloorPivots[floor]);
                 FloorManager.Instance.SwitchTo(floor);
 
                 yield return new WaitForSeconds(0.5f);
@@ -110,7 +110,7 @@ namespace Common.SceneControl
             {
                 GameProgressData.Instance.ResetPlotProgress();
                 InitialSettings();
-                PlayerController.Instance.TransportTo(FloorManager.Instance.FloorPivots[1].position);
+                PlayerController.Instance.TransportTo(FloorManager.Instance.FloorPivots[1]);
                 FloorManager.Instance.SwitchTo(1);
 
                 yield return new WaitForSeconds(0.5f);
