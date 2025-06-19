@@ -779,7 +779,7 @@ PlayerSettings:
     QNX: UNITY_POST_PROCESSING_STACK_V2
     ReservedCFE: UNITY_POST_PROCESSING_STACK_V2
     Stadia: UNITY_POST_PROCESSING_STACK_V2
-    Standalone: UNITY_POST_PROCESSING_STACK_V2;INK_RUNTIME;INK_EDITOR;SUPPORT_QFRAMEWORK
+    Standalone: UNITY_POST_PROCESSING_STACK_V2;INK_RUNTIME;INK_EDITOR;SUPPORT_QFRAMEWORK;STEAMWORKS_NET
     VisionOS: UNITY_POST_PROCESSING_STACK_V2
     WebGL: UNITY_POST_PROCESSING_STACK_V2
     XboxOne: UNITY_POST_PROCESSING_STACK_V2
@@ -899,7 +899,7 @@ PlayerSettings:
   cloudProjectId: 3e08498b-449e-4a01-a683-752d37914661
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: Phosphorescence 2025-01-27_17-53-40
+  projectName: Phosphorescence
   organizationId: zhc591442386
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
