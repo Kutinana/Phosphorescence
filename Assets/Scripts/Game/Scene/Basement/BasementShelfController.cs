@@ -27,7 +27,7 @@ namespace Phosphorescence.Game
 
         private void Start()
         {
-            if (GameProgressData.Instance.GetState("BasementShelfTaken"))
+            if (GameProgressData.Instance.CompareInfoWith("BasementShelfTaken"))
             {
                 spriteRenderer.sprite = takenSprite;
                 isTaken = true;
@@ -48,7 +48,7 @@ namespace Phosphorescence.Game
                         isTaken = true;
 
                         BackpackManager.Instance.Obtain("diesel");
-                        GameProgressData.Instance.SetState("BasementShelfTaken", true);
+                        GameProgressData.Instance.SetInfo("BasementShelfTaken", "true");
                     }
                 } }
             };

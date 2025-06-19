@@ -25,7 +25,7 @@ namespace Phosphorescence.Game
                 if (e.eventName == "beacon_stop")
                 {
                     IsOn = false;
-                    GameProgressData.Instance.SetState("IsBeaconOn", false);
+                    GameProgressData.Instance.SetInfo("IsBeaconOn", "false");
 
                     UpdateStatus();
                 }
@@ -34,7 +34,7 @@ namespace Phosphorescence.Game
 
         void Start()
         {
-            IsOn = GameProgressData.Instance.GetState("IsBeaconOn");
+            IsOn = GameProgressData.Instance.CompareInfoWith("IsBeaconOn");
             UpdateStatus();
         }
 
@@ -67,7 +67,7 @@ namespace Phosphorescence.Game
         {
             IsOn = true;
             animator.SetTrigger("Play");
-            GameProgressData.Instance.SetState("IsBeaconOn", true);
+            GameProgressData.Instance.SetInfo("IsBeaconOn", "true");
 
             Audio.AudioManager.PlaySFX(GameDesignData.GetAudioData("beacon_start", out var audioData) ? audioData.clip : null);
 
@@ -107,7 +107,7 @@ namespace Phosphorescence.Game
             animator.SetTrigger("Stop");
             audioSource.enabled = false;
 
-            GameProgressData.Instance.SetState("IsBeaconOn", false);
+            GameProgressData.Instance.SetInfo("IsBeaconOn", "false");
         }
     }
 }

@@ -32,11 +32,9 @@ namespace Phosphorescence.DataSystem
 
         [JsonProperty] public string CurrentObject = "";
         [JsonProperty] public List<string> PlotProgress = new();
-        [JsonProperty] public List<string> PlotTags = new();
         [JsonProperty] public Dictionary<string, int> ObtainedObjects = new();
-        [JsonProperty] public Dictionary<string, bool> States = new();
 
-        // TODO: Tags and states are highly likely to be merged.
+        [JsonProperty] public Dictionary<string, string> GameInfo = new();
     }
 
     public partial class GameProgressData
@@ -55,25 +53,6 @@ namespace Phosphorescence.DataSystem
             Serialize();
         }
 
-        public void AddPlotTag(string tag)
-        {
-            if (PlotTags.Contains(tag)) return;
-            PlotTags.Add(tag);
-            Serialize();
-        }
-        public bool HasPlotTag(string tag) => PlotTags.Contains(tag);
-        public void RemovePlotTag(string tag)
-        {
-            if (!PlotTags.Contains(tag)) return;
-            PlotTags.Remove(tag);
-            Serialize();
-        }
-        public void ResetPlotTags()
-        {
-            PlotTags.Clear();
-            Serialize();
-        }
-
         public void ObtainObject(string objectId, int amount = 1)
         {
             if (GameDesignData.GetData(objectId, out ObtainableObject obtainableObject))
@@ -85,20 +64,27 @@ namespace Phosphorescence.DataSystem
             }
         }
 
-        public bool GetState(string stateId)
+        public string GetInfo(string key)
         {
-            return States.GetValueOrDefault(stateId, false);
+            return GameInfo.TryGetValue(key, out var value) ? value : "";
         }
 
-        public void SetState(string stateId, bool value)
+        public void SetInfo(string key, bool value)
         {
-            States[stateId] = value;
+            GameInfo[key] = value ? "true" : "false";
             Serialize();
         }
 
-        public bool GetPlotState(string plotId)
+        public void SetInfo(string key, string value)
         {
-            return PlotProgress.Contains(plotId) || PlotTags.Contains(plotId);
+            GameInfo[key] = value;
+            Serialize();
+        }
+
+        public bool HasInfo(string key) => GameInfo.ContainsKey(key);
+        public bool CompareInfoWith(string key, string value = "true")
+        {
+            return GameInfo.TryGetValue(key, out var storedValue) && storedValue == value;
         }
     }
 }

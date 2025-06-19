@@ -80,8 +80,8 @@ namespace Common.SceneControl
             Screen.sleepTimeout = SleepTimeout.NeverSleep;
             Screen.SetResolution(1920, 1080, true);
 
-            GameProgressData.Instance.SetState("IsBeaconOn", false);
-            GameProgressData.Instance.SetState("IsGeneratorOn", true);
+            GameProgressData.Instance.SetInfo("IsBeaconOn", "false");
+            GameProgressData.Instance.SetInfo("IsGeneratorOn", "true");
         }
 
         private IEnumerator InitializeSceneControl()

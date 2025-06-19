@@ -57,7 +57,7 @@ namespace Phosphorescence.Game
                         GameManager.Instance.ContinuePlot("2.5");
                     }
                     else if (GameProgressData.Instance.CurrentPlotProgress == "2.5") {
-                        if (!GameProgressData.Instance.GetPlotState("FinishedCanExperiment"))
+                        if (!GameProgressData.Instance.CompareInfoWith("FinishedCanExperiment"))
                         {
                             GameManager.Instance.ContinuePlot("2.5");
                         }

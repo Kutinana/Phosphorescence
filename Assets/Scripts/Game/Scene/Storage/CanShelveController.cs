@@ -38,7 +38,7 @@ namespace Phosphorescence.Game
             }
             else IsInteractable = false;
 
-            if (GameProgressData.Instance.GetState("CanShelveTaken"))
+            if (GameProgressData.Instance.CompareInfoWith("IsCanTakenFromShelve"))
             {
                 spriteRenderer.sprite = takenSprite;
                 isTaken = true;
@@ -53,7 +53,7 @@ namespace Phosphorescence.Game
                         isTaken = true;
 
                         BackpackManager.Instance.Obtain("can");
-                        GameProgressData.Instance.SetState("CanShelveTaken", true);
+                        GameProgressData.Instance.SetInfo("IsCanTakenFromShelve", "true");
                     }
                 } }
             };

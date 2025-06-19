@@ -7,8 +7,8 @@ $SLEEP:1 #auto:true
 
 VAR CanSet = false
 VAR HaveTriedCanExperiment = false
-$READ_TAG:CanSet #auto:true
-$READ_TAG:HaveTriedCanExperiment #auto:true
+$READ_INFO:CanSet #auto:true
+$READ_INFO:HaveTriedCanExperiment #auto:true
 
 {CanSet == false && HaveTriedCanExperiment: -> second_time_not_set}
 
@@ -30,7 +30,7 @@ $READ_TAG:HaveTriedCanExperiment #auto:true
 “那就祝我一路顺风！” #type: LeftAvatarText #speaker:薄明 #avatar:radio_happy #simulated_voice: sfx_hakumei_re
 “那就祝你一路顺风。” #type:RightAvatarText #speaker:磷光 #avatar:phos_smile #simulated_voice: sfx_phos_re
 
-$SET_TAG:FinishedCanExperiment
+$SET_INFO:FinishedCanExperiment,true
 $START_TIMER
 $ENABLE_ALL_ACTIONS
 
@@ -48,7 +48,7 @@ $ENABLE_ALL_ACTIONS
     “快！去！” #type: LeftAvatarText #speaker:薄明 #avatar:radio_serious #simulated_voice: sfx_hakumei_mi
 -
 
-$SET_TAG:HaveTriedCanExperiment
+$SET_INFO:HaveTriedCanExperiment,true
 $ENABLE_ALL_ACTIONS
 
 -> DONE

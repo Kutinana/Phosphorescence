@@ -99,13 +99,13 @@ namespace Phosphorescence.Narration
                 case "read_variable" when args.Length == 1:
                     OnRequestReadVariable(args[0]);
                     break;
-                case "set_tag" when args.Length == 1:
-                    GameProgressData.Instance.AddPlotTag(args[0]);
+                case "set_info" when args.Length == 2:
+                    GameProgressData.Instance.SetInfo(args[0], args[1]);
                     break;
-                case "read_tag" when args.Length == 1:
+                case "read_info" when args.Length == 1:
                     TypeEventSystem.Global.Send(new RequestSetVariableEvent {
                         variableName = args[0],
-                        value = GameProgressData.Instance.HasPlotTag(args[0])
+                        value = GameProgressData.Instance.CompareInfoWith(args[0])
                     });
                     break;
                 case "start_timer":
@@ -147,7 +147,7 @@ namespace Phosphorescence.Narration
 
         private void FinishEndingA()
         {
-            GameProgressData.Instance.AddPlotTag("FinishedEndingA");
+            GameProgressData.Instance.SetInfo("FinishedEndingA", "true");
             SceneControl.Instance.FinishEndingA();
         }
     }

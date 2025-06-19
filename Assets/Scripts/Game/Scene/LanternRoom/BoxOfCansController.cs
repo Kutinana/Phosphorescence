@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using Phosphorescence.Audio;
 using Phosphorescence.DataSystem;
@@ -24,9 +25,9 @@ namespace Phosphorescence.Game
             spriteRenderer.enabled = false;
 
             TypeEventSystem.Global.Register<OnStoryEndEvent>(e => {
-                if (e.plot.Id == "2.5" && GameProgressData.Instance.HasPlotTag("FinishedCanExperiment"))
+                if (e.plot.Id == "2.5" && GameProgressData.Instance.CompareInfoWith("FinishedCanExperiment"))
                 {
-                    GameProgressData.Instance.SetState("IsCanBoxTakenByHakumei", true);
+                    GameProgressData.Instance.SetInfo("IsCanBoxTakenByHakumei", "true");
                     gameObject.SetActive(false);
                 }
             });
@@ -34,22 +35,24 @@ namespace Phosphorescence.Game
 
         private void Start()
         {
-            if (GameProgressData.Instance.GetState("IsCanBoxTakenByHakumei"))
+            if (GameProgressData.Instance.CompareInfoWith("IsCanBoxSet"))
             {
+                GameProgressData.Instance.SetInfo("IsCanBoxTakenByHakumei", "true");
                 spriteRenderer.enabled = false;
             }
             else
             {
-                spriteRenderer.enabled = GameProgressData.Instance.GetState("IsCanBoxSet");
+                spriteRenderer.enabled = GameProgressData.Instance.CompareInfoWith("IsCanBoxSet");
             }
             
+            // Put the can successfully
             HoverAction = () => {
                 if (GameProgressData.Instance.CurrentObject == "can")
                 {
                     spriteRenderer.enabled = true;
-                    GameProgressData.Instance.PlotTags.Add("CanSet");
-                    GameProgressData.Instance.SetState("IsCanBoxSet", true);
-                    GameProgressData.Instance.SetState("IsCanBoxTakenByHakumei", false);
+
+                    GameProgressData.Instance.SetInfo("IsCanBoxSet", "true");
+                    GameProgressData.Instance.SetInfo("IsCanBoxTakenByHakumei", "false");
 
                     BackpackManager.Instance.Clear();
                     // Audio.AudioManager.PlaySFX("put_box");
