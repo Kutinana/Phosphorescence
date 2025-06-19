@@ -24,8 +24,8 @@ namespace Phosphorescence.Game
 
             spriteRenderer.enabled = false;
 
-            TypeEventSystem.Global.Register<OnStoryEndEvent>(e => {
-                if (e.plot.Id == "2.5" && GameProgressData.Instance.CompareInfoWith("FinishedCanExperiment"))
+            TypeEventSystem.Global.Register<OnStoryEventTriggerEvent>(e => {
+                if (e.eventName == "hakumei_departed_to_reach_can")
                 {
                     GameProgressData.Instance.SetInfo("IsCanBoxTakenByHakumei", "true");
                     gameObject.SetActive(false);
@@ -35,7 +35,7 @@ namespace Phosphorescence.Game
 
         private void Start()
         {
-            if (GameProgressData.Instance.CompareInfoWith("IsCanBoxSet"))
+            if (GameProgressData.Instance.CompareInfoWith("FinishedCanExperiment"))
             {
                 GameProgressData.Instance.SetInfo("IsCanBoxTakenByHakumei", "true");
                 spriteRenderer.enabled = false;

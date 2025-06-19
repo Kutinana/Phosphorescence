@@ -27,5 +27,6 @@ $SLEEP:1 #auto:true
 “谢谢夸奖，我去看看。” #type:RightAvatarText #speaker:磷光 #avatar:phos_smile #simulated_voice: sfx_phos_do
 
 $ENABLE_ALL_ACTIONS
+$EVENT:projector_off
 
 -> DONE

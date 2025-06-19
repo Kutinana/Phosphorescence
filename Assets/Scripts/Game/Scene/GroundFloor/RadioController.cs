@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using Phosphorescence.DataSystem;
 using Phosphorescence.Narration;
@@ -61,27 +62,28 @@ namespace Phosphorescence.Game
                         {
                             GameManager.Instance.ContinuePlot("2.5");
                         }
-                        else if (GameManager.Instance.Timer < 20f)
-                        {
-                            GameManager.Instance.ContinuePlot("2.6");
-                        }
                         else
                         {
-                            GameManager.Instance.ContinuePlot("2.9");
+                            var canBoxSetAt = GameProgressData.Instance.GetInfo("CanBoxSetAt");
+                            var canBoxSetAtDateTime = DateTime.Parse(canBoxSetAt);
+                            var now = DateTime.Now;
+                            var timeSpan = now - canBoxSetAtDateTime;
+
+                            if (timeSpan.TotalSeconds < 20)
+                            {
+                                GameManager.Instance.ContinuePlot("wait_for_can_result");
+                            }
+                            else
+                            {
+                                GameManager.Instance.ContinuePlot("2.9");
+                            }
                         }
                     }
-                    else if (GameProgressData.Instance.CurrentPlotProgress == "2.6") {
-                        if (GameManager.Instance.Timer < 20f)
-                        {
-                            GameManager.Instance.ContinuePlot("2.6");
-                        }
-                        else
-                        {
-                            GameManager.Instance.ContinuePlot("2.9");
-                        }
+                    else if (GameProgressData.Instance.CurrentPlotProgress == "2.9") {
+                        GameManager.Instance.ContinuePlot("wait_for_checking_lantern_room");
                     }
-                    
-                } }
+                }
+                }
             };
             HoverAction = () => {
                 spriteRenderer.sprite = onHoverSprite;

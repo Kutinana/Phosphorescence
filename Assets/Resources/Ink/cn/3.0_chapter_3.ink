@@ -5,25 +5,28 @@
 $DISABLE_ALL_ACTIONS #auto:true
 $SLEEP:1 #auto:true
 
-$EVENT:projector_on
+$EVENT:projector_transit_to_on
 
 $SLEEP:2
 
 “欸。” #type:RightAvatarText #speaker:磷光 #avatar:phos_surprised #simulated_voice: sfx_phos_mi
-“怎么第一句话是欸啊！好没礼貌。” #type: LeftAvatarText #speaker:薄明？ #avatar:holo_contempt #simulated_voice: sfx_hakumei_do
+“怎么第一句话是欸啊！好没礼貌。” #type: LeftAvatarText #speaker:？ #avatar:holo_contempt #simulated_voice: sfx_hakumei_do
+“你是……薄明？” #type:RightAvatarText #speaker:磷光 #avatar:phos_confused_0.5 #simulated_voice: sfx_phos_re
+“啊，是喔。还没做自我介绍。” #type: LeftAvatarText #speaker:？ #avatar:holo_surprised_1 #simulated_voice: sfx_hakumei_re
+“哎呀不过听声音也听得出来吧。我就是薄明。” #type: LeftAvatarText #speaker:薄明 #avatar:holo_happy_1 #simulated_voice: sfx_hakumei_do
 “你这是擅闯民宅啊，没礼貌的是你才对吧。” #type:RightAvatarText #speaker:磷光 #avatar:phos_angry_2 #simulated_voice: sfx_phos_do
-“哎呀这不是紧急情况吗。” #type: LeftAvatarText #speaker:薄明？ #avatar:holo_happy_3 #simulated_voice: sfx_hakumei_re
+“这不是紧急情况嘛！” #type: LeftAvatarText #speaker:薄明 #avatar:holo_happy_3 #simulated_voice: sfx_hakumei_re
 “完全看不出你很紧急。所以？这就是你说的小礼物？” #type:RightAvatarText #speaker:磷光 #avatar:phos_confused_0.5 #simulated_voice: sfx_phos_re
-“怎么，不满意？” #type: LeftAvatarText #speaker:薄明？ #avatar:holo_smile_2 #simulated_voice:sfx_hakumei_re
+“怎么，不满意？” #type: LeftAvatarText #speaker:薄明 #avatar:holo_smile_2 #simulated_voice:sfx_hakumei_re
 “很难满意吧。” #type:RightAvatarText #speaker:磷光 #avatar:phos_speechless_2 #simulated_voice: sfx_phos_do
-“要求好高喔。” #type: LeftAvatarText #speaker:薄明？ #avatar:holo_happy_2 #simulated_voice: sfx_hakumei_do
+“要求好高喔。” #type: LeftAvatarText #speaker:薄明 #avatar:holo_happy_2 #simulated_voice: sfx_hakumei_do
 “我没要求过。” #type:RightAvatarText #speaker:磷光 #avatar:phos_angry_2 #simulated_voice: sfx_phos_do
-“嘛，你的电台是固定在一个地方的吧？” #type: LeftAvatarText #speaker:薄明？ #avatar:holo_smile_1 #simulated_voice: sfx_hakumei_re
+“嘛，你的电台是固定在一个地方的吧？” #type: LeftAvatarText #speaker:薄明 #avatar:holo_smile_1 #simulated_voice: sfx_hakumei_re
 “有了这个，你就不用每次跑到电台那儿发报了，直接说话就好啦。” #type: LeftAvatarText #speaker:薄明？ #avatar:holo_smile_2 #simulated_voice: sfx_hakumei_do
 “这倒是。但我怀疑最大受益者是你。” #type:RightAvatarText #speaker:磷光 #avatar:phos_look_upwards #simulated_voice: sfx_phos_do
-“为什么？” #type: LeftAvatarText #speaker:薄明？ #avatar:holo_surprised_1 #simulated_voice: sfx_hakumei_re
+“为什么？” #type: LeftAvatarText #speaker:薄明 #avatar:holo_surprised_1 #simulated_voice: sfx_hakumei_re
 “这样你不就可以随时来烦我了？” #type:RightAvatarText #speaker:磷光 #avatar:phos_speaking #simulated_voice: sfx_phos_re
-“你这就叫以小人之心度君子之腹！明明是为了你方便！” #type: LeftAvatarText #speaker:薄明？ #avatar:holo_angry_1 #simulated_voice: sfx_hakumei_do
+“你这就叫以小人之心度君子之腹！明明是为了你方便！” #type: LeftAvatarText #speaker:薄明 #avatar:holo_angry_1 #simulated_voice: sfx_hakumei_do
 “好好。说起来你还真是未来人啊。” #type:RightAvatarText #speaker:磷光 #avatar:phos_thinking_1 #simulated_voice: sfx_phos_do
 “啊，是说这个装置？” #type: LeftAvatarText #speaker:薄明？ #avatar:holo_surprised_1 #simulated_voice: sfx_hakumei_re
 “嗯。我该叫它什么，投影电话？” #type:RightAvatarText #speaker:磷光 #avatar:phos_thinking_2 #simulated_voice: sfx_phos_re
@@ -59,7 +62,7 @@ $EVENT:grab_the_projector_finished #auto:true
 “算了吧，真是这样的话还挺可怕的。” #type:RightAvatarText #speaker:磷光 #avatar:phos_smile #simulated_voice: sfx_phos_do
 “别呀，这可是实验的大好机会。就这么说定了，你在这儿等着喔。” #type: LeftAvatarText #speaker:薄明 #avatar:holo_happy_1 #simulated_voice: sfx_hakumei_do
 
-$EVENT:projector_off
+$EVENT:projector_transit_to_off
 
 $ENABLE_ALL_ACTIONS
 $START_TIMER

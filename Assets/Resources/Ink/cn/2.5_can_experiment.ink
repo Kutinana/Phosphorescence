@@ -5,18 +5,18 @@
 $DISABLE_ALL_ACTIONS #auto:true
 $SLEEP:1 #auto:true
 
-VAR CanSet = false
+VAR IsCanBoxSet = false
 VAR HaveTriedCanExperiment = false
-$READ_INFO:CanSet #auto:true
+$READ_INFO:IsCanBoxSet #auto:true
 $READ_INFO:HaveTriedCanExperiment #auto:true
 
-{CanSet == false && HaveTriedCanExperiment: -> second_time_not_set}
+{IsCanBoxSet == false && HaveTriedCanExperiment: -> second_time_not_set}
 
-“TF4674，灯塔「磷光」，于甚高频频道 16 呼叫 X92HKM，科研船「薄明」。完毕。” #type:RightAvatarText #speaker:磷光 #avatar:phos_speaking #simulated_voice: sfx_phos_do
+“「磷光」于甚高频频道 16 呼叫「薄明」。完毕。” #type:RightAvatarText #speaker:磷光 #avatar:phos_speaking #simulated_voice: sfx_phos_do
 “薄明收到来自磷光的呼叫。放好了？” #type: LeftAvatarText #speaker:薄明 #avatar:radio_happy #simulated_voice: sfx_hakumei_re
 
-{CanSet: “是的。但这真的有用吗？” #type:RightAvatarText #speaker:磷光 #avatar:phos_confused_0.5 #simulated_voice: sfx_phos_re}
-{CanSet == false: -> first_time_not_set}
+{IsCanBoxSet: “是的。但这真的有用吗？” #type:RightAvatarText #speaker:磷光 #avatar:phos_confused_0.5 #simulated_voice: sfx_phos_re}
+{IsCanBoxSet == false: -> first_time_not_set}
 
 “有没有用也得试了才知道嘛。” #type: LeftAvatarText #speaker:薄明 #avatar:radio_smile #simulated_voice: sfx_hakumei_do
 “也对。但你打算怎么过来呢？「薄明号」不是失去动力了？” #type:RightAvatarText #speaker:磷光 #avatar:phos_speaking #simulated_voice: sfx_phos_do
@@ -31,7 +31,8 @@ $READ_INFO:HaveTriedCanExperiment #auto:true
 “那就祝你一路顺风。” #type:RightAvatarText #speaker:磷光 #avatar:phos_smile #simulated_voice: sfx_phos_re
 
 $SET_INFO:FinishedCanExperiment,true
-$START_TIMER
+$RECORD_CURRENT_TIME_TO:CanBoxSetAt
+$EVENT:hakumei_departed_to_reach_can
 $ENABLE_ALL_ACTIONS
 
 -> DONE

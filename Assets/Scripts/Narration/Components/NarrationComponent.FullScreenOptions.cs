@@ -40,7 +40,7 @@ namespace Phosphorescence.Narration
             }
 
             this.SetBackground(e.tags.TryGetValue("background_pic", out var backgroundPicTag) ? backgroundPicTag : "")
-                .SetOpacity(e.tags.TryGetValue("opacity", out var opacityTag) ? float.Parse(opacityTag) : 0f)
+                .SetOpacity(e.tags.TryGetValue("opacity", out var opacityTag) ? float.Parse(opacityTag) : 0.8f)
                 .Process();
         }
 
@@ -74,7 +74,7 @@ namespace Phosphorescence.Narration
             return this;
         }
 
-        private FullScreenOptionsComponent SetOpacity(float opacity = 0f)
+        private FullScreenOptionsComponent SetOpacity(float opacity = 0.8f)
         {
             if (BackgroundOverlay != null) BackgroundOverlay.color = new Color(0, 0, 0, opacity);
             return this;
@@ -84,7 +84,7 @@ namespace Phosphorescence.Narration
         {
             var option = Instantiate(OptionTemplate, OptionParent);
 
-            option.GetComponent<TMP_Text>().SetText(line.content);
+            option.GetComponentInChildren<TMP_Text>().SetText(line.content);
             option.GetComponent<Button>().onClick.AddListener(() => {
                 TypeEventSystem.Global.Send(new SelectOptionEvent() { index = index });
                 IsComplete = true;

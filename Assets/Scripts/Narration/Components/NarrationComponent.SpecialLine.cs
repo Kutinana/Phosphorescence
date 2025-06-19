@@ -114,6 +114,9 @@ namespace Phosphorescence.Narration
                 case "stop_timer":
                     GameManager.Instance.StopTimer();
                     break;
+                case "record_current_time_to" when args.Length == 1:
+                    GameProgressData.Instance.SetInfo(args[0], DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"));
+                    break;
                 case "zoom_to" when args.Length == 1:
                     CameraStack.Instance.DampToSize(float.Parse(args[0]));
                     break;

@@ -1,6 +1,6 @@
--> can_experiment
+-> wait_for_can_result
 
-=== can_experiment ===
+=== wait_for_can_result ===
 
 $DISABLE_ALL_ACTIONS #auto:true
 $SLEEP:1 #auto:true
