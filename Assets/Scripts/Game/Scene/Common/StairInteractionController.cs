@@ -7,6 +7,8 @@ namespace Phosphorescence.Game
 {
     public class StairInteractionController : Interactable
     {
+        public int FloorIndex;
+        
         public bool CanUpstair = true;
         public bool CanDownstair = true;
         public bool IsHalfFloorUpstair = false;

@@ -162,13 +162,15 @@ namespace Phosphorescence.Game
 
                 if (m_IsUpstairing)
                 {
-                    TransportTo(m_CurrentInteractTarget.GetComponent<StairInteractionController>().UpstairFinishPoint);
-                    ImAtFloor++;
+                    var stair = m_CurrentInteractTarget.GetComponent<StairInteractionController>();
+                    TransportTo(stair.UpstairFinishPoint);
+                    ImAtFloor = stair.FloorIndex + 1;
                 }
                 else if (m_IsDownstairing)
                 {
-                    TransportTo(m_CurrentInteractTarget.GetComponent<StairInteractionController>().DownstairFinishPoint);
-                    ImAtFloor--;
+                    var stair = m_CurrentInteractTarget.GetComponent<StairInteractionController>();
+                    TransportTo(stair.DownstairFinishPoint);
+                    ImAtFloor = stair.FloorIndex - 1;
                 }
                 else
                 {
