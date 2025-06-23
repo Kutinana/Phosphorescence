@@ -103,7 +103,9 @@ namespace Phosphorescence.Narration
             else if (_currentStory.currentChoices.Count > 0) return;
             else  // Story End
             {
-                TypeEventSystem.Global.Send(new OnStoryEndEvent() { plot = _currentPlot });
+                if (_currentPlot != null) TypeEventSystem.Global.Send(new OnStoryEndEvent() { plot = _currentPlot });
+
+                _currentPlot = null;
                 _currentStory = null;
             }
         }

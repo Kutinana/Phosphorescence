@@ -62,7 +62,7 @@ namespace Phosphorescence.Game
             }
 
             TypeEventSystem.Global.Register<OnStoryEndEvent>(e => {
-                if (e.plot.Id == "0.0") {
+                if (e.plot != null && e.plot.Id == "0.0") {
                     NormalSpriteProgressable.LinearTransition(1f);
                 }
             });

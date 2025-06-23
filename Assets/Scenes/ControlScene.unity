@@ -3116,6 +3116,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AudioSource: {fileID: 0}
+  Type: 
 --- !u!1 &1727818115
 GameObject:
   m_ObjectHideFlags: 0
@@ -3426,6 +3427,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AudioSource: {fileID: 0}
+  Type: 
 --- !u!1 &1798161635
 GameObject:
   m_ObjectHideFlags: 0

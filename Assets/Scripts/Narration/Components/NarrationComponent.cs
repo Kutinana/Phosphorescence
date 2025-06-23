@@ -12,5 +12,7 @@ namespace Phosphorescence.Narration
         public bool IsSkipped { get; protected set; }
         public bool IsAuto { get; protected set; }
         public Action SkipAction;
+        public virtual void OnEnter() { }
+        public virtual void OnExit() { }
     }
 }

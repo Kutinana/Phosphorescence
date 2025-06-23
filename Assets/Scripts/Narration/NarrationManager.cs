@@ -190,10 +190,12 @@ namespace Phosphorescence.Narration
             {
                 mTarget.Components[NarrationType.LeftAvatarText].CanvasGroup.LinearTransition(0.2f);
                 mTarget.m_CurrentComponent = mTarget.Components[NarrationType.LeftAvatarText];
+                mTarget.m_CurrentComponent.OnEnter();
             }
             protected override void OnExit()
             {
                 mTarget.Components[NarrationType.LeftAvatarText].CanvasGroup.InverseLinearTransition(0.2f);
+                mTarget.m_CurrentComponent.OnExit();
             }
         }
 
@@ -205,10 +207,12 @@ namespace Phosphorescence.Narration
             {
                 mTarget.Components[NarrationType.RightAvatarText].CanvasGroup.LinearTransition(0.2f);
                 mTarget.m_CurrentComponent = mTarget.Components[NarrationType.RightAvatarText];
+                mTarget.m_CurrentComponent.OnEnter();
             }
             protected override void OnExit()
             {
                 mTarget.Components[NarrationType.RightAvatarText].CanvasGroup.InverseLinearTransition(0.2f);
+                mTarget.m_CurrentComponent.OnExit();
             }
         }
 
@@ -220,10 +224,12 @@ namespace Phosphorescence.Narration
             {
                 mTarget.Components[NarrationType.FullScreenText].CanvasGroup.LinearTransition(0.2f);
                 mTarget.m_CurrentComponent = mTarget.Components[NarrationType.FullScreenText];
+                mTarget.m_CurrentComponent.OnEnter();
             }
             protected override void OnExit()
             {
                 mTarget.Components[NarrationType.FullScreenText].CanvasGroup.InverseLinearTransition(0.2f);
+                mTarget.m_CurrentComponent.OnExit();
             }
         }
 
@@ -235,10 +241,12 @@ namespace Phosphorescence.Narration
             {
                 mTarget.Components[NarrationType.LeftAvatarOptions].CanvasGroup.LinearTransition(0.2f);
                 mTarget.m_CurrentComponent = mTarget.Components[NarrationType.LeftAvatarOptions];
+                mTarget.m_CurrentComponent.OnEnter();
             }
             protected override void OnExit()
             {
                 mTarget.Components[NarrationType.LeftAvatarOptions].CanvasGroup.InverseLinearTransition(0.2f);
+                mTarget.m_CurrentComponent.OnExit();
             }
         }
 
@@ -250,10 +258,12 @@ namespace Phosphorescence.Narration
             {
                 mTarget.Components[NarrationType.FullScreenOptions].CanvasGroup.LinearTransition(0.2f);
                 mTarget.m_CurrentComponent = mTarget.Components[NarrationType.FullScreenOptions];
+                mTarget.m_CurrentComponent.OnEnter();
             }
             protected override void OnExit()
             {
                 mTarget.Components[NarrationType.FullScreenOptions].CanvasGroup.InverseLinearTransition(0.2f);
+                mTarget.m_CurrentComponent.OnExit();
             }
         }
 
@@ -265,10 +275,12 @@ namespace Phosphorescence.Narration
             {
                 mTarget.Components[NarrationType.SubtitleText].CanvasGroup.LinearTransition(0.2f);
                 mTarget.m_CurrentComponent = mTarget.Components[NarrationType.SubtitleText];
+                mTarget.m_CurrentComponent.OnEnter();
             }
             protected override void OnExit()
             {
                 mTarget.Components[NarrationType.SubtitleText].CanvasGroup.InverseLinearTransition(0.2f);
+                mTarget.m_CurrentComponent.OnExit();
             }
         }
 
@@ -279,8 +291,12 @@ namespace Phosphorescence.Narration
             protected override void OnEnter()
             {
                 mTarget.m_CurrentComponent = mTarget.Components[NarrationType.Special];
+                mTarget.m_CurrentComponent.OnEnter();
             }
-            protected override void OnExit() { }
+            protected override void OnExit()
+            {
+                mTarget.m_CurrentComponent.OnExit();
+            }
         }
     }
 }

@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Kuchinashi.Utils.Progressable;
 using Phosphorescence.DataSystem;
 using Phosphorescence.Narration.Common;
 using QFramework;
@@ -14,8 +15,13 @@ namespace Phosphorescence.Narration
 {
     public class AvatarTextComponent : NarrationComponent , ICanProcessLine
     {
-        [Header("References")]
+        [Header("Avatar")]
         public Image Avatar;
+        public ProgressableGroup AvatarProgressableGroup;
+        public ImageColorProgressable AvatarColorProgressable;
+        public RectPositionProgressable AvatarPositionProgressable;
+
+        [Header("References")]
         public Image Background;
         public TMP_Text Text;
         public TMP_Text Speaker;
@@ -47,6 +53,11 @@ namespace Phosphorescence.Narration
             _graph.Destroy();
         }
 
+        public override void OnExit()
+        {
+            AvatarProgressableGroup.Progress = 0f;
+        }
+
         public void Initialize(OnLineReadEvent e)
         {
             m_CurrentLineEvent = e;
@@ -75,11 +86,14 @@ namespace Phosphorescence.Narration
             if (m_CurrentTypeTextCoroutine != null) StopCoroutine(m_CurrentTypeTextCoroutine);
             m_CurrentTypeTextCoroutine = StartCoroutine(TypeTextCoroutine(Text, m_CurrentLineEvent.content));
 
+            AvatarProgressableGroup.LinearTransition(0.2f);
+
             yield return new WaitUntil(() => IsSkipped || m_CurrentTypeTextCoroutine == null);
 
             yield return new WaitForSeconds(m_SleepTime);
 
             IsComplete = true;
+
             if (IsAuto) TypeEventSystem.Global.Send<RequestNewLineEvent>();
         }
 
@@ -134,11 +148,15 @@ namespace Phosphorescence.Narration
                         Avatar.sprite = avatarConfig.sprite ?? null;
                         Avatar.SetNativeSize();
 
-                        Avatar.rectTransform.anchoredPosition = IsLeft ? avatarConfig.positionOffsetForLeft : avatarConfig.positionOffsetForRight;
+                        AvatarPositionProgressable.StartPosition = IsLeft ? avatarConfig.positionOffsetForLeft : avatarConfig.positionOffsetForRight;
+                        AvatarPositionProgressable.StartPosition += new Vector2(0, -50);
+                        AvatarPositionProgressable.EndPosition = IsLeft ? avatarConfig.positionOffsetForLeft : avatarConfig.positionOffsetForRight;
+
                         Avatar.transform.localScale = IsLeft ? avatarConfig.scaleOffsetForLeft : avatarConfig.scaleOffsetForRight;
                         Avatar.transform.localEulerAngles = IsLeft ? avatarConfig.rotationOffsetForLeft : avatarConfig.rotationOffsetForRight;
 
-                        Avatar.color = Color.white;
+                        AvatarColorProgressable.StartColor = new Color(1, 1, 1, 0);
+                        AvatarColorProgressable.EndColor = Color.white;
 
                         break;
                     }
@@ -150,11 +168,15 @@ namespace Phosphorescence.Narration
 
                         Avatar.SetNativeSize();
 
-                        Avatar.rectTransform.anchoredPosition = IsLeft ? avatarConfig.positionOffsetForLeft : avatarConfig.positionOffsetForRight;
+                        AvatarPositionProgressable.StartPosition = IsLeft ? avatarConfig.positionOffsetForLeft : avatarConfig.positionOffsetForRight;
+                        AvatarPositionProgressable.StartPosition += new Vector2(0, -50);
+                        AvatarPositionProgressable.EndPosition = IsLeft ? avatarConfig.positionOffsetForLeft : avatarConfig.positionOffsetForRight;
+
                         Avatar.transform.localScale = IsLeft ? avatarConfig.scaleOffsetForLeft : avatarConfig.scaleOffsetForRight;
                         Avatar.transform.localEulerAngles = IsLeft ? avatarConfig.rotationOffsetForLeft : avatarConfig.rotationOffsetForRight;
 
-                        Avatar.color = Color.white;
+                        AvatarColorProgressable.StartColor = new Color(1, 1, 1, 0);
+                        AvatarColorProgressable.EndColor = Color.white;
 
                         break;
                     }
@@ -163,7 +185,8 @@ namespace Phosphorescence.Narration
             else
             {
                 Avatar.sprite = null;
-                Avatar.color = new Color(0, 0, 0, 0);
+                AvatarColorProgressable.StartColor = new Color(0, 0, 0, 0);
+                AvatarColorProgressable.EndColor = new Color(0, 0, 0, 0);
             }
 
             return this;

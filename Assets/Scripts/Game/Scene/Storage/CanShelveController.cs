@@ -23,7 +23,7 @@ namespace Phosphorescence.Game
             spriteRenderer = GetComponent<SpriteRenderer>();
 
             TypeEventSystem.Global.Register<OnStoryEndEvent>(e => {
-                if (e.plot.Id == "2.0")
+                if (e.plot != null && e.plot.Id == "2.0")
                 {
                     IsInteractable = true;
                 }
