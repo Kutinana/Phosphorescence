@@ -216,7 +216,7 @@ namespace Phosphorescence.Narration
         {
             if (Avatar == null || Avatar.sprite == null) return this;
             
-            Avatar.color = new Color(1, 1, 1, opacity);
+            AvatarColorProgressable.EndColor = new Color(1, 1, 1, opacity);
             return this;
         }
 
