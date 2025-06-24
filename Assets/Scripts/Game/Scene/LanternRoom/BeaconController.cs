@@ -12,17 +12,14 @@ namespace Phosphorescence.Game
     {
         public bool IsOn;
 
-        private Animator animator;
-        private Light2D[] lights;
-        public AudioSource audioSource;
+        public Animator LightAnimator;
+        public Animator BeaconRotationAnimator;
 
+        public AudioSource audioSource;
         private AudioSource m_StartingAudioSource;
 
         void Awake()
         {
-            animator = GetComponent<Animator>();
-            lights = GetComponentsInChildren<Light2D>();
-
             TypeEventSystem.Global.Register<OnStoryEventTriggerEvent>(e => {
                 if (e.eventName == "beacon_stop")
                 {
@@ -31,7 +28,7 @@ namespace Phosphorescence.Game
 
                     UpdateStatus();
                 }
-            });
+            }).UnRegisterWhenGameObjectDestroyed(gameObject);
         }
 
         void Start()
@@ -46,36 +43,38 @@ namespace Phosphorescence.Game
 
             if (IsOn)
             {
-                foreach (var light in lights)
-                {
-                    light.enabled = true;
-                }
-                animator.Play("Running");
+                LightAnimator.Play("Running", 0, 0);
+                // LightAnimator.speed = 1f;
+
+                BeaconRotationAnimator.Play("BeaconRotation", 0, 0);
+                BeaconRotationAnimator.SetFloat("Speed", 1f);
+
                 audioSource.enabled = true;
             }
             else
             {
-                animator.Play("Stopped");
+                LightAnimator.Play("Stopped", 0, 0);
+                // LightAnimator.speed = 0f;
+
+                BeaconRotationAnimator.Play("BeaconRotation", 0, 0);
+                BeaconRotationAnimator.SetFloat("Speed", 0f);
+
                 audioSource.enabled = false;
-                foreach (var light in lights)
-                {
-                    light.enabled = false;
-                }
             }
+        }
+
+        public void Calibrate()
+        {
+            LightAnimator.Play("Running", 0, 0);
+            LightAnimator.speed = 1f;
         }
 
         public void Play()  // Update the status to Play and set the status
         {
             IsOn = true;
-            animator.SetTrigger("Play");
             GameProgressData.Instance.SetInfo("IsBeaconOn", "true");
 
             m_StartingAudioSource = Audio.AudioManager.PlaySFX(GameDesignData.GetAudioData("beacon_start", out var audioData) ? audioData.clip : null);
-
-            foreach (var light in lights)
-            {
-                light.enabled = true;
-            }
 
             StartCoroutine(PlayCoroutine());
         }
@@ -86,34 +85,56 @@ namespace Phosphorescence.Game
             audioSource.volume = 0f;
             audioSource.Play();
 
+            LightAnimator.Play("Starting", 0, 0);
+
             var speed = 0f;
             while (speed < 1f)
             {
-                speed += Time.deltaTime;
+                speed += Time.deltaTime * 0.5f;
 
-                animator.SetFloat("StartingSpeed", speed);
+                BeaconRotationAnimator.SetFloat("Speed", speed);
                 audioSource.volume = speed / 2f;
 
                 yield return null;
             }
-            animator.SetFloat("StartingSpeed", 1f);
+            BeaconRotationAnimator.SetFloat("Speed", 1f);
             audioSource.volume = 0.5f;
 
-            yield return new WaitForSeconds(4f);
+            yield return new WaitUntil(() => BeaconRotationAnimator.GetCurrentAnimatorStateInfo(0).normalizedTime * 100 % 100 <= 1);
+            LightAnimator.SetTrigger("Run");
         }
 
         public void Stop()
         {
             IsOn = false;
-            animator.SetTrigger("Stop");
-            audioSource.Stop();
+            LightAnimator.SetTrigger("Stop");
 
             if (m_StartingAudioSource != null)
             {
                 m_StartingAudioSource.Stop();
             }
 
+            StartCoroutine(StopCoroutine());
+
             GameProgressData.Instance.SetInfo("IsBeaconOn", "false");
+        }
+
+        private IEnumerator StopCoroutine()
+        {
+            var speed = 1f;
+            while (speed > 0f)
+            {
+                speed -= Time.deltaTime;
+
+                BeaconRotationAnimator.SetFloat("Speed", speed);
+                audioSource.volume = speed / 2f;
+
+                yield return null;
+            }
+
+            BeaconRotationAnimator.SetFloat("Speed", 0f);
+            audioSource.volume = 0f;
+            audioSource.Stop();
         }
     }
 }

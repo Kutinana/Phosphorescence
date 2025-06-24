@@ -27,6 +27,8 @@ namespace Phosphorescence.Game
                 { GameManager.Instance.interactAction, () => {
                     if (_isInteracted) return;
 
+                    if (!GameManager.Instance.GlobalPower) return;
+
                     if (BeaconController.Instance.IsOn)
                     {
                         BeaconController.Instance.Stop();
@@ -47,9 +49,13 @@ namespace Phosphorescence.Game
                 } }
             };
             HoverAction = () => {
+                if (!GameManager.Instance.GlobalPower) return;
+                
                 spriteRenderer.sprite = onHoverSprite;
             };
             UnhoverAction = () => {
+                if (!GameManager.Instance.GlobalPower) return;
+
                 spriteRenderer.sprite = defaultSprite;
                 _isInteracted = false;
             };

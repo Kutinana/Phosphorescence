@@ -77,21 +77,26 @@ namespace Phosphorescence.Game
 
         void Start()
         {
-            if (GameProgressData.Instance.CurrentPlotProgress == "3.1")
+            switch (GameProgressData.Instance.CurrentPlotProgress)
             {
-                StateMachine.ChangeState(ProjectorState.On);
-            }
-            else if (float.Parse(GameProgressData.Instance.CurrentPlotProgress) >= 3.0f)
-            {
-                StateMachine.ChangeState(ProjectorState.Standby);
-            }
-            else if (GameProgressData.Instance.CurrentPlotProgress == "2.9")
-            {
-                StateMachine.ChangeState(ProjectorState.Off);
-            }
-            else
-            {
-                StateMachine.ChangeState(ProjectorState.Hide);
+                case "4.0":
+                    StateMachine.ChangeState(ProjectorState.On);
+                    break;
+                case "3.2":
+                    StateMachine.ChangeState(ProjectorState.Off);
+                    break;
+                case "3.1":
+                    StateMachine.ChangeState(ProjectorState.On);
+                    break;
+                case "3.0":
+                    StateMachine.ChangeState(ProjectorState.Standby);
+                    break;
+                case "2.9":
+                    StateMachine.ChangeState(ProjectorState.Off);
+                    break;
+                default:
+                    StateMachine.ChangeState(ProjectorState.Hide);
+                    break;
             }
         }
 

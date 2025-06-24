@@ -38,18 +38,18 @@ namespace Phosphorescence.Game
                 if (e.eventName == "diesel_runs_out")
                 {
                     isActivated = false;
-                    GameProgressData.Instance.SetInfo("IsGeneratorOn", "false");
+                    GameManager.Instance.GlobalPower = false;
 
                     UpdateStatus();
                 }
-            });
+            }).UnRegisterWhenGameObjectDestroyed(gameObject);
 
             Instance = this;
         }
 
         private void Start()
         {
-            isActivated = GameProgressData.Instance.CompareInfoWith("IsGeneratorOn");
+            isActivated = GameManager.Instance.GlobalPower;
             UpdateStatus();
 
             InteractAction = new Dictionary<InputAction, System.Action> {
@@ -61,7 +61,7 @@ namespace Phosphorescence.Game
                         onInteract.Invoke();
                         isActivated = true;
 
-                        GameProgressData.Instance.SetInfo("IsGeneratorOn", "true");
+                        GameManager.Instance.GlobalPower = true;
                         UpdateStatus();
                         // Audio.AudioManager.PlaySFX(GameDesignData.GetAudioData("diesel_engine_start", out var audioData) ? audioData.clip : null);
 

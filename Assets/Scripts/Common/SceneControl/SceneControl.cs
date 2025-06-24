@@ -81,7 +81,7 @@ namespace Common.SceneControl
             Screen.SetResolution(1920, 1080, true);
 
             GameProgressData.Instance.SetInfo("IsBeaconOn", "false");
-            GameProgressData.Instance.SetInfo("IsGeneratorOn", "true");
+            GameProgressData.Instance.SetInfo("GlobalPower", "true");
         }
 
         private IEnumerator InitializeSceneControl()

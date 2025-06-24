@@ -27,7 +27,7 @@ namespace Phosphorescence.Game
                 {
                     IsInteractable = true;
                 }
-            });
+            }).UnRegisterWhenGameObjectDestroyed(gameObject);
         }
 
         private void Start()

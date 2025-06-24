@@ -30,7 +30,7 @@ namespace Phosphorescence.Game
                     GameProgressData.Instance.SetInfo("IsCanBoxTakenByHakumei", "true");
                     gameObject.SetActive(false);
                 }
-            });
+            }).UnRegisterWhenGameObjectDestroyed(gameObject);
         }
 
         private void Start()

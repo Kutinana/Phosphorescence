@@ -29,7 +29,7 @@ namespace Phosphorescence.Game
                 if (e.plot.Id == "0.0") {
                     IsInteractable = true;
                 }
-            });
+            }).UnRegisterWhenGameObjectDestroyed(gameObject);
 
             InteractAction = new Dictionary<InputAction, System.Action> {
                 { GameManager.Instance.interactAction, () => {

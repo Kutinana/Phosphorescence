@@ -28,7 +28,7 @@ $SLEEP:2
 “这样你不就可以随时来烦我了？” #type:RightAvatarText #speaker:磷光 #avatar:phos_speaking #simulated_voice: sfx_phos_re
 “你这就叫以小人之心度君子之腹！明明是为了你方便！” #type: LeftAvatarText #speaker:薄明 #avatar:holo_angry_1 #simulated_voice: sfx_hakumei_do
 “好好。说起来你还真是未来人啊。” #type:RightAvatarText #speaker:磷光 #avatar:phos_thinking_1 #simulated_voice: sfx_phos_do
-“啊，是说这个装置？” #type: LeftAvatarText #speaker:薄明？ #avatar:holo_surprised_1 #simulated_voice: sfx_hakumei_re
+“啊，是说这个装置？” #type: LeftAvatarText #speaker:薄明 #avatar:holo_surprised_1 #simulated_voice: sfx_hakumei_re
 “嗯。我该叫它什么，投影电话？” #type:RightAvatarText #speaker:磷光 #avatar:phos_thinking_2 #simulated_voice: sfx_phos_re
 “该叫我薄明。” #type: LeftAvatarText #speaker:薄明 #avatar:holo_happy_4 #simulated_voice: sfx_hakumei_do
 “……唉。” #type:RightAvatarText #speaker:磷光 #avatar:phos_sigh #simulated_voice: sfx_phos_do

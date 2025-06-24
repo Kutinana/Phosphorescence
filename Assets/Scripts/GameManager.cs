@@ -24,9 +24,27 @@ namespace Phosphorescence.Game
         public bool IsTimerOn = false;
         public float Timer;
 
+        public bool GlobalPower
+        {
+            get
+            {
+                return m_GlobalPower;
+            }
+            set
+            {
+                m_GlobalPower = value;
+                GameProgressData.Instance.SetInfo("GlobalPower", m_GlobalPower.ToString());
+
+                TypeEventSystem.Global.Send(new OnGlobalPowerChangedEvent() { value = m_GlobalPower });
+            }
+        }
+        private bool m_GlobalPower = true;
+
         private void Awake()
         {
             DontDestroyOnLoad(this);
+
+            GlobalPower = GameProgressData.Instance.CompareInfoWith("GlobalPower");
         }
 
         private void Start()
@@ -85,4 +103,6 @@ namespace Phosphorescence.Game
         }
         
     }
+
+    public struct OnGlobalPowerChangedEvent { public bool value; }
 }

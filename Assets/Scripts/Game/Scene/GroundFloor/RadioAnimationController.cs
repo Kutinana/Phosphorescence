@@ -38,13 +38,13 @@ namespace Phosphorescence.Game
                 if (e.eventName == "WakeUpFromRadio") {
                     animator.enabled = true;
                 }
-            });
+            }).UnRegisterWhenGameObjectDestroyed(gameObject);
 
             TypeEventSystem.Global.Register<OnStoryEndEvent>(e => {
                 if (e.plot.Id == "0.0") {
                     progressable.LinearTransition(1f);
                 }
-            });
+            }).UnRegisterWhenGameObjectDestroyed(gameObject);
         }
     }
 }
