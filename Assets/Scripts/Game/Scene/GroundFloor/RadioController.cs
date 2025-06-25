@@ -21,13 +21,15 @@ namespace Phosphorescence.Game
 
         private void Start()
         {
-            if (GameProgressData.Instance.CurrentPlotProgress == "")
+            if (GameProgressData.Instance.CurrentPlotProgress is "" or "4.5")
             {
                 IsInteractable = false;
+                spriteRenderer.enabled = false;
             }
             TypeEventSystem.Global.Register<OnStoryEndEvent>(e => {
-                if (e.plot.Id == "0.0") {
+                if (e.plot.Id is "0.0" or "4.9") {
                     IsInteractable = true;
+                    spriteRenderer.enabled = true;
                 }
             }).UnRegisterWhenGameObjectDestroyed(gameObject);
 

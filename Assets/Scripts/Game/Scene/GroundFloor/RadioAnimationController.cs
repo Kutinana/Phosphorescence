@@ -26,7 +26,7 @@ namespace Phosphorescence.Game
             if (!GameProgressData.Instance.IsPlotFinished("0.5") || GameProgressData.Instance.CurrentPlotProgress == "4.5")
             {
                 gameObject.SetActive(true);
-                animator.enabled = false;
+                animator.speed = 0f;
             }
             else
             {
@@ -36,8 +36,7 @@ namespace Phosphorescence.Game
 
             TypeEventSystem.Global.Register<OnStoryEventTriggerEvent>(e => {
                 if (e.eventName == "WakeUpFromRadio") {
-                    animator.enabled = true;
-                    animator.Play("Sleeping_on_radio_desk");
+                    animator.speed = 1f;
                 }
             }).UnRegisterWhenGameObjectDestroyed(gameObject);
 

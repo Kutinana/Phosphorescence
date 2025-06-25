@@ -36,7 +36,7 @@ $SLEEP:3 #skippable:false
 “有道理，那你是谁？” #type:LeftAvatarText #speaker:未知信号 #simulated_voice: sfx_hakumei_do #avatar:radio_default_2
 
 - #type:FullScreenOptions #opacity:0.8
-  * [> “我是灯塔「磷光」”]“我是灯塔「磷光」，呼号 TF4674。我已经转发你的求救信号，海岸警卫队应该很快就会联系你。” #type: RightAvatarText #speaker:磷光 #avatar:phos_smile #simulated_voice: sfx_phos_do
+  * [“我是灯塔「磷光」”]“我是灯塔「磷光」，呼号 TF4674。我已经转发你的求救信号，海岸警卫队应该很快就会联系你。” #type: RightAvatarText #speaker:磷光 #avatar:phos_smile #simulated_voice: sfx_phos_do
 -
 
 “请保持于 VHF 频道 16 监听，确保补充定位保障开启，等待救援即可。” #type: RightAvatarText #speaker:磷光 #avatar:phos_speaking #simulated_voice: sfx_phos_re
