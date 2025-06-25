@@ -69,6 +69,11 @@ namespace Phosphorescence.Game
             }
         }
 
+        public void QuitGame()
+        {
+            Application.Quit();
+        }
+
         public class NoneState : AbstractState<MenuPanelState, MenuPanelController>
         {
             public NoneState(FSM<MenuPanelState> fsm, MenuPanelController target) : base(fsm, target) { }
