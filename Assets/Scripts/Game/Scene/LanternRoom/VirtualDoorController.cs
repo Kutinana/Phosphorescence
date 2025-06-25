@@ -20,6 +20,12 @@ namespace Phosphorescence.Game
                     GameManager.Instance.ContinuePlot("wait_for_key");
                     PlayerController.Instance.StopMoving(1);
                 }
+                else if (GameProgressData.Instance.CurrentPlotProgress == "3.1"
+                    && GameProgressData.Instance.CompareInfoWith("IsKeyAppeared", "true"))
+                {
+                    GameManager.Instance.ContinuePlot("3.2");
+                    PlayerController.Instance.StopMoving(1);
+                }
             };
 
             TypeEventSystem.Global.Register<OnStoryEndEvent>(e => {

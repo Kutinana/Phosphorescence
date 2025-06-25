@@ -13,13 +13,19 @@ namespace Phosphorescence.Game
                     GameManager.Instance.ContinuePlot("3.0");
                     PlayerController.Instance.StopMoving(-1);
                 }
+                else if (GameProgressData.Instance.CurrentPlotProgress == "3.0")
+                {
+                    GameManager.Instance.ContinuePlot("3.1");
+                    PlayerController.Instance.StopMoving(-1);
+                }
                 else if (GameProgressData.Instance.CurrentPlotProgress == "3.1"
                     && GameProgressData.Instance.CompareInfoWith("IsKeyAppeared", "true"))
                 {
                     GameManager.Instance.ContinuePlot("3.2");
                     PlayerController.Instance.StopMoving(-1);
                 }
-                else if (GameProgressData.Instance.CurrentPlotProgress == "3.2" && GeneratorController.Instance.isActivated)
+                else if (GameProgressData.Instance.CurrentPlotProgress == "3.2"
+                    && GameManager.Instance.GlobalPower)
                 {
                     GameManager.Instance.ContinuePlot("4.0");
                     PlayerController.Instance.StopMoving(-1);

@@ -101,7 +101,9 @@ namespace Common.SceneControl
             {
                 var floor = GameProgressData.Instance.LastFloorIndex;
                 PlayerController.Instance.TransportTo(FloorManager.Instance.FloorPivots[floor]);
-                FloorManager.Instance.SwitchTo(floor);
+                // FloorManager.Instance.SwitchTo(floor);
+
+                GameProgressData.Instance.SetInfo("Continued", "true");
 
                 yield return new WaitForSeconds(0.5f);
                 yield return SplashScreenController.Instance.FadeOutGroup.InverseLinearTransition(0.5f, 0f);
@@ -111,7 +113,7 @@ namespace Common.SceneControl
                 GameProgressData.Instance.ResetPlotProgress();
                 InitialSettings();
                 PlayerController.Instance.TransportTo(FloorManager.Instance.FloorPivots[1]);
-                FloorManager.Instance.SwitchTo(1);
+                // FloorManager.Instance.SwitchTo(1);
 
                 yield return new WaitForSeconds(0.5f);
                 yield return SplashScreenController.Instance.MaskProgressable.LinearTransition(1f, 0f);

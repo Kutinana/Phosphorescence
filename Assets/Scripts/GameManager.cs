@@ -33,7 +33,7 @@ namespace Phosphorescence.Game
             set
             {
                 m_GlobalPower = value;
-                GameProgressData.Instance.SetInfo("GlobalPower", m_GlobalPower.ToString());
+                GameProgressData.Instance.SetInfo("GlobalPower", m_GlobalPower ? "true" : "false");
 
                 TypeEventSystem.Global.Send(new OnGlobalPowerChangedEvent() { value = m_GlobalPower });
             }

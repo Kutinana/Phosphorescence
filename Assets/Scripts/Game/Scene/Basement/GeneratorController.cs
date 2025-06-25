@@ -86,6 +86,8 @@ namespace Phosphorescence.Game
             if (isActivated)
             {
                 animator.enabled = true;
+                animator.Play("4_generator_default");
+
                 audioSource.enabled = true;
                 audioSource.Play();
                 foreach (var light in lights)

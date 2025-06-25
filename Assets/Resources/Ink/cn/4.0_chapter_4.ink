@@ -4,7 +4,7 @@
 
 $DISABLE_ALL_ACTIONS #auto:true
 $SLEEP:1 #auto:true
-$EVENT:projector_on
+$EVENT:projector_transit_to_on
 
 “……” #type: LeftAvatarText #speaker:薄明 #avatar:holo_sad_1 #avatar_opacity:0.01
 “…………” #type: LeftAvatarText #speaker:薄明 #avatar:holo_sad_1 #avatar_opacity:0.1
@@ -66,8 +66,9 @@ $EVENT:projector_on
 “没有的事喔。我觉得很浪漫啊。” #type: LeftAvatarText #speaker:薄明 #avatar:holo_smile_1 #simulated_voice: sfx_hakumei_do
 “浪漫？” #type:RightAvatarText #speaker:磷光 #avatar:phos_confused_0.5 #simulated_voice: sfx_phos_re
 “是啊。明明是这么小的一个小镇，但对你来说就是整个世界吧？” #type: LeftAvatarText #speaker:薄明 #avatar:holo_smile_2 #simulated_voice: sfx_hakumei_re
-“……是吧，是啊。” #type:RightAvatarText #speaker:磷光 #avatar:phos_default #simulated_voice: sfx_phos_do
-“小时候的我确实是这么觉得的。” #type:RightAvatarText #speaker:磷光 #avatar:phos_smile #simulated_voice: sfx_phos_do
+“…………嗯……” #type:RightAvatarText #speaker:磷光 #avatar:phos_default #simulated_voice: sfx_phos_do
+“……是啊。” #type:RightAvatarText #speaker:磷光 #avatar:phos_smile  #simulated_voice: sfx_phos_do
+“小时候的我确实是这么觉得的。” #type:RightAvatarText #speaker:磷光 #avatar:phos_look_upwards #simulated_voice: sfx_phos_do
 “我的故乡，这个小镇，其实也是个‘离岸灯塔’。它建在一个小岛上，四面环海，距离我的国家的本土有四十千米。” #type:RightAvatarText #speaker:磷光 #avatar:phos_speaking #simulated_voice: sfx_phos_re
 “直到十四岁那年，父亲才第一次带我出岛。” #type:RightAvatarText #speaker:磷光 #avatar:phos_look_upwards #simulated_voice: sfx_phos_do
 “很兴奋？” #type: LeftAvatarText #speaker:薄明 #avatar:holo_smile_2 #simulated_voice: sfx_hakumei_re
@@ -110,8 +111,14 @@ $EVENT:projector_on
 “不过……今天不是这样的。” #type: LeftAvatarText #speaker:薄明 #avatar:holo_smile_2 #simulated_voice: sfx_hakumei_do
 “嗯？” #type:RightAvatarText #speaker:磷光 #avatar:phos_confused_0.5 #simulated_voice: sfx_phos_re
 “今天我看到了光。来自你的光。” #type: LeftAvatarText #speaker:薄明 #avatar:holo_smile_2 #simulated_voice: sfx_hakumei_re
-“这可不是比喻喔。来自灯塔「磷光」的航标灯，是真的在无光的海面上穿过重重黑暗，向我奔来，就算是现在也是。” #type: LeftAvatarText #speaker:薄明 #avatar:holo_happy_2 #simulated_voice: sfx_hakumei_re
-“我正看着你的光一遍又一遍扫过沉默的海面，我所在的「薄明号」，以及我。” #type: LeftAvatarText #speaker:薄明 #avatar:holo_smile_1 #simulated_voice: sfx_hakumei_do
+“这可不是比喻喔。来自灯塔「磷光」的航标灯，是真的在无光的海面上穿过重重黑暗，向我奔来。” #type: LeftAvatarText #speaker:薄明 #avatar:holo_happy_2 #simulated_voice: sfx_hakumei_re
+
+VAR isBeaconOn = true
+$READ_VARIABLE:isBeaconOn #auto:true
+
+{isBeaconOn: “就算现在也是。我正看着你的光一遍又一遍扫过沉默的海面，我所在的「薄明号」，以及我。” #type: LeftAvatarText #speaker:薄明 #avatar:holo_smile_1 #simulated_voice: sfx_hakumei_do}
+
+
 “……” #type:RightAvatarText #speaker:磷光 #avatar:phos_surprised
 “当然，这也是比喻。如果说此前 155 个小时的无线电静默是黑暗的大海，那来自你的无线电信号，就是那束刺破黑暗的航标灯光。” #type: LeftAvatarText #speaker:薄明 #avatar:holo_happy_1 #simulated_voice: sfx_hakumei_re
 “所以如果要说灯塔给我的感觉，那一定是——” #type: LeftAvatarText #speaker:薄明 #avatar:holo_smile_2 #simulated_voice: sfx_hakumei_re

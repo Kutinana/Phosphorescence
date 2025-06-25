@@ -21,7 +21,7 @@ $SLEEP:1 #auto:true
 “……时间快到了。” #type: LeftAvatarText #speaker:薄明 #avatar:holo_smile_2 #simulated_voice: sfx_hakumei_la
 “再见啦，磷光。” #type: LeftAvatarText #speaker:薄明 #avatar:holo_happy_1 #simulated_voice: sfx_hakumei_re
 “我们还会见面的。” #type: LeftAvatarText #speaker:薄明 #avatar:holo_happy_2 #simulated_voice: sfx_hakumei_do
-“……” #type:RightAvatarText #speaker:磷光 #avatar:phos_default
+“喂……” #type:RightAvatarText #speaker:磷光 #avatar:phos_default
 “……” #type: LeftAvatarText #speaker:薄明 #avatar:holo_smile_2
 “……真希望哪天你能想起我啊。” #type: LeftAvatarText #speaker:薄明 #avatar:holo_ironic #simulated_voice: sfx_hakumei_do
 “等……” #type:RightAvatarText #speaker:磷光 #avatar:phos_confused_scared_1 #auto:true

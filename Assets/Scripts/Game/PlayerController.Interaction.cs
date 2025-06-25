@@ -79,6 +79,22 @@ namespace Phosphorescence.Game
                 m_Interactables.Remove(interactable);
             }
         }
+
+        private void OnCollisionEnter2D(Collision2D collision)
+        {
+            if (collision.gameObject.TryGetComponent<Interactable>(out var interactable))
+            {
+                m_Interactables.Add(interactable);
+            }
+        }
+
+        private void OnCollisionExit2D(Collision2D collision)
+        {
+            if (collision.gameObject.TryGetComponent<Interactable>(out var interactable))
+            {
+                m_Interactables.Remove(interactable);
+            }
+        }
     }
 
 }

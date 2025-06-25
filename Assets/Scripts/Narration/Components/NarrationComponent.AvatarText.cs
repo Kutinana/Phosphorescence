@@ -37,7 +37,7 @@ namespace Phosphorescence.Narration
         private float m_Speed = 1 / 24f;
         private AudioData voiceConfig;
         private AudioData simulatedVoiceConfig;
-        private List<char> omittedChars = new List<char> { ' ', '\r', '\n', '\"', '”', '”' };
+        private List<char> omittedChars = new List<char> { ' ', '\r', '\n', '\"', '“', '”', '…' };
 
         private OnLineReadEvent m_CurrentLineEvent;
         private Coroutine m_CurrentTypeTextCoroutine;

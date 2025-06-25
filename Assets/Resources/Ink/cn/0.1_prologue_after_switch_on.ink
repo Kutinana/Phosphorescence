@@ -24,8 +24,8 @@ $SLEEP:3 #skippable:false
 “……你好？” # type:LeftAvatarText #speaker:未知信号 #simulated_voice: sfx_hakumei_re #avatar:radio_smile
 
 - #type:FullScreenOptions #opacity:0.8
-  * [> “你好。”]“你好。” #type: RightAvatarText #speaker:磷光 #avatar:phos_default #simulated_voice: sfx_phos_re
-  * [> “我听得到。”]“我听得到。” #type: RightAvatarText #speaker:磷光 #avatar:phos_default #simulated_voice: sfx_phos_do
+  * [“你好。”]“你好。” #type: RightAvatarText #speaker:磷光 #avatar:phos_default #simulated_voice: sfx_phos_re
+  * [“我听得到。”]“我听得到。” #type: RightAvatarText #speaker:磷光 #avatar:phos_default #simulated_voice: sfx_phos_do
 -
 
 “啊。” #type:LeftAvatarText #speaker:未知信号 #simulated_voice: sfx_hakumei_do #avatar:radio_default_2

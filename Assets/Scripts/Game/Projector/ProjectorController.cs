@@ -89,7 +89,7 @@ namespace Phosphorescence.Game
                     StateMachine.ChangeState(ProjectorState.On);
                     break;
                 case "3.0":
-                    StateMachine.ChangeState(ProjectorState.Standby);
+                    StateMachine.ChangeState(ProjectorState.On);
                     break;
                 case "2.9":
                     StateMachine.ChangeState(ProjectorState.Off);

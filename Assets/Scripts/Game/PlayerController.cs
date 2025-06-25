@@ -7,6 +7,7 @@ using Phosphorescence.Narration.Common;
 using QFramework;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.Rendering.Universal;
 
 namespace Phosphorescence.Game
 {
@@ -16,6 +17,7 @@ namespace Phosphorescence.Game
         private Collider2D col;
         private Animator animator;
         private SpriteRenderer spriteRenderer;
+        private ShadowCaster2D shadowCaster;
 
         public bool CanInteract => true;
 
@@ -56,14 +58,17 @@ namespace Phosphorescence.Game
             col = GetComponent<Collider2D>();
             animator = GetComponent<Animator>();
             spriteRenderer = GetComponent<SpriteRenderer>();
+            shadowCaster = GetComponent<ShadowCaster2D>();
 
-            if (!GameProgressData.Instance.IsPlotFinished("0.5") || GameProgressData.Instance.CurrentPlotProgress == "4.9") {
+            if (!GameProgressData.Instance.IsPlotFinished("0.5") || GameProgressData.Instance.CurrentPlotProgress == "4.5") {
                 NormalSpriteProgressable.Progress = 0f;
+                shadowCaster.enabled = false;
             }
 
             TypeEventSystem.Global.Register<OnStoryEndEvent>(e => {
-                if (e.plot != null && e.plot.Id == "0.0") {
+                if (e.plot != null && e.plot.Id is "0.0" or "4.9") {
                     NormalSpriteProgressable.LinearTransition(1f);
+                    shadowCaster.enabled = true;
                 }
             });
 

@@ -62,15 +62,20 @@ namespace Phosphorescence.Game
         void Update()
         {
             if (GameProgressData.Instance.CurrentPlotProgress == "3.1"
-                && PlayerController.Instance.transform.position.y < 11f
+                && (PlayerController.Instance.transform.position.y < 10f || PlayerController.Instance.IsOutside)
                 && !GameProgressData.Instance.HasInfo("IsKeyAppeared"))
             {
-                spriteRenderer.enabled = true;
-                animator.enabled = true;
-                
+                StartCoroutine(ShowKeyCoroutine());
                 GameProgressData.Instance.SetInfo("IsKeyAppeared", "true");
                 GameProgressData.Instance.SetInfo("IsKeyTaken", "false");
             }
+        }
+
+        private IEnumerator ShowKeyCoroutine()
+        {
+            yield return new WaitForSeconds(1f);
+            spriteRenderer.enabled = true;
+            animator.enabled = true;
         }
     }
 }

@@ -23,10 +23,7 @@ namespace Phosphorescence.Game
             TypeEventSystem.Global.Register<OnStoryEventTriggerEvent>(e => {
                 if (e.eventName == "beacon_stop")
                 {
-                    IsOn = false;
-                    GameProgressData.Instance.SetInfo("IsBeaconOn", "false");
-
-                    UpdateStatus();
+                    Stop();
                 }
             }).UnRegisterWhenGameObjectDestroyed(gameObject);
         }
@@ -39,6 +36,12 @@ namespace Phosphorescence.Game
 
         private void UpdateStatus()  // Know the status, update the behavior
         {
+            if (!GameManager.Instance.GlobalPower)
+            {
+                IsOn = false;
+                GameProgressData.Instance.SetInfo("IsBeaconOn", "false");
+            }
+            
             audioSource.enabled = IsOn;
 
             if (IsOn)

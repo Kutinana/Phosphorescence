@@ -25,7 +25,7 @@ namespace Phosphorescence.Game
                 if (e.eventName == "aurora_start")
                 {
                     spriteRenderer.enabled = true;
-                    progressable.LinearTransition(1f);
+                    progressable.LinearTransition(2f);
                     animator.enabled = true;
 
                     Audio.AudioManager.PlayMusic(GameDesignData.GetAudioData("main_theme", out var audioData) ? audioData.clip : null);

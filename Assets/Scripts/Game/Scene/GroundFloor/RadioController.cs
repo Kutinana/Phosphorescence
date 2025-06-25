@@ -82,6 +82,10 @@ namespace Phosphorescence.Game
                     else if (GameProgressData.Instance.CurrentPlotProgress == "2.9") {
                         GameManager.Instance.ContinuePlot("wait_for_checking_lantern_room");
                     }
+                    else
+                    {
+                        GameManager.Instance.ContinuePlot("failed_calling");
+                    }
                 }
                 }
             };

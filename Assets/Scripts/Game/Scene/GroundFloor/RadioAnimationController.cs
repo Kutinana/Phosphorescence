@@ -37,11 +37,12 @@ namespace Phosphorescence.Game
             TypeEventSystem.Global.Register<OnStoryEventTriggerEvent>(e => {
                 if (e.eventName == "WakeUpFromRadio") {
                     animator.enabled = true;
+                    animator.Play("Sleeping_on_radio_desk");
                 }
             }).UnRegisterWhenGameObjectDestroyed(gameObject);
 
             TypeEventSystem.Global.Register<OnStoryEndEvent>(e => {
-                if (e.plot.Id == "0.0") {
+                if (e.plot.Id is "0.0" or "4.9") {
                     progressable.LinearTransition(1f);
                 }
             }).UnRegisterWhenGameObjectDestroyed(gameObject);

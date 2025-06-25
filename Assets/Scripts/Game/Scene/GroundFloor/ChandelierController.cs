@@ -5,29 +5,32 @@ using UnityEngine;
 using UnityEngine.Rendering.Universal;
 namespace Phosphorescence.Game
 {
-    public class ChandelierController : MonoSingleton<ChandelierController>
+    public class ChandelierController : MonoBehaviour
     {
         public bool isActivated = true;
 
-        private Light2D light;
-    
+        private Light2D chandelierLight;
+
+        void Awake()
+        {
+            chandelierLight = GetComponentInChildren<Light2D>();
+        }
+
         void Start()
         {
-            light = GetComponent<Light2D>();
-
             isActivated = GameManager.Instance.GlobalPower;
-            light.enabled = isActivated;
+            chandelierLight.enabled = isActivated;
 
             TypeEventSystem.Global.Register<OnGlobalPowerChangedEvent>(e => {
                 if (e.value)
                 {
                     isActivated = true;
-                    light.enabled = true;
+                    chandelierLight.enabled = true;
                 }
                 else
                 {
                     isActivated = false;
-                    light.enabled = false;
+                    chandelierLight.enabled = false;
                 }
             }).UnRegisterWhenGameObjectDestroyed(gameObject);
         }
