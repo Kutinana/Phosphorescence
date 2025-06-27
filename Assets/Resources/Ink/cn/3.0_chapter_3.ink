@@ -65,6 +65,6 @@ $EVENT:grab_the_projector_finished #auto:true
 $EVENT:projector_transit_to_off
 
 $ENABLE_ALL_ACTIONS
-$START_TIMER
+$RECORD_CURRENT_TIME_TO:HakumeiSendKey
 
 -> DONE

@@ -1,3 +1,4 @@
+using System;
 using Phosphorescence.DataSystem;
 using UnityEngine;
 
@@ -15,8 +16,15 @@ namespace Phosphorescence.Game
                 }
                 else if (GameProgressData.Instance.CurrentPlotProgress == "3.0")
                 {
-                    GameManager.Instance.ContinuePlot("3.1");
-                    PlayerController.Instance.StopMoving(-1);
+                    var sendKeyAt = GameProgressData.Instance.GetInfo("HakumeiSendKey");
+                    var sendKeyAtDateTime = DateTime.Parse(sendKeyAt);
+                    var timeSpan = DateTime.Now - sendKeyAtDateTime;
+
+                    if (timeSpan.TotalSeconds < 20)
+                    {
+                        GameManager.Instance.ContinuePlot("3.1");
+                        PlayerController.Instance.StopMoving(-1);
+                    }
                 }
                 else if (GameProgressData.Instance.CurrentPlotProgress == "3.1"
                     && GameProgressData.Instance.CompareInfoWith("IsKeyAppeared", "true"))

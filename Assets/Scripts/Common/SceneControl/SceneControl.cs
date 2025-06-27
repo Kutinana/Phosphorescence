@@ -166,6 +166,8 @@ namespace Common.SceneControl
             yield return SplashScreenController.Instance.MaskProgressable.LinearTransition(1f, 0f);
             yield return new WaitForSeconds(1f);
 
+            CameraStack.Instance.AudioListener.enabled = true;
+
             yield return SplashScreenController.Instance.PrefaceBProgressable.SmoothDamp(1f, out var prefaceCoroutine);
             // yield return new WaitForSeconds(1f);
             yield return SplashScreenController.Instance.PrefaceBProgressable.InverseSmoothDamp(0.5f, out prefaceCoroutine);

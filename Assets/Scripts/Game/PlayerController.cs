@@ -70,7 +70,7 @@ namespace Phosphorescence.Game
                     NormalSpriteProgressable.LinearTransition(1f);
                     shadowCaster.enabled = true;
                 }
-            });
+            }).UnRegisterWhenGameObjectDestroyed(gameObject);
 
             TypeEventSystem.Global.Register<OnStoryEventTriggerEvent>(e => {
                 if (e.eventName == "grab_the_projector") {
@@ -84,7 +84,7 @@ namespace Phosphorescence.Game
                     RaiseUpAnimator.enabled = false;
                     NormalSpriteProgressable.LinearTransition(0.2f);
                 }
-            });
+            }).UnRegisterWhenGameObjectDestroyed(gameObject);
         }
 
         // Update is called once per frame
