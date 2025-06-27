@@ -39,6 +39,7 @@ namespace Phosphorescence.DataSystem
 
     public partial class GameProgressData
     {
+        [JsonIgnore] public bool IsNewGame => !System.IO.File.Exists(Path);
         [JsonIgnore] public string CurrentPlotProgress => PlotProgress.LastOrDefault() ?? "";
         public bool IsPlotFinished(string plotId) => PlotProgress.Contains(plotId);
         public void FinishPlot(string plotId)

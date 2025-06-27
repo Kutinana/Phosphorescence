@@ -62,13 +62,19 @@ namespace Common.SceneControl
 
         void Start()
         {
+            if (GameProgressData.Instance.IsNewGame || !GameProgressData.Instance.IsPlotFinished("0.9"))
+            {
+                InitialSettings();
+                GameProgressData.Instance.ResetPlotProgress();
+            }
+
             StartCoroutine(InitializeSceneControl());
 
-# if UNITY_EDITOR_WIN || UNITY_STANDALONE_WIN
+// # if UNITY_EDITOR_WIN || UNITY_STANDALONE_WIN
 
-            currentWindow = GetForegroundWindow();
+//             currentWindow = GetForegroundWindow();
 
-# endif
+// # endif
 
         }
 
@@ -97,7 +103,7 @@ namespace Common.SceneControl
             SplashScreenController.Instance.Initialize();
             yield return SplashScreenController.Instance.FadeInGroup.LinearTransition(2f, 0f);
 
-            if (GameProgressData.Instance.IsPlotFinished("0.5"))  // After tutorial
+            if (GameProgressData.Instance.IsPlotFinished("0.9"))  // After tutorial
             {
                 var floor = GameProgressData.Instance.LastFloorIndex;
                 PlayerController.Instance.TransportTo(FloorManager.Instance.FloorPivots[floor]);
@@ -106,12 +112,12 @@ namespace Common.SceneControl
                 GameProgressData.Instance.SetInfo("Continued", "true");
 
                 yield return new WaitForSeconds(0.5f);
+                
+                CameraStack.Instance.AudioListener.enabled = true;
                 yield return SplashScreenController.Instance.FadeOutGroup.InverseLinearTransition(0.5f, 0f);
             }
             else  // Tutorial unfinished
             {
-                GameProgressData.Instance.ResetPlotProgress();
-                InitialSettings();
                 PlayerController.Instance.TransportTo(FloorManager.Instance.FloorPivots[1]);
                 // FloorManager.Instance.SwitchTo(1);
 
@@ -123,6 +129,7 @@ namespace Common.SceneControl
                 yield return SplashScreenController.Instance.DisclaimerProgressable.InverseSmoothDamp(0.5f, out disclaimerCoroutine);
 
                 yield return new WaitForSeconds(1f);
+                CameraStack.Instance.AudioListener.enabled = true;
 
                 yield return SplashScreenController.Instance.PrefaceAProgressable.SmoothDamp(1f, out var prefaceCoroutine);
                 // yield return new WaitForSeconds(1f);

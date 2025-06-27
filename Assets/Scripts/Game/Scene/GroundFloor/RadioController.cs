@@ -45,13 +45,16 @@ namespace Phosphorescence.Game
                         GameManager.Instance.ContinuePlot("1.1");
                     }
                     else if (GameProgressData.Instance.CurrentPlotProgress == "1.1") {
-                        if (GameManager.Instance.Timer < 20f) {
+                        var secondBeaconTest = GameProgressData.Instance.GetInfo("SecondBeaconTest");
+                        var secondBeaconTestDateTime = DateTime.Parse(secondBeaconTest);
+                        var timeSpan = DateTime.Now - secondBeaconTestDateTime;
+
+                        if (timeSpan.TotalSeconds < 20f) {
                             GameManager.Instance.ContinuePlot("1.25");
                         }
                         else {
                             GameManager.Instance.ContinuePlot("1.2");
                         }
-                        GameManager.Instance.StopTimer();
                     }
                     else if (GameProgressData.Instance.CurrentPlotProgress is "1.2" or "1.25") {
                         GameManager.Instance.ContinuePlot("2.0");
@@ -68,8 +71,7 @@ namespace Phosphorescence.Game
                         {
                             var canBoxSetAt = GameProgressData.Instance.GetInfo("CanBoxSetAt");
                             var canBoxSetAtDateTime = DateTime.Parse(canBoxSetAt);
-                            var now = DateTime.Now;
-                            var timeSpan = now - canBoxSetAtDateTime;
+                            var timeSpan = DateTime.Now - canBoxSetAtDateTime;
 
                             if (timeSpan.TotalSeconds < 20)
                             {

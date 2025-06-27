@@ -17,6 +17,8 @@ namespace Phosphorescence.Game
         public Vector3 Offset = Vector3.zero;
         private Coroutine m_DampToSizeCoroutine;
 
+        public AudioListener AudioListener;
+
         private void Awake()
         {
             foreach (var camera in cameraStack)
@@ -24,6 +26,9 @@ namespace Phosphorescence.Game
                 BaseCameraManager.AddToCameraStack(camera);
             }
             m_FollowTransform = GetComponent<FollowTransform>();
+            AudioListener = GetComponent<AudioListener>();
+
+            AudioListener.enabled = false;
         }
 
         private void FixedUpdate()

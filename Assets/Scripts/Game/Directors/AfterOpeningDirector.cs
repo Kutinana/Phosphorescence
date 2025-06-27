@@ -20,6 +20,11 @@ namespace Phosphorescence.Game
         {
             playableDirector.Play();
         }
+
+        public void OnPerformEnd()
+        {
+            GameManager.Instance.ContinuePlot("0.9");
+        }
     }
 
 }

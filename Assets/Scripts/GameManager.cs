@@ -28,23 +28,19 @@ namespace Phosphorescence.Game
         {
             get
             {
-                return m_GlobalPower;
+                return GameProgressData.Instance.CompareInfoWith("GlobalPower");
             }
             set
             {
-                m_GlobalPower = value;
-                GameProgressData.Instance.SetInfo("GlobalPower", m_GlobalPower ? "true" : "false");
+                GameProgressData.Instance.SetInfo("GlobalPower", value ? "true" : "false");
 
-                TypeEventSystem.Global.Send(new OnGlobalPowerChangedEvent() { value = m_GlobalPower });
+                TypeEventSystem.Global.Send(new OnGlobalPowerChangedEvent() { value = value });
             }
         }
-        private bool m_GlobalPower = true;
 
         private void Awake()
         {
             DontDestroyOnLoad(this);
-
-            GlobalPower = GameProgressData.Instance.CompareInfoWith("GlobalPower");
         }
 
         private void Start()

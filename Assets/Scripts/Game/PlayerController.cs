@@ -60,7 +60,7 @@ namespace Phosphorescence.Game
             spriteRenderer = GetComponent<SpriteRenderer>();
             shadowCaster = GetComponent<ShadowCaster2D>();
 
-            if (!GameProgressData.Instance.IsPlotFinished("0.5") || GameProgressData.Instance.CurrentPlotProgress == "4.5") {
+            if (!GameProgressData.Instance.IsPlotFinished("0.9") || GameProgressData.Instance.CurrentPlotProgress == "4.5") {
                 NormalSpriteProgressable.Progress = 0f;
                 shadowCaster.enabled = false;
             }

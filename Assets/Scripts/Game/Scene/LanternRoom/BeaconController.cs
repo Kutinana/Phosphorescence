@@ -94,13 +94,17 @@ namespace Phosphorescence.Game
             while (speed < 1f)
             {
                 speed += Time.deltaTime * 0.5f;
-
                 BeaconRotationAnimator.SetFloat("Speed", speed);
-                audioSource.volume = speed / 2f;
 
                 yield return null;
             }
             BeaconRotationAnimator.SetFloat("Speed", 1f);
+
+            while (audioSource.volume < 0.5f)
+            {
+                audioSource.volume += Time.deltaTime * 0.2f;
+                yield return null;
+            }
             audioSource.volume = 0.5f;
 
             yield return new WaitUntil(() => BeaconRotationAnimator.GetCurrentAnimatorStateInfo(0).normalizedTime * 100 % 100 <= 1);

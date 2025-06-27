@@ -13,7 +13,7 @@ $READ_VARIABLE:isBeaconOn #auto:true
 {isBeaconOn == false: “关着的。” #type: LeftAvatarText #speaker:X92HKM #avatar:radio_default_1 #simulated_voice: sfx_hakumei_do}
 “正确。请等待下一次连线。完毕。” #type:RightAvatarText #speaker:磷光 #avatar:phos_smile #simulated_voice: sfx_phos_do
 
-$START_TIMER #auto:true
+$RECORD_CURRENT_TIME_TO:SecondBeaconTest #auto:true
 $ENABLE_ALL_ACTIONS
 
 -> END

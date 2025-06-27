@@ -23,7 +23,7 @@ namespace Phosphorescence.Game
 
         private void Start()
         {
-            if (!GameProgressData.Instance.IsPlotFinished("0.5") || GameProgressData.Instance.CurrentPlotProgress == "4.5")
+            if (!GameProgressData.Instance.IsPlotFinished("0.9") || GameProgressData.Instance.CurrentPlotProgress == "4.5")
             {
                 gameObject.SetActive(true);
                 animator.speed = 0f;
