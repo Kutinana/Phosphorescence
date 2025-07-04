@@ -1,0 +1,325 @@
+fileFormatVersion: 2
+guid: 68243b682b9e63b4b8a382523387a3ef
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4240435934358106341
+    second: 1.1_fireAnimation-Sheet_0
+  - first:
+      213: 6447816788034168633
+    second: 1.1_fireAnimation-Sheet_1
+  - first:
+      213: -2315051742559910157
+    second: 1.1_fireAnimation-Sheet_2
+  - first:
+      213: -9028823488651013132
+    second: 1.1_fireAnimation-Sheet_3
+  - first:
+      213: 8711666088416526747
+    second: 1.1_fireAnimation-Sheet_4
+  - first:
+      213: 5289606800383340315
+    second: 1.1_fireAnimation-Sheet_5
+  - first:
+      213: -3018248829003455156
+    second: 1.1_fireAnimation-Sheet_6
+  - first:
+      213: 8777522074058590507
+    second: 1.1_fireAnimation-Sheet_7
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 1.1_fireAnimation-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 47
+        width: 90
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1f88c70cf1f625c0800000000000000
+      internalID: -4240435934358106341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1.1_fireAnimation-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 47
+        width: 90
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 937a39be43f3b7950800000000000000
+      internalID: 6447816788034168633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1.1_fireAnimation-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 47
+        width: 90
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f64110b4b84fdfd0800000000000000
+      internalID: -2315051742559910157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1.1_fireAnimation-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 47
+        width: 90
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f3d043bfdc23b280800000000000000
+      internalID: -9028823488651013132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1.1_fireAnimation-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 87
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9142e9a62e06e870800000000000000
+      internalID: 8711666088416526747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1.1_fireAnimation-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 87
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1fe6520c55786940800000000000000
+      internalID: 5289606800383340315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1.1_fireAnimation-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 47
+        width: 90
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c45a28f6ea60d16d0800000000000000
+      internalID: -3018248829003455156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1.1_fireAnimation-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 91
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b29896032d500d970800000000000000
+      internalID: 8777522074058590507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      1.1_fireAnimation-Sheet_0: -4240435934358106341
+      1.1_fireAnimation-Sheet_1: 6447816788034168633
+      1.1_fireAnimation-Sheet_2: -2315051742559910157
+      1.1_fireAnimation-Sheet_3: -9028823488651013132
+      1.1_fireAnimation-Sheet_4: 8711666088416526747
+      1.1_fireAnimation-Sheet_5: 5289606800383340315
+      1.1_fireAnimation-Sheet_6: -3018248829003455156
+      1.1_fireAnimation-Sheet_7: 8777522074058590507
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

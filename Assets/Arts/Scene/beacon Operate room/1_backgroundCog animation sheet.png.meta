@@ -1,0 +1,611 @@
+fileFormatVersion: 2
+guid: 351fd923c1c80e841a89572073212701
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7913902340275868597
+    second: 1_backgroundCog animation sheet_0
+  - first:
+      213: 6288976959367388529
+    second: 1_backgroundCog animation sheet_1
+  - first:
+      213: -7530565462951931973
+    second: 1_backgroundCog animation sheet_2
+  - first:
+      213: -80179780859929181
+    second: 1_backgroundCog animation sheet_3
+  - first:
+      213: -1295335524305807529
+    second: 1_backgroundCog animation sheet_4
+  - first:
+      213: 5421906881927151816
+    second: 1_backgroundCog animation sheet_5
+  - first:
+      213: -6271845990608434122
+    second: 1_backgroundCog animation sheet_6
+  - first:
+      213: 6099980971843940732
+    second: 1_backgroundCog animation sheet_7
+  - first:
+      213: -8786860459717086341
+    second: 1_backgroundCog animation sheet_8
+  - first:
+      213: -4619778730976563531
+    second: 1_backgroundCog animation sheet_9
+  - first:
+      213: -9052468407300435011
+    second: 1_backgroundCog animation sheet_10
+  - first:
+      213: 8376362979742650748
+    second: 1_backgroundCog animation sheet_11
+  - first:
+      213: 5288687695074472249
+    second: 1_backgroundCog animation sheet_12
+  - first:
+      213: 7869829159774754632
+    second: 1_backgroundCog animation sheet_13
+  - first:
+      213: 3984004412739210559
+    second: 1_backgroundCog animation sheet_14
+  - first:
+      213: -6544588053535105753
+    second: 1_backgroundCog animation sheet_15
+  - first:
+      213: -895155596710493875
+    second: 1_backgroundCog animation sheet_16
+  - first:
+      213: 7264946310145953864
+    second: 1_backgroundCog animation sheet_17
+  - first:
+      213: -4735401716500970757
+    second: 1_backgroundCog animation sheet_18
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 1_backgroundCog animation sheet_0
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 1871
+        width: 238
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b39643bf34d3dd60800000000000000
+      internalID: 7913902340275868597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_backgroundCog animation sheet_1
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 1671
+        width: 578
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17d95bf593fe64750800000000000000
+      internalID: 6288976959367388529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_backgroundCog animation sheet_2
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 1855
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbfccee2c9e0e7790800000000000000
+      internalID: -7530565462951931973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_backgroundCog animation sheet_3
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 1719
+        width: 42
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3addca30ae423eef0800000000000000
+      internalID: -80179780859929181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_backgroundCog animation sheet_4
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 1719
+        width: 50
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 757dec0243b060ee0800000000000000
+      internalID: -1295335524305807529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_backgroundCog animation sheet_5
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 1323
+        width: 226
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c08386259b7e3b40800000000000000
+      internalID: 5421906881927151816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_backgroundCog animation sheet_6
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 1119
+        width: 578
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63c83db1d4de5f8a0800000000000000
+      internalID: -6271845990608434122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_backgroundCog animation sheet_7
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 1303
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c717663ff5c77a450800000000000000
+      internalID: 6099980971843940732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_backgroundCog animation sheet_8
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 1167
+        width: 42
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7333a777fcce0680800000000000000
+      internalID: -8786860459717086341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_backgroundCog animation sheet_9
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 1167
+        width: 50
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5beac3788bf33efb0800000000000000
+      internalID: -4619778730976563531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_backgroundCog animation sheet_10
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 771
+        width: 222
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db3596212fb2f5280800000000000000
+      internalID: -9052468407300435011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_backgroundCog animation sheet_11
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 567
+        width: 578
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c711b4d00c1de3470800000000000000
+      internalID: 8376362979742650748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_backgroundCog animation sheet_12
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 755
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 931b4e02071356940800000000000000
+      internalID: 5288687695074472249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_backgroundCog animation sheet_13
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 615
+        width: 42
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8479267bcef373d60800000000000000
+      internalID: 7869829159774754632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_backgroundCog animation sheet_14
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 615
+        width: 50
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3dc8ecb7e60a4730800000000000000
+      internalID: 3984004412739210559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_backgroundCog animation sheet_15
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 219
+        width: 226
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72d56cb07d3fc25a0800000000000000
+      internalID: -6544588053535105753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_backgroundCog animation sheet_16
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 11
+        width: 586
+        height: 382
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d414e5f3ab4c393f0800000000000000
+      internalID: -895155596710493875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_backgroundCog animation sheet_17
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 63
+        width: 42
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 840d8808d2642d460800000000000000
+      internalID: 7264946310145953864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_backgroundCog animation sheet_18
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 63
+        width: 50
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf24f236a39784eb0800000000000000
+      internalID: -4735401716500970757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      1_backgroundCog animation sheet_0: 7913902340275868597
+      1_backgroundCog animation sheet_1: 6288976959367388529
+      1_backgroundCog animation sheet_10: -9052468407300435011
+      1_backgroundCog animation sheet_11: 8376362979742650748
+      1_backgroundCog animation sheet_12: 5288687695074472249
+      1_backgroundCog animation sheet_13: 7869829159774754632
+      1_backgroundCog animation sheet_14: 3984004412739210559
+      1_backgroundCog animation sheet_15: -6544588053535105753
+      1_backgroundCog animation sheet_16: -895155596710493875
+      1_backgroundCog animation sheet_17: 7264946310145953864
+      1_backgroundCog animation sheet_18: -4735401716500970757
+      1_backgroundCog animation sheet_2: -7530565462951931973
+      1_backgroundCog animation sheet_3: -80179780859929181
+      1_backgroundCog animation sheet_4: -1295335524305807529
+      1_backgroundCog animation sheet_5: 5421906881927151816
+      1_backgroundCog animation sheet_6: -6271845990608434122
+      1_backgroundCog animation sheet_7: 6099980971843940732
+      1_backgroundCog animation sheet_8: -8786860459717086341
+      1_backgroundCog animation sheet_9: -4619778730976563531
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
