@@ -124,10 +124,10 @@ TextureImporter:
       name: 1.5_inner machine animation sheet_0
       rect:
         serializedVersion: 2
-        x: 539
-        y: 1779
-        width: 66
-        height: 62
+        x: 0
+        y: 1656
+        width: 1376
+        height: 552
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -146,10 +146,10 @@ TextureImporter:
       name: 1.5_inner machine animation sheet_1
       rect:
         serializedVersion: 2
-        x: 547
-        y: 1715
-        width: 238
-        height: 230
+        x: 0
+        y: 1104
+        width: 1376
+        height: 552
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -168,10 +168,10 @@ TextureImporter:
       name: 1.5_inner machine animation sheet_2
       rect:
         serializedVersion: 2
-        x: 539
-        y: 1227
-        width: 66
-        height: 62
+        x: 0
+        y: 552
+        width: 1376
+        height: 552
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -190,10 +190,10 @@ TextureImporter:
       name: 1.5_inner machine animation sheet_3
       rect:
         serializedVersion: 2
-        x: 547
-        y: 1163
-        width: 238
-        height: 226
+        x: 0
+        y: 0
+        width: 1376
+        height: 552
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -208,99 +208,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: 1.5_inner machine animation sheet_4
-      rect:
-        serializedVersion: 2
-        x: 539
-        y: 675
-        width: 66
-        height: 62
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a7b54511f3f80c820800000000000000
-      internalID: 2936504458082016122
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 1.5_inner machine animation sheet_5
-      rect:
-        serializedVersion: 2
-        x: 547
-        y: 611
-        width: 238
-        height: 242
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1ea38e1695342c8f0800000000000000
-      internalID: -521780555647796511
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 1.5_inner machine animation sheet_6
-      rect:
-        serializedVersion: 2
-        x: 539
-        y: 123
-        width: 66
-        height: 62
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d69eee8a2c78a9590800000000000000
-      internalID: -7666666145517213331
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 1.5_inner machine animation sheet_7
-      rect:
-        serializedVersion: 2
-        x: 547
-        y: 59
-        width: 238
-        height: 222
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 915b7a4066034f230800000000000000
-      internalID: 3671612810936694041
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 3b19774fc9017485b8bdaab6bef3d887
     internalID: 0
     vertices: []
     indices: 
@@ -308,16 +220,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":4.0},"gridSpriteSize":{"x":1376.0,"y":552.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       1.5_inner machine animation sheet_0: -5668958481405286908
       1.5_inner machine animation sheet_1: 6879071329820936200
       1.5_inner machine animation sheet_2: -241768699154517265
       1.5_inner machine animation sheet_3: 7557904636049768887
-      1.5_inner machine animation sheet_4: 2936504458082016122
-      1.5_inner machine animation sheet_5: -521780555647796511
-      1.5_inner machine animation sheet_6: -7666666145517213331
-      1.5_inner machine animation sheet_7: 3671612810936694041
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

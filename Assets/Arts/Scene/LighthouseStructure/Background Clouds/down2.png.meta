@@ -1,15 +1,15 @@
 fileFormatVersion: 2
-guid: 09683ef1b3e5faa45ac284c33bf3b7af
+guid: 63d57168d22974e5f98276b0a37d6098
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 398195830294560696
-    second: swimming ring_0
+      213: -8942378133922232818
+    second: down2_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 0
+    enableMipMap: 1
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -72,7 +72,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 16384
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: swimming ring_0
+      name: down2_0
       rect:
         serializedVersion: 2
-        x: 91
-        y: 51
-        width: 106
-        height: 146
+        x: 0
+        y: 0
+        width: 15360
+        height: 1849
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8bfbfb77ffca68500800000000000000
-      internalID: 398195830294560696
+      spriteID: e064858477a46e380800000000000000
+      internalID: -8942378133922232818
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      swimming ring_0: 398195830294560696
+      down2_0: -8942378133922232818
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
