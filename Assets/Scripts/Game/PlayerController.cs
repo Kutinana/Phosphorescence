@@ -117,7 +117,7 @@ namespace Phosphorescence.Game
             if (direction != 0)
             {
                 transform.localScale = new Vector3(direction, 1, 1);
-                spriteRenderer.material.SetFloat("_FlipGreen", direction);
+                // spriteRenderer.material.SetFloat("_FlipGreen", direction);
 
                 animator.SetBool("isMoving", true);
             }
@@ -134,7 +134,7 @@ namespace Phosphorescence.Game
             if (direction != 0)
             {
                 transform.localScale = new Vector3(direction, 1, 1);
-                spriteRenderer.material.SetFloat("_FlipGreen", direction);
+                // spriteRenderer.material.SetFloat("_FlipGreen", direction);
 
                 animator.SetBool("isMoving", true);
             }
@@ -148,7 +148,7 @@ namespace Phosphorescence.Game
         {
             rb.linearVelocity = Vector2.zero;
             transform.localScale = new Vector3(direction, 1, 1);
-            spriteRenderer.material.SetFloat("_FlipGreen", direction);
+            // spriteRenderer.material.SetFloat("_FlipGreen", direction);
             animator.SetBool("isMoving", false);
         }
 

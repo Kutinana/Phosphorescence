@@ -50,6 +50,9 @@ TagManager:
   - name: Front
     uniqueID: 1232012005
     locked: 0
+  - name: Floor
+    uniqueID: 1995868195
+    locked: 0
   - name: OutsideFramework
     uniqueID: 2784877347
     locked: 0

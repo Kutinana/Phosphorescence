@@ -19,7 +19,7 @@ namespace Phosphorescence.Game
             if (!IsInteractable) throw new System.Exception("Not Interactable");
 
             Debug.Log("Interacted with " + interactor);
-            if (InteractAction.TryGetValue(inputAction, out var action))
+            if (InteractAction != null && InteractAction.TryGetValue(inputAction, out var action))
             {
                 action?.Invoke();
             }
