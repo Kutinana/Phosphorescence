@@ -1,16 +1,16 @@
 fileFormatVersion: 2
-guid: bcd6c1f61a5ff4a71b5cc7c59ebbd3f5
+guid: 65460d5651ad04a56a576757bcd3be91
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 475073669498589824
-    second: 1.2_firefence_rimlight2.0_0
+      213: 1629808029104348950
+    second: 2-main shelf1_Normal_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
-    sRGBTexture: 1
+    sRGBTexture: 0
     linearTexture: 0
     fadeOut: 0
     borderMipMap: 0
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -57,7 +57,7 @@ TextureImporter:
   alphaUsage: 1
   alphaIsTransparency: 0
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 1
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 1.2_firefence_rimlight2.0_0
+      name: 2-main shelf1_Normal_0
       rect:
         serializedVersion: 2
-        x: 799
-        y: 171
-        width: 194
-        height: 62
+        x: 0
+        y: 0
+        width: 1692
+        height: 892
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 082da904cfcc79600800000000000000
-      internalID: 475073669498589824
+      spriteID: 61f18d274cd3e9610800000000000000
+      internalID: 1629808029104348950
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      1.2_firefence_rimlight2.0_0: 475073669498589824
+      2-main shelf1_Normal_0: 1629808029104348950
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,16 +1,16 @@
 fileFormatVersion: 2
-guid: a211b8a56d3c855438eb5191133b7009
+guid: 73e5ea2b06e124f39b7b2a781ba91796
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3027146721906496646
-    second: 1.2_fireplace_Normal_0
+      213: -3565268588024141716
+    second: 5-light_Normal_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
-    sRGBTexture: 1
+    sRGBTexture: 0
     linearTexture: 0
     fadeOut: 0
     borderMipMap: 0
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -55,9 +55,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 1
+  alphaIsTransparency: 0
   spriteTessellationDetail: -1
-  textureType: 8
+  textureType: 1
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 1.2_fireplace_Normal_0
+      name: 5-light_Normal_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1724
-        height: 968
+        width: 172
+        height: 244
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6849932b7e5920a20800000000000000
-      internalID: 3027146721906496646
+      spriteID: c6866f9db1f958ec0800000000000000
+      internalID: -3565268588024141716
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      1.2_fireplace_Normal_0: 3027146721906496646
+      5-light_Normal_0: -3565268588024141716
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
