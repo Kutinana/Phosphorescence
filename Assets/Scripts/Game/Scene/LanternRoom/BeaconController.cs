@@ -11,9 +11,12 @@ namespace Phosphorescence.Game
     public class BeaconController : MonoSingleton<BeaconController>
     {
         public bool IsOn;
+        public bool IsActivating => LightAnimator.GetCurrentAnimatorStateInfo(0).IsName("Starting");
 
         public Animator LightAnimator;
         public Animator BeaconRotationAnimator;
+        public Animator MachineAnimator;
+        public Animator GearsAnimator;
 
         public AudioSource audioSource;
         private AudioSource m_StartingAudioSource;
@@ -52,6 +55,9 @@ namespace Phosphorescence.Game
                 BeaconRotationAnimator.Play("BeaconRotation", 0, 0);
                 BeaconRotationAnimator.SetFloat("Speed", 1f);
 
+                MachineAnimator.speed = 1f;
+                GearsAnimator.speed = 1f;
+
                 audioSource.enabled = true;
             }
             else
@@ -61,6 +67,9 @@ namespace Phosphorescence.Game
 
                 BeaconRotationAnimator.Play("BeaconRotation", 0, 0);
                 BeaconRotationAnimator.SetFloat("Speed", 0f);
+
+                MachineAnimator.speed = 0f;
+                GearsAnimator.speed = 0f;
 
                 audioSource.enabled = false;
             }
@@ -96,9 +105,15 @@ namespace Phosphorescence.Game
                 speed += Time.deltaTime * 0.5f;
                 BeaconRotationAnimator.SetFloat("Speed", speed);
 
+                MachineAnimator.speed = speed;
+                GearsAnimator.speed = speed;
+
                 yield return null;
             }
             BeaconRotationAnimator.SetFloat("Speed", 1f);
+
+            MachineAnimator.speed = 1f;
+            GearsAnimator.speed = 1f;
 
             while (audioSource.volume < 0.5f)
             {
@@ -136,10 +151,17 @@ namespace Phosphorescence.Game
                 BeaconRotationAnimator.SetFloat("Speed", speed);
                 audioSource.volume = speed / 2f;
 
+                MachineAnimator.speed = speed;
+                GearsAnimator.speed = speed;
+
                 yield return null;
             }
 
             BeaconRotationAnimator.SetFloat("Speed", 0f);
+
+            MachineAnimator.speed = 0f;
+            GearsAnimator.speed = 0f;
+
             audioSource.volume = 0f;
             audioSource.Stop();
         }

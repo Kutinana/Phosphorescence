@@ -50,7 +50,9 @@ namespace Phosphorescence.Game
             };
             HoverAction = () => {
                 if (!GameManager.Instance.GlobalPower) return;
-                
+
+                if (BeaconController.Instance.IsActivating) return;
+
                 spriteRenderer.sprite = onHoverSprite;
             };
             UnhoverAction = () => {
