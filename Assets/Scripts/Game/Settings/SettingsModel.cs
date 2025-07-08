@@ -11,24 +11,12 @@ namespace Phosphorescence.Game
         public int FrameRate;
         #endregion
 
-        # region Audio
-        public bool IsMusicOn;
-        public float MusicVolume;
-        public bool IsSFXOn;
-        public float SFXVolume;
-        #endregion
-
         protected override void OnInit()
         {
             IsFullScreen = false;
             ResolutionWidth = 1920;
             ResolutionHeight = 1080;
             FrameRate = 60;
-
-            IsMusicOn = true;
-            MusicVolume = 0.8f;
-            IsSFXOn = true;
-            SFXVolume = 0.8f;
         }
     }
 

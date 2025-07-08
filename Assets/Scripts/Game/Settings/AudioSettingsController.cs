@@ -9,7 +9,6 @@ namespace Phosphorescence.Game
 {
     public class AudioSettingsController : MonoSingleton<AudioSettingsController>
     {
-        public AudioMixer AudioMixer;
         public Sprite MuteSprite;
         public Sprite UnmuteSprite;
 
@@ -36,78 +35,50 @@ namespace Phosphorescence.Game
         private void Start()
         {
             GlobalVolumeButton.onClick.AddListener(() => {
-                if (GlobalVolumeButton.image.sprite == MuteSprite)
-                {
-                    UserConfig.Write("GlobalVolume", 0.8f);
-                    GlobalVolumeSlider.SetValueWithoutNotify(80);
-                }
-                else
-                {
-                    UserConfig.Write("GlobalVolume", 0f);
-                    GlobalVolumeSlider.SetValueWithoutNotify(0);
-                }
+                var isMutting = GlobalVolumeButton.image.sprite != MuteSprite;
+
+                Audio.AudioManager.SetMixerGlobalVolume(isMutting ? 0f : 0.8f);
                 UpdateGlobalVolume();
             });
 
             MusicVolumeButton.onClick.AddListener(() => {
-                if (MusicVolumeButton.image.sprite == MuteSprite)
-                {
-                    UserConfig.Write("MusicVolume", 0.8f);
-                    MusicVolumeSlider.SetValueWithoutNotify(80);
-                }
-                else
-                {
-                    UserConfig.Write("MusicVolume", 0f);
-                    MusicVolumeSlider.SetValueWithoutNotify(0);
-                }
+                var isMutting = MusicVolumeButton.image.sprite != MuteSprite;
+
+                Audio.AudioManager.SetMixerMusicVolume(isMutting ? 0f : 0.8f);
                 UpdateMusicVolume();
             });
 
             SFXVolumeButton.onClick.AddListener(() => {
-                if (SFXVolumeButton.image.sprite == MuteSprite)
-                {
-                    UserConfig.Write("SFXVolume", 0.8f);
-                    SFXVolumeSlider.SetValueWithoutNotify(80);
-                }
-                else
-                {
-                    UserConfig.Write("SFXVolume", 0f);
-                    SFXVolumeSlider.SetValueWithoutNotify(0);
-                }
+                var isMutting = SFXVolumeButton.image.sprite != MuteSprite;
+
+                Audio.AudioManager.SetMixerSFXVolume(isMutting ? 0f : 0.8f);
                 UpdateSFXVolume();
             });
 
             VoiceVolumeButton.onClick.AddListener(() => {
-                if (VoiceVolumeButton.image.sprite == MuteSprite)
-                {
-                    UserConfig.Write("VoiceVolume", 0.8f);
-                    VoiceVolumeSlider.SetValueWithoutNotify(80);
-                }
-                else
-                {
-                    UserConfig.Write("VoiceVolume", 0f);
-                    VoiceVolumeSlider.SetValueWithoutNotify(0);
-                }
+                var isMutting = VoiceVolumeButton.image.sprite != MuteSprite;
+
+                Audio.AudioManager.SetMixerVoiceVolume(isMutting ? 0f : 0.8f);
                 UpdateVoiceVolume();
             });
 
             GlobalVolumeSlider.onValueChanged.AddListener(value => {
-                UserConfig.Write("GlobalVolume", value / 100f);
+                Audio.AudioManager.SetMixerGlobalVolume(value / 100f);
                 UpdateGlobalVolume();
             });
 
             MusicVolumeSlider.onValueChanged.AddListener(value => {
-                UserConfig.Write("MusicVolume", value / 100f);
+                Audio.AudioManager.SetMixerMusicVolume(value / 100f);
                 UpdateMusicVolume();
             });
 
             SFXVolumeSlider.onValueChanged.AddListener(value => {
-                UserConfig.Write("SFXVolume", value / 100f);
+                Audio.AudioManager.SetMixerSFXVolume(value / 100f);
                 UpdateSFXVolume();
             });
 
             VoiceVolumeSlider.onValueChanged.AddListener(value => {
-                UserConfig.Write("VoiceVolume", value / 100f);
+                Audio.AudioManager.SetMixerVoiceVolume(value / 100f);
                 UpdateVoiceVolume();
             });
             
@@ -124,8 +95,8 @@ namespace Phosphorescence.Game
 
         private void UpdateGlobalVolume()
         {
-            var value = UserConfig.ReadWithDefaultValue<float>("GlobalVolume", 0.8f);
-            AudioMixer.SetFloat("MasterVolume", value == 0 ? -60 : Mathf.Log10(value + 0.2f) * 80);
+            var value = Audio.AudioManager.MixerGlobalVolume;
+
             GlobalVolumeText.text = $"{value * 100:F0}%";
             GlobalVolumeSlider.SetValueWithoutNotify(value * 100);
             GlobalVolumeButton.image.sprite = value > 0 ? UnmuteSprite : MuteSprite;
@@ -133,8 +104,8 @@ namespace Phosphorescence.Game
 
         private void UpdateMusicVolume()
         {
-            var value = UserConfig.ReadWithDefaultValue<float>("MusicVolume", 0.8f);
-            AudioMixer.SetFloat("MusicVolume", value == 0 ? -60 : Mathf.Log10(value + 0.2f) * 80);
+            var value = Audio.AudioManager.MixerMusicVolume;
+
             MusicVolumeText.text = $"{value * 100:F0}%";
             MusicVolumeSlider.SetValueWithoutNotify(value * 100);
             MusicVolumeButton.image.sprite = value > 0 ? UnmuteSprite : MuteSprite;
@@ -142,8 +113,8 @@ namespace Phosphorescence.Game
 
         private void UpdateSFXVolume()
         {
-            var value = UserConfig.ReadWithDefaultValue<float>("SFXVolume", 0.8f);
-            AudioMixer.SetFloat("SFXVolume", value == 0 ? -60 : Mathf.Log10(value + 0.2f) * 80);
+            var value = Audio.AudioManager.MixerSFXVolume;
+            
             SFXVolumeText.text = $"{value * 100:F0}%";
             SFXVolumeSlider.SetValueWithoutNotify(value * 100);
             SFXVolumeButton.image.sprite = value > 0 ? UnmuteSprite : MuteSprite;
@@ -151,8 +122,8 @@ namespace Phosphorescence.Game
 
         private void UpdateVoiceVolume()
         {
-            var value = UserConfig.ReadWithDefaultValue<float>("VoiceVolume", 0.8f);
-            AudioMixer.SetFloat("VoiceVolume", value == 0 ? -60 : Mathf.Log10(value + 0.2f) * 80);
+            var value = Audio.AudioManager.MixerVoiceVolume;
+
             VoiceVolumeText.text = $"{value * 100:F0}%";
             VoiceVolumeSlider.SetValueWithoutNotify(value * 100);
             VoiceVolumeButton.image.sprite = value > 0 ? UnmuteSprite : MuteSprite;

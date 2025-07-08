@@ -4,10 +4,11 @@ using Kuchinashi;
 using Phosphorescence.DataSystem;
 using QFramework;
 using UnityEngine;
+using UnityEngine.Audio;
 
 namespace Phosphorescence.Audio
 {
-    public class AudioManager : MonoSingleton<AudioManager>
+    public partial class AudioManager : MonoSingleton<AudioManager>
     {
         public AudioSource MusicSource;
         // public AudioSource AmbientSource;
@@ -36,6 +37,14 @@ namespace Phosphorescence.Audio
         void Awake()
         {
             DontDestroyOnLoad(gameObject);
+        }
+
+        void Start()
+        {
+            SetMixerGlobalVolume(MixerGlobalVolume);
+            SetMixerMusicVolume(MixerMusicVolume);
+            SetMixerSFXVolume(MixerSFXVolume);
+            SetMixerVoiceVolume(MixerVoiceVolume);
         }
 
         public static void PlayMusic(AudioClip clip, bool loop = false)

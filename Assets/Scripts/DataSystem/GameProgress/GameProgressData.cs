@@ -28,7 +28,7 @@ namespace Phosphorescence.DataSystem
                 Serialize();
             }
         }
-        [JsonIgnore] private int _lastFloorIndex;
+        [JsonIgnore] private int _lastFloorIndex = 1;
 
         [JsonProperty] public string CurrentObject = "";
         [JsonProperty] public List<string> PlotProgress = new();

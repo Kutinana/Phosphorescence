@@ -1365,6 +1365,7 @@ MonoBehaviour:
   SFXSourceTemplate: {fileID: 1786712061}
   SFXSources: []
   VoiceSourceTemplate: {fileID: 1705089967}
+  AudioMixer: {fileID: 24100000, guid: 8d959c05f41004c51ad3c8fe6df88078, type: 2}
 --- !u!1 &868482553
 GameObject:
   m_ObjectHideFlags: 0

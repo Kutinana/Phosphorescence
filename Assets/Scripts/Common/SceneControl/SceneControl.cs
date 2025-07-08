@@ -129,7 +129,10 @@ namespace Common.SceneControl
                 yield return SplashScreenController.Instance.DisclaimerProgressable.InverseSmoothDamp(0.5f, out disclaimerCoroutine);
 
                 yield return new WaitForSeconds(1f);
+
+                Phosphorescence.Audio.AudioManager.SetMixerGlobalVolume(0f);
                 CameraStack.Instance.AudioListener.enabled = true;
+                Phosphorescence.Audio.AudioManager.SetMixerGlobalVolume(0.8f, 2f);
 
                 yield return SplashScreenController.Instance.PrefaceAProgressable.SmoothDamp(1f, out var prefaceCoroutine);
                 // yield return new WaitForSeconds(1f);
