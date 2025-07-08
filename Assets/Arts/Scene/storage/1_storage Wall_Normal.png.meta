@@ -1,16 +1,16 @@
 fileFormatVersion: 2
-guid: ae77ceed8d7cff849a300366d6eeb22a
+guid: 0f145759733f044479c95ceba0e1c4ea
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1353728474232455411
-    second: 2_can shelve Outlined_0
+      213: -7145145335730907835
+    second: 1_storage Wall_Normal_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
-    sRGBTexture: 1
+    sRGBTexture: 0
     linearTexture: 0
     fadeOut: 0
     borderMipMap: 0
@@ -55,9 +55,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 1
+  alphaIsTransparency: 0
   spriteTessellationDetail: -1
-  textureType: 8
+  textureType: 1
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -96,40 +96,27 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 2_can shelve Outlined_0
+      name: 1_storage Wall_Normal_0
       rect:
         serializedVersion: 2
-        x: 1179
-        y: 59
-        width: 266
-        height: 406
+        x: 0
+        y: 0
+        width: 1772
+        height: 820
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3f005fcffd869c210800000000000000
-      internalID: 1353728474232455411
+      spriteID: 545583b7c2857dc90800000000000000
+      internalID: -7145145335730907835
       vertices: []
       indices: 
       edges: []
@@ -138,19 +125,17 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
-    internalID: 1537655665
+    spriteID: 
+    internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
-    secondaryTextures:
-    - texture: {fileID: 2800000, guid: 478b9f2dd275f47ce9b9d314efe41bf2, type: 3}
-      name: _NormalMap
+    secondaryTextures: []
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      2_can shelve Outlined_0: 1353728474232455411
+      1_storage Wall_Normal_0: -7145145335730907835
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
