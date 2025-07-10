@@ -120,8 +120,11 @@ namespace Phosphorescence.Narration
                 case "zoom_to" when args.Length == 1:
                     CameraStack.Instance.DampToSize(float.Parse(args[0]));
                     break;
-                case "set_camera_to_center":
-                    CameraStack.Instance.Offset = new Vector3(-PlayerController.Instance.transform.position.x, 0, 0);
+                case "set_camera_to" when args.Length == 3:
+                    CameraStack.Instance.Offset = new Vector3(float.Parse(args[0]), float.Parse(args[1]), float.Parse(args[2]));
+                    break;
+                case "set_camera_to_player":
+                    CameraStack.Instance.Offset = new Vector3(-PlayerController.Instance.transform.position.x, 1.5f, 0);
                     break;
                 case "finish_ending_a":
                     FinishEndingA();

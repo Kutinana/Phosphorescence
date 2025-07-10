@@ -188,7 +188,7 @@ namespace Phosphorescence.Game
             NormalSpriteProgressable.LinearTransition(0.2f, 0f);
             NormalLight.enabled = true;
             
-            CameraStack.Instance.Offset = new Vector3(0, 0f);
+            CameraStack.Instance.Offset = new Vector3(0, 1.5f);
 
             m_IsUpstairing = m_IsDownstairing = false;
 

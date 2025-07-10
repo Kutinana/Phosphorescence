@@ -134,7 +134,7 @@ $EVENT:aurora_start #auto:true
 “极光！你快看！是极光！” #type: LeftAvatarText #speaker:薄明 #avatar:holo_happy_4 #simulated_voice: sfx_hakumei_mi
 
 $START_TIMER #auto:true
-$SET_CAMERA_TO_CENTER
+$SET_CAMERA_TO_PLAYER
 $SLEEP:2
 $ZOOM_TO:15
 

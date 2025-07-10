@@ -27,7 +27,8 @@ $SLEEP:1.5 #auto:true
 
 （无线电静默） #type:FullScreenText #opacity:0.8
 
-“确实……太奇怪了。海岸警卫队居然毫无应答。” #type:RightAvatarText #speaker:磷光 #avatar:phos_thinking_1 #simulated_voice: sfx_phos_do
+“咦。” #type:RightAvatarText #speaker:磷光 #avatar:phos_confused_flip_1 #simulated_voice: sfx_phos_do
+“……怪事。海岸警卫队居然毫无应答。” #type:RightAvatarText #speaker:磷光 #avatar:phos_thinking_1 #simulated_voice: sfx_phos_do
 “啊，果然呢……” #type: LeftAvatarText #speaker:X92HKM #simulated_voice: sfx_hakumei_la #avatar:radio_sad_1
 “果然？” #type:RightAvatarText #speaker:磷光 #avatar:phos_confused_flip_1  #simulated_voice: sfx_phos_re
 “毕竟是这个时代嘛。我还以为真的会有海岸警卫队之类的。” #type: LeftAvatarText #speaker:X92HKM #simulated_voice: sfx_hakumei_do #avatar:radio_smile
@@ -65,7 +66,7 @@ $SLEEP:1.5 #auto:true
 “我确实还在维护它，但我不知道一百年后我还在不在维护它。” #type:RightAvatarText #speaker:磷光 #avatar:phos_speaking #simulated_voice: sfx_phos_do
 “一百年后……什么意思？” #type: LeftAvatarText #speaker:X92HKM #simulated_voice: sfx_hakumei_do #avatar:radio_default_2
 “我认为今天应该是 1982 年 1 月 23 日。” #type:RightAvatarText #speaker:磷光 #avatar:phos_default #simulated_voice: sfx_phos_do
-“……” #type: LeftAvatarText #speaker:X92HKM #avatar:radio_shocked_3
+“…………” #type: LeftAvatarText #speaker:X92HKM #avatar:radio_shocked_3 #speed=0.5
 “1982 年？” #type: LeftAvatarText #speaker:X92HKM #simulated_voice: sfx_hakumei_re #avatar:radio_shocked_1
 “如果暂且不谈这个解释不了的时间差，很多事情就都说得通了。” #type:RightAvatarText #speaker:磷光 #avatar:phos_speaking #simulated_voice: sfx_phos_re
 “包括我为什么没有听说过「大涨潮」，也没有受到它的影响。” #type:RightAvatarText #speaker:磷光 #avatar:phos_speaking #simulated_voice: sfx_phos_do
