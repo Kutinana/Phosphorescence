@@ -20,6 +20,7 @@ namespace Phosphorescence.Game
         public SpriteRenderer DownstairSpriteRenderer;
         public Animator DownstairAnimator;
         public Light2D DownstairLight;
+
         [Header("Normal Sprite Reference")]
         public Progressable NormalSpriteProgressable;
         public Light2D NormalLight;
@@ -65,10 +66,16 @@ namespace Phosphorescence.Game
 
             var animation = isHalfFloor ? "HalfUpstair" : "FullUpstair";
 
+            var currentFloorMask = FloorManager.Instance.GetCurrentFloor().Mask;
+            var targetFloorMask = FloorManager.Instance.GetFloor(ImAtFloor + 1).Mask;
+
             while (progress < 1f)
             {
                 CameraStack.Instance.Offset += new Vector3(0, 0.065f);
                 UpstairAnimator.Play(animation, 0, progress);
+
+                if (currentFloorMask != null) currentFloorMask.Progress = progress;
+                if (targetFloorMask != null) targetFloorMask.Progress = 1 - progress;
 
                 yield return new WaitForSeconds(0.05f);
                 progress += 1f / (isHalfFloor ? 75 : 120);
@@ -129,10 +136,16 @@ namespace Phosphorescence.Game
 
             var animation = isHalfFloor ? "HalfDownstair" : "FullDownstair";
 
+            var currentFloorMask = FloorManager.Instance.GetCurrentFloor().Mask;
+            var targetFloorMask = FloorManager.Instance.GetFloor(ImAtFloor - 1).Mask;
+
             while (progress < 1f)
             {
                 DownstairAnimator.Play(animation, 0, progress);
                 CameraStack.Instance.Offset -= new Vector3(0, 0.065f);
+
+                if (currentFloorMask != null) currentFloorMask.Progress = progress;
+                if (targetFloorMask != null) targetFloorMask.Progress = 1 - progress;
 
                 yield return new WaitForSeconds(0.05f);
                 progress += 1f / (isHalfFloor ? 75 : 120);

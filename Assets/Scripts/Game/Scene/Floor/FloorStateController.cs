@@ -3,6 +3,7 @@ using QFramework;
 using System.Collections.Generic;
 using UnityEngine.Rendering.Universal;
 using UnityEngine.UI;
+using Kuchinashi.Utils.Progressable;
 
 namespace Phosphorescence.Game
 {
@@ -22,7 +23,8 @@ namespace Phosphorescence.Game
         public List<Light2D> Lights = new();
         public List<AudioSource> AudioSources = new();
         public List<ICanPlayAndPause> PlayAndPauseObjects = new();
-        public GameObject Mask;
+
+        public Progressable Mask;
 
         public void Awake()
         {
@@ -56,11 +58,6 @@ namespace Phosphorescence.Game
                 {
                     playAndPauseObject.Play();
                 }
-
-                if (mTarget.Mask != null)
-                {
-                    mTarget.Mask.SetActive(false);
-                }
             }
         }
 
@@ -86,11 +83,6 @@ namespace Phosphorescence.Game
                 foreach (var playAndPauseObject in mTarget.PlayAndPauseObjects)
                 {
                     playAndPauseObject.Pause();
-                }
-
-                if (mTarget.Mask != null)
-                {
-                    mTarget.Mask.SetActive(true);
                 }
             }
         }

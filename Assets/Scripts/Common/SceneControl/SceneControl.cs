@@ -107,19 +107,22 @@ namespace Common.SceneControl
             {
                 var floor = GameProgressData.Instance.LastFloorIndex;
                 PlayerController.Instance.TransportTo(FloorManager.Instance.FloorPivots[floor]);
-                // FloorManager.Instance.SwitchTo(floor);
+                FloorManager.Instance.GetFloor(floor).Mask.Progress = 0f;
 
                 GameProgressData.Instance.SetInfo("Continued", "true");
 
                 yield return new WaitForSeconds(0.5f);
-                
+
+                Phosphorescence.Audio.AudioManager.SetMixerGlobalVolume(0f);
                 CameraStack.Instance.AudioListener.enabled = true;
+                Phosphorescence.Audio.AudioManager.SetMixerGlobalVolume(Phosphorescence.Audio.AudioManager.MixerGlobalVolume, 2f);
+
                 yield return SplashScreenController.Instance.FadeOutGroup.InverseLinearTransition(0.5f, 0f);
             }
             else  // Tutorial unfinished
             {
                 PlayerController.Instance.TransportTo(FloorManager.Instance.FloorPivots[1]);
-                // FloorManager.Instance.SwitchTo(1);
+                FloorManager.Instance.GetFloor(1).Mask.Progress = 0f;
 
                 yield return new WaitForSeconds(0.5f);
                 yield return SplashScreenController.Instance.MaskProgressable.LinearTransition(1f, 0f);
@@ -132,7 +135,7 @@ namespace Common.SceneControl
 
                 Phosphorescence.Audio.AudioManager.SetMixerGlobalVolume(0f);
                 CameraStack.Instance.AudioListener.enabled = true;
-                Phosphorescence.Audio.AudioManager.SetMixerGlobalVolume(0.8f, 2f);
+                Phosphorescence.Audio.AudioManager.SetMixerGlobalVolume(Phosphorescence.Audio.AudioManager.MixerGlobalVolume, 2f);
 
                 yield return SplashScreenController.Instance.PrefaceAProgressable.SmoothDamp(1f, out var prefaceCoroutine);
                 // yield return new WaitForSeconds(1f);
