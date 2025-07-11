@@ -30,6 +30,8 @@ namespace Phosphorescence.Game
             return Floors[floorIndex];
         }
 
+        public FloorStateController[] GetAllFloors() => Floors;
+
         public void SwitchTo(int floorIndex)
         {
             if (floorIndex < 0 || floorIndex >= Floors.Length)

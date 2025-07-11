@@ -5,6 +5,7 @@ using Phosphorescence.DataSystem;
 using Phosphorescence.Narration;
 using Phosphorescence.Narration.Common;
 using QFramework;
+using UnityEditor.Localization.Plugins.XLIFF.V12;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.Rendering.Universal;
@@ -34,10 +35,22 @@ namespace Phosphorescence.Game
                 if (value)
                 {
                     Audio.AudioManager.SetAmbientVolume("sea", 1f, 2f);
+
+                    FloorManager.Instance.GetAllFloors().ForEach(x => {
+                        if (x.Mask != null && x.SceneIndex != ImAtFloor) {
+                            x.Mask.InverseLinearTransition(0.2f);
+                        }
+                    });
                 }
                 else
                 {
                     Audio.AudioManager.SetAmbientVolume("sea", 0.2f, 2f);
+
+                    FloorManager.Instance.GetAllFloors().ForEach(x => {
+                        if (x.Mask != null && x.SceneIndex != ImAtFloor) {
+                            x.Mask.LinearTransition(0.5f, 0.2f);
+                        }
+                    });
                 }
             }
         }
