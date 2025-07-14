@@ -5,7 +5,6 @@ using Phosphorescence.DataSystem;
 using Phosphorescence.Narration;
 using Phosphorescence.Narration.Common;
 using QFramework;
-using UnityEditor.Localization.Plugins.XLIFF.V12;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.Rendering.Universal;
