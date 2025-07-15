@@ -105,7 +105,7 @@ namespace Common.SceneControl
 
             if (GameProgressData.Instance.IsPlotFinished("0.9"))  // After tutorial
             {
-                var floor = GameProgressData.Instance.LastFloorIndex;
+                var floor = PlayerController.Instance.ImAtFloor = GameProgressData.Instance.LastFloorIndex;
                 PlayerController.Instance.TransportTo(FloorManager.Instance.FloorPivots[floor]);
                 FloorManager.Instance.GetFloor(floor).Mask.Progress = 0f;
 
@@ -121,6 +121,7 @@ namespace Common.SceneControl
             }
             else  // Tutorial unfinished
             {
+                PlayerController.Instance.ImAtFloor = 1;
                 PlayerController.Instance.TransportTo(FloorManager.Instance.FloorPivots[1]);
                 FloorManager.Instance.GetFloor(1).Mask.Progress = 0f;
 
