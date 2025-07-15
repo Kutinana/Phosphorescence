@@ -23,6 +23,8 @@ $SLEEP:3
 “啊，求援？”  # type: RightAvatarText #speaker:磷光 #avatar:phos_surprised #simulated_voice:sfx_phos_re
 “得快点打开……”  # type: RightAvatarText #speaker:磷光 #avatar:phos_default #simulated_voice:sfx_phos_do #auto:true
 
+VIDEO #type:FullScreenVideo #video:static_noise #auto:true #skippable:false
+
 “……真希望哪天你能想起我啊。” #type: FullScreenText #background_pic:bg_pic_pureblack
 
 “……” #type: RightAvatarText #speaker:磷光 #avatar:phos_default

@@ -21,6 +21,7 @@ namespace Phosphorescence.Narration
         LeftAvatarOptions,
         RightAvatarOptions,
         FullScreenOptions,
+        FullScreenVideo,
         SubtitleText,
         Special
     }
@@ -52,6 +53,7 @@ namespace Phosphorescence.Narration
             StateMachine.AddState(NarrationType.FullScreenText, new FullScreenTextState(StateMachine, this));
             StateMachine.AddState(NarrationType.LeftAvatarOptions, new LeftAvatarOptionsState(StateMachine, this));
             StateMachine.AddState(NarrationType.FullScreenOptions, new FullScreenOptionsState(StateMachine, this));
+            StateMachine.AddState(NarrationType.FullScreenVideo, new FullScreenVideoState(StateMachine, this));
             StateMachine.AddState(NarrationType.SubtitleText, new SubtitleTextState(StateMachine, this));
             StateMachine.AddState(NarrationType.Special, new SpecialState(StateMachine, this));
 
@@ -263,6 +265,24 @@ namespace Phosphorescence.Narration
             protected override void OnExit()
             {
                 mTarget.Components[NarrationType.FullScreenOptions].CanvasGroup.InverseLinearTransition(0.2f);
+                mTarget.m_CurrentComponent.OnExit();
+            }
+        }
+
+        public class FullScreenVideoState : AbstractState<NarrationType, NarrationManager>
+        {
+            public FullScreenVideoState(FSM<NarrationType> fsm, NarrationManager target) : base(fsm, target) { }
+            protected override bool OnCondition() => mFSM.CurrentStateId is not NarrationType.FullScreenVideo;
+            protected override void OnEnter()
+            {
+                mTarget.Components[NarrationType.FullScreenVideo].CanvasGroup.LinearTransition(0.2f);
+                mTarget.m_CurrentComponent = mTarget.Components[NarrationType.FullScreenVideo];
+                mTarget.m_CurrentComponent.OnEnter();
+            }
+            
+            protected override void OnExit()
+            {
+                mTarget.Components[NarrationType.FullScreenVideo].CanvasGroup.InverseLinearTransition(0.2f);
                 mTarget.m_CurrentComponent.OnExit();
             }
         }

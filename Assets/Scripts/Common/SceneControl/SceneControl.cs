@@ -107,7 +107,9 @@ namespace Common.SceneControl
             {
                 var floor = PlayerController.Instance.ImAtFloor = GameProgressData.Instance.LastFloorIndex;
                 PlayerController.Instance.TransportTo(FloorManager.Instance.FloorPivots[floor]);
-                FloorManager.Instance.GetFloor(floor).Mask.Progress = 0f;
+
+                var mask = FloorManager.Instance.GetFloor(floor).Mask;
+                if (mask != null) mask.Progress = 0f;
 
                 GameProgressData.Instance.SetInfo("Continued", "true");
 
