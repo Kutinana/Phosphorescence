@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Kuchinashi;
 using Kuchinashi.Utils.Progressable;
+using Phosphorescence.Audio;
 using Phosphorescence.DataSystem;
 using Phosphorescence.Narration.Common;
 using QFramework;
@@ -93,7 +94,8 @@ namespace Phosphorescence.Narration
         {
             var len = text.Length;
 
-            if (voiceConfig != null) AudioKit.PlayVoice(voiceConfig.clip, loop: false, volumeScale: voiceConfig.standardVolume);
+            AudioSource source = null;
+            if (voiceConfig != null) source = AudioManager.PlayVoice(voiceConfig.clip, loop: false, volume: voiceConfig.standardVolume);
 
             for (var i = 0; i < len; i++)
             {
@@ -103,7 +105,7 @@ namespace Phosphorescence.Narration
             }
             textfield.SetText(text);
 
-            if (voiceConfig != null) yield return new WaitUntil(() => !AudioKit.VoicePlayer.AudioSource.isPlaying);
+            if (voiceConfig != null) yield return new WaitUntil(() => !source.isPlaying);
 
             m_CurrentTypeTextCoroutine = null;
         }

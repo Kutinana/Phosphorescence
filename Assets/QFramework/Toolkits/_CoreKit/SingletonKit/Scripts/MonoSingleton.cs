@@ -72,6 +72,11 @@ var gameManager = GameManager.Instance;
             }
         }
 
+        public virtual void Awake()
+        {
+            mInstance = this as T;
+        }
+
         /// <summary>
         /// 实现接口的单例初始化
         /// </summary>
